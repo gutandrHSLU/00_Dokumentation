@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  28 JAN 2021 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  28 JAN 2021 14:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -464,7 +464,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2 <./04_Figures/Unterschrift2.png>] (./03_Backmatter/Literatur.tex (./main.bbl
+ [2 <./04_Figures/Unterschrift2.png>] (./03_Backmatter/Literatur.tex (C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
@@ -498,7 +498,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
  ) 
 Here is how much of TeX's memory you used:
  10546 strings out of 480876
- 159488 string characters out of 5911487
+ 159658 string characters out of 5911487
  455666 words of memory out of 5000000
  25909 multiletter control sequences out of 15000+600000
  548240 words of font info for 58 fonts, out of 8000000 for 9000
