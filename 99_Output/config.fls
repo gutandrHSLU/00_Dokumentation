@@ -1,0 +1,6 @@
+PWD C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation
+INPUT c:/texlive/2020/texmf.cnf
+INPUT c:/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT config.tex
+OUTPUT C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/config.log

@@ -1,102 +1,36 @@
-\documentclass[twoside, openany, 11pt]{article}
-% ========== Packages ==========
-
-\usepackage[a4paper,
-  left=25mm,
-  right=25mm,
-  top=30mm,
-  bottom=35mm,
-  headheight=35mm
-]{geometry}
-
-\usepackage[ngerman]{babel} %Ändert die Sprache
-\usepackage[T1]{fontenc} %Wichtig für ä ö ü
-\usepackage{amssymb} %Für mathematische Zeichen
-\usepackage{amsthm} %Für mathematische Umgebungen
-\usepackage{graphicx}
-\usepackage{fancyhdr}
-\usepackage[utf8]{inputenc}
-\usepackage{multirow} %Für Tabellen
-\usepackage{longtable} %Für lange Tabellen
-\usepackage{tabularx}
-\usepackage{pdfpages} %Zum einfügen von PDF's
-\usepackage{hyperref} %Für hyperlinks
-\hypersetup{
-    bookmarks=true,
-}
-\usepackage{parskip}
-
-\usepackage{caption} %Für die Beschriftung von Bilder
-\captionsetup{justification=centering}
-\captionsetup{font=it}
-\setlength{\parindent}{0pt}
-\usepackage{subcaption} %Für die Beschriftung unterteilter Bilder
-\usepackage{float}
-\floatstyle{plaintop}
-\restylefloat{table}
-
-\makeatletter %Für römische Zahlen
-\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
-
-%Für die dicken Linien in Tabellen
-\def\thickhline{%
-  \noalign{\ifnum0=`}\fi\hrule \@height \thickarrayrulewidth \futurelet
-   \reserved@a\@xthickhline}
-\def\@xthickhline{\ifx\reserved@a\thickhline
-               \vskip\doublerulesep
-               \vskip-\thickarrayrulewidth
-               \fi
-      \ifnum0=`{\fi}}
-\makeatother
-
-\newlength{\thickarrayrulewidth}
-\setlength{\thickarrayrulewidth}{2\arrayrulewidth}
-\raggedbottom %Sorgt dafür, dass nicht immer alles auf die ganze Seite verteilt wird.
-
-%Eigens erstellte Variablen
-\newcommand{\plotWidth}{0.7}
-\newcommand{\garphWidth}{0.7}
-
-% ========== Header and Footer ==========
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[RE,LO]{Seite \thepage}
-\fancyhead[LE,RO]{\nouppercase{\leftmark}}
-\fancyfoot[RE,LO]{PAIND HS2020}
-
+\documentclass[twoside, 11pt]{article}
+\input{config}
 
 \begin{document}
-% ========== Titelseite ==========
+% ==================== Titelseite ====================
   \input{01_Frontmatter/00_TitelSeite}
 
-% ========== Frontmatter ==========
+% ==================== Frontmatter ====================
   \pagenumbering{roman}
   \setcounter{page}{2}
 
   \input{01_Frontmatter/01_Eigenständigkeitserklärung}
-  \newpage
   \input{01_Frontmatter/02_Abstract}
-  \newpage
 
-% ========== Table of contents ==========
+% ==================== Table of contents ====================
   \tableofcontents
   \newpage
 
-% ========== Mainmatter ==========
-  \setcounter{page}{1}
+% ==================== Mainmatter ====================
   \pagenumbering{arabic}
-
+  \setcounter{page}{1}
   \part{Dokumentation}
-  \input{02_Mainmatter/01_Einleitung}
-  \input{02_Mainmatter/02_Rissfortschritt}
-  \input{02_Mainmatter/03_Korrelation Dauerfestigkeit und CT-Scan}
-  \input{02_Mainmatter/04_Diskussion}
 
-% ========== Backmatter ==========
+
+% ==================== Backmatter ====================
   \part{Anhang}
   \appendix
   \input{03_Backmatter/Literatur}
   \input{03_Backmatter/ListOfFigures}
   \input{03_Backmatter/ListOfTables}
   \input{03_Backmatter/Anhang}
+
+  \part{Elektronischer Anhang}
+  \appendix
+  \input{03_Backmatter/E-Anhang}
 \end{document}
