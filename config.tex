@@ -16,6 +16,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{multirow} %Für Tabellen
 \usepackage{longtable} %Für lange Tabellen
+\usepackage{arydshln} %Für gestrichelte Linien in Tabellen
 \usepackage{tabularx}
 \usepackage{pdfpages} %Zum einfügen von PDF's
 \usepackage{hyperref} %Für hyperlinks
@@ -29,6 +30,16 @@
 \usepackage{float}
 \floatstyle{plaintop}
 \restylefloat{table}
+\usepackage{siunitx}%Für einheiten im Symbolverzeichnis
+% \usepackage[symbols,nogroupskip,sort=none]{glossaries-extra}%Für Symbolverzeichnis
+% % \input{symbolverzeichnis}
+\usepackage{nomencl}
+\renewcommand{\nomname}{List of Symbols}
+\newcommand{\nomunit}[1]{%
+\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
+\makenomenclature
+
+
 
 \makeatletter %Für römische Zahlen
 \newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
@@ -54,7 +65,7 @@
 \fancyhf{}
 \fancyhead[RE,LO]{Seite \thepage}
 \fancyhead[LE,RO]{\nouppercase{\leftmark}}
-\fancyfoot[RE,LO]{BAT FS21}
+\fancyfoot[RE,LO]{KOHEB FS21}
 
 %Eigens erstellte Variablen
 \newcommand{\plotWidth}{0.7}

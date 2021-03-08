@@ -1,0 +1,9 @@
+PWD C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/02_Mainmatter
+INPUT c:/texlive/2020/texmf.cnf
+INPUT c:/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT 02_Anforderungen.tex
+OUTPUT C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/02_Anforderungen.log
+INPUT c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

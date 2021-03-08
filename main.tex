@@ -1,6 +1,10 @@
 \documentclass[twoside, 11pt]{article}
 \input{config}
+% \input{symbolverzeichnis}
 
+
+\usepackage{nomencl}
+\makenomenclature
 \begin{document}
 % ==================== Titelseite ====================
   \input{01_Frontmatter/00_TitelSeite}
@@ -8,18 +12,25 @@
 % ==================== Frontmatter ====================
   \pagenumbering{roman}
   \setcounter{page}{2}
-
   \input{01_Frontmatter/01_Eigenständigkeitserklärung}
   \input{01_Frontmatter/02_Abstract}
 
 % ==================== Table of contents ====================
   \tableofcontents
   \newpage
+  
+  \input{symbolverzeichnis}
+  % makeindex main.nlo -s nomencl.ist -o main.nls
+  \printnomenclature
+  \newpage
 
 % ==================== Mainmatter ====================
   \pagenumbering{arabic}
   \setcounter{page}{1}
   \part{Dokumentation}
+  \input{02_Mainmatter/01_Einleitung}
+  \input{02_Mainmatter/02_Anforderungen}
+
 
 
 % ==================== Backmatter ====================

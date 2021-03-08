@@ -1,0 +1,115 @@
+\section{Anforderungen}
+In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. Zu Begin wird auf die allgemeinen Anforderungen des Solar Butterflys eingegangen und anschliessen auf die Auslegungskriterien der einzelnen Komponenten.
+
+\subsection{Anforderungen an den Solar Butterfly}
+Als \emph{Anforderungen} werden Kriterien verstanden, welche erfüllt werden müssen. In dieser Arbeit werden lediglich die Anforderungen begüglich der Auslegung und der Festigkeitsaspekten behandelt. Die Komplette Anforderungsliste des Solar Butterflys ist in der Arbeit von HUBER zu finden. Es wird definiert was erfüllt werden muss, und wie das Erfüllen des Kriteriums gewährleistet wird
+
+
+- Der Solar Butterfly muss den Angreifenden Kräften und herrschenden Lastfällen standhalten. (Vgl. Lastenheft [KAPITEL]) Konkret bedeutet dies, dass die Struktur sich bei den verschiedenen Lastfällen, und Kombinationen davon, nicht plastisch vervormen darf und eine genügend grosse Sicherheit gegen Fliessen aufweisen muss.
+- Weiter darf der Solar Butterfly sich nicht so stark verformen, dass seine Funktionstauglichkeit eingeschränkt wird. Die exakten Anforderungen an die Steifigkeit werden bei der Abhandlnung der einzelnen Komponenten genauer beschrieben.
+- Die Struktur des Solar Butterflys soll so ausgelegt werden, dass dieser ca. 200'000km Fahrt auf zum teil recht holperiger Strasse auf sich nehmen kann. Dies beinhaltet die Auslegung der Komponenten auf Dauerfestigkeit. Es wird die vereinfachte Annahme getroffen, dass die Struktur für 50\% der Maximallast dauerfest ausgelegt werden soll.
+
+
+\subsection{Auslegungskriterien}
+Nachdem die allgemeinen Kriterien für den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel behandelt, was die Anforderungen konkret für die Einzelnen komponenten bedeutet. Es wird beschrieben mit welcehn Methoden vorgegangen wird und welche Vereinfachungen gemacht werden.
+
+  \subsubsection{Aluminiumstrukturen}
+    - Verschmierte Materialwerte
+    - Max Spannungen, dehnung usw.
+    - Knickung
+    - Designallowables: 100MPa usw.
+
+  \subsubsection{Sandwichstrukturen und Platten}
+  Was müssen die Platten aushalten:
+  Festigkeitsprobleme:
+    Bruch der Deckschicht
+    Schubbruch der Kernschicht
+    Verformung
+    Delamination
+    Ermüdung
+
+
+  Stabilitätsprobleme:
+    Knicken
+    Schubbeulung des Kernschicht (Shear Crimping)
+    Kurzwelliges Beulen der Deckschicht (Wrinkling)
+
+  \paragraph{Annahmen und Vereinfachungen}
+  linear elastisches Materialverhalten,
+  homogene und isentrope Materialien
+  Eigenbiegesteifigkeit der Deckschichten sind vernachlässigbar
+  Dehnsteifigkeit des Kerns wird vernachlässigt
+  Kein Zusammendrücken des Kerns
+
+  \paragraph{Festigkeitsprobleme}
+  Laminierte schichten nehmen Noramlkräfte auf, der Schaum die Schubkräfte.
+  [Abbildung vereinfachte Spannungen]
+  Normalkräfte werden von den Deckschichten übernommen, daher:
+
+  \begin{equation}
+    \label{Spannung in Deckschicht}
+    \sigma = \frac{1}{t_d}\cdot \left ( \frac{n}{2} \pm \frac{m}{h}\right )
+  \end{equation}
+
+  Schubkräft werden durch den Kern aufgenommen, daher:
+  \begin{equation}
+    \label{Schubspannungen im Kern}
+    \tau_c = \frac{q}{t_c}
+  \end{equation}
+
+  Verformung???
+
+
+  Kleber wird so gewählt, dass der Kern schwächer ist. So kann eine Delamiation ausgeschlossen werden.\\
+  Ermüdung????????
+
+  \paragraph{Stabilitätsprobleme}
+  Globale Instabilität:
+    Euler-Knicklast:
+    \begin{equation}
+      \label{Euler-Knicklast}
+      P_{kB}=\frac{\pi^2 \cdot E_d \cdot J_D}{l_k^2}
+    \end{equation}
+
+    wobei
+    \begin{equation}
+      \label{JD}
+      J_D = 2b \cdot t_d\cdot \left ( \frac{t_k}{2}+t_d \right )^2
+    \end{equation}
+
+    Schubknicklast:
+    \begin{equation}
+      \label{Schubknicklast}
+      P_{kS} = b \cdot c \cdot G_k
+    \end{equation}
+
+    Die Gesammte kritische Knicklast ergibt sich zu:
+    \begin{equation}
+      \label{Knicklast}
+      P_k=\frac{1}{\frac{1}{P_{kB}}+\frac{1}{P_{kS}}}
+    \end{equation}
+
+  Lokale Instabilitäten:
+  Schubbeulen:
+  \begin{equation}
+    \label{Schubbeulen}
+    \sigma_k^* = G_k \cdot \frac{h^2}{2 \cdot t_k \cdot t_f}
+  \end{equation}
+
+  Knittern:
+  \begin{equation}
+    \label{Knittern}
+    \sigma_k = k_s\sqrt[3]{E_d \cdot E_k \cdot G_k}
+  \end{equation}
+
+  wobei \(k_s\) für Auslegungen = 0.5 ist.
+
+
+\paragraph{Verbindungen}
+  - Nieten
+  - Schrauben
+  - Klebeverbindungen
+
+\paragraph{Dauerfestigkeit}
+  - Muss für Sandwich ermittelt werden?
+  - Für Strukturen: Struktur muss 50\% der Maximalen Belastung Dauerfest sein.

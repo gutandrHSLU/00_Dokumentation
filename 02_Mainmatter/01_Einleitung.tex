@@ -2,6 +2,125 @@
 
 
 \subsection{Aufgabenstellung}
-Test \cite{BISWAL2019208}
+Der Fokus dieses Teils der Arbeit liegt im Ausarbeiten der Auslegungskriterien (Lastenheft) und der Dimensionierung der Grundstruktur inklusive Lasteinleitungen.
+Dabei soll auch ein globales FEM zur Anwendung kommen (z.B. zur Bestimmung von Schnittgrössen für Handrechnungen).
+Zulässige Festigkeitswerte sollen abhängig von der gewählten Bauweise abgeschätzt werden ("Design-Allowables") und mittels Test bestätigt werden.
+
+  - Schnittgrössen für Handrechnungen
+  - ("Design-Allowables") und mittels Test bestätigt
+
+\subsection{Abgrenzung der Arbeit}
+
+\subsection{Vorgehen}
+  Lastenheft erstellen: (Welchen Belastungen wird der Solar Butterfly ausgesetzt?)
+    Lastkollektive und Standardlastfälle:
+      Quelle von Bärtsch
+    Lasten bei:
+      Fahren (Lastkollektiv)
+      Stehen
+      Wind
+      Abstützung/Aufbockung
+      Personen
+
+  Steifigkeitskriterien Ermitteln: (Was darf sich wie fest verfomen?)
+
+  Design allowables bestimmen: (Welches Material hält wie viel aus?)
+    Sandwichplatten
+    Alu
+    Evtl. Verbindungen (Kleben, Nieten, Schrauben)
+
+  FEM-Simulationen durchführen um Schnittgrössen zu bestimmen und anschliessend mit den Design Allowables vergleichen
+
+
+Vorgehen:
+Anforderungen: (Welcher Kriterien gilt es zu erfüllen? Was ist die definition von "nicht aushalten"?)
+  Festigkeit
+  Sicherheit gegen Fliessen
+  Steifigkeit
+  Sicherheit
+  Dauerfestigkeit 200'000km Fahren
+  Muss den Lasten im Lastenheft standhalten können.
+
+Anforderungen/Auslegungskriterien an Materialien und Komponenten: (Was dürfen spezifische Komponenten aushalten? Wie werden diese überprüft?)
+  - Aluminiumstrukturen:
+  - Platten:
+  - Verbindungen:
+  - Dauerfestigkeit:
+
+Lastfälle definieren (Welche Szenarien muss der Butterfly alles aushalten)
+
+Gloabales FEM-Modell für die Ermittlung der Lastpfade
+
+Überprüfung einzelner ausschnitte des Butterflys gemäss Kriterien.
+
+
+
+
+\subsection{Theorie}
+Leichtbau:
+
+Als Einschränkung ist dabei zu berücksichtigen, dass hierdurch weder die Funktion noch die Sicherheit und Langlebigkeit /s. DIN EN 1993/ beeinträchtigt werden dürfen. Maßnahmen, mit denen man dies heute zu erreichen versucht, sind:
+- Umsetzung des Integrationsprinzips,
+- Wahl leichter und hochfester Werkstoffe,
+- neue Herstelltechnologien
+- analytische Beherrschung der Beanspruchungs- bzw. Instabilitätsfälle durch hochwertige Analysemethoden (FEM, BEM).
+
+Im Zuge der Umsetzung dieser Prinzipien kommen bestimmte Entwurfsstrategien /BLE 74/ zum Tragen, deren Merkmale sich verkürzt klassifizieren lassen in
+  einen Form- oder Funktionsleichtbau, bei dem integrative Konstruktionslösungen, dünnwandige Querschnittsgeometrien und eindeutige Kraftleitungspfade umgesetzt werden;
+  einen Stoffleichtbau, bei dem spezifisch schwere Werkstoffe durch leichtere Werkstoffe mit möglichst hohen Gütekennzahlen substituiert werden;
+  einen Fertigungsleichtbau, in dem alle technologischen Möglichkeiten ausgeschöpft werden, um das Ziel der Funktionsintegration (Einstückigkeit) bei geringstem Materialeinsatz und minimalem Fügeaufwand zu realisieren
+und
+  einen Sparleichtbau, mit dem Ziel hohe Kosten zu vermeiden durch eine gerade noch ausreichende Werkstoffqualität, minimalem Werkstoffeinsatz und vereinfachte Herstellung.
+(S16)
+
+Da ein typisches Einsatzgebiet von Leichtbaukonstruktionen die Verkehrstechnik (Automobilbau, Schienen- und Luftfahrzeuge) ist, dürfen Leichtbaukonstruktionen nicht „unsicherer“ als vergleichbare Massivkonstruktionen sein. Dies bedingt eine sorgfältige Auslegung auf Steifigkeit (Instabilitäten), Bruchfestigkeit sowie Zuverlässigkeit und Nutzungsdauer. (S20)
+
+Die Philosophie des „safe-life-quality“, die absolute Schadensfreiheit für das ganze Leben verlangt, und die Philosophie des „fail-safe-quality“, die Schadenstoleranz und hinreichende Resttragfähigkeit voraussetzt. Dem Ziel nach sollten alle erforderlichen Leichtbaumaßnahmen begründbar sein.(S21)
+Auslegungsphilosophie:
+  Safe-Life-Quality:
+    Absolute Schadensfreiheit für die angestrebte Lebensdauer
+    Statistische Ausfallwahrscheinlichkeit
+  Fail-Safe-Quality:
+    Schadenstolerant
+    Hinreichende Resttragfähigkeit
+
+aufeinander aufbauende Arbeitsschritte mit etwa folgenden Inhalten:
+  - Klären der Aufgabenstellung: Informationsbeschaffung über die Anforderungen einer Aufgabe und Erstellung einer Anforderungsliste; Eingrenzung bestehender Bedingungen und ihre Bewertung für die Lösungserfüllung; Festlegung einer Lösungsrichtung; technisch-wirtschaftliche Konsequenzen.
+  - Konzipieren (Findung einer prinzipiellen Lösung): Hinterfragung der Aufgabe und Sichten des Kernproblems; Zerlegung des Kernproblems in untergeordnete Teilprobleme; Suche nach Lösungswegen zur Erfüllung der Teilprobleme; Kombination der Teilproblemlösungen zu Lösungsansätzen für das Kernproblem; Bewertung der Lösungen; Erstellung von Konzeptskizzen.  Voraussetzungen einer sinnvollen Konzepterstellung sind Kenntnisse über die Größe und Richtung der wirkenden Kräfte, die Möglichkeiten des gewählten Werkstoffs, die Bauweiseneigenschaften und eine angepasste Vordimensionierung. Ein gutes Konzept ist letztlich auch der Garant für eine innovative Problemlösung. Der Konzeptentwicklung sollte daher große Bedeutung beibemessen werden.
+  - Entwerfen (gestalterische Konkretisierung einer Lösung): maßstäbliche Ausarbeitung der Konzeptskizzen zu Bauvarianten; Bewertung, Vereinfachung und Auswahl einer Variante; Überarbeitung zu einem Gesamtentwurf und
+  - Ausarbeiten (fertigungs- und montagegerechte Festlegung einer Lösung): endgültige Bestimmung der Geometrie, Dimensionen, Werkstoffe und Herstellung, um die notwendigen Fertigungsunterlagen erstellen zu können.
+
+Hieran schließen sich eine oder mehrere Schleifen an, die der Optimierung der Lösung dienen. Dem zuzuordnende Phasen sind:
+  - Prototypen-Herstellung (Kontrolle der Funktionen, Montage etc.),
+  - Testprozeduren (Überprüfung der Tragfähigkeit, Zuverlässigkeit, Lebensdauer).
+
+FEM
+  Die FEM ist eine rechnerorientierte Methode, die softwaretechnisch über einen Vorrat an mechanischen Grundelementen (Balken, Scheibe, Platte, Schale, Volumina), einen Zusammenbau- und einen Lösungsalgorithmus verfügt.
+
+S206 Abb.
+
+
+\subsection{Auslegungskriterien Komponenten}
+Allgemeine Kriterien: 
+
+- Aluminiumstrukturen:
+  - Verschmierte Materialwerte
+  - Max Spannungen, dehnung usw.
+  - Knickung
+  - Designallowables: 100MPa usw.
+
+- Platten:
+  - Beulen, Knittern, Max. Spannungen usw.
+  - Designallowables für platten: 25x1 12x0 usw.
+
+- Verbindungen:
+  - Nieten
+  - Schrauben
+  - Klebeverbindungen
+
+- Dauerfestigkeit:
+  - Für Strukturen: Struktur muss 50\% der Maximalen Belastung Dauerfest sein.
+  - Muss für Sandwich ermittelt werden?
+
 
 \newpage
