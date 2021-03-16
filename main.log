@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.16)  8 MAR 2021 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.16)  15 MAR 2021 12:30
 entering extended mode
 **./main.tex
 (main.tex
@@ -661,21 +661,129 @@ n.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-[4] (symbolverzeichnis.tex) (main.nls) [5] (02_Mainmatter/01_Einleitung.texpdfT
-eX warning (ext4): destination with the same identifier (name{page.1}) has been
- already used, duplicate ignored
+[4] (symbolverzeichnis.tex) (main.nls) [5] (02_Mainmatter/01_Einleitung.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 100 m^
+          2 Solarpanelen, xx m^2 Wohnfläche, Ausziehbare Wohnmodule usw. us...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 8.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no � in font cmr10!
+
+Overfull \hbox (7.74355pt too wide) in paragraph at lines 2--9
+\T1/cmr/m/n/10.95 gung. 100 m$[]\OML/cmm/m/it/10.95 Solarpanelen; xxm[]Wohnflch
+e; AusziehbareWohnmoduleusw:usf:\OT1/cmr/m/n/10.95 2200\OML/cmm/m/it/10.95 kgGe
+wicht$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 I
-      m Zuge der Umsetzung dieser Prinzipien kommen bestimmte Entwurfsstrate...
-[1]
-Overfull \hbox (0.75748pt too wide) in paragraph at lines 97--99
+l.48 Ü
+       berprüfung einzelner ausschnitte des Butterflys gemäss Kriterien. [1] 
+[2]
+Overfull \hbox (0.75748pt too wide) in paragraph at lines 90--92
 \T1/cmr/m/n/10.95 me-cha-ni-schen Grun-d-ele-men-ten (Bal-ken, Schei-be, Plat-t
 e, Scha-le, Vo-lu-mi-na), einen Zusammenbau-
  []
 
-[2] [3]) (02_Mainmatter/02_Anforderungen.tex) (03_Backmatter/Literatur.tex (mai
-n.bbl [4]
+[3]) (02_Mainmatter/02_Anforderungen.tex
+
+LaTeX Warning: Citation `ETH' on page 4 undefined on input line 19.
+
+[4]
+
+LaTeX Warning: Citation `ETH' on page 5 undefined on input line 37.
+
+
+LaTeX Warning: Citation `klein' on page 5 undefined on input line 37.
+
+
+LaTeX Warning: Reference `Spannung in Deckschicht' on page 5 undefined on input
+ line 48.
+
+
+LaTeX Warning: Reference `Schubspannungen im Kern' on page 5 undefined on input
+ line 48.
+
+
+LaTeX Warning: Reference `Spannung in Deckschicht' on page 5 undefined on input
+ line 48.
+
+
+LaTeX Warning: Reference `Schubspannungen im Kern' on page 5 undefined on input
+ line 55.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+LaTeX Warning: Citation `ETH' on page 5 undefined on input line 68.
+
+
+LaTeX Warning: Reference `Euler-Knicklast' on page 5 undefined on input line 68
+.
+
+[5]
+
+LaTeX Warning: Citation `ETH' on page 6 undefined on input line 81.
+
+
+LaTeX Warning: Reference `Schubknicklast' on page 6 undefined on input line 81.
+
+
+
+LaTeX Warning: Reference `Knicklast' on page 6 undefined on input line 87.
+
+
+LaTeX Warning: Citation `ETH' on page 6 undefined on input line 93.
+
+
+LaTeX Warning: Reference `Schubbeulen' on page 6 undefined on input line 93.
+
+
+LaTeX Warning: Citation `ETH' on page 6 undefined on input line 99.
+
+
+LaTeX Warning: Reference `Knittern' on page 6 undefined on input line 99.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
+
+ []
+
+) (03_Backmatter/Literatur.tex (main.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
@@ -689,8 +797,8 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) (03_Backmatter/Anhang.tex) (03_Backmatter/E-Anhang.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
-[5pdfTeX warning (ext4): destination with the same identifier (name{appendix.A}
-) has been already used, duplicate ignored
+[6] [7pdfTeX warning (ext4): destination with the same identifier (name{appendi
+x.A}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -700,36 +808,60 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
 (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BA520F7B56C81366E31CE165EA047649;1577.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: BA520F7B56C81366E31CE165EA047649;1577
+(rerunfilecheck)             After:  F77F3ED7509574C878ACBCFB0C0E14FB;1813.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 14633 strings out of 481199
- 267223 string characters out of 2905595
- 583047 words of memory out of 3000000
- 29858 multiletter control sequences out of 15000+200000
- 550338 words of font info for 65 fonts, out of 3000000 for 9000
+ 14657 strings out of 481199
+ 267555 string characters out of 2905595
+ 584047 words of memory out of 3000000
+ 29868 multiletter control sequences out of 15000+200000
+ 550679 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,12n,54p,978b,824s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
-er-t1.enc}<C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/cm-super/sfbx1095.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/aanng/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/aanng/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/aanng/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><C:/Users/aa
-nng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/
-Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.
+ 66i,12n,54p,978b,786s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{subsection.1.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+{C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super
+-ts1.enc}{C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super
+/cm-super-t1.enc}<C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/aanng/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/aanng/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aanng/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/aan
+ng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
+ers/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-
+super/sfbx1095.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/cm-super/sfbx1200.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/cm-super/sfbx1440.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/aanng/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><C:/Users/aanng/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Users/aanng/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/aa
+nng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/
+Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1728.
 pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/s
-frm1440.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm
--super/sfrm1728.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/cm-super/sfti1095.pfb>
-Output written on main.pdf (10 pages, 261062 bytes).
+fti1095.pfb>
+Output written on main.pdf (12 pages, 340110 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
+ 288 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
  190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

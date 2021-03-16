@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  9 MAR 2021 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  16 MAR 2021 18:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -573,7 +573,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./01_Frontmatter/00_TitelSeite.tex [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./01_Frontmatter/01_Eigenständigkeitserklärung.tex
-<04_Figures/Unterschrift2.png, id=116, 435.87843pt x 108.405pt>
+<04_Figures/Unterschrift2.png, id=128, 435.87843pt x 108.405pt>
 File: 04_Figures/Unterschrift2.png Graphic file (type png)
 <use 04_Figures/Unterschrift2.png>
 Package pdftex.def Info: 04_Figures/Unterschrift2.png  used on input line 13.
@@ -583,17 +583,12 @@ Package pdftex.def Info: 04_Figures/Unterschrift2.png  used on input line 13.
 \openout5 = `main.toc'.
 
  [4] (./symbolverzeichnis.tex) (./main.nls) [5] (./02_Mainmatter/01_Einleitung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--23
+Underfull \hbox (badness 10000) in paragraph at lines 30--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--39
+Underfull \hbox (badness 10000) in paragraph at lines 38--43
 
  []
 
@@ -606,27 +601,22 @@ Overfull \hbox (0.75748pt too wide) in paragraph at lines 85--87
 \T1/cmr/m/n/10.95 me-cha-ni-schen Grun-d-ele-men-ten (Bal-ken, Schei-be, Plat-te, Scha-le, Vo-lu-mi-na), einen Zusammenbau-
  []
 
-[3]) (./02_Mainmatter/02_Anforderungen.tex [4]
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[3]) (./02_Mainmatter/02_Anforderungen.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 112--115
+[4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 117--33
-
- []
-
-(./03_Backmatter/Literatur.tex (C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.bbl)) (./03_Backmatter/ListOfFigures.tex [6] (C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.lof)
+) (./03_Backmatter/Literatur.tex (C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.bbl)) (./03_Backmatter/ListOfFigures.tex (C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -634,35 +624,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--33
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
-) (./03_Backmatter/Anhang.tex) (./03_Backmatter/E-Anhang.texpdfTeX warning (ext4): destination with the same identifier (name{appendix.A}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \section{Elektronischer Anhang}
-                                   )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
+) (./03_Backmatter/Anhang.tex) (./03_Backmatter/E-Anhang.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+ [7] [8pdfTeX warning (ext4): destination with the same identifier (name{appendix.A}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.52 \end{document}
+                   ]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F77F3ED7509574C878ACBCFB0C0E14FB;1813.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
+(rerunfilecheck)             Checksum: A46E6AD5B9D5BD11CC58463B02942F63;1970.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 14610 strings out of 480876
- 261561 string characters out of 5911487
+ 14618 strings out of 480876
+ 261638 string characters out of 5911487
  583399 words of memory out of 5000000
- 29856 multiletter control sequences out of 15000+600000
+ 29859 multiletter control sequences out of 15000+600000
  550679 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,12n,48p,976b,786s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fo
+ 47i,12n,48p,976b,788s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fo
 nts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on "C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.pdf" (12 pages, 305814 bytes).
+Output written on "C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.pdf" (13 pages, 316116 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
- 214 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

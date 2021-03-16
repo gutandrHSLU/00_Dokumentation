@@ -2,8 +2,22 @@
 \begin{thenomenclature} 
 \nomgroup{A}
   \item [{$B$}]\begingroup The area of the needle point\nomeqref {0}\nompageref{v}
-  \item [{$c$}]\begingroup Höhe des Schaumkernes\nomeqref {0}\nompageref{v}
-  \item [{$E_c$}]\begingroup E-Modul des Schaumkernes\nomeqref {0}\nompageref{v}
+  \item [{$E_d$}]\begingroup E-Modul der Deckschicht\nomeqref {0}\nompageref{v}
+  \item [{$E_k$}]\begingroup E-Modul des Schaumkernes\nomeqref {0}\nompageref{v}
+  \item [{$G_k$}]\begingroup Schub-Modul des Schaumkernes\nomeqref {0}\nompageref{v}
+  \item [{$h$}]\begingroup Abstand der neutralen Fasern der Deckschichten\nomeqref {0}\nompageref{v}
+  \item [{$m$}]\begingroup Moment pro Länge \nomunit{$N$}\nomeqref {0}\nompageref{v}
   \item [{$N$}]\begingroup The number of angels per needle point\nomeqref {0}\nompageref{v}
+  \item [{$n$}]\begingroup Normalkraft pro Länge \nomunit{$N/mm$}\nomeqref {0}\nompageref{v}
+  \item [{$p$}]\begingroup Streckenlast \nomunit{$N/mm^2$}\nomeqref {0}\nompageref{v}
+  \item [{$P_k$}]\begingroup Kritische Knicklast\nomeqref {0}\nompageref{v}
+  \item [{$P_kB$}]\begingroup Euler-Knicklast des schubsteifen Balkens\nomeqref {0}\nompageref{v}
+  \item [{$P_kS$}]\begingroup Schubknicklast\nomeqref {0}\nompageref{v}
+  \item [{$q$}]\begingroup Schubkraft Pro Länge \nomunit{$N/mm$}\nomeqref {0}\nompageref{v}
+  \item [{$t_d$}]\begingroup Höhe der Deckschicht\nomeqref {0}\nompageref{v}
+  \item [{$t_k$}]\begingroup Höhe des Schaumkernes\nomeqref {0}\nompageref{v}
+  \item [{$w_b$}]\begingroup Verformung durch Biegegelastung\nomeqref {0}\nompageref{v}
+  \item [{$w_s$}]\begingroup Verformung durch Schubbelastung\nomeqref {0}\nompageref{v}
+  \item [{$w_{Ges}$}]\begingroup Gesammtverformung\nomeqref {0}\nompageref{v}
 
 \end{thenomenclature}

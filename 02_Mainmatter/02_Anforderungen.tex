@@ -1,39 +1,44 @@
 \section{Anforderungen und Methodik}
-In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. In einem ersten Schritt werden auf die allgemeinen Anforderungen des Solar Butterflys als Ganzes, und anschliessen auf die daraus folgenden Auslegungskriterien der einzelnen Komponenten eingegangen. Es wird beschrieben, was die Anforderungen konkret für die einzelnen Komponenten bedeuten und wie gewährleistet wird, dass diese erfüllt werden.\\
+In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. In einem ersten Schritt werden auf die allgemeinen Anforderungen des Solar Butterflys und anschliessen auf die daraus folgenden Auslegungskriterien der einzelnen Komponenten eingegangen. Es wird beschrieben, was die Anforderungen konkret für die einzelnen Komponenten bedeuten und wie gewährleistet wird, dass diese erfüllt werden.\\
 Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen eingegangen, welche für die strukturelle Auslegung und Festigketisberechnungen relevant sind. Die komplette Liste der Anforderungen an den Solar Butterfly ist in der Arbeit von [HUBER] zu finden.
 
 \subsection{Anforderungen an den Solar Butterfly}
-- Der Solar Butterfly muss den Angreifenden Kräften und herrschenden Lastfällen standhalten. (Vgl. Lastenheft [KAPITEL]) Konkret bedeutet dies, dass die Struktur sich bei den verschiedenen Lastfällen, und Kombinationen davon, nicht plastisch vervormen darf und eine genügend grosse Sicherheit gegen Fliessen aufweisen muss.\\
+- Der Solar Butterfly muss den Angreifenden Kräften und herrschenden Lastfällen standhalten. (Vgl. Lastenheft [KAPITEL]) Konkret bedeutet dies, dass die Struktur sich bei den verschiedenen Lastfällen, und Kombinationen davon, nicht plastisch vervormen dürfen und somit eine genügend grosse Sicherheit gegen Fliessen aufweisen muss.\\
 - Weiter darf der Solar Butterfly sich nicht so stark verformen, dass seine Funktionstauglichkeit eingeschränkt wird. Die exakten Anforderungen an die Steifigkeit werden bei der Abhandlnung der einzelnen Komponenten genauer beschrieben.\\
-- Die Struktur des Solar Butterflys soll so ausgelegt werden, dass dieser ca. 200'000 km Fahrt auf zum teil recht holperiger Strasse auf sich nehmen kann. Dies beinhaltet die Auslegung der Komponenten auf Dauerfestigkeit. Es wird die vereinfachte Annahme getroffen, dass die Struktur für 50\% der Maximallast dauerfest ausgelegt werden soll.
+- Die Struktur des Solar Butterflys soll so ausgelegt werden, dass dieser ca. 180'000 km Fahrt auf zum teil recht holperiger Strasse auf sich nehmen kann. Dies beinhaltet die Auslegung der Komponenten auf Dauerfestigkeit.
 
 \subsection{Auslegungskriterien}
-Nachdem die allgemeinen Kriterien für den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel behandelt, was die Anforderungen konkret für die einzelnen Komponenten und Strukturelementen bedeutet. Es wird beschrieben mit welchen Methoden die Auslegung angegangen wird und welche Vereinfachungen gemacht werden.\\
-Verwendete Komponenten erwähnen? Sandwich, Profile usw...?
+Nachdem die allgemeinen Kriterien für den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel behandelt, was die Anforderungen konkret für die einzelnen Komponenten und Strukturelementen bedeutet. Es wird beschrieben mit welchen Methoden die Auslegung angegangen wird und welche Vereinfachungen getroffen werden.\\
+Verwendete Komponenten erwähnen? Sandwich, Profile usw...?\\
+Grund Struktur erläutern... Boden, Chassis, Wände, Panelen usw.\\
+Sicherhetsfaktoren: 1.5\\
 
   \subsubsection{Aluminiumstrukturen}
-    - Verschmierte Materialwerte
-    - Max Spannungen, dehnung usw.
-    - Knickung
-    - Designallowables: 100MPa usw.
+  - Sicherheit gegen Filessen: Herrschende Spannung muss kleiner sein als $Rp_{0.2}$\\
+  Spannungsarten:
+  \begin{itemize}
+    \item Hauptspannungen und
+    \item Ermüdung.
+  \end{itemize}
+  - Insatbilitäten; Knickung: Profile und Strukturen müssen so ausgelegt werden, dass diese nicht Knicken.\\
 
   \subsubsection{Sandwichstrukturen}
   Auslegungskriterien der Sandwichstrukturen können gemäss \cite{ETH} in die beiden Kategoriene \emph{Festigkeitsprobleme} und \emph{Stabilitätsprobleme} eingeteilt werden. Zu den Festigkeitsproblemen gehören;
   \begin{itemize}
-    \item Brechung der Deckschicht,
+    \item Bruch der Deckschicht,
     \item Schubbruch der Kernschicht,
     \item Delamination und
     \item Ermüdung.
   \end{itemize}
 
-  Zu den Stabilitätsproblemen gehören;
+  Zu den Stabilitätsproblemen gehören unteranderem;
   \begin{itemize}
     \item Knickung,
     \item Schubbeulung der Kernschicht (Shear Crimping) und
     \item Kurzwelliges Beulen der Deckschicht (Wrinkling).
   \end{itemize}
 
-  Die auszulegenden Sandwichstrukturen werden gegenüber diesen Problemen überprüft. Um den Rechenaufwand zu verringern werden Annahmen und Vereinfachungen getroffen.
+  Die auszulegenden Sandwichstrukturen werden gegenüber diesen Festigkeits und Stabilitätsproblemen abesichert. Um den Rechenaufwand zu verringern werden Annahmen und Vereinfachungen getroffen.
 
     \paragraph{Annahmen und Vereinfachungen}
     Für die Auslegung von Sandwichstrukturen können gemäss \cite{ETH} und \cite{klein} folgende Annahmen getroffen werden;
@@ -47,28 +52,23 @@ Verwendete Komponenten erwähnen? Sandwich, Profile usw...?
     Aus den getroffenen Annahmen reulstiert ein vereinfachter Spannungszustand welcher besagt, dass die Deckschichten jeweils die Normalkräfte und die Kernschichten die Schubkräfte aufnehmen. (Sandwichmembrantheorie)
 
     \paragraph{Festigkeitsprobleme}
-    Aus den getroffenen Annahmen und Vereinfachungen lassen sich die Formeln \ref{Spannung in Deckschicht} und \ref{Schubspannungen im Kern} herleiten. Mit der Formel \ref{Spannung in Deckschicht} lassen sich die Spannungen in den Deckschichten berechnen. Mit ihr kann überprüft werden, ob die Deckschicht gegen Bruch abgesichert ist.
+    Aus den getroffenen Annahmen und Vereinfachungen lassen sich die Formeln \ref{Spannung in Deckschicht} und \ref{Schubspannungen im Kern} herleiten. Mit der Formel \ref{Spannung in Deckschicht} lassen sich die Spannungen in den Deckschichten berechnen. Die Dicke der Deckschicht wird gewählt, dass die zulässige Spannung höhre liegt als jene, welche in der Deckschicht herrscht.
 
     \begin{equation}
       \label{Spannung in Deckschicht}
       \sigma = \frac{1}{t_d}\cdot \left ( \frac{n}{2} \pm \frac{m}{h}\right )
     \end{equation}
 
-    Mit der Formel \ref{Schubspannungen im Kern} lassen sich die Schubspannungen in der Kernschicht berechnen und somit Aussagen über ihre Resistenz gegenüber dem Schubbruch machen.
+    Mit der Formel \ref{Schubspannungen im Kern} lassen sich die Schubspannungen in der Kernschicht berechnen und somit Aussagen über ihre Resistenz gegenüber dem Schubbruch machen. Die Dicke der Kernschicht wird so ausgelegt, dass die in der Kernschicht herrscheden Spannungen tiefer liegen als die zulässigen.
     \begin{equation}
       \label{Schubspannungen im Kern}
-      \tau_c = \frac{q}{t_c}
+      \tau_k = \frac{q}{t_k}
     \end{equation}
 
-    Die Delamination der Deckschichten wird abgedeckt, indem die Auswahl des Klebers so getroffen wird, dass dieser eine höhere Resistenz gegenüber Beanspruchung auf Schub aufweist als die Kernschicht.
-
-    Ermüdung?\\
-
-    Verformung?\\
+    Die Delamination der Deckschichten wird abgesichert, indem die Auswahl des Klebers so getroffen wird, dass dieser eine höhere Schubfestigkeit aufweist als das Material der jeweiligen Kernschicht.
 
     \paragraph{Stabilitätsprobleme}
-    Die Stabilitätsprobleme der Sandwichstrukturen lassen sich in globale und lokale Instabilitäten einteilen. Zur globalen Instabilität gehört das Knicken, welches sich aus der Eueler-Knickung des schubsteifen Balkens und dem Schubknicken zusammensetzt.
-    Die kritische Belastung, bei welcher es zur Euler-Knickung kommt, lässt sich gemäss \cite{ETH} mit der Formel \ref{Euler-Knicklast} berechnen, wobei \emph{b} für die Breite der Sandwichstruktur steht.
+    Die Stabilitätsprobleme der Sandwichstrukturen lassen sich in globale und lokale Instabilitäten einteilen. Zur globalen Instabilität gehört das Knicken, welches sich aus der Eueler-Knickung des schubsteifen Balkens und dem Schubknicken zusammensetzt. Die kritische Belastung, bei welcher es zur Euler-Knickung kommt, lässt sich gemäss \cite{ETH} mit der Formel \ref{Euler-Knicklast} berechnen, wobei \emph{b} für die Breite der Sandwichstruktur steht.
 
     \begin{equation}
       \label{Euler-Knicklast}
@@ -77,14 +77,14 @@ Verwendete Komponenten erwähnen? Sandwich, Profile usw...?
 
     wobei
     \begin{equation}
-      \label{JD}
+      \label{ID}
       I_D = 2\cdot b \cdot t_d\cdot \left ( \frac{t_k}{2}+t_d \right )^2
     \end{equation}
 
-    Die kritische Schubknicklast lässt sich gemäss der Formel \ref{Schubknicklast} berechnen.
+    Die kritische Schubknicklast lässt sich gemäss \cite{ETH} mit der Formel \ref{Schubknicklast} berechnen.
     \begin{equation}
       \label{Schubknicklast}
-      P_{kS} = b \cdot c \cdot G_k
+      P_{kS} = b \cdot t_k \cdot G_k
     \end{equation}
 
     Die totale kritische Knicklast \(P_k\) ergibt sich dann aus der Formel \ref{Knicklast}:
@@ -99,20 +99,39 @@ Verwendete Komponenten erwähnen? Sandwich, Profile usw...?
       \sigma_k^* = G_k \cdot \frac{h^2}{2 \cdot t_k \cdot t_d}
     \end{equation}
 
-    Die kritischen Spannunge, bei welcher das Knittern der Deckschicht auftritt, lässt sich gemäss \cite{ETH} mit der Formel \ref{Knittern} berechnen.
+    Die kritischen Spannunge, bei welcher das Knittern der Deckschicht auftritt, lässt sich nach \cite{ETH} mit der Formel \ref{Knittern} berechnen.
     \begin{equation}
       \label{Knittern}
       \sigma_k = k_s\sqrt[3]{E_d \cdot E_k \cdot G_k}
     \end{equation}
+    Wobei für Auslegungen \(k_s = 0.5\) gilt.
 
-    Wobei \(k_s\) für Auslegungen = 0.5 ist.
+    Die Sandwichstrukturen werden ausgelegt, dass sie die herrschenden Belastungen tiefer liegen als die Kritischen.
 
+    \paragraph{Verwendete Materialien und zulässige Werte}
+    Bsp.\\
+    Bodenplatte aus T92.9 mit 1 mm Alublech:
+    \begin{itemize}
+      \item $\tau_{zul} = 10 MPa$
+      \item $\sigma_{zul} = 100 MPa$
+      \item $Dauerfestigkeit = 42.0 MPa$
+      \item $\sigma_{Knittern} = 200 MPa$
+    \end{itemize}
+    Wand aus T92.6 mit 0.5 mm Alublech:
+    \begin{itemize}
+      \item $\tau_{zul} = 5 MPa$
+      \item $\sigma_{zul} = 100 MPa$
+      \item $Dauerfestigkeit = 42.0 MPa$
+      \item $\sigma_{Knittern} = 150 MPa$
+    \end{itemize}
 
   \subsubsection{Verbindungen}
     - Nieten\\
     - Schrauben\\
     - Klebeverbindungen\\
+    - Spannpratzen\\
 
-  \subsubsection{Dauerfestigkeit}
-  Auslegung: Spannungskonzentrationen vermeiden
-  50\% der Maximallast Dauerfest
+  \subsection{Dauerfestigkeit}
+  Die Dauerfestigkeit des Solar Butteflys wird erreicht, indem durch entsprechendes Design, Spannungskonzentrationen vermieden werden. Weiter wird der Solar Butterfly so ausgelegt, dass dieser bei 50\% der Lasten aus dem Lastenheft, mit einem R von 0, dauerfest ist. Bei den Sandwichstrukturen wird dabei lediglich die Deckschicht auf die Dauerfestigkeit ausgelegt.
+
+  \subsection{Verformung}

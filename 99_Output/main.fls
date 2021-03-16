@@ -254,8 +254,8 @@ INPUT 02_Mainmatter/01_Einleitung.tex
 INPUT 02_Mainmatter/01_Einleitung.tex
 INPUT 02_Mainmatter/02_Anforderungen.tex
 INPUT 02_Mainmatter/02_Anforderungen.tex
-INPUT c:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
 INPUT 03_Backmatter/Literatur.tex
 INPUT 03_Backmatter/Literatur.tex
 INPUT C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.bbl
@@ -277,8 +277,8 @@ INPUT 03_Backmatter/E-Anhang.tex
 INPUT C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.aux
 INPUT C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.out
 INPUT C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.out
-INPUT c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+INPUT c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
