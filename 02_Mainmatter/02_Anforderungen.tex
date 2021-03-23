@@ -11,21 +11,34 @@ Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen eingegangen,
 Nachdem die allgemeinen Kriterien für den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel behandelt, was die Anforderungen konkret für die einzelnen Komponenten und Strukturelementen bedeutet. Es wird beschrieben mit welchen Methoden die Auslegung angegangen wird und welche Vereinfachungen getroffen werden.\\
 Verwendete Komponenten erwähnen? Sandwich, Profile usw...?\\
 Grund Struktur erläutern... Boden, Chassis, Wände, Panelen usw.\\
-Sicherhetsfaktoren: 1.5\\
+
+\paragraph{Dauerfestigkeit}
+Die Dauerfestigkeit des Solar Butteflys wird erreicht, indem durch entsprechendes Design, Spannungskonzentrationen vermieden werden. Weiter wird der Solar Butterfly so ausgelegt, dass dieser bei 50\% der Lasten aus dem Lastenheft, mit einem R von 0, dauerfest ist. Bei den Sandwichstrukturen wird dabei lediglich die Deckschicht auf die Dauerfestigkeit ausgelegt.
+
+\paragraph{Sicherheitsfaktor}
+SF = 1.5
+
+
 
   \subsubsection{Aluminiumstrukturen}
-  - Sicherheit gegen Filessen: Herrschende Spannung muss kleiner sein als $Rp_{0.2}$\\
-  Spannungsarten:
-  \begin{itemize}
-    \item Hauptspannungen und
-    \item Ermüdung.
-  \end{itemize}
-  - Insatbilitäten; Knickung: Profile und Strukturen müssen so ausgelegt werden, dass diese nicht Knicken.\\
+  Die Aluminiumstrukturen werden so ausgelegt, dass diese genügend Sicherheiten gegen Fliessen und Knickung aufweisen.
+  % Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung.
+  \paragraph{Sicherheit gegen Fliessen}
+  Um die Sicherheit eines Strukturelementes gegen Fliessen zu gewährleisten, wird überprüft, ob die \emph{Von Mises}-Vergleichsspannung kleiner als die zulässige Spannung ist, wobei sich die zulässige Spannung aus der Dehngrenze des gewählten Materials und einem Sicherheitsfaktor zusammensetzt. Die \emph{Von Mises}-Vergleichsspannung kann gemäss  der Formel \ref{Von Mises} berechet werden \cite{Baertsch}.
+  \begin{equation}
+    \label{Von Mises}
+    % \sigma_{zul} \geq
+    \sigma_v = \sqrt{\sigma_x^{2}-\sigma_x \cdot \sigma_y + \sigma_y^2 + 3\tau^2}
+  \end{equation}
+  Wobei die Annahmen getroffen werdenn, dass es sich um einen ebenen Spannungszustand handelt und die angeifenden Lasten dem selben Lastfall angehören.
+
+  \paragraph{Knicken}
+  Wird durch design verhindert (?)
 
   \subsubsection{Sandwichstrukturen}
-  Auslegungskriterien der Sandwichstrukturen können gemäss \cite{ETH} in die beiden Kategoriene \emph{Festigkeitsprobleme} und \emph{Stabilitätsprobleme} eingeteilt werden. Zu den Festigkeitsproblemen gehören;
+  Versagenskriterien der Sandwichstrukturen können gemäss \cite{ETH} in die beiden Kategoriene \emph{Festigkeitsprobleme} und \emph{Stabilitätsprobleme} eingeteilt werden. Zu den Festigkeitsproblemen gehören;
   \begin{itemize}
-    \item Bruch der Deckschicht,
+    \item Fliessen der Deckschicht,
     \item Schubbruch der Kernschicht,
     \item Delamination und
     \item Ermüdung.
@@ -38,10 +51,10 @@ Sicherhetsfaktoren: 1.5\\
     \item Kurzwelliges Beulen der Deckschicht (Wrinkling).
   \end{itemize}
 
-  Die auszulegenden Sandwichstrukturen werden gegenüber diesen Festigkeits und Stabilitätsproblemen abesichert. Um den Rechenaufwand zu verringern werden Annahmen und Vereinfachungen getroffen.
+  Die auszulegenden Sandwichstrukturen werden gegenüber diesen Festigkeits und Stabilitätsproblemen abesichert. Um den Rechenaufwand und die Komplexität zu verringern werden Annahmen und Vereinfachungen getroffen.
 
     \paragraph{Annahmen und Vereinfachungen}
-    Für die Auslegung von Sandwichstrukturen können gemäss \cite{ETH} und \cite{klein} folgende Annahmen getroffen werden;
+    Für die Auslegung von Sandwichstrukturen können gemäss \cite{ETH} und Klein \cite{klein} folgende Annahmen getroffen werden;
     \begin{itemize}
       \item linear elastische und isentrope Materialverhalten,
       \item Eigenbiegesteifigkeiten der Deckschichten sind vernachlässigbar,
@@ -68,29 +81,30 @@ Sicherhetsfaktoren: 1.5\\
     Die Delamination der Deckschichten wird abgesichert, indem die Auswahl des Klebers so getroffen wird, dass dieser eine höhere Schubfestigkeit aufweist als das Material der jeweiligen Kernschicht.
 
     \paragraph{Stabilitätsprobleme}
-    Die Stabilitätsprobleme der Sandwichstrukturen lassen sich in globale und lokale Instabilitäten einteilen. Zur globalen Instabilität gehört das Knicken, welches sich aus der Eueler-Knickung des schubsteifen Balkens und dem Schubknicken zusammensetzt. Die kritische Belastung, bei welcher es zur Euler-Knickung kommt, lässt sich gemäss \cite{ETH} mit der Formel \ref{Euler-Knicklast} berechnen, wobei \emph{b} für die Breite der Sandwichstruktur steht.
+    Die Stabilitätsprobleme der Sandwichstrukturen lassen sich in globale und lokale Instabilitäten einteilen. Zur globalen Instabilität gehört das Knicken, welches sich aus der Eueler-Knickung des schubsteifen Balkens und dem Schubknicken zusammensetzt. Die kritische Belastung, bei welcher es zur Euler-Knickung kommt, lässt sich gemäss Klein \cite{klein} mit der Formel \ref{Euler-Knicklast} berechnen.
 
     \begin{equation}
       \label{Euler-Knicklast}
-      P_{kB}=\frac{\pi^2 \cdot E_d \cdot I_D}{l_k^2}
+      p_{kB}=\frac{\pi^2 \cdot B_y}{l_k^2}
     \end{equation}
 
-    wobei
+    Wobei sich die Biegesteifigkeit $B_y$ vereinfacht gemäss der Formel \ref{ID} berechnen lässt. Hier wurde die Annahme getroffen, dass die Eigenbiegesteifigkeiten der Deckschichten vernachlässigbar sind. Diese Annahme kann gemäss Klein \cite{klein} ab einem Verhältnis von $t_d$ zu $t_k$ von 0.25, getroffen werden.
     \begin{equation}
       \label{ID}
-      I_D = 2\cdot b \cdot t_d\cdot \left ( \frac{t_k}{2}+t_d \right )^2
+      B_y = E_d \cdot \frac{\left (t_d + t_k \right )^{2}\cdot t_d}{2}
+      % B_y = 2\cdot b \cdot t_d\cdot \left ( \frac{t_k}{2}+t_d \right )^2
     \end{equation}
 
-    Die kritische Schubknicklast lässt sich gemäss \cite{ETH} mit der Formel \ref{Schubknicklast} berechnen.
+    Die kritische Schubknicklast lässt sich gemäss Klein \cite{klein} mit der Formel \ref{Schubknicklast} berechnen.
     \begin{equation}
       \label{Schubknicklast}
-      P_{kS} = b \cdot t_k \cdot G_k
+      p_{kS} = t_k \cdot G_k
     \end{equation}
 
-    Die totale kritische Knicklast \(P_k\) ergibt sich dann aus der Formel \ref{Knicklast}:
+    Die totale kritische Knickstreckenlast \(p_k\) ergibt sich dann aus der Formel \ref{Knicklast}:
     \begin{equation}
       \label{Knicklast}
-      P_k=\frac{1}{\frac{1}{P_{kB}}+\frac{1}{P_{kS}}}
+      p_k=\frac{1}{\frac{1}{p_{kB}}+\frac{1}{p_{kS}}}
     \end{equation}
 
     Zu den lokalen Instabilitäten zählen das Schubbeulen und das Knittern der Deckschicht. Die kritischen Spannunge, bei welcher Schubbeulung auftritt, lässt sich gemäss \cite{ETH} aus den Formel \ref{Schubbeulen} berechnen.
@@ -106,32 +120,69 @@ Sicherhetsfaktoren: 1.5\\
     \end{equation}
     Wobei für Auslegungen \(k_s = 0.5\) gilt.
 
-    Die Sandwichstrukturen werden ausgelegt, dass sie die herrschenden Belastungen tiefer liegen als die Kritischen.
+    % \paragraph{Verwendete Materialien und zulässige Werte}
+    % Bsp.\\
+    % Bodenplatte aus T92.9 mit 1 mm Alublech:
+    % \begin{itemize}
+    %   \item $\tau_{zul} = 10 MPa$
+    %   \item $\sigma_{zul} = 100 MPa$
+    %   \item $Dauerfestigkeit = 42.0 MPa$
+    %   \item $\sigma_{Knittern} = 200 MPa$
+    % \end{itemize}
+    % Wand aus T92.6 mit 0.5 mm Alublech:
+    % \begin{itemize}
+    %   \item $\tau_{zul} = 5 MPa$
+    %   \item $\sigma_{zul} = 100 MPa$
+    %   \item $Dauerfestigkeit = 42.0 MPa$
+    %   \item $\sigma_{Knittern} = 150 MPa$
+    % \end{itemize}
 
-    \paragraph{Verwendete Materialien und zulässige Werte}
-    Bsp.\\
-    Bodenplatte aus T92.9 mit 1 mm Alublech:
-    \begin{itemize}
-      \item $\tau_{zul} = 10 MPa$
-      \item $\sigma_{zul} = 100 MPa$
-      \item $Dauerfestigkeit = 42.0 MPa$
-      \item $\sigma_{Knittern} = 200 MPa$
-    \end{itemize}
-    Wand aus T92.6 mit 0.5 mm Alublech:
-    \begin{itemize}
-      \item $\tau_{zul} = 5 MPa$
-      \item $\sigma_{zul} = 100 MPa$
-      \item $Dauerfestigkeit = 42.0 MPa$
-      \item $\sigma_{Knittern} = 150 MPa$
-    \end{itemize}
+  \subsubsection{Nieten}
+    % \paragraph{Tragfähigkeitsnachweis}
+    Laut Klein \cite{klein} gehört zum Tragfähigkeitsnachweis für gewöhnlich ein Abscher- und Lochleibungsnachweis. Insofern sei für Nietverbindungen ein Nachweis auf Scherbruch (Formel \ref{Scherbruch}) und Lochleibung (Formel \ref{Lochleibung}) zu erbringen:
+    \begin{multicols}{2}
+      \begin{equation}
+        \label{Scherbruch}
+        F \leq F_{SB} = \frac{d_N^2 \cdot \pi}{4}\cdot \tau_B
+      \end{equation}\break
+      \begin{equation}
+        \label{Lochleibung}
+        F \leq F_{LF} = d_N \cdot t \cdot \sigma_{FL}
+      \end{equation}
+    \end{multicols}
+    Wobei $d_N$ der Nietlochdurchmesser, $\tau_B$ die Scherfestigkeit, $t$ die Blechdicke und $\sigma_{FL}$ die Lochleibungs-Dehngrenze ist. Für dynamische Wechselfestigkeitswerte sei die Scherfestigkeit $\tau_B$ noch um den Faktor 2 bis 2.2 zu verringern.
 
-  \subsubsection{Verbindungen}
-    - Nieten\\
-    - Schrauben\\
-    - Klebeverbindungen\\
-    - Spannpratzen\\
+    \paragraph{Überlagerte Scher- und Zugbeanspruchung}
+    In der Praxis werden Nietverbindungen aus einer Kombination von Scher- und Zugbeanspruchung beansprucht. Der Nachweis der Tragfähigkeit der überlagerten Belastung wird durch die Ausweisung des Reservefaktors $R_f$ bewerkstelligt. Dazu werden gemäss den Formeln \ref{Rs} und \ref{Rz} der Schubreservefaktor $R_s$ und der Zugreservefaktor $R_z$ berechnet
 
-  \subsection{Dauerfestigkeit}
-  Die Dauerfestigkeit des Solar Butteflys wird erreicht, indem durch entsprechendes Design, Spannungskonzentrationen vermieden werden. Weiter wird der Solar Butterfly so ausgelegt, dass dieser bei 50\% der Lasten aus dem Lastenheft, mit einem R von 0, dauerfest ist. Bei den Sandwichstrukturen wird dabei lediglich die Deckschicht auf die Dauerfestigkeit ausgelegt.
+    \begin{multicols}{2}
+      \begin{equation}
+        \label{Rs}
+        F \leq F_{SB} = \frac{d_N^2 \cdot \pi}{4}\cdot \tau_B
+      \end{equation}\break
+      \begin{equation}
+        \label{Rz}
+        R_z = \frac{F_z}{k \cdot F_{ZB}}
+      \end{equation}
+    \end{multicols}
+
+    \subsubsection{Klebeverbindungen}
+    \begin{equation}
+      \label{Kleben}
+      \tau_K = \frac{F}{b \cdot l_{\ddot{u}}} \leq \frac{\tau_{KB}}{S}
+    \end{equation}
+
+    \begin{equation}
+      \label{Zulässige Schubspannungen}
+      \begin{split}
+      wechselnd: & \: \tau_{KW} \approx \left (0.2 ... 0.4 \right ) \cdot \tau_{KB}\\
+      schwellend: & \: \tau_{KSch} \approx 0.8 \cdot \tau_{KB}
+      \end{split}
+    \end{equation}
+
+    \subsubsection{Schrauben}
+
+    \subsubsection{Spannpratzen}
+
 
   \subsection{Verformung}

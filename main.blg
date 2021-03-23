@@ -4,47 +4,51 @@ The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
-I found no \citation commands---while reading file main.aux
 Database file #1: 03_Backmatter/mybib.bib
-You've used 0 entries,
+Warning--empty publisher in Baertsch
+Warning--empty journal in ETH
+Warning--empty year in ETH
+Warning--empty journal in klein
+Warning--empty year in klein
+You've used 3 entries,
             1876 wiz_defined-function locations,
-            477 strings with 3477 characters,
-and the built_in function-call counts, 20 in all, are:
-= -- 0
-> -- 0
+            492 strings with 3685 characters,
+and the built_in function-call counts, 424 in all, are:
+= -- 29
+> -- 12
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 9
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 6
+- -- 3
+* -- 28
+:= -- 69
+add.period$ -- 2
+call.type$ -- 3
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 8
+duplicate$ -- 27
+empty$ -- 54
+format.name$ -- 3
+if$ -- 93
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 3
+missing$ -- 4
+newline$ -- 13
+num.names$ -- 3
+pop$ -- 21
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 5
 stack$ -- 0
 substring$ -- 0
-swap$ -- 0
+swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+warning$ -- 5
+while$ -- 3
+width$ -- 4
+write$ -- 22
+(There were 5 warnings)

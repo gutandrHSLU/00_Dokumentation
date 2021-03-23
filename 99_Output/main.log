@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  16 MAR 2021 18:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  23 MAR 2021 08:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -120,88 +120,210 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@cntb=\count181
 \multirow@dima=\skip62
 \bigstrutjot=\dimen146
+) (c:/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count182
+\mult@box=\box45
+\multicol@leftmargin=\dimen147
+\c@unbalance=\count183
+\c@collectmore=\count184
+\doublecol@number=\count185
+\multicoltolerance=\count186
+\multicolpretolerance=\count187
+\full@width=\dimen148
+\page@free=\dimen149
+\premulticols=\dimen150
+\postmulticols=\dimen151
+\multicolsep=\skip63
+\multicolbaselineskip=\skip64
+\partial@page=\box46
+\last@line=\box47
+\maxbalancingoverflow=\dimen152
+\mult@rightbox=\box48
+\mult@grightbox=\box49
+\mult@gfirstbox=\box50
+\mult@firstbox=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\c@minrows=\count188
+\c@columnbadness=\count189
+\c@finalcolumnbadness=\count190
+\last@try=\dimen153
+\multicolovershoot=\dimen154
+\multicolundershoot=\dimen155
+\mult@nat@firstbox=\box89
+\colbreak@box=\box90
+\mc@col@check@num=\count191
+) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip65
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks26
+\ex@=\dimen156
+)) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen157
+) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count192
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count193
+\leftroot@=\count194
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count195
+\DOTSCASE@=\count196
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box91
+\strutbox@=\box92
+\big@size=\dimen158
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count197
+\c@MaxMatrixCols=\count198
+\dotsspace@=\muskip16
+\c@parentequation=\count199
+\dspbrk@lvl=\count266
+\tag@help=\toks27
+\row@=\count267
+\column@=\count268
+\maxfields@=\count269
+\andhelp@=\toks28
+\eqnshift@=\dimen159
+\alignsep@=\dimen160
+\tagshift@=\dimen161
+\tagwidth@=\dimen162
+\totwidth@=\dimen163
+\lineht@=\dimen164
+\@envbody=\toks29
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 ) (c:/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip63
-\LTright=\skip64
-\LTpre=\skip65
-\LTpost=\skip66
-\LTchunksize=\count182
-\LTcapwidth=\dimen147
-\LT@head=\box45
-\LT@firsthead=\box46
-\LT@foot=\box47
-\LT@lastfoot=\box48
-\LT@cols=\count183
-\LT@rows=\count184
-\c@LT@tables=\count185
-\c@LT@chunks=\count186
-\LT@p@ftn=\toks26
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count270
+\LTcapwidth=\dimen165
+\LT@head=\box93
+\LT@firsthead=\box94
+\LT@foot=\box95
+\LT@lastfoot=\box96
+\LT@cols=\count271
+\LT@rows=\count272
+\c@LT@tables=\count273
+\c@LT@chunks=\count274
+\LT@p@ftn=\toks31
 ) (c:/texlive/2020/texmf-dist/tex/latex/arydshln/arydshln.sty
 Package: arydshln 2019/02/21 v1.76 
-\dashlinedash=\dimen148
-\dashlinegap=\dimen149
-\adl@box=\box49
-\adl@height=\dimen150
-\adl@heightsave=\dimen151
-\adl@depth=\dimen152
-\adl@depthsave=\dimen153
-\adl@finaldepth=\dimen154
-\adl@columns=\count187
-\adl@ncol=\count188
-\adl@currentcolumn=\count189
-\adl@currentcolumnsave=\count190
-\adl@totalheight=\count191
-\adl@totalheightsave=\count192
-\adl@dash=\count193
-\adl@gap=\count194
-\adl@cla=\count195
-\adl@clb=\count196
-\adl@everyvbox=\toks27
-\adl@LTpagetotal=\dimen155
+\dashlinedash=\dimen166
+\dashlinegap=\dimen167
+\adl@box=\box97
+\adl@height=\dimen168
+\adl@heightsave=\dimen169
+\adl@depth=\dimen170
+\adl@depthsave=\dimen171
+\adl@finaldepth=\dimen172
+\adl@columns=\count275
+\adl@ncol=\count276
+\adl@currentcolumn=\count277
+\adl@currentcolumnsave=\count278
+\adl@totalheight=\count279
+\adl@totalheightsave=\count280
+\adl@dash=\count281
+\adl@gap=\count282
+\adl@cla=\count283
+\adl@clb=\count284
+\adl@everyvbox=\toks32
+\adl@LTpagetotal=\dimen173
 ) (c:/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (c:/texlive/2020/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen156
-\ar@mcellbox=\box50
-\extrarowheight=\dimen157
-\NC@list=\toks28
-\extratabsurround=\skip67
-\backup@length=\skip68
-\ar@cellbox=\box51
+\col@sep=\dimen174
+\ar@mcellbox=\box98
+\extrarowheight=\dimen175
+\NC@list=\toks33
+\extratabsurround=\skip72
+\backup@length=\skip73
+\ar@cellbox=\box99
 )
-\TX@col@width=\dimen158
-\TX@old@table=\dimen159
-\TX@old@col=\dimen160
-\TX@target=\dimen161
-\TX@delta=\dimen162
-\TX@cols=\count197
-\TX@ftn=\toks29
+\TX@col@width=\dimen176
+\TX@old@table=\dimen177
+\TX@old@col=\dimen178
+\TX@target=\dimen179
+\TX@delta=\dimen180
+\TX@cols=\count285
+\TX@ftn=\toks34
 ) (c:/texlive/2020/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
  (c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ) (c:/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count198
-\calc@Bcount=\count199
-\calc@Adimen=\dimen163
-\calc@Bdimen=\dimen164
-\calc@Askip=\skip69
-\calc@Bskip=\skip70
+\calc@Acount=\count286
+\calc@Bcount=\count287
+\calc@Adimen=\dimen181
+\calc@Bdimen=\dimen182
+\calc@Askip=\skip74
+\calc@Bskip=\skip75
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count266
-\calc@Cskip=\skip71
+\calc@Ccount=\count288
+\calc@Cskip=\skip76
 ) (c:/texlive/2020/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
  (c:/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
  (c:/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(c:/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+) (c:/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )) (c:/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -219,17 +341,17 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-\AM@pagewidth=\dimen165
-\AM@pageheight=\dimen166
+\AM@pagewidth=\dimen183
+\AM@pageheight=\dimen184
  (c:/texlive/2020/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box52
-\AM@global@opts=\toks30
-\AM@pagecnt=\count267
-\AM@toc@title=\toks31
-\c@AM@survey=\count268
-\AM@templatesizebox=\box53
+\AM@pagebox=\box100
+\AM@global@opts=\toks35
+\AM@pagecnt=\count289
+\AM@toc@title=\toks36
+\c@AM@survey=\count290
+\AM@templatesizebox=\box101
 ) (c:/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
  (c:/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -252,20 +374,19 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (c:/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen167
-\Hy@linkcounter=\count269
-\Hy@pagecounter=\count270
+\@linkdim=\dimen185
+\Hy@linkcounter=\count291
+\Hy@pagecounter=\count292
  (c:/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (c:/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(c:/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (c:/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count271
+\Hy@SavedSpaceFactor=\count293
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -273,21 +394,21 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count272
+\c@Hy@tempcnt=\count294
  (c:/texlive/2020/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip16
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen168
+\XeTeXLinkMargin=\dimen186
  (c:/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (c:/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count273
-\Field@Width=\dimen169
-\Fld@charsize=\dimen170
+\Fld@menulength=\count295
+\Field@Width=\dimen187
+\Fld@charsize=\dimen188
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -297,9 +418,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6372.
 Package hyperref Info: PDF/A mode OFF on input line 6377.
 LaTeX Info: Redefining \ref on input line 6417.
 LaTeX Info: Redefining \pageref on input line 6421.
-\Hy@abspage=\count274
-\c@Item=\count275
-\c@Hfootnote=\count276
+\Hy@abspage=\count296
+\c@Item=\count297
+\c@Hfootnote=\count298
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (c:/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -308,8 +429,8 @@ File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count277
-\c@bookmark@seq@number=\count278
+\Fld@listcount=\count299
+\c@bookmark@seq@number=\count300
  (c:/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (c:/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -317,124 +438,118 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip72
+\Hy@SectionHShift=\skip77
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 23.
+(hyperref)                setting the option has no effect on input line 25.
 
 (c:/texlive/2020/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
  (c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/08/24 v2.5j e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count279
+\etb@tempcnta=\count301
 )) (c:/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/09/02 v3.5a Customizing captions (AR)
  (c:/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/09/11 v2.0b caption3 kernel (AR)
-\captionmargin=\dimen171
-\captionmargin@=\dimen172
-\captionwidth=\dimen173
-\caption@tempdima=\dimen174
-\caption@indent=\dimen175
-\caption@parindent=\dimen176
-\caption@hangindent=\dimen177
+\captionmargin=\dimen189
+\captionmargin@=\dimen190
+\captionwidth=\dimen191
+\caption@tempdima=\dimen192
+\caption@indent=\dimen193
+\caption@parindent=\dimen194
+\caption@hangindent=\dimen195
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count280
-\c@continuedfloat=\count281
+\c@caption@flags=\count302
+\c@continuedfloat=\count303
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
  (c:/texlive/2020/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )) (c:/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/08/23 v1.3g Sub-captions (AR)
-\c@subfigure=\count282
-\c@subtable=\count283
+\c@subfigure=\count304
+\c@subtable=\count305
 ) (c:/texlive/2020/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count284
-\float@exts=\toks32
-\float@box=\box54
-\@float@everytoks=\toks33
-\@floatcapt=\box55
+\c@float@type=\count306
+\float@exts=\toks37
+\float@box=\box102
+\@float@everytoks=\toks38
+\@floatcapt=\box103
 )
-\@float@every@table=\toks34
+\@float@every@table=\toks39
  (c:/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx.sty (c:/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-09-06 L3 programming layer (loader) 
  (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-09-11 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count285
-\l__pdf_internal_box=\box56
+\l__kernel_color_stack_int=\count307
+\l__pdf_internal_box=\box104
 )) (c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-05-15 L3 Experimental document command parser
  (c:/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
-\l__xparse_current_arg_int=\count286
-\g__xparse_grabber_int=\count287
-\l__xparse_m_args_int=\count288
-\l__xparse_v_nesting_int=\count289
+\l__xparse_current_arg_int=\count308
+\g__xparse_grabber_int=\count309
+\l__xparse_m_args_int=\count310
+\l__xparse_v_nesting_int=\count311
 ))
 Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
- (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
- (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
-\ex@=\dimen178
-)) (c:/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+ (c:/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box57
-\l__siunitx_tmp_dim=\dimen179
-\l__siunitx_tmp_int=\count290
-\l__siunitx_number_mantissa_length_int=\count291
-\l__siunitx_number_uncert_length_int=\count292
-\l__siunitx_round_int=\count293
-\l__siunitx_process_decimal_int=\count294
-\l__siunitx_process_uncertainty_int=\count295
-\l__siunitx_process_fixed_int=\count296
-\l__siunitx_process_integer_min_int=\count297
-\l__siunitx_process_precision_int=\count298
-\l__siunitx_group_min_int=\count299
-\l__siunitx_angle_marker_box=\box58
-\l__siunitx_angle_unit_box=\box59
-\l__siunitx_angle_marker_dim=\dimen180
-\l__siunitx_angle_unit_dim=\dimen181
-\l__siunitx_unit_int=\count300
-\l__siunitx_unit_denominator_int=\count301
-\l__siunitx_unit_numerator_int=\count302
-\l__siunitx_unit_prefix_int=\count303
-\l__siunitx_unit_prefix_base_int=\count304
-\l__siunitx_unit_prefix_gram_int=\count305
-\l__siunitx_number_product_int=\count306
-\c__siunitx_one_fill_skip=\skip73
-\l__siunitx_table_unit_align_skip=\skip74
-\l__siunitx_table_exponent_dim=\dimen182
-\l__siunitx_table_integer_dim=\dimen183
-\l__siunitx_table_mantissa_dim=\dimen184
-\l__siunitx_table_marker_dim=\dimen185
-\l__siunitx_table_result_dim=\dimen186
-\l__siunitx_table_uncert_dim=\dimen187
-\l__siunitx_table_fill_pre_dim=\dimen188
-\l__siunitx_table_fill_post_dim=\dimen189
-\l__siunitx_table_fill_mid_dim=\dimen190
-\l__siunitx_table_pre_box=\box60
-\l__siunitx_table_post_box=\box61
-\l__siunitx_table_mantissa_box=\box62
-\l__siunitx_table_result_box=\box63
-\l__siunitx_table_number_align_skip=\skip75
-\l__siunitx_table_text_align_skip=\skip76
+\l__siunitx_tmp_box=\box105
+\l__siunitx_tmp_dim=\dimen196
+\l__siunitx_tmp_int=\count312
+\l__siunitx_number_mantissa_length_int=\count313
+\l__siunitx_number_uncert_length_int=\count314
+\l__siunitx_round_int=\count315
+\l__siunitx_process_decimal_int=\count316
+\l__siunitx_process_uncertainty_int=\count317
+\l__siunitx_process_fixed_int=\count318
+\l__siunitx_process_integer_min_int=\count319
+\l__siunitx_process_precision_int=\count320
+\l__siunitx_group_min_int=\count321
+\l__siunitx_angle_marker_box=\box106
+\l__siunitx_angle_unit_box=\box107
+\l__siunitx_angle_marker_dim=\dimen197
+\l__siunitx_angle_unit_dim=\dimen198
+\l__siunitx_unit_int=\count322
+\l__siunitx_unit_denominator_int=\count323
+\l__siunitx_unit_numerator_int=\count324
+\l__siunitx_unit_prefix_int=\count325
+\l__siunitx_unit_prefix_base_int=\count326
+\l__siunitx_unit_prefix_gram_int=\count327
+\l__siunitx_number_product_int=\count328
+\c__siunitx_one_fill_skip=\skip78
+\l__siunitx_table_unit_align_skip=\skip79
+\l__siunitx_table_exponent_dim=\dimen199
+\l__siunitx_table_integer_dim=\dimen256
+\l__siunitx_table_mantissa_dim=\dimen257
+\l__siunitx_table_marker_dim=\dimen258
+\l__siunitx_table_result_dim=\dimen259
+\l__siunitx_table_uncert_dim=\dimen260
+\l__siunitx_table_fill_pre_dim=\dimen261
+\l__siunitx_table_fill_post_dim=\dimen262
+\l__siunitx_table_fill_mid_dim=\dimen263
+\l__siunitx_table_pre_box=\box108
+\l__siunitx_table_post_box=\box109
+\l__siunitx_table_mantissa_box=\box110
+\l__siunitx_table_result_box=\box111
+\l__siunitx_table_number_align_skip=\skip80
+\l__siunitx_table_text_align_skip=\skip81
  (c:/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
 )) (c:/texlive/2020/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2020/03/01 v5.4 Nomenclature package
  (c:/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
- (c:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks36
-\XKV@tempa@toks=\toks37
+(c:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
 )
-\XKV@depth=\count307
+\XKV@depth=\count329
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (c:/texlive/2020/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2020/07/22 v3.31 KOMA-Script package (handling toc-files)
@@ -443,20 +558,20 @@ Package: scrbase 2020/07/22 v3.31 KOMA-Script package (KOMA-Script-independent b
  (c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2020/07/22 v3.31 KOMA-Script package (loading files)
 ))
-\scr@dte@tocline@numberwidth=\skip77
-\scr@dte@tocline@numbox=\box64
+\scr@dte@tocline@numberwidth=\skip82
+\scr@dte@tocline@numbox=\box112
 )
 Package tocbasic Info: setting babel extension for `nlo' on input line 179.
 Package tocbasic Info: setting babel extension for `nls' on input line 180.
-\nomlabelwidth=\dimen191
-\nom@tempdim=\dimen192
-\nomitemsep=\skip78
+\nomlabelwidth=\dimen264
+\nom@tempdim=\dimen265
+\nomitemsep=\skip83
 )
 \@nomenclaturefile=\write3
 \openout3 = `main.nlo'.
 
-Package nomencl Info: Writing nomenclature file main.nlo on input line 40.
-\thickarrayrulewidth=\skip79
+Package nomencl Info: Writing nomenclature file main.nlo on input line 42.
+\thickarrayrulewidth=\skip84
 ) (C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.aux)
 \openout1 = `main.aux'.
 
@@ -513,24 +628,24 @@ LaTeX Font Info:    ... okay on input line 8.
 
 (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count308
-\scratchdimen=\dimen193
-\scratchbox=\box65
-\nofMPsegments=\count309
-\nofMParguments=\count310
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count311
-\MPscratchDim=\dimen194
-\MPnumerator=\count312
-\makeMPintoPDFobject=\count313
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count330
+\scratchdimen=\dimen266
+\scratchbox=\box113
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen267
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks43
 ) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\AtBeginShipoutBox=\box66
+\AtBeginShipoutBox=\box114
  (c:/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
  (c:/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
@@ -546,7 +661,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count314
+\c@section@level=\count336
 )
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
@@ -573,7 +688,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./01_Frontmatter/00_TitelSeite.tex [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./01_Frontmatter/01_Eigenständigkeitserklärung.tex
-<04_Figures/Unterschrift2.png, id=128, 435.87843pt x 108.405pt>
+<04_Figures/Unterschrift2.png, id=140, 435.87843pt x 108.405pt>
 File: 04_Figures/Unterschrift2.png Graphic file (type png)
 <use 04_Figures/Unterschrift2.png>
 Package pdftex.def Info: 04_Figures/Unterschrift2.png  used on input line 13.
@@ -583,40 +698,60 @@ Package pdftex.def Info: 04_Figures/Unterschrift2.png  used on input line 13.
 \openout5 = `main.toc'.
 
  [4] (./symbolverzeichnis.tex) (./main.nls) [5] (./02_Mainmatter/01_Einleitung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 30--37
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--43
+Underfull \hbox (badness 10000) in paragraph at lines 29--36
 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 \subsection
-                {Theorie} [1] [2]
-Overfull \hbox (0.75748pt too wide) in paragraph at lines 85--87
+l.36 
+      [1]
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
+
+ []
+
+[2]
+Overfull \hbox (0.75748pt too wide) in paragraph at lines 84--86
 \T1/cmr/m/n/10.95 me-cha-ni-schen Grun-d-ele-men-ten (Bal-ken, Schei-be, Plat-te, Scha-le, Vo-lu-mi-na), einen Zusammenbau-
  []
 
 [3]) (./02_Mainmatter/02_Anforderungen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
  []
 
 [4] [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 129--133
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-) (./03_Backmatter/Literatur.tex (C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.bbl)) (./03_Backmatter/ListOfFigures.tex (C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.lof)
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+
+Overfull \hbox (18.31067pt too wide) in paragraph at lines 153--154
+[]\T1/cmr/m/n/10.95 Wobei $\OML/cmm/m/it/10.95 d[]$ \T1/cmr/m/n/10.95 der Niet-loch-durch-mes-ser, $\OML/cmm/m/it/10.95 ^^\[]$ \T1/cmr/m/n/10.95 die Scher-fes-tig-keit, $\OML/cmm/m/it/10.95 t$ \T1/cmr/m/n/10.95 die Blech-di-cke und $\OML/cmm/m/it/10.95 ^^[[]$ \T1/cmr/m/n/10.95 die Lochleibungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+) (./03_Backmatter/Literatur.tex (C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.bbl [7])) (./03_Backmatter/ListOfFigures.tex (C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -626,7 +761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--133
 
 ) (./03_Backmatter/Anhang.tex) (./03_Backmatter/E-Anhang.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
- [7] [8pdfTeX warning (ext4): destination with the same identifier (name{appendix.A}) has been already used, duplicate ignored
+ [8pdfTeX warning (ext4): destination with the same identifier (name{appendix.A}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -637,23 +772,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A46E6AD5B9D5BD11CC58463B02942F63;1970.
+(rerunfilecheck)             Checksum: 2FACACEEFF162A415D1FA4AFCE1D1865;2186.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 14618 strings out of 480876
- 261638 string characters out of 5911487
- 583399 words of memory out of 5000000
- 29859 multiletter control sequences out of 15000+600000
+ 15301 strings out of 480876
+ 269716 string characters out of 5911487
+ 600088 words of memory out of 5000000
+ 30514 multiletter control sequences out of 15000+600000
  550679 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,12n,48p,976b,788s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,15n,48p,976b,828s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fo
 nts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on "C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.pdf" (13 pages, 316116 bytes).
+Output written on "C:/Users/aanng/OneDrive - Hochschule Luzern/6.Semester/BAT/00_Dokumentation/99_Output/main.pdf" (13 pages, 335859 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 62 named destinations out of 1000 (max. 500000)
- 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 345 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
