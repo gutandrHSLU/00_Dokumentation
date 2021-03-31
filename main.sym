@@ -1,6 +1,0 @@
-\printsymline{\mathbb{N}}{\mathbb{N}}{symnz}{Menge aller natürlichen Zahlen ohne die Null}{ii}
-\printsymline{\mathbb{N}_{0}}{\mathbb{N}_{0}}{symnzmn}{Menge aller natürlichen Zahlen einschlie\T1\ss lich Null}{ii}
-\printsymline{\mathbb{Z}}{\mathbb{Z}}{GZ}{Menge aller ganzen Zahlen}{ii}
-\printsymline{\mathbb{Q}}{\mathbb{Q}}{RatZ}{Menge aller rationalen Zahlen}{ii}
-\printsymline{\mathbb{R}}{\mathbb{R}}{RZ}{Menge aller reellen Zahlen}{ii}
-\printsymline{\text{A}}{\text{A}}{AB}{Aufrechter Buchstabe}{ii}

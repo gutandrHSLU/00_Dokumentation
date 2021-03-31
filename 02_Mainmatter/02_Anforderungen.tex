@@ -65,7 +65,7 @@ SF = 1.5
     Aus den getroffenen Annahmen reulstiert ein vereinfachter Spannungszustand welcher besagt, dass die Deckschichten jeweils die Normalkräfte und die Kernschichten die Schubkräfte aufnehmen. (Sandwichmembrantheorie)
 
     \paragraph{Festigkeitsprobleme}
-    Aus den getroffenen Annahmen und Vereinfachungen lassen sich die Formeln \ref{Spannung in Deckschicht} und \ref{Schubspannungen im Kern} herleiten. Mit der Formel \ref{Spannung in Deckschicht} lassen sich die Spannungen in den Deckschichten berechnen. Die Dicke der Deckschicht wird gewählt, dass die zulässige Spannung höhre liegt als jene, welche in der Deckschicht herrscht.
+    Aus den getroffenen Annahmen und Vereinfachungen lassen sich die Formeln \ref{Spannung in Deckschicht} und \ref{Schubspannungen im Kern} herleiten. Mit der Formel \ref{Spannung in Deckschicht} lassen sich die Spannungen in den Deckschichten berechnen. Die Dicke der Deckschicht wird so gewählt, dass die zulässige Spannung höher liegt als jene, welche in der Deckschicht herrscht.
 
     \begin{equation}
       \label{Spannung in Deckschicht}
@@ -85,32 +85,32 @@ SF = 1.5
 
     \begin{equation}
       \label{Euler-Knicklast}
-      p_{kB}=\frac{\pi^2 \cdot B_y}{l_k^2}
+      F_{kB}=\frac{\pi^2 \cdot E_d \cdot I_y}{l_k^{2}}
     \end{equation}
 
-    Wobei sich die Biegesteifigkeit $B_y$ vereinfacht gemäss der Formel \ref{ID} berechnen lässt. Hier wurde die Annahme getroffen, dass die Eigenbiegesteifigkeiten der Deckschichten vernachlässigbar sind. Diese Annahme kann gemäss Klein \cite{klein} ab einem Verhältnis von $t_d$ zu $t_k$ von 0.25, getroffen werden.
+    Wobei sich die Biegesteifigkeit $I_y$ vereinfacht gemäss der Formel \ref{ID} berechnen lässt. Hier wurde die Annahme getroffen, dass die Eigenbiegesteifigkeiten der Deckschichten vernachlässigbar sind. Diese Annahme kann gemäss Klein \cite{klein} ab einem Verhältnis von $t_d$ zu $t_k$ von 0.25, getroffen werden.
     \begin{equation}
       \label{ID}
-      B_y = E_d \cdot \frac{\left (t_d + t_k \right )^{2}\cdot t_d}{2}
+      I_y = 2 \cdot b \cdot t_d \cdot \left( \frac{t_k}{2} + t_d \right )^{2}
       % B_y = 2\cdot b \cdot t_d\cdot \left ( \frac{t_k}{2}+t_d \right )^2
     \end{equation}
 
     Die kritische Schubknicklast lässt sich gemäss Klein \cite{klein} mit der Formel \ref{Schubknicklast} berechnen.
     \begin{equation}
       \label{Schubknicklast}
-      p_{kS} = t_k \cdot G_k
+      F_{kS} = b \cdot t_k \cdot G_k
     \end{equation}
 
-    Die totale kritische Knickstreckenlast \(p_k\) ergibt sich dann aus der Formel \ref{Knicklast}:
+    Die totale kritische Knicklast \(F_k\) ergibt sich dann aus der Formel \ref{Knicklast}:
     \begin{equation}
       \label{Knicklast}
-      p_k=\frac{1}{\frac{1}{p_{kB}}+\frac{1}{p_{kS}}}
+      F_k=\frac{1}{\frac{1}{F_{kB}}+\frac{1}{F_{kS}}}
     \end{equation}
 
     Zu den lokalen Instabilitäten zählen das Schubbeulen und das Knittern der Deckschicht. Die kritischen Spannunge, bei welcher Schubbeulung auftritt, lässt sich gemäss \cite{ETH} aus den Formel \ref{Schubbeulen} berechnen.
     \begin{equation}
       \label{Schubbeulen}
-      \sigma_k^* = G_k \cdot \frac{h^2}{2 \cdot t_k \cdot t_d}
+      \sigma_k = G_k \cdot \frac{h}{2 \cdot t_d}
     \end{equation}
 
     Die kritischen Spannunge, bei welcher das Knittern der Deckschicht auftritt, lässt sich nach \cite{ETH} mit der Formel \ref{Knittern} berechnen.

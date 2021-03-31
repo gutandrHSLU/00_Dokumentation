@@ -5,50 +5,52 @@ Reallocating 'name_of_file' (item size: 1) to 20 items.
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Database file #1: 03_Backmatter/mybib.bib
+Warning--entry type for "BAFU" isn't style-file defined
+--line 1 of file 03_Backmatter/mybib.bib
 Warning--empty publisher in Baertsch
 Warning--empty journal in ETH
 Warning--empty year in ETH
 Warning--empty journal in klein
 Warning--empty year in klein
-You've used 3 entries,
+You've used 8 entries,
             1876 wiz_defined-function locations,
-            492 strings with 3685 characters,
-and the built_in function-call counts, 424 in all, are:
-= -- 29
-> -- 12
+            528 strings with 4491 characters,
+and the built_in function-call counts, 1826 in all, are:
+= -- 181
+> -- 46
 < -- 0
-+ -- 6
-- -- 3
-* -- 28
-:= -- 69
-add.period$ -- 2
-call.type$ -- 3
-change.case$ -- 2
++ -- 20
+- -- 12
+* -- 117
+:= -- 250
+add.period$ -- 7
+call.type$ -- 8
+change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 27
-empty$ -- 54
-format.name$ -- 3
-if$ -- 93
+cite$ -- 13
+duplicate$ -- 103
+empty$ -- 185
+format.name$ -- 12
+if$ -- 451
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 4
-newline$ -- 13
-num.names$ -- 3
-pop$ -- 21
+int.to.str$ -- 8
+missing$ -- 8
+newline$ -- 28
+num.names$ -- 8
+pop$ -- 33
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5
+skip$ -- 76
 stack$ -- 0
-substring$ -- 0
-swap$ -- 1
+substring$ -- 108
+swap$ -- 43
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 3
-width$ -- 4
-write$ -- 22
-(There were 5 warnings)
+while$ -- 16
+width$ -- 9
+write$ -- 71
+(There were 6 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.16)  17 MAR 2021 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.16)  31 MAR 2021 15:31
 entering extended mode
 **./main.tex
 (main.tex
@@ -767,7 +767,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/aanng/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]) (01_Frontmatte
 r/01_Eigenständigkeitserklärung.tex
-<04_Figures/Unterschrift2.png, id=139, 435.87843pt x 108.405pt>
+<04_Figures/Unterschrift2.png, id=143, 435.87843pt x 108.405pt>
 File: 04_Figures/Unterschrift2.png Graphic file (type png)
 <use 04_Figures/Unterschrift2.png>
 Package pdftex.def Info: 04_Figures/Unterschrift2.png  used on input line 13.
@@ -777,13 +777,20 @@ n.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-[4] (symbolverzeichnis.tex) (main.nls) [5] (02_Mainmatter/01_Einleitung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 30--37
+[4] (symbolverzeichnis.tex)
+No file main.nls.
+(02_Mainmatter/01_Einleitung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--43
+Underfull \hbox (badness 10000) in paragraph at lines 5--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--27
 
  []
 
@@ -791,37 +798,77 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 \subsection
-                {Theorie} [1] [2]
-Overfull \hbox (0.75748pt too wide) in paragraph at lines 85--87
+l.27 
+      [1]
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
+
+ []
+
+[2]
+Overfull \hbox (0.75748pt too wide) in paragraph at lines 75--77
 \T1/cmr/m/n/10.95 me-cha-ni-schen Grun-d-ele-men-ten (Bal-ken, Schei-be, Plat-t
 e, Scha-le, Vo-lu-mi-na), einen Zusammenbau-
  []
 
 [3]) (02_Mainmatter/02_Anforderungen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--15
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
  []
 
 [4] [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 
-Overfull \hbox (18.31067pt too wide) in paragraph at lines 145--146
+Overfull \hbox (18.31067pt too wide) in paragraph at lines 153--154
 []\T1/cmr/m/n/10.95 Wobei $\OML/cmm/m/it/10.95 d[]$ \T1/cmr/m/n/10.95 der Niet-
 loch-durch-mes-ser, $\OML/cmm/m/it/10.95 []$ \T1/cmr/m/n/10.95 die Scher-fes-t
 ig-keit, $\OML/cmm/m/it/10.95 t$ \T1/cmr/m/n/10.95 die Blech-di-cke und $\OML/c
 mm/m/it/10.95 []$ \T1/cmr/m/n/10.95 die Lochleibungs-
  []
 
-) (03_Backmatter/Literatur.tex (main.bbl [7])) (03_Backmatter/ListOfFigures.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+) (02_Mainmatter/03_Lastenheft.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+
+ []
+
+) (03_Backmatter/Literatur.tex (main.bbl [9])) (03_Backmatter/ListOfFigures.tex
 (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
@@ -830,34 +877,34 @@ mm/m/it/10.95 []$ \T1/cmr/m/n/10.95 die Lochleibungs-
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
-) (03_Backmatter/Anhang.tex) (03_Backmatter/E-Anhang.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
-[8pdfTeX warning (ext4): destination with the same identifier (name{appendix.A}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.52 \end{document}
-                   ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
+) (03_Backmatter/Anhang.tex) (03_Backmatter/E-Anhang.texpdfTeX warning (ext4): 
+destination with the same identifier (name{appendix.A}) has been already used, 
+duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \section{Elektronischer Anhang}
+                                   )
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 25B17022783814A4B7873D4759E48764;2182.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
+(rerunfilecheck)             Checksum: BB17A9324C80B14037BB7D1A8C8B67A2;2236.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 15348 strings out of 481199
- 275889 string characters out of 2905595
- 599992 words of memory out of 3000000
- 30530 multiletter control sequences out of 15000+200000
+ 15376 strings out of 481199
+ 276239 string characters out of 2905595
+ 600276 words of memory out of 3000000
+ 30537 multiletter control sequences out of 15000+200000
  550679 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,15n,54p,978b,828s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,15n,54p,978b,861s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
-er-ts1.enc}{C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-sup
-er/cm-super-t1.enc}<C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+er-t1.enc}{C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-supe
+r/cm-super-ts1.enc}<C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmex10.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aanng/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/aanng/AppData/Local/Prog
@@ -879,9 +926,9 @@ aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C
 :/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm172
 8.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super
 /sfti1095.pfb>
-Output written on main.pdf (13 pages, 363128 bytes).
+Output written on main.pdf (14 pages, 394348 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 262 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 270 words of extra memory for PDF output out of 10000 (max. 10000000)
 

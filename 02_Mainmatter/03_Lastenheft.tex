@@ -1,0 +1,93 @@
+\section{Lasten}
+Begründung und Erklärung der Lasten
+Aufbau des Lastenheftes A B1, B2 und C, mit verschiedenen Konfigurationen
+
+\subsection{Belastungen beim Fahren}
+Zustand A:
+
+
+\paragraph{Beschleunigungen}\vfill
+Beschleunigungen werden Absolut angegeben. 0g heisst schwerelosigkeit. wird in G angegeben wobei damit $9.81 \left[\frac{m}{s^2}\right]$ gemeint ist.\\
+
+Die folgenden Beschleunigungen werden immer in Kombination mit der Erdbeschleunigung von 1g kombiniert.
+
+
+\begin{description}
+  % \item \textbf{1.1 Erdbeschleunigung}\\
+  % Standardmässig ist der Solar Butterfly der Erdbeschleunigung von 1g ausgesetzt. \\
+
+  \item \textbf{1.2 Vertikale Beschleunigung}\\
+  Zusätzlich zur vertikalen Beschleunigung durch die Erdanziehung, entstehen durch das Überfahren von Schlaglöcher und Bremsschwellen vertikale Beschleunigungen.\\
+  In einem ersten Ansatz wurde der Solar Butterflys als ein \emph{Ein-Massen-Schwinger}-System modelliert und die Beschleunigung beim Überfahren einer Sinusförmigen Bremsschwelle numerisch berechnet.\\
+
+  Die Position des Rades während dem Überfahren der Bremsschwelle ist gegeben durch folgenden Zusammenhang:
+  \begin{equation}
+    x_r^n = h \cdot \sin(\pi \cdot \frac{n\Delta t \cdot v}{l})
+  \end{equation}
+  $l$ steht dabei für die Länge, und h für die Höhe der Bremsschwelle. $n$ und $\Delta t$ werden so gewählt, dass\\
+
+  Um die Beschleunigung des Solar Butterflys zu berechnen, wird in einem ersten Schritt dessen Position zum Zeitpunk $n$ $x_{SB}^n$ aus der vorangehenden Situation berechnet.
+  \begin{equation}
+    x_{SB}^n = x_{SB}^{(n-1)} + v^{(n-1)} \cdot \Delta t
+  \end{equation}
+
+  Als nächstes wird der Federweg $s^n$, sowie die Änderungsrate des Federwegs $v_s^n$ zum Zeitpunkt $n$ berechnet.
+  \begin{equation}
+    s^n = x_r^n - x_{SB}^n
+  \end{equation}
+  \begin{equation}
+    v_s^n = \frac{s^n - s^{(n-1)}}{\Delta t}
+  \end{equation}
+
+  Die Beschleunigung des Solar Butterfly ergibt sich dann zu:\\
+  \begin{equation}
+    a_{SB}^n = \frac{k \cdot s^n + d \cdot v_s^n}{m}
+  \end{equation}
+
+  womit die daraus resultierende neue Geschwindigkeit des Chassis berechnet werden kann.
+  \begin{equation}
+    v^n = v^{(n-1)} + a^n \cdot \Delta t
+  \end{equation}
+
+  Die Berechnungen wurden bis zum ersten Null-Durchgang gemacht. Die Anzahlberechnungspunkte und $\Delta t$ werden entsprechend gewählt.
+
+  Bei einer Geschwindigkeit von 40 km/h\\
+  k = ~ 177'000 N/m\\
+  d = 2000 Ns/m\\
+  l = 0.9 m\\
+  h = 0.1 m\\
+  Resultat: 1.6g\\
+  Konservatives Modell: Federung durch Reifen fehlt, weiter ist der Massenschwerpunkt aus der Feder-achse Verschoben, was eine weitere abminderung der Beschl. zur folge hat.
+
+  \cite{Beschl.1}, \cite{Beschl.2} und \cite{Beschl.3} zeigen Beschleunigung von PKW's zwischen 0.8 und 1.3 g Beschleunigung. (Des Massenschwerpunktes)
+
+  \cite{Beschl.4} zeigt +-1g Beschleunigung für Transportware in einem Sattelschlepper.
+
+  Schluss: 1.25g vertikale Beschleunigung
+
+
+
+  \item \textbf{1.3 Longitudinale Beschleunigung}\\
+  - Beschleunigung durch Notbremse\\
+  \cite{Verz.1} max. 9.5 m/s^2\\
+  https://copradar.com/chapts/references/acceleration.html
+  - Beschleunigung druch Unfall\\
+  \item \textbf{1.4 Laterale Beschleunigung}\\
+  Beschleunigung durch Kurven
+\end{description}
+
+\paragraph{Belastung durch Wind}
+\begin{description}
+  \item \textbf{2.1 Wind}
+\end{description}
+
+\paragraph{Belastung durch Neigung}
+\begin{description}
+  \item \textbf{3.1 Geneigte Strasse}
+\end{description}
+
+\paragraph{Mobiliar}
+\begin{description}
+  \item \textbf{4.1 Mobiliar vorne}
+  \item \textbf{4.2 Mobiliar hinten}
+\end{description}
