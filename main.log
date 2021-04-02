@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.16)  31 MAR 2021 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.16)  2 APR 2021 11:54
 entering extended mode
 **./main.tex
 (main.tex
@@ -864,12 +864,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 78--81
+Underfull \hbox (badness 10000) in paragraph at lines 70--74
 
  []
 
-) (03_Backmatter/Literatur.tex (main.bbl [9])) (03_Backmatter/ListOfFigures.tex
-(main.lof)
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+) [9] (03_Backmatter/Literatur.tex (main.bbl [10])) (03_Backmatter/ListOfFigure
+s.tex (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -885,7 +900,7 @@ duplicate ignored
 l.1 \section{Elektronischer Anhang}
                                    )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-[10]
+[11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
@@ -895,13 +910,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 15376 strings out of 481199
- 276239 string characters out of 2905595
- 600276 words of memory out of 3000000
- 30537 multiletter control sequences out of 15000+200000
+ 15393 strings out of 481199
+ 276409 string characters out of 2905595
+ 600478 words of memory out of 3000000
+ 30546 multiletter control sequences out of 15000+200000
  550679 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,15n,54p,978b,861s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,15n,54p,978b,863s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
 er-t1.enc}{C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-supe
 r/cm-super-ts1.enc}<C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -926,9 +941,9 @@ aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C
 :/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm172
 8.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super
 /sfti1095.pfb>
-Output written on main.pdf (14 pages, 394348 bytes).
+Output written on main.pdf (15 pages, 399888 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 

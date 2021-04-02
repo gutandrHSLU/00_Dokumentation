@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{BAFU}
 BAFU, ``Klima: Das wichtigste in kürze,'' 2020.
@@ -33,5 +33,34 @@ T.~Haniszewski and A.~MICHTA, ``Preliminary studies of vertical acceleration of
 R.~Pidl, ``Analytical approach to determine vertical dynamics of a semi-trailer
   truck from the point of view of goods protection,'' {\em AIP Conference
   Proceedings}, vol.~1922, no.~1, p.~120003, 2018.
+
+\bibitem{Verz.1}
+N.~Kudarauskas, ``Analysis of emergency braking of a vehicle,'' {\em
+  Transport}, vol.~22, no.~3, pp.~154--159, 2007.
+
+\bibitem{Verz.2}
+I.~für Unfallanalysen~Hamburg, ``Bremstabelle {A}.''
+\newblock publisher: Institut für Unfallanalysen Hamburg.
+
+\bibitem{Kurv.1}
+W.~Hugemann and M.~Nickel, ``Longitudinal and lateral accelerations in normal
+  day driving,'' in {\em 6th International Conference of The Institute of
+  Traffic Accident Investigators}, pp.~1--8, 2003.
+
+\bibitem{Kurv.2}
+J.~Xu, K.~Yang, Y.~Shao, and G.~Lu, ``An experimental study on lateral
+  acceleration of cars in different environments in sichuan, southwest china,''
+  {\em Discrete Dynamics in Nature and Society}, vol.~2015, p.~494130, Mar
+  2015.
+
+\bibitem{Wind.1}
+P.~Sesar and A.~Krecak, ``Impact of wind bora on croatian highways and
+  bridges,'' {\em IABSE Symposium Report}, vol.~90, pp.~23--29, 01 2005.
+
+\bibitem{Wind.2}
+M.~Scarpignato, ``When is it too windy to drive an rv?,'' Nov 2020.
+
+\bibitem{Wind.3}
+K.~Beasley, ``Can high winds flip over your rv?,'' Apr 2017.
 
 \end{thebibliography}

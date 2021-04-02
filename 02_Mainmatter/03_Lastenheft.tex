@@ -6,9 +6,8 @@ Aufbau des Lastenheftes A B1, B2 und C, mit verschiedenen Konfigurationen
 Zustand A:
 
 
-\paragraph{Beschleunigungen}\vfill
+\paragraph{Beschleunigungen}
 Beschleunigungen werden Absolut angegeben. 0g heisst schwerelosigkeit. wird in G angegeben wobei damit $9.81 \left[\frac{m}{s^2}\right]$ gemeint ist.\\
-
 Die folgenden Beschleunigungen werden immer in Kombination mit der Erdbeschleunigung von 1g kombiniert.
 
 
@@ -24,7 +23,7 @@ Die folgenden Beschleunigungen werden immer in Kombination mit der Erdbeschleuni
   \begin{equation}
     x_r^n = h \cdot \sin(\pi \cdot \frac{n\Delta t \cdot v}{l})
   \end{equation}
-  $l$ steht dabei für die Länge, und h für die Höhe der Bremsschwelle. $n$ und $\Delta t$ werden so gewählt, dass\\
+  $l$ steht dabei für die Länge, und h für die Höhe der Bremsschwelle.\\
 
   Um die Beschleunigung des Solar Butterflys zu berechnen, wird in einem ersten Schritt dessen Position zum Zeitpunk $n$ $x_{SB}^n$ aus der vorangehenden Situation berechnet.
   \begin{equation}
@@ -59,34 +58,63 @@ Die folgenden Beschleunigungen werden immer in Kombination mit der Erdbeschleuni
   Resultat: 1.6g\\
   Konservatives Modell: Federung durch Reifen fehlt, weiter ist der Massenschwerpunkt aus der Feder-achse Verschoben, was eine weitere abminderung der Beschl. zur folge hat.
 
-  \cite{Beschl.1}, \cite{Beschl.2} und \cite{Beschl.3} zeigen Beschleunigung von PKW's zwischen 0.8 und 1.3 g Beschleunigung. (Des Massenschwerpunktes)
-
-  \cite{Beschl.4} zeigt +-1g Beschleunigung für Transportware in einem Sattelschlepper.
+  \cite{Beschl.1}: PKW; 0.36x0.05 Speed bump; 0.71 g (Fahrzeug Mitte) und 1.5 g (Über der Achse) bei 40 km/h\\
+  \cite{Beschl.2}: PKW; 0.90x0.10 Speed bump; 0.73 g (Fahrzeug Mitte) bei 50 km/h\\
+  \cite{Beschl.3}: PKW; 0.50x0.05 Speed bump; 1 g (Person hinten im Fahrzeug) und 1.3 g (Über der Achse) bei 30 km/h\\
+  \cite{Beschl.4}: LKW; +-1g Beschleunigung für Transportware in einem Sattelschlepper.
 
   Schluss: 1.25g vertikale Beschleunigung
 
 
-
   \item \textbf{1.3 Longitudinale Beschleunigung}\\
   - Beschleunigung durch Notbremse\\
-  \cite{Verz.1} max. 9.5 m/s^2\\
-  https://copradar.com/chapts/references/acceleration.html
+  \cite{Verz.1} Pkw max. über 0.9 g\\
+  \cite{Verz.2} Pkw bis 0.8 g, Lkw bis 0.7 g\\
+
   - Beschleunigung druch Unfall\\
+  Wird ausgeschlossen?\\
+
+  Schluss: +-1 g
+
   \item \textbf{1.4 Laterale Beschleunigung}\\
-  Beschleunigung durch Kurven
+  Beschleunigung durch Kurven\\
+  \cite{Kurv.1} ca. 0.6 g auf Landstrasse\\
+  \cite{Kurv.2} mehrheit in bergigem Gebiet über 0.5 und max. über 0.8 g\\
+
+  Schluss: +-1 g\\
 \end{description}
 
 \paragraph{Belastung durch Wind}
+
+\cite{Wind.1} Laterale Windgeschwindigkeiten von 108 km/h seien kritisch für Fahrzeuge auf trokener Strasse.\\
+\cite{Wind.2} Bei Windgeschwindigkeiten von mehr als 80 km/h wird empfohlen nicht mehr zu Fahren. Windgeschwindigkeiten von 95 km/h sei genug um Wohnmobile umzustossen\\
+\cite{Wind.3} Bei Windgeschwindigkeiten von mehr als 155 km/h können "high profile Trucks, Trailers and Busse" überkippen. Minimale OVERTURNING WIND SPEEDS von 108 km/h für 9 m langes Motor home und 160 km/h für ein 5m langes Wohnmobil.
+
 \begin{description}
-  \item \textbf{2.1 Wind}
+  \item \textbf{2.1 Wind}\\
+  Schluss: bei 80km/h soll nicht mehr gefahren werden: Winddruck bei 100km/h\\
+  Definitive Windgeschw. zum kippen kann schlussendlich mit dem FEM ermittelt werden. Dies soll nur eine erste Annahme sein.
+  \begin{equation}
+    \label{Winddruck}
+    W_D = c_p \: \frac{\rho}{2}\: v^2
+  \end{equation}
+  $\rho = 1.2 \frac{kg}{m^3}$\\
+  $c_p \: Rechteck = 1.05$\\
+
+  $W_D \:@\: 100 km/h= 486 \left[MPa \right]$
 \end{description}
 
 \paragraph{Belastung durch Neigung}
+Absprache mit Palmer: Furkapass max. 6.3° -> auslegung auf 10° (17.5\%)
+Neigung in beide Richtungen
 \begin{description}
-  \item \textbf{3.1 Geneigte Strasse}
+  \item \textbf{3.1 Geneigte Strasse Länges} +-10° Neigung in Fahrtrichtung.
+  \item \textbf{3.2 Geneigte Strasse Quer} +-10° Neigung normal zur Fahrtrichtung.
+
 \end{description}
 
 \paragraph{Mobiliar}
+50kg Mobiliar im Fahrzeug verteilt
 \begin{description}
   \item \textbf{4.1 Mobiliar vorne}
   \item \textbf{4.2 Mobiliar hinten}
