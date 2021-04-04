@@ -17,7 +17,7 @@ Die folgenden Beschleunigungen werden immer in Kombination mit der Erdbeschleuni
 
   \item \textbf{1.2 Vertikale Beschleunigung}\\
   Zusätzlich zur vertikalen Beschleunigung durch die Erdanziehung, entstehen durch das Überfahren von Schlaglöcher und Bremsschwellen vertikale Beschleunigungen.\\
-  In einem ersten Ansatz wurde der Solar Butterflys als ein \emph{Ein-Massen-Schwinger}-System modelliert und die Beschleunigung beim Überfahren einer Sinusförmigen Bremsschwelle numerisch berechnet.\\
+  In einem ersten Ansatz wurde der Solar Butterflys als ein \emph{Ein-Massen-Schwinger}-System modelliert und die Beschleunigung beim Überfahren einer Sinusförmigen Bremsschwelle numerisch ermittelt.\\
 
   Die Position des Rades während dem Überfahren der Bremsschwelle ist gegeben durch folgenden Zusammenhang:
   \begin{equation}
@@ -48,40 +48,33 @@ Die folgenden Beschleunigungen werden immer in Kombination mit der Erdbeschleuni
     v^n = v^{(n-1)} + a^n \cdot \Delta t
   \end{equation}
 
-  Die Berechnungen wurden bis zum ersten Null-Durchgang gemacht. Die Anzahlberechnungspunkte und $\Delta t$ werden entsprechend gewählt.
+  Das \emph{Ein-Massen-Schwinger}-Modell wurde mit einer Masse von 2200 kg, einer Federkonstante, gegeben aus den Datenblättern des Herstellers [ANHANG], von 353'000 N/m und einer Dämpfungskonstante von 3500 Ns/m modelliert. Beim Überfahren einer Bremsschwelle von 0.9 m Länge und 0.1 m Höhe mit einer Geschwindigkeit von 40 km/h resultierte eine maximale Beschleunigung von rund 1.6 g. Die Berechnung ist im [Elektronischen Anhang] zu finden.\\
+  Zu der Berechnung muss gesagt werden, dass es sich um ein eher konservatives Modell handelt und die erhaltene Beschleunigung zu hoch liegt. So wurde zum Beispiel die Federung durch die Reifen nicht berücksichtigt. Weiter befindet sich der Massenschwerpunkt nicht in der Federachse, was eine weitere Abminderung der Beschleunigung zur folge hat.\\
 
-  Bei einer Geschwindigkeit von 40 km/h\\
-  k = ~ 177'000 N/m\\
-  d = 2000 Ns/m\\
-  l = 0.9 m\\
-  h = 0.1 m\\
-  Resultat: 1.6g\\
-  Konservatives Modell: Federung durch Reifen fehlt, weiter ist der Massenschwerpunkt aus der Feder-achse Verschoben, was eine weitere abminderung der Beschl. zur folge hat.
+
 
   \cite{Beschl.1}: PKW; 0.36x0.05 Speed bump; 0.71 g (Fahrzeug Mitte) und 1.5 g (Über der Achse) bei 40 km/h\\
   \cite{Beschl.2}: PKW; 0.90x0.10 Speed bump; 0.73 g (Fahrzeug Mitte) bei 50 km/h\\
   \cite{Beschl.3}: PKW; 0.50x0.05 Speed bump; 1 g (Person hinten im Fahrzeug) und 1.3 g (Über der Achse) bei 30 km/h\\
-  \cite{Beschl.4}: LKW; +-1g Beschleunigung für Transportware in einem Sattelschlepper.
+  \cite{Beschl.4}: LKW; +-1g Beschleunigung für Transportware in einem Sattelschlepper.\\
 
   Schluss: 1.25g vertikale Beschleunigung
 
-
   \item \textbf{1.3 Longitudinale Beschleunigung}\\
-  - Beschleunigung durch Notbremse\\
-  \cite{Verz.1} Pkw max. über 0.9 g\\
-  \cite{Verz.2} Pkw bis 0.8 g, Lkw bis 0.7 g\\
+  Longitudinale Beschleunigungen entstehen durch erhöhung der Geschwindigkeit durch das Zugfahrzeug und durch Auffahrunfälle von Dritten. Das \emph{Institut für Unfallanalysen Hamburg} benützt die Beschleunigung von Personenwagen von maximal 0.3g und von Lastkraftwagen von 0.1 g als Anhaltswerte. \cite{Verz.3}
+  Schluss: 0.2 g
 
-  - Beschleunigung druch Unfall\\
-  Wird ausgeschlossen?\\
+  \item \textbf{1.4 Longitudinale Verzögerung}\\
+  Longitudinale Verögerungen werden durch graduelle abminderung der Geschwindigkeit und durch Auffahrunfälle des Zugfahrzeuges herbeigeführt. Die extremste graduelle Verzögerung entsteht dabei durch eine Notbremsung.\\
+  \emph{Kudarauskas} zeigt bei seiner Analyse der Notbremsungen von Personenwagen, dass die maximale Verzögerung bei rund 0.9 g liegt. \cite{Verz.1} Das \emph{Institut für Unfallanalysen Hamburg} zeiht bei Gutachten die Vollverzögerung von 0.8 g für Personenwagen und 0.7 g für Lastkraftwagen als standard Werte herbei. \cite{Verz.2}\\
 
-  Schluss: +-1 g
+  Schluss: 0.8 g
 
-  \item \textbf{1.4 Laterale Beschleunigung}\\
-  Beschleunigung durch Kurven\\
-  \cite{Kurv.1} ca. 0.6 g auf Landstrasse\\
-  \cite{Kurv.2} mehrheit in bergigem Gebiet über 0.5 und max. über 0.8 g\\
+  \item \textbf{1.5 Laterale Beschleunigung}\\
+  Laterale Beschleunigungen entstehen hauptsächlich beim Kurvenfahren und sind abhängig von der Geschwindigkeit mit welcher die Kurve durchfahren wird und des Kurvenradius.\\
+  \emph{Hugemann} et al. massen in einem Personenwagen auf einer Landstrasse Laterale Beschleunigungen von 0.6 g .\cite{Kurv.1} \emph{Xu} et al. zeigen, dass die Mehrheit der gemessenen Beschleunigung durch Kurvenfahrten in bergigem Gebiet über 0.5 g und maximale über 0.8 g liegen. \cite{Kurv.2}
 
-  Schluss: +-1 g\\
+  Schluss: +-0.8 g\\
 \end{description}
 
 \paragraph{Belastung durch Wind}
