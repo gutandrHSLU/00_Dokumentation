@@ -27,8 +27,7 @@ SF = 1.5
   Um die Sicherheit eines Strukturelementes gegen Fliessen zu gewährleisten, wird überprüft, ob die \emph{Von Mises}-Vergleichsspannung kleiner als die zulässige Spannung ist, wobei sich die zulässige Spannung aus der Dehngrenze des gewählten Materials und einem Sicherheitsfaktor zusammensetzt. Die \emph{Von Mises}-Vergleichsspannung kann gemäss  der Formel \ref{Von Mises} berechet werden \cite{Baertsch}.
   \begin{equation}
     \label{Von Mises}
-    % \sigma_{zul} \geq
-    \sigma_v = \sqrt{\sigma_x^{2}-\sigma_x \cdot \sigma_y + \sigma_y^2 + 3\tau^2}
+    \sigma_{zul} \geq \sigma_v = \sqrt{\sigma_x^{2}-\sigma_x \cdot \sigma_y + \sigma_y^2 + 3\tau^2}
   \end{equation}
   Wobei die Annahmen getroffen werdenn, dass es sich um einen ebenen Spannungszustand handelt und die angeifenden Lasten dem selben Lastfall angehören.
 
@@ -69,13 +68,13 @@ SF = 1.5
 
     \begin{equation}
       \label{Spannung in Deckschicht}
-      \sigma = \frac{1}{t_d}\cdot \left ( \frac{n}{2} \pm \frac{m}{h}\right )
+      \sigma_{zul} \geq \sigma_d = \frac{1}{t_d}\cdot \left ( \frac{n}{2} \pm \frac{m}{h}\right )
     \end{equation}
 
     Mit der Formel \ref{Schubspannungen im Kern} lassen sich die Schubspannungen in der Kernschicht berechnen und somit Aussagen über ihre Resistenz gegenüber dem Schubbruch machen. Die Dicke der Kernschicht wird so ausgelegt, dass die in der Kernschicht herrscheden Spannungen tiefer liegen als die zulässigen.
     \begin{equation}
       \label{Schubspannungen im Kern}
-      \tau_k = \frac{q}{t_k}
+      \tau_{k,zul} \geq \tau_k = \frac{q}{t_k}
     \end{equation}
 
     Die Delamination der Deckschichten wird abgesichert, indem die Auswahl des Klebers so getroffen wird, dass dieser eine höhere Schubfestigkeit aufweist als das Material der jeweiligen Kernschicht.
@@ -104,7 +103,7 @@ SF = 1.5
     Die totale kritische Knicklast \(F_k\) ergibt sich dann aus der Formel \ref{Knicklast}:
     \begin{equation}
       \label{Knicklast}
-      F_k=\frac{1}{\frac{1}{F_{kB}}+\frac{1}{F_{kS}}}
+      F_{k, vorh.} \leq F_k=\frac{1}{\frac{1}{F_{kB}}+\frac{1}{F_{kS}}}
     \end{equation}
 
     Zu den lokalen Instabilitäten zählen das Schubbeulen und das Knittern der Deckschicht. Die kritischen Spannunge, bei welcher Schubbeulung auftritt, lässt sich gemäss \cite{ETH} aus den Formel \ref{Schubbeulen} berechnen.
