@@ -2,10 +2,10 @@
 In diesem Kapitel wird auf das Lastenheft eingegangen. Es wird beschrieben wie die Lastfälle bestimmt und definiert wurden.
 
 Damit die Erklärung des Lastenheftes und der gesammte folgende Auslegungsprozess an sich verständlicher wird, werden zuerst die verwendeten Begriffe definiert.\\
-Als \emph{Modus} wird ein ''Zustand`` oder eine ''Position`` des Solar Butterflys verstanden. Modus \emph{A} beschreibt zum Beispiel den Solar Butterfly im ''Fahr-Modus``. In diesem Fall würde dies bedeuten, dass alle Panelen, Stützen und Seitenmodule eingefahren sind. Es wird für jeden der vier definierten Modi ein FEM-Modell erstellt.\\
+Als \emph{Modus} wird ein ``Zustand'' oder eine ``Position'' des Solar Butterflys verstanden. Modus \emph{A} beschreibt zum Beispiel den Solar Butterfly im ``Fahr-Modus''. In diesem Fall würde dies bedeuten, dass alle Panelen, Stützen und Seitenmodule eingefahren sind. Es wird für jeden der vier definierten Modi ein FEM-Modell erstellt.\\
 Als \emph{Lastfall} wird eine Situation (z.B. Fahrt auf einer um 10° geneigten Strasse) oder eine Last (z.B. Personenlast) verstanden, welche in einem spezifischen Modus auftreten kann. Der Lastfall \emph{1.1} im Modus \emph{A} beschreibt zum Beispiel die vertikale Beschleunigung von 1.25 g welche durch das Überfahren einer Bresmmschwelle auftreten kann. Der Lastfall \emph{1.1} im Modus \emph{C} beschreibt eine Personenlast. Ein Lastfall ist vollständig definiert, wenn klar ist, wie dieser im jeweiligen FEM-Modell des betreffenden Modus, einzugliedern ist.\\
 Der Lastfall \emph{1.1} im Modus \emph{A} ist nicht notwendigerweise der Selbe, wie der Lastfall \emph{1.1} im Modus \emph{B} oder \emph{C}! Die klare Zuweisung der Lastfälle zu einem spezifischen Modus wurde vorgenommen, um die Anzahl der Lastfälle in den verschiedenen Modi gering zu halten und die daraus resultierenden Lastkombinationen pro Modus übersichtlicher zu gestalten. Dies führt mit sich, dass gewisse Lastfälle in mehreren Modi vorkommen und dass dadurch einige Lastfälle doppelt aufgeführt werden. So wird zum Beispiel der Lastfall \emph{Neigung Stehend} im Modus \emph{B} und \emph{C} aufgeführt, da die Situation des geneigten Bodens im parkierten Zustand in beiden Modi auftreten kann. Alle Lastfälle welche in diesen Modi nicht auftreten, können jedoch weggelassen werden, wodurch - wie bereits erwähnt - das Lastenheft übersichtlicher gestaltet werden kann.\\
-Zur Beschreibung eines Lastfalles gehört eine Bewertung des dazugehörenden \emph{Risikos}. Ein \emph{Risiko} setzt sich zusammen aus der Ungenauigkeit der Voraussage der Belastung und einer Abschätzung der ´´ernsthaftigkeit'' der potentiellen Auswirkungen. Eine \emph{Ungenauigkeit} von 0.5 bedeutet, dass von einer potentiellen Abweichung von $\pm\: 50\%$ ausgegangen wird. Für die Werte der Auswirkungen wird kein klarer Massstab definiert. Sie nehmen einen Wert zwischen 0 und 100 an und beurteilen die Auswirkungen beim ''Eintreten´´ der Ungenauigkeit. Das Produkt aus der Ungenauigkeit und der Auswirkung ergibt den Wert des \emph{Risikos}.
+Zur Beschreibung eines Lastfalles gehört eine Bewertung des dazugehörenden \emph{Risikos}. Ein \emph{Risiko} setzt sich zusammen aus der Ungenauigkeit der Voraussage der Belastung und einer Abschätzung der ``ernsthaftigkeit'' der potentiellen Auswirkungen. Eine \emph{Ungenauigkeit} von 0.5 bedeutet, dass von einer potentiellen Abweichung der Belastung von $\pm\: 50\%$ ausgegangen wird. Für die Werte der \emph{Auswirkungen} wird kein klarer Massstab definiert. Sie nehmen einen Wert zwischen 0 und 100 an und beurteilen die Auswirkungen beim ``Eintreten'' der Ungenauigkeit. Das Produkt aus der Ungenauigkeit und der Auswirkung ergibt den Wert des Risikos.\\
 Als \emph{Lastkombination} wird eine Kombination von verschiedenen Lastfällen verstanden. Eine Lastkombination bezieht sich jeweils auf einen Modus. Die Lastkombination \emph{A.3.1.2.1} setzt sich zusammen aus dem Modus \emph{A} und den Lastfällen \emph{1.3 Laterale Beschleunigung}, \emph{2.1 Wind von links}, \emph{3.2 Neigung längs negativ} und \emph{4.1 Mobiliar vorne} aus dem Modus \emph{A}.
 
 Ein Blick in das Lastenheft im Anhang [ANHANG] wird das soeben beschriebene verständlicher machen.\\
@@ -13,7 +13,7 @@ Ein Blick in das Lastenheft im Anhang [ANHANG] wird das soeben beschriebene vers
 Folgend werden die vier Modi mit den dazugehörigen Lastfällen vorgestellt. Es wird jeweils beschrieben, wie die Lasten zustande kommen und wie diese in den FEM-Modellen eingebunden werden.
 
 \subsection{Modus A: Fahren}
-Der Modus \emph{A} beschreibt den Solar Butterfly im ''Fahr-Modus`` und ist in der Abbildung \ref{Modus A} dargestellt. Konkret bedeutet dieser Modus, dass alle Panelen und Seitenmodule eingefahren und über die Verschlüsse fest mit dem Rest des Aufbaus verbunden sind. Ebenfalls sind die alle Stützen eingefahren. Im Fahr-Modus befinden sich keine Personen im Solar Butterfly und das Mobiliar ist an den dafür vorgesehenen Stellen verstaut. Weiter herrscht in allen Lastkombinationen die Erdbeschleunigung von 1 g. Der Lastfall von 1 g wird nicht spezifisch aufgeführt.
+Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in der Abbildung \ref{Modus A} dargestellt. Konkret bedeutet dieser Modus, dass alle Panelen und Seitenmodule eingefahren und über die Verschlüsse fest mit dem Rest des Aufbaus verbunden sind. Ebenfalls sind die alle Stützen eingefahren. Im Fahr-Modus befinden sich keine Personen im Solar Butterfly und das Mobiliar ist an den dafür vorgesehenen Stellen verstaut. Weiter herrscht in allen Lastkombinationen die Erdbeschleunigung von 1 g. Der Lastfall von 1 g wird nicht spezifisch aufgeführt.
 
 \begin{center}
   \includegraphics[width=0.5\textwidth]{04_Figures/A.png}
@@ -66,12 +66,12 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ''Fahr-Modus`` und ist in d
     \emph{Pidl} \cite{Beschl.4} zeigt, dass Transportware in einem Sattelschlepper Beschleunigungen von +- 1 g erfahren. Ob diese maximal gemessene Beschleunigung beim Überfahren einer Bremsschwelle erreicht wurde, ist nicht ersichtlich.
 
     Da der Achsenabstand des Solar Butterflys, im vergleich zu den Personenwagen aus der Literatur, relativ klein ist, werden die in der Fahrzeugmitte gemessenen Beschleunigungen der Personenwagen nicht als räpresentative Näherungswerte für die Beschleunigung des Solar Butterflys verwendet. Es wird davon ausgegangen, dass die Beschleunigungen, welcher ein Personenwagen dirket über der Achse beim Überfahren einer Bremsschwelle erfäht, vergleichbar mit jenen sind, welche der Solar Butterfly erfahren wird. Diese Annahme wird getroffen, da die Achsen des Solar Butterflys nahe beisammen liegen und eher den letzteren Fall beschreiben.\\
-    Aufgrund den getroffenen Annahemn wird die Beschleunigung von 1.5 g als erste Abschätzung festgelegt. Hinsichtlich den grossen Unsicherheit der Annahmen wird die \emph{Abweichung} auf 0.4 geschätzt. Die \emph{Auswirkung} werden dabei mit einem Wert von 50 festgelegt was ein Risikowert von 20 ergibt.
+    Aufgrund den getroffenen Annahemn wird die Beschleunigung von 1.5 g als erste Abschätzung festgelegt. Hinsichtlich den grossen Unsicherheit der Annahmen wird die \emph{Ungenauigkeit} auf 0.4 geschätzt. Die \emph{Auswirkung} werden dabei mit einem Wert von 50 festgelegt was ein Risikowert von 20 ergibt.
 
     \item \textbf{1.2 Longitudinale Beschleunigung - Positiv (Erhöhen der Geschwindigkeit)}\\
     Longitudinale positive Beschleunigungen in Fahrtrichtung entstehen durch eine Erhöhung der Fahrgeschwindigkeit durch das Zugfahrzeug. Das \emph{Institut für Unfallanalysen Hamburg} \cite{Verz.3} benützt die Beschleunigung von Personenwagen von maximal 0.3 g und von Lastkraftwagen von 0.1 g, als Anhaltswerte.
 
-    Für das Lastenheft wird die Beschleunigung von 0.2 g gewählt. Sie wird höher als der Anhaltswert des Institut für Unfallanalysen Hamburg von 0.1 g gewählt, da das geplante Zugfahrzeug ein elektrisches ist, und dadurch höhere mögliche Beschleunigungen erwartet werden können. Die \emph{Abweichung} wird mit 0.2 als gering eingestuft. Ebenfalls wird die \emph{Auswirkung} von 20 als niedrig bewertet.
+    Für das Lastenheft wird die Beschleunigung von 0.2 g gewählt. Sie wird höher als der Anhaltswert des Institut für Unfallanalysen Hamburg von 0.1 g gewählt, da das geplante Zugfahrzeug ein elektrisches ist, und dadurch höhere mögliche Beschleunigungen erwartet werden können. Die \emph{Ungenauigkeit} wird mit 0.2 als gering eingestuft. Ebenfalls wird die \emph{Auswirkung} von 20 als niedrig bewertet.
 
     Longitudinale Beschleunigungen welche durch Unfälle jeglicher Art auftreten werden nicht berücksichtigt.
 
@@ -79,33 +79,50 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ''Fahr-Modus`` und ist in d
     Longitudinale Verögerungen entstehen durch abminderung der Fahrgeschwindigkeit. Die extremste graduelle Verzögerung entsteht dabei durch eine Notbremsung.\\
     \emph{Kudarauskas} \cite{Verz.1} zeigt bei seiner Analyse der Notbremsungen von Personenwagen, dass die maximalen Verzögerungn bei rund 0.9 g liegen. Das \emph{Institut für Unfallanalysen Hamburg} \cite{Verz.2} zeiht bei Gutachten die Vollverzögerung von 0.8 g für Personenwagen und 0.7 g für Lastkraftwagen als Standardwerte herbei.
 
-    Für die longitudinale Beschleunigung durch Bremsungen wird ein Wert von 0.7 g gewählt bei einer \emph{Abweichung} von 0.2 und einer \emph{Auswirkung} von 30.
+    Für die longitudinale Beschleunigung durch Bremsungen wird ein Wert von 0.7 g gewählt bei einer \emph{Ungenauigkeit} von 0.2 und einer \emph{Auswirkung} von 30.
 
     Longitudinale Verzögerungen welche durch Unfälle jeglicher Art auftreten werden nicht berücksichtigt.
 
     \item \textbf{1.4 Laterale Beschleunigung}\\
-    Laterale Beschleunigungen entstehen hauptsächlich beim Kurvenfahren und sind abhängig von der Geschwindigkeit mit welcher die Kurve durchfahren wird und des Kurvenradius.\\
+    Laterale Beschleunigungen entstehen vorallem beim Kurvenfahren und sind abhängig von der Geschwindigkeit mit welcher die Kurve durchfahren wird und des Kurvenradius.\\
     \emph{Hugemann} et al. \cite{Kurv.1} massen in einem Personenwagen auf einer Landstrasse laterale Beschleunigungen von 0.6 g. \emph{Xu} et al. \cite{Kurv.2} zeigten, dass die Mehrheit der gemessenen Beschleunigung in einem Personenwagen durch Kurvenfahrten in bergigem Gebiet über 0.5 g und maximale über 0.8 g liegen.
 
-    Da davon ausgegangen wird, dass mit dem Solar Butterfly die Kurven vorsichtiger, und somit tendenziell langsamer, durchfahren werden, wird die laterale Beschleunigung auf 0.5 g festgelegt. 
+    Da davon ausgegangen wird, dass mit dem Solar Butterfly die Kurven vorsichtiger, und somit tendenziell langsamer durchfahren werden als mit einem Personenwagen, wird die laterale Beschleunigung von 0.8 g als ein passenden Anhaltswert erachtet. Es wird erwatet, dass die nach \emph{Xu} et al. höher als 0.8 g liegende Beschleunigungen nicht erreicht werden. Die \emph{Ungenauigkeit} wird mit 0.1 als gering bewertet. Die \emph{Auswirkung} wird auf 70 geschätzt.
 
-    Schluss: Annahme: +-0.7, Max +-0.9 g, Risiko: 0.1 x 80
+    \item \textbf{1.5 Rotatorische Beschleunigung}\\
+    Rotatorische Beschleunigungen können durch eine in querrichtung unebene Strassen verursacht werden. Beim Überfahren einer solchen Strasse neigt sich der Solarbutterfly abwechslungsweise nach links und rechts, wodurch aufgrund von Trägheiten rotatorische Beschleunigungen auftreten. Um diese Beschleunigungen abschätzen zu können wird die folgende Berechnung durchgeführt:
+
+    Die folgende Gleichung beschreibt den Neigungswinkel $\varphi$ des Solar Butterflys in abhängigkeit der Zeit $t$:
+    \begin{equation}
+      \varphi(t) = \Delta \varphi \cdot \sin \left(\omega t \right)
+    \end{equation}
+
+    wobei $\Delta\varphi$ für die maximale Neigung steht und $\omega$ sich wie folgt berechnen lässt:
+    \begin{equation}
+      \omega = \frac{2\cdot \pi}{T}
+    \end{equation}
+    Wobei $T$ für die Dauer einer Schwingung (Neigung von rechts nach links und wieder zurück) steht.\\
+    Die Winkelbeschleunigung $\alpha$ ergibt sich aus der zweiten Ableitung von $\varphi(t)$ und lässt sich wie folgt berechnen:
+    \begin{equation}
+      \alpha(t) = \ddot \varphi(t) = -\Delta\varphi\:\omega^2 \cdot \sin \left(\omega t \right)
+    \end{equation}
+
+    Eine maximalen Neigung $\Delta \varphi$ von 10° und einer Schwingdauer von einer Sekunde ergibt eine maximale Winkelbeschleunigung von $6.9 \; \frac{rad}{s}$.\\
+    Da die realen Bedingungen einer solchen Belastung nur schwer abgeschätzt werden können wird die \emph{Ungenauigkeit} mit 0.3 hoch angesetzt. Ebenfalls können die Auswirkungen einer solchen Beschleunigung nur schwer beurteilt werden, weshalb die \emph{Auswirkung} auf 60 gesetzt wird.
   \end{description}
 
-  \paragraph{Belastung durch Wind}
-  \cite{Wind.1} Laterale Windgeschwindigkeiten von 108 km/h seien kritisch für Fahrzeuge auf trokener Strasse.\\
-  \cite{Wind.2} Bei Windgeschwindigkeiten von mehr als 80 km/h wird empfohlen nicht mehr zu Fahren. Windgeschwindigkeiten von 95 km/h sei genug um Wohnmobile umzustossen\\
-  \cite{Wind.3} Bei Windgeschwindigkeiten von mehr als 155 km/h können "high profile Trucks, Trailers and Busse" überkippen. Minimale OVERTURNING WIND SPEEDS von 108 km/h für 9 m langes Motor home und 160 km/h für ein 5m langes Wohnmobil.\\
+  \paragraph{Belastung durch Wind}\mbox{}\\
+  \emph{Sesar} et. al \cite{Wind.1} zeigen, dass laterale Windgeschwindigkeiten von 108 $\frac{km}{h}$ für Fahrzeuge auf trockener Strasse kritische seien.\\
+  Die Blog-Seite \emph{rvblogger.com} \cite{Wind.2} empfiehlt bei Windgeschwindigkeiten von mehr als 80 $\frac{km}{h}$ mit einem Wohnwagen nicht mehr zu Fahren. Windgeschwindigkeiten von 95 $\frac{km}{h}$ seien laut \emph{rvblogger.com} genug, um Wohnmobile umzustossen.\\
+  Bei Windgeschwindigkeiten von mehr als 155 km/h können laut \emph{Beasley} \cite{Wind.3} Lastwagen mit hohem Profil, Anhänger und Busse umkippen. Die berichteten minimale Überschlagswindgeschwindigkeiten sind 105 $\frac{km}{h}$ für ein 9 Meter langen Wohnwagen und 160 $\frac{km}{h}$ für ein 5 Meter langes Wohnmobil (Klasse B).
 
-  Schluss: bei 80km/h soll nicht mehr gefahren werden: Winddruck bei 100km/h\\
-  Definitive Windgeschw. zum kippen kann schlussendlich mit dem FEM ermittelt werden. Dies soll nur eine erste Annahme sein.
+  Für eine erste Abschätzung der zugelassenen Windgeschwindigkeit bei der Fahrt des Solar Butterfly wird sich an der Blog-Seite \emph{rvblogger.com} orientiert und die Geschwindigkeit von 80 $\frac{km}{h}$ als Limitte festgelegt. Für die Berechnung des Winddruckes wird die erhöhte Geschwindigkeit von 100 $\frac{km}{h}$ verwendet um Böhen und eventuelle Ungenauigkeiten in der Messung oder Abschätzung der Windgeschwindigkeiten abzudecken. Der Winddruck wird gemäss Formel \ref{Winddruck} berechnet.
+
   \begin{equation}
     \label{Winddruck}
-    W_D = c_p \: \frac{\rho}{2}\: v^2
+    P_W = c_p \: \frac{\rho}{2}\: v^2
   \end{equation}
-  $\rho = 1.2 \frac{kg}{m^3}$\\
-  $c_{p,Rechteck} = 1.05$\\
-  $W_D \:@\: 100 km/h= 486 \left[MPa \right]$
+  Wobei Die Dichte von Luft $\rho = 1.2 \frac{kg}{m^3}$ ist und der Strömungswiderstandskoeffizient einer Rechteckes $c_{p,Rechteck} = 1.05$ ist. Bei einer Windgeschwindigkeit von 100 $\frac{km}{h}$ ergibt sich ein Winddruck von $486 \left[MPa \right]$.
 
   \begin{description}
     \item \textbf{2.1 Wind von links} Der Winddruck von $999 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
@@ -114,7 +131,7 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ''Fahr-Modus`` und ist in d
   Schluss: Winddruck bei 100 km/h, Max. 120; Risiko: 0.2 x 10
   \end{description}
 
-  \paragraph{Neigung}
+  \paragraph{Neigung}\mbox{}\\
   Durch ein Absprache mit Palmer wurde eine zulässige Strassenneigung für den Solar Butterfly von 10° (17.5\%) definiert. Die Strasse auf den Furkapass hat zum Vergleich eine maximale Neigung von 6.3° (11\%). Die verschiedenen Fälle der Neigung treten nicht gleichzeigtig ein. Implementiert werden die Fälle im FEM indem die Richtung, in welcher die Erdbeschleunigung wirkt, verändert wird.
 
   \begin{description}
@@ -124,7 +141,7 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ''Fahr-Modus`` und ist in d
     \item \textbf{3.4 Neigung quer negativ} -10° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links.
   \end{description}
 
-  \paragraph{Mobiliar}
+  \paragraph{Mobiliar}\mbox{}\\
   50kg Mobiliar im Fahrzeug verteilt
   \begin{description}
     \item \textbf{4.1 Mobiliar}
@@ -153,13 +170,13 @@ Die Modi \emph{B1} und \emph{B2} beschreiben den Solar Butterfly während dem Au
 \label{Modi beim Ausfahren}
 \end{figure}
 
-\paragraph{Wind}
+\paragraph{Wind}\mbox{}\\
 \begin{description}
   \item \textbf{1.1 }
   \item \textbf{1.2 }
 \end{description}
 
-\paragraph{Neigung}
+\paragraph{Neigung}\mbox{}\\
 Mit Palmer wurde abgesprochen, dass der Boden, auf welchem der Solar Butterfly parkiert wird, die Neigung von 5° (8.8\%) nicht überschreiten darf. Die Implementierung dieser Fälle wird analog zu den Neigungsfällen 3.1 bis 3.4 im Modus \emph{A} durchgeführt.
 \begin{description}
   \item \textbf{2.1 Neigung längs positiv} +5° Neigung des Untergrundes in Fahrtrichtung.
@@ -168,7 +185,7 @@ Mit Palmer wurde abgesprochen, dass der Boden, auf welchem der Solar Butterfly p
   \item \textbf{2.4 Neigung quer negativ} -5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links.
 \end{description}
 
-\paragraph{Mobiliar}
+\paragraph{Mobiliar}\mbox{}\\
 \begin{description}
   \item \textbf{3.1 Mobiliar}
   \item \textbf{3.2 }
@@ -187,13 +204,13 @@ Kein einzelner Lastfall für den Wind. Wind ist in den Lastfällen der Panelen e
   \label{Modus C}
 \end{center}
 
-\paragraph{Personenlast}
+\paragraph{Personenlast}\mbox{}\\
 \begin{description}
   \item \textbf{1.1 }
   \item \textbf{1.2 }
 \end{description}
 
-\paragraph{Neigung}
+\paragraph{Neigung}\mbox{}\\
 Die Lastfälle der Neigung sind analog zum den Lastfällen der Neigung im Modus \emph{B}.
 \begin{description}
   \item \textbf{2.1 Neigung längs positiv} +5° Neigung des Untergrundes in Fahrtrichtung.
@@ -202,25 +219,25 @@ Die Lastfälle der Neigung sind analog zum den Lastfällen der Neigung im Modus 
   \item \textbf{2.4 Neigung quer negativ} -5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links.
 \end{description}
 
-\paragraph{Mobiliar Hauptmodul}
+\paragraph{Mobiliar Hauptmodul}\mbox{}\\
 \begin{description}
   \item \textbf{3.1 }
   \item \textbf{3.2 }
 \end{description}
 
-\paragraph{Mobiliar Seitenteil}
+\paragraph{Mobiliar Seitenteil}\mbox{}\\
 \begin{description}
   \item \textbf{4.1 }
   \item \textbf{4.2 }
 \end{description}
 
-\paragraph{Panelen Klein}
+\paragraph{Panelen Klein}\mbox{}\\
 \begin{description}
   \item \textbf{5.1 }
   \item \textbf{5.2 }
 \end{description}
 
-\paragraph{Panelen Gross}
+\paragraph{Panelen Gross}\mbox{}\\
 \begin{description}
   \item \textbf{6.1 }
   \item \textbf{6.2 }
@@ -228,8 +245,8 @@ Die Lastfälle der Neigung sind analog zum den Lastfällen der Neigung im Modus 
 
 
 \subsection{Failuremodes}
-\paragraph{Temperatur}
-\paragraph{Punktlast auf Boden}
+\paragraph{Temperatur}\mbox{}\\
+\paragraph{Punktlast auf Boden}\mbox{}\\
 
 
 
