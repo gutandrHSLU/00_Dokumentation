@@ -1,12 +1,10 @@
 \section{Einleitung}
 Der Klimawandel äussert sich in der Schweiz überdurchschnittlich. So ist die mittlere Jahrestemperatur in der Schweiz seit Messbeginn im Jahre 1864 um 2 °C gestiegen, was rund doppelt so stark wie ist das globalen Mittel. In der Schweiz wird rund ein Drittel aller Treibhausgasemissionen durch den Verkehr (ohne internationler Flug- und Schiffsverkehr) verursacht \cite{BAFU}. Um das \emph{Netto-Null-Ziel} der \emph{Langfristigen Klimastrategie der Schweiz} zu erfüllen, müssen daher unteranderem im Verkehrssektor Veränderungen vorgenommen und Entwicklungen getätigt werden.\\
 Louis Palmer, ein Schweizer Umweltaktivist und ''\emph{Macher}´´,  umrundete im Jahr 2004 als erster mit dem Solarfahrzeug \emph{Solartaxi} die Erde und ist somit ein \\
-
-Sein neues Projekt ist der \emph{Solar Butterfly} - ein autarker Wohnwagen, mit welchem er die Welt erneut umrunden will. Dieses mal jedoch mit ''etwas mehr Komfort´´. Seine Vision ist es, ein Wohnwagen, mit zwei Ausziehbaren Wohn-Modulen und rund 100 $m^2$ integrierte Photovoltaik-Fläche, zu realisieren. Im Rahmen dieser Bachelorarbeit soll, zusammen mit drei weiteren Studenten der HSLU, seine Vision in die Realität umgesetzt werden.\\
+Sein neues Projekt ist der \emph{Solar Butterfly} - ein autarker Wohnwagen, mit welchem er ''eine Reise zu den Klimalösungen dieser Welt [...] im ersten solar betriebenen <<Mobile Home>> der Welt`` antreten will. Die erneute Weltumrundung soll dieses mal mit ''etwas mehr Komfort´´ geschehen. Seine Vision ist es, ein Wohnwagen, mit zwei Ausziehbaren Wohn-Modulen und rund 100 $m^2$ integrierte Photovoltaik-Fläche, zu realisieren. Im Rahmen dieser Bachelorarbeit soll, in Zusammenarbeit mit drei weiteren Studenten der HSLU, seine Vision in die Realität umgesetzt werden.\\
 Das Projekt wurde neben dieser Arbeit in die weiteren Teilgebiete \emph{Auslegung Klappmechanismen}, \emph{Auslegung Antriebstechnik} und \emph{Auslegung Solar Butterfly (Globales CAD)} eingeteilt.\\
-Das Auslegen der Klappmechanismen beinhaltet das Entwerfen und Dimensionieren aller beweglichen Teilen wie die klappbaren Panelen und den Ausfahrmechanismus der Seitenmodulen. Das Arbeit \emph{Auslegen der Antriebstechnik} befasst sich mit der Tehnik, mit welcher die beweglichen Bauteile in Bewegung gesetzt werden. Im Teilgebiet \emph{Auslegung Solar Butterfly (Globales CAD)} werden die jeweiligen Teilgebiete zusammengeführt. Ebenfalls beinhaltet diese Teilgebiet das Erstellen eines globalen CAD-Modells, zusammentragen der Anforderungen sowie die Risikobewertung.\\
-
-Diese Arbeit, welche zum Teilgebiet \emph{Auslegung Grundstruktur Solar Butterfly} gehört, befasst sich mit der Ausarbeitung eines detailiertn Lastenheftes, dem Design und den Festigkeitsberechnungen. -> Komponenten und Strukturen.
+Das Auslegen der Klappmechanismen beinhaltet das Entwerfen und Dimensionieren aller beweglichen Teilen wie die klappbaren Panelen und den Ausfahrmechanismus der Seitenmodulen. Das Arbeit \emph{Auslegen der Antriebstechnik} befasst sich mit der Technik, mit welcher die beweglichen Bauteile in Bewegung gesetzt werden. Im Teilgebiet \emph{Auslegung Solar Butterfly (Globales CAD)} werden die jeweiligen Teilgebiete zusammengeführt. Ebenfalls beinhaltet diese Teilgebiet das Erstellen eines globalen CAD-Modells, zusammentragen der allgemeinen Anforderungen sowie eine Risikobewertung.\\
+Diese Arbeit, welche zum Teilgebiet \emph{Auslegung Grundstruktur Solar Butterfly} gehört, befasst sich mit der Festlegung der Auslegungskriterien, der Ausarbeitung eines detailierten Lastenheftes sowie die Betrachtung der Grundstruktur
 
 \subsection{Aufgabenstellung}
 Der Fokus dieses Teils der Arbeit liegt im Ausarbeiten der Auslegungskriterien (Lastenheft) und der Dimensionierung der Grundstruktur inklusive Lasteinleitungen.
@@ -16,66 +14,57 @@ Zulässige Festigkeitswerte sollen abhängig von der gewählten Bauweise abgesch
   - Schnittgrössen für Handrechnungen\\
   - ("Design-Allowables") und mittels Test bestätigt
 
-\subsection{Vorgehen}
-Anforderungen: (Welcher Kriterien gilt es zu erfüllen? Was ist die definition von "nicht aushalten"?)
-  Festigkeit\\
-  Sicherheit gegen Fliessen\\
-  Steifigkeit\\
-  Sicherheit\\
-  Dauerfestigkeit 200'000km Fahren\\
-  Muss den Lasten im Lastenheft standhalten können.\\
+\subsection{Vorgehen und Methodik}
+In diesem Kapitel wird beschrieben, wie beim Lösen der Aufgabenstellung vorgegangen wurde. Die Struktur des vorliegenden Dokumentes entspricht dabei dem Vorgehen\\
 
-Anforderungen/Auslegungskriterien an Materialien und Komponenten: (Was dürfen spezifische Komponenten aushalten? Wie werden diese überprüft? Designallowables)
-  - Aluminiumstrukturen:\\
-  - Platten:\\
-  - Verbindungen:\\
-  - Dauerfestigkeit:\\
+In einem ersten Schritt wird definiert, welchen Anforderungen der Solar Butterfly, von einem Festigkeits-Standpunkt aus betrachtet, gerecht werden muss. Weiter werden die Auslegungskriterien bestimmt. Sie beschreiben im Detail, nach welchen Kriterien die einzelnen Komponenten des Solar Butterflys ausgelegt werden. So wird zum Beispiel beschrieben, welche Kriterien die Sandwichplatten erfüllen müssen, dass diese bei Belastungen auf Druck nicht Knicken.\\
+Anschliessend wurde ein Lastenheft erstellt, welche eine Zusammenstellung von verschiedenen Lastfällen darstellt, welchen der Solar Butterfly ausgesetzt werden könnte. Für diesee Lastfällen - und Kombinationen davon - muss der Solar Butterfly ausgelegt werden.\\
+Als nächster Schritt wurden die festigkeitstechnischen Funktionen der einzelnen Komponenten analysiert. Es wird zum Beispiel analysiert welche Funktionen das Dach des Solar Butterfly übernehmen muss und wie dieses Idealisiert betrachtet werden kann. Das Ergebniss dieser Analyse ist das erlangte Verständniss für Belastungsarten und idealisierte Kraftverläufe durch die Komponenten und Struktur des Solar Butterflys für verschiedene Lastfälle. Mit der Hilfe dieser Analyse können die verschiedenen Komponenten grob ausgelegt und Verbindungen optimal konstruiert werden.\\
+In einem letzten Schritt wird der Solar Butterfly in FEM-Analysen verschiedenen Lastkombinationen ausgesetzt um so Lastpfade und Schnittkräfte zu bestimmen, anhand welche die Komponenten definitiv ausgelegt werden können. Weiter können in den FEM-Analysen für die Funktionstauglichkeit kritische Verformungen festgestellt werden, welche in der Konstruktion berücksichtigt werden müssen.
 
-Gloabales FEM-Modell für die Ermittlung der Lastpfade\\
-Überprüfung einzelner ausschnitte des Butterflys gemäss Kriterien.
 
-\subsection{Theorie}
-Leichtbau:
-
-Als Einschränkung ist dabei zu berücksichtigen, dass hierdurch weder die Funktion noch die Sicherheit und Langlebigkeit /s. DIN EN 1993/ beeinträchtigt werden dürfen. Maßnahmen, mit denen man dies heute zu erreichen versucht, sind:
-- Umsetzung des Integrationsprinzips,
-- Wahl leichter und hochfester Werkstoffe,
-- neue Herstelltechnologien
-- analytische Beherrschung der Beanspruchungs- bzw. Instabilitätsfälle durch hochwertige Analysemethoden (FEM, BEM).
-
-Im Zuge der Umsetzung dieser Prinzipien kommen bestimmte Entwurfsstrategien /BLE 74/ zum Tragen, deren Merkmale sich verkürzt klassifizieren lassen in
-  einen Form- oder Funktionsleichtbau, bei dem integrative Konstruktionslösungen, dünnwandige Querschnittsgeometrien und eindeutige Kraftleitungspfade umgesetzt werden;
-  einen Stoffleichtbau, bei dem spezifisch schwere Werkstoffe durch leichtere Werkstoffe mit möglichst hohen Gütekennzahlen substituiert werden;
-  einen Fertigungsleichtbau, in dem alle technologischen Möglichkeiten ausgeschöpft werden, um das Ziel der Funktionsintegration (Einstückigkeit) bei geringstem Materialeinsatz und minimalem Fügeaufwand zu realisieren
-und
-  einen Sparleichtbau, mit dem Ziel hohe Kosten zu vermeiden durch eine gerade noch ausreichende Werkstoffqualität, minimalem Werkstoffeinsatz und vereinfachte Herstellung.
-(S16)
-
-Da ein typisches Einsatzgebiet von Leichtbaukonstruktionen die Verkehrstechnik (Automobilbau, Schienen- und Luftfahrzeuge) ist, dürfen Leichtbaukonstruktionen nicht „unsicherer“ als vergleichbare Massivkonstruktionen sein. Dies bedingt eine sorgfältige Auslegung auf Steifigkeit (Instabilitäten), Bruchfestigkeit sowie Zuverlässigkeit und Nutzungsdauer. (S20)
-
-Die Philosophie des „safe-life-quality“, die absolute Schadensfreiheit für das ganze Leben verlangt, und die Philosophie des „fail-safe-quality“, die Schadenstoleranz und hinreichende Resttragfähigkeit voraussetzt. Dem Ziel nach sollten alle erforderlichen Leichtbaumaßnahmen begründbar sein.(S21)
-Auslegungsphilosophie:
-  Safe-Life-Quality:
-    Absolute Schadensfreiheit für die angestrebte Lebensdauer
-    Statistische Ausfallwahrscheinlichkeit
-  Fail-Safe-Quality:
-    Schadenstolerant
-    Hinreichende Resttragfähigkeit
-
-aufeinander aufbauende Arbeitsschritte mit etwa folgenden Inhalten:
-  - Klären der Aufgabenstellung: Informationsbeschaffung über die Anforderungen einer Aufgabe und Erstellung einer Anforderungsliste; Eingrenzung bestehender Bedingungen und ihre Bewertung für die Lösungserfüllung; Festlegung einer Lösungsrichtung; technisch-wirtschaftliche Konsequenzen.
-  - Konzipieren (Findung einer prinzipiellen Lösung): Hinterfragung der Aufgabe und Sichten des Kernproblems; Zerlegung des Kernproblems in untergeordnete Teilprobleme; Suche nach Lösungswegen zur Erfüllung der Teilprobleme; Kombination der Teilproblemlösungen zu Lösungsansätzen für das Kernproblem; Bewertung der Lösungen; Erstellung von Konzeptskizzen.  Voraussetzungen einer sinnvollen Konzepterstellung sind Kenntnisse über die Größe und Richtung der wirkenden Kräfte, die Möglichkeiten des gewählten Werkstoffs, die Bauweiseneigenschaften und eine angepasste Vordimensionierung. Ein gutes Konzept ist letztlich auch der Garant für eine innovative Problemlösung. Der Konzeptentwicklung sollte daher große Bedeutung beibemessen werden.
-  - Entwerfen (gestalterische Konkretisierung einer Lösung): maßstäbliche Ausarbeitung der Konzeptskizzen zu Bauvarianten; Bewertung, Vereinfachung und Auswahl einer Variante; Überarbeitung zu einem Gesamtentwurf und
-  - Ausarbeiten (fertigungs- und montagegerechte Festlegung einer Lösung): endgültige Bestimmung der Geometrie, Dimensionen, Werkstoffe und Herstellung, um die notwendigen Fertigungsunterlagen erstellen zu können.
-
-Hieran schließen sich eine oder mehrere Schleifen an, die der Optimierung der Lösung dienen. Dem zuzuordnende Phasen sind:
-  - Prototypen-Herstellung (Kontrolle der Funktionen, Montage etc.),
-  - Testprozeduren (Überprüfung der Tragfähigkeit, Zuverlässigkeit, Lebensdauer).
-
-FEM
-  Die FEM ist eine rechnerorientierte Methode, die softwaretechnisch über einen Vorrat an mechanischen Grundelementen (Balken, Scheibe, Platte, Schale, Volumina), einen Zusammenbau- und einen Lösungsalgorithmus verfügt.
-
-S206 Abb.
+% \subsection{Theorie}
+% Leichtbau:
+%
+% Als Einschränkung ist dabei zu berücksichtigen, dass hierdurch weder die Funktion noch die Sicherheit und Langlebigkeit /s. DIN EN 1993/ beeinträchtigt werden dürfen. Maßnahmen, mit denen man dies heute zu erreichen versucht, sind:
+% - Umsetzung des Integrationsprinzips,
+% - Wahl leichter und hochfester Werkstoffe,
+% - neue Herstelltechnologien
+% - analytische Beherrschung der Beanspruchungs- bzw. Instabilitätsfälle durch hochwertige Analysemethoden (FEM, BEM).
+%
+% Im Zuge der Umsetzung dieser Prinzipien kommen bestimmte Entwurfsstrategien /BLE 74/ zum Tragen, deren Merkmale sich verkürzt klassifizieren lassen in
+%   einen Form- oder Funktionsleichtbau, bei dem integrative Konstruktionslösungen, dünnwandige Querschnittsgeometrien und eindeutige Kraftleitungspfade umgesetzt werden;
+%   einen Stoffleichtbau, bei dem spezifisch schwere Werkstoffe durch leichtere Werkstoffe mit möglichst hohen Gütekennzahlen substituiert werden;
+%   einen Fertigungsleichtbau, in dem alle technologischen Möglichkeiten ausgeschöpft werden, um das Ziel der Funktionsintegration (Einstückigkeit) bei geringstem Materialeinsatz und minimalem Fügeaufwand zu realisieren
+% und
+%   einen Sparleichtbau, mit dem Ziel hohe Kosten zu vermeiden durch eine gerade noch ausreichende Werkstoffqualität, minimalem Werkstoffeinsatz und vereinfachte Herstellung.
+% (S16)
+%
+% Da ein typisches Einsatzgebiet von Leichtbaukonstruktionen die Verkehrstechnik (Automobilbau, Schienen- und Luftfahrzeuge) ist, dürfen Leichtbaukonstruktionen nicht „unsicherer“ als vergleichbare Massivkonstruktionen sein. Dies bedingt eine sorgfältige Auslegung auf Steifigkeit (Instabilitäten), Bruchfestigkeit sowie Zuverlässigkeit und Nutzungsdauer. (S20)
+%
+% Die Philosophie des „safe-life-quality“, die absolute Schadensfreiheit für das ganze Leben verlangt, und die Philosophie des „fail-safe-quality“, die Schadenstoleranz und hinreichende Resttragfähigkeit voraussetzt. Dem Ziel nach sollten alle erforderlichen Leichtbaumaßnahmen begründbar sein.(S21)
+% Auslegungsphilosophie:
+%   Safe-Life-Quality:
+%     Absolute Schadensfreiheit für die angestrebte Lebensdauer
+%     Statistische Ausfallwahrscheinlichkeit
+%   Fail-Safe-Quality:
+%     Schadenstolerant
+%     Hinreichende Resttragfähigkeit
+%
+% aufeinander aufbauende Arbeitsschritte mit etwa folgenden Inhalten:
+%   - Klären der Aufgabenstellung: Informationsbeschaffung über die Anforderungen einer Aufgabe und Erstellung einer Anforderungsliste; Eingrenzung bestehender Bedingungen und ihre Bewertung für die Lösungserfüllung; Festlegung einer Lösungsrichtung; technisch-wirtschaftliche Konsequenzen.
+%   - Konzipieren (Findung einer prinzipiellen Lösung): Hinterfragung der Aufgabe und Sichten des Kernproblems; Zerlegung des Kernproblems in untergeordnete Teilprobleme; Suche nach Lösungswegen zur Erfüllung der Teilprobleme; Kombination der Teilproblemlösungen zu Lösungsansätzen für das Kernproblem; Bewertung der Lösungen; Erstellung von Konzeptskizzen.  Voraussetzungen einer sinnvollen Konzepterstellung sind Kenntnisse über die Größe und Richtung der wirkenden Kräfte, die Möglichkeiten des gewählten Werkstoffs, die Bauweiseneigenschaften und eine angepasste Vordimensionierung. Ein gutes Konzept ist letztlich auch der Garant für eine innovative Problemlösung. Der Konzeptentwicklung sollte daher große Bedeutung beibemessen werden.
+%   - Entwerfen (gestalterische Konkretisierung einer Lösung): maßstäbliche Ausarbeitung der Konzeptskizzen zu Bauvarianten; Bewertung, Vereinfachung und Auswahl einer Variante; Überarbeitung zu einem Gesamtentwurf und
+%   - Ausarbeiten (fertigungs- und montagegerechte Festlegung einer Lösung): endgültige Bestimmung der Geometrie, Dimensionen, Werkstoffe und Herstellung, um die notwendigen Fertigungsunterlagen erstellen zu können.
+%
+% Hieran schließen sich eine oder mehrere Schleifen an, die der Optimierung der Lösung dienen. Dem zuzuordnende Phasen sind:
+%   - Prototypen-Herstellung (Kontrolle der Funktionen, Montage etc.),
+%   - Testprozeduren (Überprüfung der Tragfähigkeit, Zuverlässigkeit, Lebensdauer).
+%
+% FEM
+%   Die FEM ist eine rechnerorientierte Methode, die softwaretechnisch über einen Vorrat an mechanischen Grundelementen (Balken, Scheibe, Platte, Schale, Volumina), einen Zusammenbau- und einen Lösungsalgorithmus verfügt.
+%
+% S206 Abb.
 
 \subsection{Der Solar Butterfly}
 Ziel: Überblick vermitteln. Funktionalität veranschaulichen, Begriffe Definieren.
@@ -92,5 +81,5 @@ Alles Ausgefahren, Stützen unten.
 
 Weitere Zustände beim Übergang vom einen zum anderen Zustand. (Einseitig ausgefahren stützen unten oder eben nicht unten.)
 
-Koordinaten System Definieren
+Koordinatensystem Definieren
 \newpage

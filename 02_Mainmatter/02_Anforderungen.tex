@@ -1,4 +1,4 @@
-\section{Anforderungen und Methodik}
+\section{Anforderungen und Auslegung}
 In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. In einem ersten Schritt werden auf die allgemeinen Anforderungen des Solar Butterflys und anschliessen auf die daraus folgenden Auslegungskriterien der einzelnen Komponenten eingegangen. Es wird beschrieben, was die Anforderungen konkret für die einzelnen Komponenten bedeuten und wie gewährleistet wird, dass diese erfüllt werden.\\
 Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen eingegangen, welche für die strukturelle Auslegung und Festigketisberechnungen relevant sind. Die komplette Liste der Anforderungen an den Solar Butterfly ist in der Arbeit von [HUBER] zu finden.
 
@@ -9,8 +9,6 @@ Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen eingegangen,
 
 \subsection{Auslegungskriterien}
 Nachdem die allgemeinen Kriterien für den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel behandelt, was die Anforderungen konkret für die einzelnen Komponenten und Strukturelementen bedeutet. Es wird beschrieben mit welchen Methoden die Auslegung angegangen wird und welche Vereinfachungen getroffen werden.\\
-Verwendete Komponenten erwähnen? Sandwich, Profile usw...?\\
-Grund Struktur erläutern... Boden, Chassis, Wände, Panelen usw.\\
 
 \paragraph{Dauerfestigkeit}
 Die Dauerfestigkeit des Solar Butteflys wird erreicht, indem durch entsprechendes Design, Spannungskonzentrationen vermieden werden. Weiter wird der Solar Butterfly so ausgelegt, dass dieser bei 50\% der Lasten aus dem Lastenheft, mit einem R von 0, dauerfest ist. Bei den Sandwichstrukturen wird dabei lediglich die Deckschicht auf die Dauerfestigkeit ausgelegt.
@@ -18,24 +16,22 @@ Die Dauerfestigkeit des Solar Butteflys wird erreicht, indem durch entsprechende
 \paragraph{Sicherheitsfaktor}
 SF = 1.5
 
-
-
   \subsubsection{Aluminiumstrukturen}
-  Die Aluminiumstrukturen werden so ausgelegt, dass diese genügend Sicherheiten gegen Fliessen und Knickung aufweisen.
-  % Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung.
+  Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung. Die Aluminiumstrukturen werden so ausgelegt, dass diese genügend Sicherheiten gegen Fliessen und Knickung aufweisen.
+
   \paragraph{Sicherheit gegen Fliessen}
-  Um die Sicherheit eines Strukturelementes gegen Fliessen zu gewährleisten, wird überprüft, ob die \emph{Von Mises}-Vergleichsspannung kleiner als die zulässige Spannung ist, wobei sich die zulässige Spannung aus der Dehngrenze des gewählten Materials und einem Sicherheitsfaktor zusammensetzt. Die \emph{Von Mises}-Vergleichsspannung kann gemäss  der Formel \ref{Von Mises} berechet werden \cite{Baertsch}.
+  Um die Sicherheit eines Strukturelementes gegen Fliessen zu gewährleisten, wird überprüft, ob die \emph{Von Mises}-Vergleichsspannung kleiner als die zulässige Spannung ist, wobei sich die zulässige Spannung aus der Dehngrenze des gewählten Materials und einem Sicherheitsfaktor zusammensetzt. Die \emph{Von Mises}-Vergleichsspannung kann gemäss der Formel \ref{Von Mises} berechet werden \cite{Baertsch}.
   \begin{equation}
     \label{Von Mises}
     \sigma_{zul} \geq \sigma_v = \sqrt{\sigma_x^{2}-\sigma_x \cdot \sigma_y + \sigma_y^2 + 3\tau^2}
   \end{equation}
-  Wobei die Annahmen getroffen werdenn, dass es sich um einen ebenen Spannungszustand handelt und die angeifenden Lasten dem selben Lastfall angehören.
+  Wobei die Annahmen getroffen werden, dass es sich um einen ebenen Spannungszustand handelt und die angeifenden Lasten dem selben Lastfall angehören.
 
   \paragraph{Knicken}
   Wird durch design verhindert (?)
 
   \subsubsection{Sandwichstrukturen}
-  Versagenskriterien der Sandwichstrukturen können gemäss \cite{ETH} in die beiden Kategoriene \emph{Festigkeitsprobleme} und \emph{Stabilitätsprobleme} eingeteilt werden. Zu den Festigkeitsproblemen gehören;
+  Versagenskriterien der Sandwichstrukturen können in die beiden Kategorien \emph{Festigkeitsprobleme} und \emph{Stabilitätsprobleme} eingeteilt werden \cite{ETH}. Zu den Festigkeitsproblemen gehören;
   \begin{itemize}
     \item Fliessen der Deckschicht,
     \item Schubbruch der Kernschicht,
@@ -51,17 +47,14 @@ SF = 1.5
   \end{itemize}
 
   Die auszulegenden Sandwichstrukturen werden gegenüber diesen Festigkeits und Stabilitätsproblemen abesichert. Um den Rechenaufwand und die Komplexität zu verringern werden Annahmen und Vereinfachungen getroffen.
-
-    \paragraph{Annahmen und Vereinfachungen}
-    Für die Auslegung von Sandwichstrukturen können gemäss \cite{ETH} und Klein \cite{klein} folgende Annahmen getroffen werden;
-    \begin{itemize}
-      \item linear elastische und isentrope Materialverhalten,
-      \item Eigenbiegesteifigkeiten der Deckschichten sind vernachlässigbar,
-      \item Dehnsteifigkeit der Kernschicht ist vernachlässigbar und
-      \item die Kernschicht lässt sich nicht zusammendrücken.
-    \end{itemize}
-
-    Aus den getroffenen Annahmen reulstiert ein vereinfachter Spannungszustand welcher besagt, dass die Deckschichten jeweils die Normalkräfte und die Kernschichten die Schubkräfte aufnehmen. (Sandwichmembrantheorie)
+  Für die Auslegung von Sandwichstrukturen können folgende Annahmen getroffen werden \cite{ETH}\cite{klein};
+  \begin{itemize}
+    \item linear elastische und isentrope Materialverhalten,
+    \item Eigenbiegesteifigkeiten der Deckschichten sind vernachlässigbar,
+    \item Dehnsteifigkeit der Kernschicht ist vernachlässigbar und
+    \item die Kernschicht lässt sich nicht zusammendrücken.
+  \end{itemize}
+  Aus den getroffenen Annahmen reulstiert ein vereinfachter Spannungszustand welcher besagt, dass die Deckschichten jeweils die Normalkräfte und die Kernschichten die Schubkräfte aufnehmen. (Sandwichmembrantheorie)
 
     \paragraph{Festigkeitsprobleme}
     Aus den getroffenen Annahmen und Vereinfachungen lassen sich die Formeln \ref{Spannung in Deckschicht} und \ref{Schubspannungen im Kern} herleiten. Mit der Formel \ref{Spannung in Deckschicht} lassen sich die Spannungen in den Deckschichten berechnen. Die Dicke der Deckschicht wird so gewählt, dass die zulässige Spannung höher liegt als jene, welche in der Deckschicht herrscht.
