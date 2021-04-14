@@ -116,23 +116,24 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in d
   Die Blog-Seite \emph{rvblogger.com} \cite{Wind.2} empfiehlt bei Windgeschwindigkeiten von mehr als 80 $\frac{km}{h}$ mit einem Wohnwagen nicht mehr zu Fahren. Windgeschwindigkeiten von 95 $\frac{km}{h}$ seien laut \emph{rvblogger.com} genug, um Wohnmobile umzustossen.\\
   Bei Windgeschwindigkeiten von mehr als 155 km/h können laut \emph{Beasley} \cite{Wind.3} Lastwagen mit hohem Profil, Anhänger und Busse umkippen. Die berichteten minimale Überschlagswindgeschwindigkeiten sind 105 $\frac{km}{h}$ für ein 9 Meter langen Wohnwagen und 160 $\frac{km}{h}$ für ein 5 Meter langes Wohnmobil (Klasse B).
 
-  Für eine erste Abschätzung der zugelassenen Windgeschwindigkeit bei der Fahrt des Solar Butterfly wird sich an der Blog-Seite \emph{rvblogger.com} orientiert und die Geschwindigkeit von 80 $\frac{km}{h}$ als Limitte festgelegt. Für die Berechnung des Winddruckes wird die erhöhte Geschwindigkeit von 100 $\frac{km}{h}$ verwendet um Böhen und eventuelle Ungenauigkeiten in der Messung oder Abschätzung der Windgeschwindigkeiten abzudecken. Der Winddruck wird gemäss Formel \ref{Winddruck} berechnet.
+  Für eine erste Abschätzung der zugelassenen Windgeschwindigkeit bei der Fahrt des Solar Butterfly wird sich an der Blog-Seite \emph{rvblogger.com} orientiert und die Geschwindigkeit von 80 $\frac{km}{h}$ als Limitte festgelegt. Für die Berechnung der durch den Wind entstehenden Belastung, wird der Solar Butterfly vereinfacht als noraml angeströmtes Rechteck betrachtet. Für die Berechnung des Winddruckes wird die erhöhte Geschwindigkeit von 100 $\frac{km}{h}$ verwendet um Böhen und eventuelle Ungenauigkeiten in der Messung oder Abschätzung der Windgeschwindigkeiten abzudecken. Der Winddruck wird gemäss Formel \ref{Winddruck} berechnet.
 
   \begin{equation}
     \label{Winddruck}
     P_W = c_p \: \frac{\rho}{2}\: v^2
   \end{equation}
-  Wobei Die Dichte von Luft $\rho = 1.2 \frac{kg}{m^3}$ ist und der Strömungswiderstandskoeffizient einer Rechteckes $c_{p,Rechteck} = 1.05$ ist. Bei einer Windgeschwindigkeit von 100 $\frac{km}{h}$ ergibt sich ein Winddruck von $486 \left[MPa \right]$.
+
+  Wobei für die Dichte von Luft $\rho$ ein Wert von $1.2 \frac{kg}{m^3}$ und für den Strömungswiderstandskoeffizient eines Rechteckes $c_{p,Rechteck}$ ein Wert von $1.05$ gewählt wird. Bei einer Windgeschwindigkeit von 100 $\frac{km}{h}$ ergibt sich gemässt der Gleichung \ref{Winddruck} ein Winddruck von $486 \frac{N}{m^2}$.
+
+  Da es sich hierbei um eine grobe Idealsierung handelt und zum Beispiel lokale Geschwindigkeitserhöhungen oder Turbulenzen vernachlässigt werden, wird die \emph{Ungenauigkeit} auf 0.4 gesetzt. Die \emph{Auswirkung} wird jedoch eher tief, mit dem Wert 10 bewertet.
 
   \begin{description}
-    \item \textbf{2.1 Wind von links} Der Winddruck von $999 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
-    \item \textbf{2.2 Wind von rechts} Der Winddruck von $999 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
-
-  Schluss: Winddruck bei 100 km/h, Max. 120; Risiko: 0.2 x 10
+    \item \textbf{2.1 Wind von links}\\ Der Winddruck von $486 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
+    \item \textbf{2.2 Wind von rechts}\\ Der Winddruck von $486 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
   \end{description}
 
   \paragraph{Neigung}\mbox{}\\
-  Durch ein Absprache mit Palmer wurde eine zulässige Strassenneigung für den Solar Butterfly von 10° (17.5\%) definiert. Die Strasse auf den Furkapass hat zum Vergleich eine maximale Neigung von 6.3° (11\%). Die verschiedenen Fälle der Neigung treten nicht gleichzeigtig ein. Implementiert werden die Fälle im FEM indem die Richtung, in welcher die Erdbeschleunigung wirkt, verändert wird.
+  Mittels einer Absprache mit \emph{Palmer} wurde eine zulässige Strassenneigung für den Solar Butterfly von 10° (17.5\%) definiert. Die Strasse auf den Furkapass hat zum Vergleich eine maximale Neigung von 6.3° (11\%). Die verschiedenen Lastfälle der Neigung treten nicht gleichzeigtig ein. Implementiert werden die Fälle im FEM indem die Richtung, in welcher die Erdbeschleunigung wirkt, verändert wird. Die \emph{Ungenauigkeit} und die \emph{Auswirkung} werden tief mit den Werten 0.1  und 10 bewertet.
 
   \begin{description}
     \item \textbf{3.1 Neigung längs positiv} +10° Neigung des Untergrundes in Fahrtrichtung.
@@ -142,42 +143,54 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in d
   \end{description}
 
   \paragraph{Mobiliar}\mbox{}\\
-  50kg Mobiliar im Fahrzeug verteilt
+  Gemäss der Anforderungsliste werden sich bis zu 50 kg Mobiliar im Solar Butterfly befinden. Während der Fahrt (Modus A) befindet sich das Mobiliar an der Seitenwand im inneren Seitenmodul.
   \begin{description}
-    \item \textbf{4.1 Mobiliar}
-    \item \textbf{4.2 }
+    \item \textbf{4.1 Mobiliar}\\
+    !!!!! Wie wird das im FEM gemacht? !!!!!
   \end{description}
 
 
-\subsection{Modus B1 und B2: Ausfahren}
-Die Modi \emph{B1} und \emph{B2} beschreiben den Solar Butterfly während dem Ausfahrvorgang der Seitenmodule. Im Modus \emph{B1} sind die Stützen am Chassis unten und das grosse Seitenmodul (In der Abbildung \ref{Modus B1} orange dargestellt) ist ausgefahren. Im Modus \emph{B2} sind zusätzlich die Stützen am grossen Seitenmodul unten und das kleine Seitenmodul (In der Abbildung \ref{Modus B2} dunkelblau dargestellt) ist ausgefahren. Auch in diesen Modi herrscht die Erdbeschleunigung von 1g, welche wiederum nicht als Lastfall aufgeführt wird. Während dem Ausfahrvorgang befinden sich keine Personen im Fahrzeug.
+\subsection{Modus B1, B2 und B3: Ausfahren}
+Die Modi \emph{B1}, \emph{B2} und \emph{B3} beschreiben den Solar Butterfly während dem Ausfahrvorgang der Seitenmodule. Im Modus \emph{B1} sind die Stützen am Chassis unten, alle Seitenmodule und Panelen sind Eingefahren. Dieser Modus stellt den Solar Butterfly im ``Parkierten'' Zustand dar. Bei extremen Umwelteinflüssen wie Schnefall oder starker Wind, stellt der Modus \emph{B1} den geschütztesten Zustand dar und muss somit diesen extremen Umwelteinflüssen stand halten können. Im Modus \emph{B2} ist, zusätzlich zu den Stützen am Chassis, das grosse Seitenmodul (In der Abbildung \ref{Modus B2} orange dargestellt) ausgefahren. Im Modus \emph{B3} sind zusätzlich die Stützen am grossen Seitenmodul unten und das kleine Seitenmodul (In der Abbildung \ref{Modus B3} dunkelblau dargestellt) ist ausgefahren.
+Auch in diesen drei Modi herrscht die Erdbeschleunigung von 1 g, welche wiederum nicht als Lastfall aufgeführt wird. Während dem Ausfahrvorgang befinden sich keine Personen im Fahrzeug und das Mobiliar befindet sich an der dafür vorgesehenen stellen, wie dies im Modus \emph{A} zuvor bereits der fall war.
 
 \begin{figure}[!ht]
   \centering
-    \begin{subfigure}{.5\textwidth}
+    \begin{subfigure}{.333\textwidth}
       \centering
-      \includegraphics[width=.9\linewidth]{04_figures/B1.png}
+      \includegraphics[width=.98\linewidth]{04_figures/B1.png}
       \caption{Modus B1}
       \label{Modus B1}
     \end{subfigure}%
-    \begin{subfigure}{.5\textwidth}
+    \begin{subfigure}{.333\textwidth}
       \centering
-      \includegraphics[width=.9\linewidth]{04_figures/B2.png}
+      \includegraphics[width=.98\linewidth]{04_figures/B2.png}
       \caption{Modus B2}
       \label{Modus B2}
+    \end{subfigure}%
+    \begin{subfigure}{.333\textwidth}
+      \centering
+      \includegraphics[width=.98\linewidth]{04_figures/B3.png}
+      \caption{Modus B3}
+      \label{Modus B3}
     \end{subfigure}
   \caption{Modi beim Ausfahren}
 \label{Modi beim Ausfahren}
 \end{figure}
 
 \paragraph{Wind}\mbox{}\\
+Windlast von Panelen übernommen
 \begin{description}
-  \item \textbf{1.1 }
-  \item \textbf{1.2 }
+  \item \textbf{1.1 Extreme Windast}\\
+  Winddruck bei 120 km/h (Orkan, Beaufort 12)?\\
+  Eher unsicher, kann viel höher liegen. daher nur erste annahme\\
+  Ungenauigkeit 0.4, Auswirkungen 30
+  \item \textbf{1.2 Wind von links}\\ Der Winddruck von $486 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
+  \item \textbf{1.3 Wind von rechts}\\ Der Winddruck von $486 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
 \end{description}
 
 \paragraph{Neigung}\mbox{}\\
-Mit Palmer wurde abgesprochen, dass der Boden, auf welchem der Solar Butterfly parkiert wird, die Neigung von 5° (8.8\%) nicht überschreiten darf. Die Implementierung dieser Fälle wird analog zu den Neigungsfällen 3.1 bis 3.4 im Modus \emph{A} durchgeführt.
+Mit Palmer wurde abgesprochen, dass der Boden, auf welchem der Solar Butterfly parkiert wird, die Neigung von 5° (8.8\%) nicht überschreiten darf. Die Implementierung dieser Fälle wird analog zu den Neigungsfällen 3.1 bis 3.4 im Modus \emph{A} durchgeführt. Das Risiko wird ebenfalls analog zu den Neigungsfällen im Modus \emph{A} bewertet.
 \begin{description}
   \item \textbf{2.1 Neigung längs positiv} +5° Neigung des Untergrundes in Fahrtrichtung.
   \item \textbf{2.2 Neigung längs negativ} -5° Neigung des Untergrundes in Fahrtrichtung.
@@ -186,14 +199,14 @@ Mit Palmer wurde abgesprochen, dass der Boden, auf welchem der Solar Butterfly p
 \end{description}
 
 \paragraph{Mobiliar}\mbox{}\\
+Der Lastfall des Mobiliars wird analog zum Lastfall \emph{4.1 Mobiliar} im Modus \emph{A} implementiert und wird hier nur der Vollständigkeit halber aufgeführt.
 \begin{description}
-  \item \textbf{3.1 Mobiliar}
-  \item \textbf{3.2 }
+  \item \textbf{3.1 Mobiliar}\mbox{}\\
+  Bla Bla. Text von oben kopieren.
 \end{description}
 
-
 \subsection{Modus C: Ausgefahren}
-Der Modus \emph{C} beschreibt den Solar Buttefly im ausgefahren Zustand. Alle Panelen, Stützen und Seitenmodule sind ausgefahren. Personen und Mobiliar kann frei im Solar Butterfly verteilt sein.\\
+Der Modus \emph{C} beschreibt den Solar Buttefly im ausgefahren Zustand. Alle Panelen, Stützen und Seitenmodule sind ausgefahren. Personen und das Mobiliar können frei im Solar Butterfly verteilt sein.\\
 
 Wind?
 Kein einzelner Lastfall für den Wind. Wind ist in den Lastfällen der Panelen enthalten. Die Lasten werden von Yannick und Dominik berechnet:)\\
@@ -205,42 +218,69 @@ Kein einzelner Lastfall für den Wind. Wind ist in den Lastfällen der Panelen e
 \end{center}
 
 \paragraph{Personenlast}\mbox{}\\
+Als \emph{Personenlast} werden Lasten verstanden, welche durch Personen, welche sich im inneren des Solar Butteflys befinden, verursacht werden. Aus der Anforderungsliste ist zu entnehmen, dass sich bis zu sechs Personen im Solar Butterfly befinden können sollen. Im Kopf, sowie im Heck des Solar Butterfly, hat es jedoch platzbedingt nur Raum für maximal drei Personen. Das durchschnittliche Gewicht einer Person wird auf 80 kg geschätzt. Die Lastfälle \emph{1.1} bis \emph{1.6} werden als Vektorlasten, die Fälle \emph{1.7} und \emph{1.8} als Flächenlasten im FEM-Modell eingeleitet.
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{04_Figures/BodenMitLasten.png}
+  \captionof{figure}{Visualisierung der Personenlasten}
+  \label{Boden}
+\end{center}
+
 \begin{description}
-  \item \textbf{1.1 }
-  \item \textbf{1.2 }
+  \item \textbf{1.1 Personenlast vorne links}\\
+  6 Personen à 80 kg befinden sich in der vorderen linken Ecke des linken Seitenteils.
+  \item \textbf{1.2 Personenlast vorne rechts}\\
+  6 Personen à 80 kg befinden sich in der vorderen rechten Ecke des rechten Seitenteils.
+  \item \textbf{1.3 Personenlast mitte links}\\
+  6 Personen à 80 kg befinden sich in der Mitte der äusseren Kante des linken Seitenteils.
+  \item \textbf{1.4 Personenlast mitte rechts}\\
+  6 Personen à 80 kg befinden sich in der Mitte der äusseren Kante des rechten Seitenteils.
+  \item \textbf{1.5 Personenlast hinten links}\\
+  6 Personen à 80 kg befinden sich in der hinteren linken Ecke des linken Seitenteils.
+  \item \textbf{1.6 Personenlast hinten rechts}\\
+  6 Personen à 80 kg befinden sich in der hinteren rechten Ecke des rechten Seitenteils.
+  \item \textbf{1.7 Personenlast Kopf}\\
+  Die aus dem Gewicht von 3 Personen à 80 kg resultierende Kraft wird als Flächenlast auf den Boden im Kopf eingeleitet.
+  \item \textbf{1.8 Personenlast Heck}\\
+  Die aus dem Gewicht von 3 Personen à 80 kg resultierende Kraft wird als Flächenlast auf den Boden im Heck eingeleitet.
 \end{description}
+
+Der Fall, dass Personen in der Mitte eines Seitenteils stehen wird im Lastenheft nicht aufgeführt, da davon ausgegangen wird, dass dieser Fall für die globalen Kraftverläufe kein Extrem darstellt. Dieser Fall wird jedoch spezifisch in der Auslegung der Bodenplatten im Kapitel [KAPITEL] berücksichtigt.
 
 \paragraph{Neigung}\mbox{}\\
 Die Lastfälle der Neigung sind analog zum den Lastfällen der Neigung im Modus \emph{B}.
 \begin{description}
-  \item \textbf{2.1 Neigung längs positiv} +5° Neigung des Untergrundes in Fahrtrichtung.
-  \item \textbf{2.2 Neigung längs negativ} -5° Neigung des Untergrundes in Fahrtrichtung.
-  \item \textbf{2.3 Neigung quer positiv} +5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung rechts.
-  \item \textbf{2.4 Neigung quer negativ} -5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links.
+  \item \textbf{2.1 Neigung längs positiv}\\
+  +5° Neigung des Untergrundes in Fahrtrichtung.
+  \item \textbf{2.2 Neigung längs negativ}\\
+  -5° Neigung des Untergrundes in Fahrtrichtung.
+  \item \textbf{2.3 Neigung quer positiv}\\
+  +5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung rechts.
+  \item \textbf{2.4 Neigung quer negativ}\\
+  -5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links.
 \end{description}
 
-\paragraph{Mobiliar Hauptmodul}\mbox{}\\
+\paragraph{Mobiliar}\mbox{}\\
+Die Belastungen durch das Mobiliar werden jeweils als Flächenlast im FEM-Modell eingeleitet. Die \emph{Ungenauigkeit} sowie die \emph{Auswirkungen} der folgenden Lastfälle wird mit den Werten 0.1 und 10 als gering eingeschätzt.
 \begin{description}
-  \item \textbf{3.1 }
-  \item \textbf{3.2 }
-\end{description}
-
-\paragraph{Mobiliar Seitenteil}\mbox{}\\
-\begin{description}
-  \item \textbf{4.1 }
-  \item \textbf{4.2 }
+  \item \textbf{3.1 Mobiliar Hauptmodul}\\
+  Die Flächenlast, welche sich aus den 50 kg Mobiliar ergibt, wird im Boden des Hauptmoduls eingeleitet.
+  \item \textbf{3.2 Mobiliar Seitenteil links}\\
+  Die Flächenlast, welche sich aus den 50 kg Mobiliar ergibt, wird im Boden des linken Seitenmoduls eingeleitet.
+  \item \textbf{3.2 Mobiliar Seitenteil rechts}\\
+  Die Flächenlast, welche sich aus den 50 kg Mobiliar ergibt, wird im Boden des rechten Seitenmoduls eingeleitet.
 \end{description}
 
 \paragraph{Panelen Klein}\mbox{}\\
 \begin{description}
-  \item \textbf{5.1 }
-  \item \textbf{5.2 }
+  \item \textbf{4.1 }\\
+  \item \textbf{4.2 }\\
 \end{description}
 
 \paragraph{Panelen Gross}\mbox{}\\
 \begin{description}
-  \item \textbf{6.1 }
-  \item \textbf{6.2 }
+  \item \textbf{5.1 }\\
+  \item \textbf{5.2 }\\
 \end{description}
 
 

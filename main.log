@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.16)  6 APR 2021 09:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.16)  14 APR 2021 15:39
 entering extended mode
 **./main.tex
 (main.tex
@@ -767,30 +767,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/aanng/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]) (01_Frontmatte
 r/01_Eigenständigkeitserklärung.tex
-<04_Figures/Unterschrift2.png, id=143, 435.87843pt x 108.405pt>
+<04_Figures/Unterschrift2.png, id=159, 435.87843pt x 108.405pt>
 File: 04_Figures/Unterschrift2.png Graphic file (type png)
 <use 04_Figures/Unterschrift2.png>
 Package pdftex.def Info: 04_Figures/Unterschrift2.png  used on input line 13.
 (pdftex.def)             Requested size: 91.04742pt x 22.64331pt.
 [2 <./04_Figures/Unterschrift2.png>]) (01_Frontmatter/02_Abstract.tex [3]) (mai
-n.toc)
+n.toc [4])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-[4] (symbolverzeichnis.tex)
+[5] (symbolverzeichnis.tex)
 No file main.nls.
 (02_Mainmatter/01_Einleitung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--27
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
@@ -798,35 +788,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 
-      [1]
-Underfull \hbox (badness 10000) in paragraph at lines 28--33
+l.24 
+      [1] [2]) (02_Mainmatter/02_Anforderungen.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[2]
-Overfull \hbox (0.75748pt too wide) in paragraph at lines 75--77
-\T1/cmr/m/n/10.95 me-cha-ni-schen Grun-d-ele-men-ten (Bal-ken, Schei-be, Plat-t
-e, Scha-le, Vo-lu-mi-na), einen Zusammenbau-
- []
-
-[3]) (02_Mainmatter/02_Anforderungen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
-
- []
-
-[4] [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+[3] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Overfull \hbox (18.31067pt too wide) in paragraph at lines 153--154
+Overfull \hbox (18.31067pt too wide) in paragraph at lines 145--146
 []\T1/cmr/m/n/10.95 Wobei $\OML/cmm/m/it/10.95 d[]$ \T1/cmr/m/n/10.95 der Niet-
 loch-durch-mes-ser, $\OML/cmm/m/it/10.95 []$ \T1/cmr/m/n/10.95 die Scher-fes-t
 ig-keit, $\OML/cmm/m/it/10.95 t$ \T1/cmr/m/n/10.95 die Blech-di-cke und $\OML/c
@@ -834,51 +813,177 @@ mm/m/it/10.95 []$ \T1/cmr/m/n/10.95 die Lochleibungs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-[7]) (02_Mainmatter/03_Lastenheft.tex
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
+[6]) (02_Mainmatter/03_Lastenheft.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+[7]
+<04_Figures/A.png, id=315, 1480.53125pt x 784.9325pt>
+File: 04_Figures/A.png Graphic file (type png)
+<use 04_Figures/A.png>
+Package pdftex.def Info: 04_Figures/A.png  used on input line 19.
+(pdftex.def)             Requested size: 227.62206pt x 120.66917pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 20.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+[8 <./04_Figures/A.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+[9] [10] [11]
+<04_figures/B1.png, id=374, 1480.53125pt x 784.9325pt>
+File: 04_figures/B1.png Graphic file (type png)
+<use 04_figures/B1.png>
+Package pdftex.def Info: 04_figures/B1.png  used on input line 161.
+(pdftex.def)             Requested size: 142.71935pt x 75.65927pt.
+<04_figures/B2.png, id=375, 1480.53125pt x 784.9325pt>
+File: 04_figures/B2.png Graphic file (type png)
+<use 04_figures/B2.png>
+Package pdftex.def Info: 04_figures/B2.png  used on input line 167.
+(pdftex.def)             Requested size: 142.71935pt x 75.65927pt.
+<04_figures/B3.png, id=376, 1480.53125pt x 784.9325pt>
+File: 04_figures/B3.png Graphic file (type png)
+<use 04_figures/B3.png>
+Package pdftex.def Info: 04_figures/B3.png  used on input line 173.
+(pdftex.def)             Requested size: 142.71935pt x 75.65927pt.
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+[13 <./04_figures/B1.png (PNG copy)> <./04_figures/B2.png (PNG copy)> <./04_fig
+ures/B3.png (PNG copy)>]
+<04_Figures/C.png, id=392, 1480.53125pt x 784.9325pt>
+File: 04_Figures/C.png Graphic file (type png)
+<use 04_Figures/C.png>
+Package pdftex.def Info: 04_Figures/C.png  used on input line 215.
+(pdftex.def)             Requested size: 227.62206pt x 120.66917pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 216.
+See the caption package documentation for explanation.
+
+<04_Figures/BodenMitLasten.png, id=393, 1477.01813pt x 780.66656pt>
+File: 04_Figures/BodenMitLasten.png Graphic file (type png)
+<use 04_Figures/BodenMitLasten.png>
+Package pdftex.def Info: 04_Figures/BodenMitLasten.png  used on input line 224.
+
+(pdftex.def)             Requested size: 227.62206pt x 120.29926pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 225.
+See the caption package documentation for explanation.
+
+[14 <./04_Figures/C.png (PNG copy)> <./04_Figures/BodenMitLasten.png>]
+Overfull \hbox (0.6669pt too wide) in paragraph at lines 257--259
+\T1/cmr/m/n/10.95 +5\TS1/cmr/m/n/10.95 � \T1/cmr/m/n/10.95 Nei-gung des Un-ter-
+grun-des noraml zur Fahrtrich-tung. An-steig be-fin-det sich in Fahrtrich-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
-) (03_Backmatter/Literatur.tex (main.bbl [10])) (03_Backmatter/ListOfFigures.te
-x (main.lof)
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+[16]) (02_Mainmatter/04_Aufbau.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+) [17] (03_Backmatter/Literatur.tex (main.bbl [18])) (03_Backmatter/ListOfFigur
+es.tex (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-) (03_Backmatter/ListOfTables.tex [11] (main.lot)
+) (03_Backmatter/ListOfTables.tex (main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
@@ -889,24 +994,24 @@ duplicate ignored
                    \relax 
 l.1 \section{Elektronischer Anhang}
                                    )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-[12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+[19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
 (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BB17A9324C80B14037BB7D1A8C8B67A2;2236.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+(rerunfilecheck)             Checksum: A93FEDD8A4D8D5AB0ED7D335BD0C4AC3;2532.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 15398 strings out of 481199
- 276459 string characters out of 2905595
- 600556 words of memory out of 3000000
- 30548 multiletter control sequences out of 15000+200000
- 550679 words of font info for 66 fonts, out of 3000000 for 9000
+ 15503 strings out of 481199
+ 278175 string characters out of 2905595
+ 601969 words of memory out of 3000000
+ 30612 multiletter control sequences out of 15000+200000
+ 551365 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,15n,54p,978b,828s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,15n,66p,978b,895s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
 er-t1.enc}{C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-supe
 r/cm-super-ts1.enc}<C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -930,10 +1035,11 @@ pData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/
 aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C
 :/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm172
 8.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super
-/sfti1095.pfb>
-Output written on main.pdf (16 pages, 408972 bytes).
+/sfti1000.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+cm-super/sfti1095.pfb>
+Output written on main.pdf (24 pages, 686094 bytes).
 PDF statistics:
- 436 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 134 named destinations out of 1000 (max. 500000)
+ 332 words of extra memory for PDF output out of 10000 (max. 10000000)
 
