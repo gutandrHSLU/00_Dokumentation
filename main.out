@@ -1,37 +1,37 @@
-\BOOKMARK [0][-]{part.1}{I Dokumentation}{}% 1
-\BOOKMARK [1][-]{section.1}{Einleitung}{part.1}% 2
-\BOOKMARK [2][-]{subsection.1.1}{Aufgabenstellung}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.2}{Vorgehen und Methodik}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.3}{Der Solar Butterfly}{section.1}% 5
-\BOOKMARK [1][-]{section.2}{Anforderungen und Auslegung}{part.1}% 6
-\BOOKMARK [2][-]{subsection.2.1}{Anforderungen an den Solar Butterfly}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.2}{Auslegungskriterien}{section.2}% 8
-\BOOKMARK [3][-]{subsubsection.2.2.1}{Aluminiumstrukturen}{subsection.2.2}% 9
-\BOOKMARK [3][-]{subsubsection.2.2.2}{Sandwichstrukturen}{subsection.2.2}% 10
-\BOOKMARK [3][-]{subsubsection.2.2.3}{Nieten}{subsection.2.2}% 11
-\BOOKMARK [3][-]{subsubsection.2.2.4}{Klebeverbindungen}{subsection.2.2}% 12
-\BOOKMARK [3][-]{subsubsection.2.2.5}{Schrauben}{subsection.2.2}% 13
-\BOOKMARK [3][-]{subsubsection.2.2.6}{Spannpratzen}{subsection.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.3}{Verformung}{section.2}% 15
-\BOOKMARK [1][-]{section.3}{Lastenheft}{part.1}% 16
-\BOOKMARK [2][-]{subsection.3.1}{Modus A: Fahren}{section.3}% 17
-\BOOKMARK [2][-]{subsection.3.2}{Modus B1, B2 und B3: Ausfahren}{section.3}% 18
-\BOOKMARK [2][-]{subsection.3.3}{Modus C: Ausgefahren}{section.3}% 19
-\BOOKMARK [2][-]{subsection.3.4}{Failuremodes}{section.3}% 20
-\BOOKMARK [1][-]{section.4}{Komponenten und Verbindungen}{part.1}% 21
-\BOOKMARK [2][-]{subsection.4.1}{Komponenten}{section.4}% 22
-\BOOKMARK [1][-]{section.5}{FEM}{part.1}% 23
-\BOOKMARK [1][-]{section.6}{Auslegung und Design}{part.1}% 24
-\BOOKMARK [0][-]{part.2}{II Anhang}{}% 25
-\BOOKMARK [1][-]{appendix.A}{Quellenverzeichnis}{part.2}% 26
-\BOOKMARK [1][-]{appendix.B}{Abbildungsverzeichnis}{part.2}% 27
-\BOOKMARK [1][-]{appendix.C}{Tabellenverzeichnis}{part.2}% 28
-\BOOKMARK [1][-]{appendix.D}{Rissfortschritt}{part.2}% 29
-\BOOKMARK [2][-]{subsection.D.1}{Zeichnungen}{appendix.D}% 30
-\BOOKMARK [3][-]{subsubsection.D.1.1}{Zeichnung des Probenrohlings - Erste Serie}{subsection.D.1}% 31
-\BOOKMARK [3][-]{subsubsection.D.1.2}{Zeichnung des Probenrohlings - Zweite Serie}{subsection.D.1}% 32
-\BOOKMARK [0][-]{part.3}{III Elektronischer Anhang}{}% 33
-\BOOKMARK [1][-]{appendix.A}{Elektronischer Anhang}{part.3}% 34
-\BOOKMARK [2][-]{subsection.A.1}{Zeichnungen}{appendix.A}% 35
-\BOOKMARK [3][-]{subsubsection.A.1.1}{Zeichnung des Probenrohlings - Erste Serie}{subsection.A.1}% 36
-\BOOKMARK [3][-]{subsubsection.A.1.2}{Zeichnung des Probenrohlings - Zweite Serie}{subsection.A.1}% 37
+\BOOKMARK [0][-]{part.1}{\376\377\000I\000\040\000D\000o\000k\000u\000m\000e\000n\000t\000a\000t\000i\000o\000n}{}% 1
+\BOOKMARK [1][-]{section.1}{\376\377\000E\000i\000n\000l\000e\000i\000t\000u\000n\000g}{part.1}% 2
+\BOOKMARK [2][-]{subsection.1.1}{\376\377\000A\000u\000f\000g\000a\000b\000e\000n\000s\000t\000e\000l\000l\000u\000n\000g}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{\376\377\000V\000o\000r\000g\000e\000h\000e\000n\000\040\000u\000n\000d\000\040\000M\000e\000t\000h\000o\000d\000i\000k}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.3}{\376\377\000D\000e\000r\000\040\000S\000o\000l\000a\000r\000\040\000B\000u\000t\000t\000e\000r\000f\000l\000y}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{\376\377\000A\000n\000f\000o\000r\000d\000e\000r\000u\000n\000g\000e\000n\000\040\000u\000n\000d\000\040\000A\000u\000s\000l\000e\000g\000u\000n\000g}{part.1}% 6
+\BOOKMARK [2][-]{subsection.2.1}{\376\377\000A\000n\000f\000o\000r\000d\000e\000r\000u\000n\000g\000e\000n\000\040\000a\000n\000\040\000d\000e\000n\000\040\000S\000o\000l\000a\000r\000\040\000B\000u\000t\000t\000e\000r\000f\000l\000y}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.2}{\376\377\000A\000u\000s\000l\000e\000g\000u\000n\000g\000s\000k\000r\000i\000t\000e\000r\000i\000e\000n}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.1}{\376\377\000A\000l\000u\000m\000i\000n\000i\000u\000m\000s\000t\000r\000u\000k\000t\000u\000r\000e\000n}{subsection.2.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.2.2}{\376\377\000S\000a\000n\000d\000w\000i\000c\000h\000s\000t\000r\000u\000k\000t\000u\000r\000e\000n}{subsection.2.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.3}{\376\377\000N\000i\000e\000t\000e\000n}{subsection.2.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.4}{\376\377\000K\000l\000e\000b\000e\000v\000e\000r\000b\000i\000n\000d\000u\000n\000g\000e\000n}{subsection.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.5}{\376\377\000S\000c\000h\000r\000a\000u\000b\000e\000n}{subsection.2.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.6}{\376\377\000S\000p\000a\000n\000n\000p\000r\000a\000t\000z\000e\000n}{subsection.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.3}{\376\377\000V\000e\000r\000f\000o\000r\000m\000u\000n\000g}{section.2}% 15
+\BOOKMARK [1][-]{section.3}{\376\377\000L\000a\000s\000t\000e\000n\000h\000e\000f\000t}{part.1}% 16
+\BOOKMARK [2][-]{subsection.3.1}{\376\377\000M\000o\000d\000u\000s\000\040\000A\000:\000\040\000F\000a\000h\000r\000e\000n}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.2}{\376\377\000M\000o\000d\000u\000s\000\040\000B\000:\000\040\000A\000u\000s\000f\000a\000h\000r\000e\000n}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.3}{\376\377\000M\000o\000d\000u\000s\000\040\000C\000:\000\040\000A\000u\000s\000g\000e\000f\000a\000h\000r\000e\000n}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.4}{\376\377\000F\000a\000i\000l\000u\000r\000e\000m\000o\000d\000e\000s}{section.3}% 20
+\BOOKMARK [1][-]{section.4}{\376\377\000K\000o\000m\000p\000o\000n\000e\000n\000t\000e\000n\000\040\000u\000n\000d\000\040\000V\000e\000r\000b\000i\000n\000d\000u\000n\000g\000e\000n}{part.1}% 21
+\BOOKMARK [2][-]{subsection.4.1}{\376\377\000K\000o\000m\000p\000o\000n\000e\000n\000t\000e\000n}{section.4}% 22
+\BOOKMARK [1][-]{section.5}{\376\377\000F\000E\000M}{part.1}% 23
+\BOOKMARK [1][-]{section.6}{\376\377\000A\000u\000s\000l\000e\000g\000u\000n\000g\000\040\000u\000n\000d\000\040\000D\000e\000s\000i\000g\000n}{part.1}% 24
+\BOOKMARK [0][-]{part.2}{\376\377\000I\000I\000\040\000A\000n\000h\000a\000n\000g}{}% 25
+\BOOKMARK [1][-]{appendix.A}{\376\377\000Q\000u\000e\000l\000l\000e\000n\000v\000e\000r\000z\000e\000i\000c\000h\000n\000i\000s}{part.2}% 26
+\BOOKMARK [1][-]{appendix.B}{\376\377\000A\000b\000b\000i\000l\000d\000u\000n\000g\000s\000v\000e\000r\000z\000e\000i\000c\000h\000n\000i\000s}{part.2}% 27
+\BOOKMARK [1][-]{appendix.C}{\376\377\000T\000a\000b\000e\000l\000l\000e\000n\000v\000e\000r\000z\000e\000i\000c\000h\000n\000i\000s}{part.2}% 28
+\BOOKMARK [1][-]{appendix.D}{\376\377\000R\000i\000s\000s\000f\000o\000r\000t\000s\000c\000h\000r\000i\000t\000t}{part.2}% 29
+\BOOKMARK [2][-]{subsection.D.1}{\376\377\000Z\000e\000i\000c\000h\000n\000u\000n\000g\000e\000n}{appendix.D}% 30
+\BOOKMARK [3][-]{subsubsection.D.1.1}{\376\377\000Z\000e\000i\000c\000h\000n\000u\000n\000g\000\040\000d\000e\000s\000\040\000P\000r\000o\000b\000e\000n\000r\000o\000h\000l\000i\000n\000g\000s\000\040\000-\000\040\000E\000r\000s\000t\000e\000\040\000S\000e\000r\000i\000e}{subsection.D.1}% 31
+\BOOKMARK [3][-]{subsubsection.D.1.2}{\376\377\000Z\000e\000i\000c\000h\000n\000u\000n\000g\000\040\000d\000e\000s\000\040\000P\000r\000o\000b\000e\000n\000r\000o\000h\000l\000i\000n\000g\000s\000\040\000-\000\040\000Z\000w\000e\000i\000t\000e\000\040\000S\000e\000r\000i\000e}{subsection.D.1}% 32
+\BOOKMARK [0][-]{part.3}{\376\377\000I\000I\000I\000\040\000E\000l\000e\000k\000t\000r\000o\000n\000i\000s\000c\000h\000e\000r\000\040\000A\000n\000h\000a\000n\000g}{}% 33
+\BOOKMARK [1][-]{appendix.A}{\376\377\000E\000l\000e\000k\000t\000r\000o\000n\000i\000s\000c\000h\000e\000r\000\040\000A\000n\000h\000a\000n\000g}{part.3}% 34
+\BOOKMARK [2][-]{subsection.A.1}{\376\377\000Z\000e\000i\000c\000h\000n\000u\000n\000g\000e\000n}{appendix.A}% 35
+\BOOKMARK [3][-]{subsubsection.A.1.1}{\376\377\000Z\000e\000i\000c\000h\000n\000u\000n\000g\000\040\000d\000e\000s\000\040\000P\000r\000o\000b\000e\000n\000r\000o\000h\000l\000i\000n\000g\000s\000\040\000-\000\040\000E\000r\000s\000t\000e\000\040\000S\000e\000r\000i\000e}{subsection.A.1}% 36
+\BOOKMARK [3][-]{subsubsection.A.1.2}{\376\377\000Z\000e\000i\000c\000h\000n\000u\000n\000g\000\040\000d\000e\000s\000\040\000P\000r\000o\000b\000e\000n\000r\000o\000h\000l\000i\000n\000g\000s\000\040\000-\000\040\000Z\000w\000e\000i\000t\000e\000\040\000S\000e\000r\000i\000e}{subsection.A.1}% 37

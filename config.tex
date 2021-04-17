@@ -18,8 +18,9 @@
 \usepackage{multicol} %Für zwei Formeln nebeneinander
 \usepackage{amsmath}
 \usepackage{longtable} %Für lange Tabellen
-\usepackage{arydshln} %Für gestrichelte Linien in Tabellen
 \usepackage{tabularx}
+\usepackage{arydshln} %Für gestrichelte Linien in Tabellen
+\usepackage{booktabs}
 \usepackage{pdfpages} %Zum einfügen von PDF's
 \usepackage{hyperref} %Für hyperlinks
 \hypersetup{bookmarks=true}
@@ -29,6 +30,7 @@
 \captionsetup{font=it}
 \setlength{\parindent}{0pt}
 \usepackage{subcaption} %Für die Beschriftung unterteilter Bilder
+\usepackage{lscape}
 \usepackage{float}
 \floatstyle{plaintop}
 \restylefloat{table}
@@ -40,6 +42,7 @@
 \newcommand{\nomunit}[1]{%
 \renewcommand{\nomentryend}{\hspace*{\fill}#1}}
 \makenomenclature
+
 
 
 
@@ -72,3 +75,6 @@
 %Eigens erstellte Variablen
 \newcommand{\plotWidth}{0.7}
 \newcommand{\garphWidth}{0.7}
+\newcommand{\lineHeightTable}{-0.2em}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
