@@ -107,7 +107,7 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in d
       \alpha(t) = \ddot \varphi(t) = -\Delta\varphi\:\omega^2 \cdot \sin \left(\omega t \right)
     \end{equation}
 
-    Eine maximalen Neigung $\Delta \varphi$ von 10° und einer Schwingdauer von einer Sekunde ergibt eine maximale Winkelbeschleunigung von $6.9 \; \frac{rad}{s}$.\\
+    Eine maximalen Neigung $\Delta \varphi$ von 10° und einer Schwingdauer von einer Sekunde ergibt eine maximale Winkelbeschleunigung von $6.9 \; \frac{rad}{s^2}$.\\
     Da die realen Bedingungen einer solchen Belastung nur schwer abgeschätzt werden können wird die \emph{Ungenauigkeit} mit 0.3 hoch angesetzt. Ebenfalls können die Auswirkungen einer solchen Beschleunigung nur schwer beurteilt werden, weshalb die \emph{Auswirkung} auf 60 gesetzt wird.
   \end{description}
 
@@ -116,20 +116,20 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in d
   Die Blog-Seite \emph{rvblogger.com} \cite{Wind.2} empfiehlt bei Windgeschwindigkeiten von mehr als 80 $\frac{km}{h}$ mit einem Wohnwagen nicht mehr zu Fahren. Windgeschwindigkeiten von 95 $\frac{km}{h}$ seien laut \emph{rvblogger.com} genug, um Wohnmobile umzustossen.\\
   Bei Windgeschwindigkeiten von mehr als 155 km/h können laut \emph{Beasley} \cite{Wind.3} Lastwagen mit hohem Profil, Anhänger und Busse umkippen. Die berichteten minimale Überschlagswindgeschwindigkeiten sind 105 $\frac{km}{h}$ für ein 9 Meter langen Wohnwagen und 160 $\frac{km}{h}$ für ein 5 Meter langes Wohnmobil (Klasse B).
 
-  Für eine erste Abschätzung der zugelassenen Windgeschwindigkeit bei der Fahrt des Solar Butterfly wird sich an der Blog-Seite \emph{rvblogger.com} orientiert und die Geschwindigkeit von 80 $\frac{km}{h}$ als Limitte festgelegt. Für die Berechnung der durch den Wind entstehenden Belastung, wird der Solar Butterfly vereinfacht als noraml angeströmtes Rechteck betrachtet. Für die Berechnung des Winddruckes wird die erhöhte Geschwindigkeit von 100 $\frac{km}{h}$ verwendet um Böhen und eventuelle Ungenauigkeiten in der Messung oder Abschätzung der Windgeschwindigkeiten abzudecken. Der Winddruck wird gemäss Formel \ref{Winddruck} berechnet.
+  Für eine erste Abschätzung der zugelassenen Windgeschwindigkeit bei der Fahrt des Solar Butterfly wird sich an der Blog-Seite \emph{rvblogger.com} orientiert und die Geschwindigkeit von 80 $\frac{km}{h}$ als Limitte festgelegt. Für die Berechnung der durch den Wind entstehenden Belastung, wird der Solar Butterfly vereinfacht als noraml angeströmtes Rechteck betrachtet. Für die Berechnung des Winddruckes wird die erhöhte Geschwindigkeit von 102.2 $\frac{km}{h}$ (Beaufort 10) verwendet um Böhen und eventuelle Ungenauigkeiten in der Messung oder Abschätzung der Windgeschwindigkeiten abzudecken. Der Winddruck wird gemäss Formel \ref{Winddruck} berechnet.
 
   \begin{equation}
     \label{Winddruck}
     P_W = c_p \: \frac{\rho}{2}\: v^2
   \end{equation}
 
-  Wobei für die Dichte von Luft $\rho$ ein Wert von $1.2 \frac{kg}{m^3}$ und für den Strömungswiderstandskoeffizient eines Rechteckes $c_{p,Rechteck}$ ein Wert von $1.05$ gewählt wird. Bei einer Windgeschwindigkeit von 100 $\frac{km}{h}$ ergibt sich gemässt der Gleichung \ref{Winddruck} ein Winddruck von $486 \frac{N}{m^2}$.
+  Wobei für die Dichte von Luft $\rho$ ein Wert von $1.2 \frac{kg}{m^3}$ und für den Strömungswiderstandskoeffizient eines Rechteckes $c_{p,Rechteck}$ ein Wert von $1.1$ gewählt wird. Bei einer Windgeschwindigkeit von 102.2 $\frac{km}{h}$ ergibt sich gemässt der Gleichung \ref{Winddruck} ein Winddruck von $532 \frac{N}{m^2}$.
 
   Da es sich hierbei um eine grobe Idealsierung handelt und zum Beispiel lokale Geschwindigkeitserhöhungen oder Turbulenzen vernachlässigt werden, wird die \emph{Ungenauigkeit} auf 0.4 gesetzt. Die \emph{Auswirkung} wird jedoch eher tief, mit dem Wert 10 bewertet.
 
   \begin{description}
-    \item \textbf{2.1 Wind von links}\\ Der Winddruck von $486 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
-    \item \textbf{2.2 Wind von rechts}\\ Der Winddruck von $486 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
+    \item \textbf{2.1 Wind von links}\\ Der Winddruck von $532 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
+    \item \textbf{2.2 Wind von rechts}\\ Der Winddruck von $532 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
   \end{description}
 
   \paragraph{Neigung}\mbox{}\\
@@ -142,17 +142,19 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in d
     \item \textbf{3.4 Neigung quer negativ} -10° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links.
   \end{description}
 
-  \paragraph{Mobiliar}\mbox{}\\
-  Gemäss der Anforderungsliste werden sich bis zu 50 kg Mobiliar im Solar Butterfly befinden. Während der Fahrt (Modus A) befindet sich das Mobiliar an der Seitenwand im inneren Seitenmodul.
+  % \paragraph{Mobiliar}\mbox{}\\
+  % Gemäss der Anforderungsliste werden sich bis zu 50 kg Mobiliar im Solar Butterfly befinden. Während der Fahrt (Modus A) befindet sich das Mobiliar an der Seitenwand im inneren Seitenmodul.
+  %
+  % \emph{Ungenauigkeit} 0.4, da grosse ungewissheit bei der Befestigung des Mobiliars. Art der Einleitung ist unbekannt.
+  % \emph{Auswirkung} 20, ebenfalls nicht zu vernachlässigen da je nach Art der Befestigung die Konstruktion angepasst werden muss.
+  % \begin{description}
+  %   \item \textbf{4.1 Mobiliar}\\
+  %   !!!!! Wie wird das im FEM gemacht? !!!!!
+  % \end{description}
 
-  \emph{Ungenauigkeit} 0.4, da grosse ungewissheit bei der Befestigung des Mobiliars. Art der Einleitung ist unbekannt.
-  \emph{Auswirkung} 20, ebenfalls nicht zu vernachlässigen da je nach Art der Befestigung die Konstruktion angepasst werden muss.
-  \begin{description}
-    \item \textbf{4.1 Mobiliar}\\
-    !!!!! Wie wird das im FEM gemacht? !!!!!
-  \end{description}
-
-
+  %=============================================================================
+  %                                 Modus B
+  %=============================================================================
 \subsection{Modus B: Ausfahren}
 Die Modi \emph{B1}, \emph{B2} und \emph{B3} beschreiben den Solar Butterfly während dem Ausfahrvorgang der Seitenmodule. Im Modus \emph{B1} sind die Stützen am Chassis unten, alle Seitenmodule und Panelen sind Eingefahren. Dieser Modus stellt den Solar Butterfly im ``Parkierten'' Zustand dar. Bei extremen Umwelteinflüssen wie Schnefall oder starker Wind, stellt der Modus \emph{B1} den geschütztesten Zustand dar und muss somit diesen extremen Umwelteinflüssen stand halten können. Im Modus \emph{B2} ist, zusätzlich zu den Stützen am Chassis, das grosse Seitenmodul (In der Abbildung \ref{Modus B2} orange dargestellt) ausgefahren. Im Modus \emph{B3} sind zusätzlich die Stützen am grossen Seitenmodul unten und das kleine Seitenmodul (In der Abbildung \ref{Modus B3} dunkelblau dargestellt) ist ausgefahren.
 Auch in diesen drei Modi herrscht die Erdbeschleunigung von 1 g, welche wiederum nicht als Lastfall aufgeführt wird. Während dem Ausfahrvorgang befinden sich keine Personen im Fahrzeug und das Mobiliar befindet sich an der dafür vorgesehenen stellen, wie dies im Modus \emph{A} zuvor bereits der fall war.
@@ -184,12 +186,16 @@ Auch in diesen drei Modi herrscht die Erdbeschleunigung von 1 g, welche wiederum
 \paragraph{Windlasten}\mbox{}\\
 Windlast von Panelen übernommen
 \begin{description}
-  \item \textbf{1.1 Extreme Windast}\\
+  \item \textbf{1.1 Wind extrem links}\\
+  \item \textbf{1.2 Wind extrem rechts}\\
   Winddruck bei 120 km/h (Orkan, Beaufort 12)?\\
   Eher unsicher, kann viel höher liegen. daher nur erste annahme\\
-  Ungenauigkeit 0.4, Auswirkungen 30
-  \item \textbf{1.2 Wind von links}\\ Der Winddruck von $486 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
-  \item \textbf{1.3 Wind von rechts}\\ Der Winddruck von $486 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
+  Ungenauigkeit 0.4, Auswirkungen 40
+  \item \textbf{1.3 Wind von links}\\ Der Winddruck von $486 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
+  \item \textbf{1.4 Wind von rechts}\\ Der Winddruck von $486 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
+  Winddruck bei 120 km/h (Orkan, Beaufort 10)?\\
+  Eher unsicher, kann viel höher liegen. daher nur erste annahme\\
+  Ungenauigkeit 0.4, Auswirkungen 20
 \end{description}
 
 \paragraph{Neigung}\mbox{}\\
@@ -201,19 +207,18 @@ Mit Palmer wurde abgesprochen, dass der Boden, auf welchem der Solar Butterfly p
   \item \textbf{2.4 Neigung quer negativ} -5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links.
 \end{description}
 
-\paragraph{Mobiliar}\mbox{}\\
-Der Lastfall des Mobiliars wird analog zum Lastfall \emph{4.1 Mobiliar} im Modus \emph{A} implementiert und wird hier nur der Vollständigkeit halber aufgeführt.
-\begin{description}
-  \item \textbf{3.1 Mobiliar}\mbox{}\\
-  Bla Bla. Text von oben kopieren.
-\end{description}
+% \paragraph{Mobiliar}\mbox{}\\
+% Der Lastfall des Mobiliars wird analog zum Lastfall \emph{4.1 Mobiliar} im Modus \emph{A} implementiert und wird hier nur der Vollständigkeit halber aufgeführt.
+% \begin{description}
+%   \item \textbf{3.1 Mobiliar}\mbox{}\\
+%   Bla Bla. Text von oben kopieren.
+% \end{description}
 
-
+%=============================================================================
+%                                 Modus C
+%=============================================================================
 \subsection{Modus C: Ausgefahren}
 Der Modus \emph{C} beschreibt den Solar Buttefly im ausgefahren Zustand. Alle Panelen, Stützen und Seitenmodule sind ausgefahren. Personen und das Mobiliar können frei im Solar Butterfly verteilt sein.\\
-
-Wind?
-Kein einzelner Lastfall für den Wind. Wind ist in den Lastfällen der Panelen enthalten. Die Lasten werden von Yannick und Dominik berechnet:)\\
 
 \begin{center}
   \includegraphics[width=0.5\textwidth]{04_Figures/C.png}
@@ -301,7 +306,9 @@ Ungenauigkeit: 0.2, Auswirkungen: 20: Risiko: 20
 \paragraph{Temperatur}\mbox{}\\
 \paragraph{Punktlast auf Boden}\mbox{}\\
 
-
+%=============================================================================
+%                                 Modus A
+%=============================================================================
 \begin{landscape}% Landscape page
   \centering % Center table
   \captionof{table}{Lastfälle Modus A}% Add 'table' caption
@@ -312,30 +319,35 @@ Ungenauigkeit: 0.2, Auswirkungen: 20: Risiko: 20
     \hline
     \multicolumn{7}{l}{\textbf{Beschleunigungen}}\\
     \thickhline
-    1.1 & Vertikale Beschleunigung                & $\pm$ 1.5 g & Beschleunigung vertikaler Richtung & 0.4 & 50 & 20\\
-    1.2 & Longitudinale Beschleunigung - Positiv  & 0.2 g       & Beschleunigung in Fahrtrichtung & 0.2 & 20 & 4\\
-    1.3 & Longitudinale Beschleunigung - Negativ  & 0.7 g       & Verzögerung in Fahrtrichtung & 0.2 & 0.3 & 6\\
-    1.4 & Laterale Beschleunigung                 & $\pm$ 0.8 g & Beschleunigung horizontal und Normal zur Fahrtrichtung & 0.1 & 70 & 7\\
-    1.5 & Rotatorische Beschleunigung             & 6.9 $\frac{rad}{s^2}$ & Rotatorische Beschleunigung um den Vektor der Fahrtrichtung & 0.3 & 60 & 18\\
+    1.1 & Vertikale Beschleunigung         & $\pm$ 1.5 g           & Beschleunigung in vertikaler Richtung & 0.4 & 50 & 20\\
+    1.2 & Longitudinale Beschl. - Positiv  & 0.2 g                 & Beschleunigung in Fahrtrichtung & 0.2 & 20 & 4\\
+    1.3 & Longitudinale Beschl. - Negativ  & 0.7 g                 & Verzögerung in Fahrtrichtung & 0.2 & 30 & 6\\
+    1.4 & Laterale Beschleunigung          & $\pm$ 0.8 g           & Beschleunigung horizontal und Normal zur Fahrtrichtung & 0.1 & 70 & 7\\
+    1.5 & Rotatorische Beschleunigung      & 6.9 $\frac{rad}{s^2}$ & Rotatorische Beschleunigung um den Vektor der Fahrtrichtung & 0.3 & 60 & 18\\
 
     \multicolumn{7}{l}{\textbf{Windlasten}}\\
     \thickhline
-    2.1 & Wind von links & 486 $\frac{N}{m^2}$ & Der Winddruck von 486 MPa wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly. & 0.4 & 10 & 4\\
-    2.2 & Wind von rechts & 486 $\frac{N}{m^2}$ & Der Winddruck von 486 MPa wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly. & 0.4 & 10 & 4\\
+    2.1 & Wind von links & 532 $\frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $frac{km}{h}$ Windgeschwindigkeit)
+    & 0.4 & 10 & 4\\
+    2.2 & Wind von rechts & 532 $\frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $frac{km}{h}$ Windgeschwindigkeit)
+    & 0.4 & 10 & 4\\
 
     \multicolumn{7}{l}{\textbf{Belastung durch steile Strassen}}\\
     \thickhline
-    3.1	& Neigung längs positiv & $+10°$ & 10° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich vor dem Fahrzeug. & 0.1 & 10 & 1\\
-    3.2	& Neigung längs negativ & $-10°$ & -10° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich hinter dem Fahrzeug. & 0.1 & 10 & 1\\
-    3.3	& Neigung quer positiv  &$+10°$ & 10° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung rechts. & 0.1 & 10 & 1\\
-    3.4	& Neigung quer negativ  &$-10°$ & -10° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links. & 0.1 & 10 & 1\\
+    3.1	& Neigung längs positiv & $+10$° & 10° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich vor dem Fahrzeug. & 0.1 & 10 & 1\\
+    3.2	& Neigung längs negativ & $-10$° & -10° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich hinter dem Fahrzeug. & 0.1 & 10 & 1\\
+    3.3	& Neigung quer positiv  &$+10$° & 10° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung rechts. & 0.1 & 10 & 1\\
+    3.4	& Neigung quer negativ  &$-10$° & -10° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links. & 0.1 & 10 & 1\\
 
-    \multicolumn{7}{l}{\textbf{Belastung durch verstautes Mobiliar}}\\
-    \thickhline
-    4.1 & Mobiliar Verstaut & 50 kg & Masse wird im FEM modelliert & 0.4 & 20 & 8\\
+    % \multicolumn{7}{l}{\textbf{Belastung durch verstautes Mobiliar}}\\
+    % \thickhline
+    % 4.1 & Mobiliar Verstaut & 50 kg & Masse wird im FEM modelliert & 0.4 & 20 & 8\\
   \end{tabularx}
 \end{landscape}
 
+%=============================================================================
+%                                 Modus B
+%=============================================================================
 \begin{landscape}% Landscape page
   \centering % Center table
   \captionof{table}{Lastfälle Modus B}% Add 'table' caption
@@ -346,24 +358,32 @@ Ungenauigkeit: 0.2, Auswirkungen: 20: Risiko: 20
     \hline
     \multicolumn{7}{l}{\textbf{Windlasten}}\\
     \thickhline
-    1.1 & Wind Extrem     & $898 \frac{N}{m^2}$ & Beaufort 12; Orkan; 132.8 $\frac{km}{h}$  Windgeschwindigkeit         & 0.2 & 40 & 8\\
-    1.2 & Wind von links  & $532 \frac{N}{m^2}$ & Beaufort 10; Schwerer Stumr; $102.2 \frac{km}{h}$ Windgeschwindigkeit & 0.2 & 20 & 4\\
-    1.3 & Wind von rechts & $532 \frac{N}{m^2}$ & Beaufort 10; Schwerer Stumr; $102.2 \frac{km}{h}$ Windgeschwindigkeit & 0.2 & 20 & 4\\
+    1.1 & Wind extrem links   & $898 \frac{N}{m^2}$ & Der Winddruck von 898 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 12 auf der Beaufort-Skala (Orkan: 132.8 $\frac{km}{h}$ Windgeschwindigkeit)
+    & 0.4 & 20 & 8\\
+    1.2 & Wind extrem rechts  & $898 \frac{N}{m^2}$ & Der Winddruck von 898 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 12 auf der Beaufort-Skala (Orkan: 132.8 $\frac{km}{h}$ Windgeschwindigkeit)
+    & 0.4 & 20 & 8\\
+    1.3 & Wind von links      & $532 \frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $\frac{km}{h}$ Windgeschwindigkeit)
+    & 0.4 & 10 & 4\\
+    1.4 & Wind von rechts     & $532 \frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $\frac{km}{h}$ Windgeschwindigkeit)
+    & 0.4 & 10 & 4\\
     \\[\lineHeightTable]
 
     \multicolumn{7}{l}{\textbf{Belastung durch unebener Boden}}\\
     \thickhline
-    2.1	& Neigung längs positiv & $+10°$ & 5° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich vor dem Fahrzeug. & 0.1 & 10 & 1\\
-    2.2	& Neigung längs negativ & $-10°$ & -5° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich hinter dem Fahrzeug. & 0.1 & 10 & 1\\
-    2.3	& Neigung quer positiv  & $+10°$ & 5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung rechts. & 0.1 & 10 & 1\\
-    2.4	& Neigung quer negativ  & $-10°$ & -5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links. & 0.1 & 10 & 1\\
+    2.1	& Neigung längs positiv & $+5$° & 5° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich vor dem Fahrzeug. & 0.1 & 10 & 1\\
+    2.2	& Neigung längs negativ & $-5$° & -5° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich hinter dem Fahrzeug. & 0.1 & 10 & 1\\
+    2.3	& Neigung quer positiv  & $+5$° & 5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung rechts. & 0.1 & 10 & 1\\
+    2.4	& Neigung quer negativ  & $-5$° & -5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links. & 0.1 & 10 & 1\\
 
-    \multicolumn{7}{l}{\textbf{Belastung durch  Mobiliar}}\\
-    \thickhline
-    3.1 & Mobiliar Verstaut & 50 kg & Masse wird im FEM modelliert & 0.1 & 10 & 8\\
+    % \multicolumn{7}{l}{\textbf{Belastung durch  Mobiliar}}\\
+    % \thickhline
+    % 3.1 & Mobiliar Verstaut & 50 kg & Masse wird im FEM modelliert & 0.1 & 10 & 8\\
   \end{tabularx}
 \end{landscape}
 
+%=============================================================================
+%                                 Modus C
+%=============================================================================
 \begin{landscape}% Landscape page
     \centering % Center table
     \begin{longtable}{llc L{10cm} ccc}
@@ -385,21 +405,21 @@ Ungenauigkeit: 0.2, Auswirkungen: 20: Risiko: 20
 
         \multicolumn{7}{l}{\textbf{Belastung durch unebener Boden}}\\
         \thickhline
-        2.1	& Neigung längs positiv & $+10°$ & 5° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich vor dem Fahrzeug. & 0.1 & 10 & 1\\
-        2.2	& Neigung längs negativ & $-10°$ & -5° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich hinter dem Fahrzeug. & 0.1 & 10 & 1\\
-        2.3	& Neigung quer positiv  & $+10°$ & 5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung rechts. & 0.1 & 10 & 1\\
-        2.4	& Neigung quer negativ  & $-10°$ & -5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links. & 0.1 & 10 & 1\\
+        2.1	& Neigung längs positiv & $+5$° & 5° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich vor dem Fahrzeug. & 0.1 & 10 & 1\\
+        2.2	& Neigung längs negativ & $-5$° & -5° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich hinter dem Fahrzeug. & 0.1 & 10 & 1\\
+        2.3	& Neigung quer positiv  & $+5$° & 5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung rechts. & 0.1 & 10 & 1\\
+        2.4	& Neigung quer negativ  & $-5$° & -5° Neigung des Untergrundes noraml zur Fahrtrichtung. Ansteig befindet sich in Fahrtrichtung links. & 0.1 & 10 & 1\\
 
         \multicolumn{7}{l}{\textbf{Belastung durch  Mobiliar}}\\
         \thickhline
-        3.1	& Mobiliar Hauptmodul	        & 50 kg &	Als Flächenlast im Hauptmodul &	0.1 &	10 &	1\\
-        3.2	& Mobiliar Seitenteil links	  & 50 kg &	Als Flächenlast im linken Seitenteil & 0.1 & 10 &	1\\
-        3.3	& Mobiliar Seitenteil rechts	& 50 kg &	Als Flächenlast im rechten Seitenteil &	0.1 &	10 &	1\\
+        3.1	& Mobiliar Hauptmodul	        & 50 kg &	Einleitung als Flächenlast im Hauptmodul &	0.1 &	10 &	1\\
+        3.2	& Mobiliar Seitenteil links	  & 50 kg &	Einleitung als Flächenlast im linken Seitenteil & 0.1 & 10 &	1\\
+        3.3	& Mobiliar Seitenteil rechts	& 50 kg &	Einleitung als Flächenlast im rechten Seitenteil &	0.1 &	10 &	1\\
 
         \multicolumn{7}{l}{\textbf{Windlasten}}\\
         \thickhline
-        4.1 & Wind von links  & $532 \frac{N}{m^2}$ & Beaufort 8; Stürmischer Wind; $74.5 \frac{km}{h}$ Windgeschwindigkeit & 0.1 & 20 & 2\\
-        4.2 & Wind von rechts & $532 \frac{N}{m^2}$ & Beaufort 8; Stürmischer Wind; $74.5 \frac{km}{h}$ Windgeschwindigkeit & 0.1 & 20 & 2\\
+        4.1 & Wind von links  & $532 \frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly & 0.4 & 10 & 4\\
+        4.2 & Wind von rechts & $532 \frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly & 0.4 & 10 & 4\\
         \\
         \\
         \\
