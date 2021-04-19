@@ -6,7 +6,7 @@ Als \emph{Modus} wird ein ``Zustand'' oder eine ``Position'' des Solar Butterfly
 Als \emph{Lastfall} wird eine Situation (z.B. Fahrt auf einer um 10° geneigten Strasse) oder eine Last (z.B. Personenlast) verstanden, welche in einem spezifischen Modus auftreten kann. Der Lastfall \emph{1.1} im Modus \emph{A} beschreibt zum Beispiel die vertikale Beschleunigung von 1.25 g welche durch das Überfahren einer Bresmmschwelle auftreten kann. Der Lastfall \emph{1.1} im Modus \emph{C} beschreibt eine Personenlast. Ein Lastfall ist vollständig definiert, wenn klar ist, wie dieser im jeweiligen FEM-Modell des betreffenden Modus, einzugliedern ist.\\
 Der Lastfall \emph{1.1} im Modus \emph{A} ist nicht notwendigerweise der Selbe, wie der Lastfall \emph{1.1} im Modus \emph{B} oder \emph{C}! Die klare Zuweisung der Lastfälle zu einem spezifischen Modus wurde vorgenommen, um die Anzahl der Lastfälle in den verschiedenen Modi gering zu halten und die daraus resultierenden Lastkombinationen pro Modus übersichtlicher zu gestalten. Dies führt mit sich, dass gewisse Lastfälle in mehreren Modi vorkommen und dass dadurch einige Lastfälle doppelt aufgeführt werden. So wird zum Beispiel der Lastfall \emph{Neigung Stehend} im Modus \emph{B} und \emph{C} aufgeführt, da die Situation des geneigten Bodens im parkierten Zustand in beiden Modi auftreten kann. Alle Lastfälle welche in diesen Modi nicht auftreten, können jedoch weggelassen werden, wodurch - wie bereits erwähnt - das Lastenheft übersichtlicher gestaltet werden kann.\\
 Zur Beschreibung eines Lastfalles gehört eine Bewertung des dazugehörenden \emph{Risikos}. Ein \emph{Risiko} setzt sich zusammen aus der Ungenauigkeit der Voraussage der Belastung und einer Abschätzung der ``ernsthaftigkeit'' der potentiellen Auswirkungen. Eine \emph{Ungenauigkeit} von 0.5 bedeutet, dass von einer potentiellen Abweichung der Belastung von $\pm\: 50\%$ ausgegangen wird. Für die Werte der \emph{Auswirkungen} wird kein klarer Massstab definiert. Sie nehmen einen Wert zwischen 0 und 100 an und beurteilen die Auswirkungen beim ``Eintreten'' der Ungenauigkeit. Das Produkt aus der Ungenauigkeit und der Auswirkung ergibt den Wert des Risikos.\\
-Als \emph{Lastkombination} wird eine Kombination von verschiedenen Lastfällen verstanden. Eine Lastkombination bezieht sich jeweils auf einen Modus. Die Lastkombination \emph{A.3.1.2.1} setzt sich zusammen aus dem Modus \emph{A} und den Lastfällen \emph{1.3 Laterale Beschleunigung}, \emph{2.1 Wind von links}, \emph{3.2 Neigung längs negativ} und \emph{4.1 Mobiliar vorne} aus dem Modus \emph{A}.
+Als \emph{Lastkombination} wird eine Kombination von verschiedenen Lastfällen verstanden. Eine Lastkombination bezieht sich jeweils auf einen Modus. Die Lastkombination \emph{A.3.1.2} setzt sich zusammen aus dem Modus \emph{A} und den Lastfällen \emph{1.3 Longitudinale Beschleunigung - Negativ}, \emph{2.1 Wind von links} und \emph{3.2 Neigung längs negativ} aus dem Modus \emph{A}.
 
 Ein Blick in das Lastenheft im Anhang [ANHANG] wird das soeben beschriebene verständlicher machen.\\
 
@@ -322,7 +322,7 @@ Ungenauigkeit: 0.2, Auswirkungen: 20: Risiko: 20
     1.1 & Vertikale Beschleunigung         & $\pm$ 1.5 g           & Beschleunigung in vertikaler Richtung & 0.4 & 50 & 20\\
     1.2 & Longitudinale Beschl. - Positiv  & 0.2 g                 & Beschleunigung in Fahrtrichtung & 0.2 & 20 & 4\\
     1.3 & Longitudinale Beschl. - Negativ  & 0.7 g                 & Verzögerung in Fahrtrichtung & 0.2 & 30 & 6\\
-    1.4 & Laterale Beschleunigung          & $\pm$ 0.8 g           & Beschleunigung horizontal und Normal zur Fahrtrichtung & 0.1 & 70 & 7\\
+    1.4 & Laterale Beschleunigung          & $\pm$ 0.8 g           & Beschleunigung horizontal und normal zur Fahrtrichtung & 0.1 & 70 & 7\\
     1.5 & Rotatorische Beschleunigung      & 6.9 $\frac{rad}{s^2}$ & Rotatorische Beschleunigung um den Vektor der Fahrtrichtung & 0.3 & 60 & 18\\
 
     \multicolumn{7}{l}{\textbf{Windlasten}}\\
@@ -332,7 +332,7 @@ Ungenauigkeit: 0.2, Auswirkungen: 20: Risiko: 20
     2.2 & Wind von rechts & 532 $\frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $frac{km}{h}$ Windgeschwindigkeit)
     & 0.4 & 10 & 4\\
 
-    \multicolumn{7}{l}{\textbf{Belastung durch steile Strassen}}\\
+    \multicolumn{7}{l}{\textbf{Belastung durch geneigte Strassen}}\\
     \thickhline
     3.1	& Neigung längs positiv & $+10$° & 10° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich vor dem Fahrzeug. & 0.1 & 10 & 1\\
     3.2	& Neigung längs negativ & $-10$° & -10° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich hinter dem Fahrzeug. & 0.1 & 10 & 1\\
@@ -368,7 +368,7 @@ Ungenauigkeit: 0.2, Auswirkungen: 20: Risiko: 20
     & 0.4 & 10 & 4\\
     \\[\lineHeightTable]
 
-    \multicolumn{7}{l}{\textbf{Belastung durch unebener Boden}}\\
+    \multicolumn{7}{l}{\textbf{Belastung durch geneigten Boden}}\\
     \thickhline
     2.1	& Neigung längs positiv & $+5$° & 5° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich vor dem Fahrzeug. & 0.1 & 10 & 1\\
     2.2	& Neigung längs negativ & $-5$° & -5° Neigung des Untergrundes in Fahrtrichtung. Anstieg befindet sich hinter dem Fahrzeug. & 0.1 & 10 & 1\\

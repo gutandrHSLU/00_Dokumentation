@@ -1,11 +1,14 @@
-\section{Anforderungen und Auslegung}
+\section{Anforderungen und Auslegungskriterien}
 In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. In einem ersten Schritt werden auf die allgemeinen Anforderungen des Solar Butterflys und anschliessen auf die daraus folgenden Auslegungskriterien der einzelnen Komponenten eingegangen. Es wird beschrieben, was die Anforderungen konkret für die einzelnen Komponenten bedeuten und wie gewährleistet wird, dass diese erfüllt werden.\\
 Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen eingegangen, welche für die strukturelle Auslegung und Festigketisberechnungen relevant sind. Die komplette Liste der Anforderungen an den Solar Butterfly ist in der Arbeit von [HUBER] zu finden.
 
 \subsection{Anforderungen an den Solar Butterfly}
-- Der Solar Butterfly muss den Angreifenden Kräften und herrschenden Lastfällen standhalten. (Vgl. Lastenheft [KAPITEL]) Konkret bedeutet dies, dass die Struktur sich bei den verschiedenen Lastfällen, und Kombinationen davon, nicht plastisch vervormen dürfen und somit eine genügend grosse Sicherheit gegen Fliessen aufweisen muss.\\
-- Weiter darf der Solar Butterfly sich nicht so stark verformen, dass seine Funktionstauglichkeit eingeschränkt wird. Die exakten Anforderungen an die Steifigkeit werden bei der Abhandlnung der einzelnen Komponenten genauer beschrieben.\\
-- Die Struktur des Solar Butterflys soll so ausgelegt werden, dass dieser ca. 180'000 km Fahrt auf zum teil recht holperiger Strasse auf sich nehmen kann. Dies beinhaltet die Auslegung der Komponenten auf Dauerfestigkeit.
+\begin{itemize}
+  \item Der Solar Butterfly muss den Angreifenden Kräften und herrschenden Lastfällen standhalten. (Vgl. Lastenheft [KAPITEL]) Konkret bedeutet dies, dass die Struktur sich bei den verschiedenen Lastfällen, und Kombinationen davon, nicht plastisch verformen darf und somit eine genügend grosse Sicherheit gegen Fliessen aufweisen muss.\\
+  \item Weiter darf der Solar Butterfly sich nicht so stark verformen, dass seine Funktionstauglichkeit eingeschränkt wird. Die exakten Anforderungen an die Steifigkeit werden bei der Abhandlnung der einzelnen Komponenten genauer betrachtet und beschrieben.\\
+  \item Die Struktur des Solar Butterflys soll so ausgelegt werden, dass dieser ca. 300'000 km Fahrt auf zum teil recht holperiger Strasse auf sich nehmen kann. Dies beinhaltet die Auslegung der Komponenten auf Dauerfestigkeit.
+\end{itemize}
+
 
 \subsection{Auslegungskriterien}
 Nachdem die allgemeinen Kriterien für den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel behandelt, was die Anforderungen konkret für die einzelnen Komponenten und Strukturelementen bedeutet. Es wird beschrieben mit welchen Methoden die Auslegung angegangen wird und welche Vereinfachungen getroffen werden.\\
@@ -17,10 +20,10 @@ Die Dauerfestigkeit des Solar Butteflys wird erreicht, indem durch entsprechende
 SF = 1.5
 
   \subsubsection{Aluminiumstrukturen}
-  Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung. Die Aluminiumstrukturen werden so ausgelegt, dass diese genügend Sicherheiten gegen Fliessen und Knickung aufweisen.
+  Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung. Die Aluminiumstrukturen werden so ausgelegt, dass diese eine Sicherheit gegen Fliessen von 1.5 und gegen Knicken eine von 2 aufweisen.
 
   \paragraph{Sicherheit gegen Fliessen}
-  Um die Sicherheit eines Strukturelementes gegen Fliessen zu gewährleisten, wird überprüft, ob die \emph{Von Mises}-Vergleichsspannung kleiner als die zulässige Spannung ist, wobei sich die zulässige Spannung aus der Dehngrenze des gewählten Materials und einem Sicherheitsfaktor zusammensetzt. Die \emph{Von Mises}-Vergleichsspannung kann gemäss der Formel \ref{Von Mises} berechet werden \cite{Baertsch}.
+  Um die Sicherheit eines Strukturelementes gegen Fliessen zu gewährleisten, wird überprüft, ob die \emph{Von Mises}-Vergleichsspannung kleiner als die zulässige Spannung ist, wobei sich die zulässige Spannung aus der Dehngrenze des gewählten Materials und dem Sicherheitsfaktor zusammensetzt. Die \emph{Von Mises}-Vergleichsspannung kann gemäss der Formel \ref{Von Mises} berechet werden \cite{Baertsch}.
   \begin{equation}
     \label{Von Mises}
     \sigma_{zul} \geq \sigma_v = \sqrt{\sigma_x^{2}-\sigma_x \cdot \sigma_y + \sigma_y^2 + 3\tau^2}
@@ -46,8 +49,7 @@ SF = 1.5
     \item Kurzwelliges Beulen der Deckschicht (Wrinkling).
   \end{itemize}
 
-  Die auszulegenden Sandwichstrukturen werden gegenüber diesen Festigkeits und Stabilitätsproblemen abesichert. Um den Rechenaufwand und die Komplexität zu verringern werden Annahmen und Vereinfachungen getroffen.
-  Für die Auslegung von Sandwichstrukturen können folgende Annahmen getroffen werden \cite{ETH}\cite{klein};
+  Die auszulegenden Sandwichstrukturen werden gegenüber diesen Festigkeits und Stabilitätsproblemen abesichert. Um den Rechenaufwand und die Komplexität zu verringern werden Annahmen und Vereinfachungen getroffen. Für die Auslegung von Sandwichstrukturen können folgende Annahmen getroffen werden \cite{ETH}\cite{klein};
   \begin{itemize}
     \item linear elastische und isentrope Materialverhalten,
     \item Eigenbiegesteifigkeiten der Deckschichten sind vernachlässigbar,
@@ -70,7 +72,7 @@ SF = 1.5
       \tau_{k,zul} \geq \tau_k = \frac{q}{t_k}
     \end{equation}
 
-    Die Delamination der Deckschichten wird abgesichert, indem die Auswahl des Klebers so getroffen wird, dass dieser eine höhere Schubfestigkeit aufweist als das Material der jeweiligen Kernschicht.
+    Die Delamination der Deckschichten wird abgesichert, indem die Auswahl des Klebers, oder im Falle einer Laminierung die Matrix, so getroffen wird, dass dieser eine höhere Schubfestigkeit aufweist als das Material der jeweiligen Kernschicht.
 
     \paragraph{Stabilitätsprobleme}
     Die Stabilitätsprobleme der Sandwichstrukturen lassen sich in globale und lokale Instabilitäten einteilen. Zur globalen Instabilität gehört das Knicken, welches sich aus der Eueler-Knickung des schubsteifen Balkens und dem Schubknicken zusammensetzt. Die kritische Belastung, bei welcher es zur Euler-Knickung kommt, lässt sich gemäss Klein \cite{klein} mit der Formel \ref{Euler-Knicklast} berechnen.
@@ -99,35 +101,58 @@ SF = 1.5
       F_{k, vorh.} \leq F_k=\frac{1}{\frac{1}{F_{kB}}+\frac{1}{F_{kS}}}
     \end{equation}
 
-    Zu den lokalen Instabilitäten zählen das Schubbeulen und das Knittern der Deckschicht. Die kritischen Spannunge, bei welcher Schubbeulung auftritt, lässt sich gemäss \cite{ETH} aus den Formel \ref{Schubbeulen} berechnen.
+    Zu den lokalen Instabilitäten zählen das Schubbeulen und das Knittern der Deckschicht. Die kritischen Spannunge, bei welcher Schubbeulung auftritt, lässt sich aus den Formel \ref{Schubbeulen} berechnen. \cite{ETH}
     \begin{equation}
       \label{Schubbeulen}
       \sigma_k = G_k \cdot \frac{h}{2 \cdot t_d}
     \end{equation}
 
-    Die kritischen Spannunge, bei welcher das Knittern der Deckschicht auftritt, lässt sich nach \cite{ETH} mit der Formel \ref{Knittern} berechnen.
+    Die kritischen Spannunge, bei welcher das Knittern der Deckschicht auftritt, lässt sich mit der Formel \ref{Knittern} berechnen. \cite{ETH}
     \begin{equation}
       \label{Knittern}
       \sigma_k = k_s\sqrt[3]{E_d \cdot E_k \cdot G_k}
     \end{equation}
     Wobei für Auslegungen \(k_s = 0.5\) gilt.
 
-    % \paragraph{Verwendete Materialien und zulässige Werte}
-    % Bsp.\\
-    % Bodenplatte aus T92.9 mit 1 mm Alublech:
-    % \begin{itemize}
-    %   \item $\tau_{zul} = 10 MPa$
-    %   \item $\sigma_{zul} = 100 MPa$
-    %   \item $Dauerfestigkeit = 42.0 MPa$
-    %   \item $\sigma_{Knittern} = 200 MPa$
-    % \end{itemize}
-    % Wand aus T92.6 mit 0.5 mm Alublech:
-    % \begin{itemize}
-    %   \item $\tau_{zul} = 5 MPa$
-    %   \item $\sigma_{zul} = 100 MPa$
-    %   \item $Dauerfestigkeit = 42.0 MPa$
-    %   \item $\sigma_{Knittern} = 150 MPa$
-    % \end{itemize}
+    \paragraph{Design-Allowables und Materialkennwerte}
+    \begin{table}
+      \centering
+      \caption{Design-Allowables Sandwichplatten}% Add 'table' caption
+      \begin{tabular}{llcccc}
+        \thickhline
+        Bezeichnung & & Einheit & & Sicherh. Fakt. & Zul. Festigkeit\\
+        \hline
+        \multicolumn{2}{l}{\textbf{Deckschicht}}\\
+        \thickhline
+        \multirow{4}{*}{Aluminium}  & Dichte            & $\frac{kg}{m^3}$  & 2710      & &\\
+                                    & E-Modul           & $MPa$             & 70'000    & &\\
+                                    & Zugfestigkeit     & $MPa$             & 150       & 1.5 & $\sigma_{zul} = 100$\\
+                                    & Dauerfestigkeit   & $MPa$             & 100       & 1.5 & $\sigma_{D,zul} = 75$\\
+
+        \hline
+        \multirow{4}{*}{GFK}        & Dichte            & $\frac{kg}{m^3}$  & 2000      & &\\
+                                    & E-Modul           & $MPa$             & 16'000    & &\\
+                                    & Zugfestigkeit     & $MPa$             & 250       & 1.5 & $\sigma_{zul} = 66$\\
+                                    & Dauerfestigkeit   & $MPa$             & 50       & 1.5 & $\sigma_{D,zul} = 33$\\
+        \hline
+
+        \multicolumn{2}{l}{\textbf{Kern}}\\
+        \thickhline
+        \multirow{4}{*}{Airex T92.60} & Dichte            & $\frac{kg}{m^3}$  & 65      & &\\
+                                      & E-Modul (Druck)   & $MPa$             & 55      & &\\
+                                      & Schubmodul        & $MPa$             & 15      & &\\
+                                      & Schubfestigkeit   & $MPa$             & 0.55    & 1.5 & $\tau_{zul} = 0.5$\\
+
+        \hline
+        \multirow{4}{*}{Airex T92.80} & Dichte            & $\frac{kg}{m^3}$  & 85      & &\\
+                                      & E-Modul (Druck)   & $MPa$             & 75      & &\\
+                                      & Schubmodul        & $MPa$             & 22      & &\\
+                                      & Schubfestigkeit   & $MPa$             & 0.72    & 1.5 & $\tau_{zul} = 0.6$\\
+
+      \thickhline
+      \end{tabular}
+    \end{table}
+
 
   \subsubsection{Nieten}
     % \paragraph{Tragfähigkeitsnachweis}
@@ -172,6 +197,25 @@ SF = 1.5
       \end{split}
     \end{equation}
 
+    \paragraph{Design-Allowables und Materialkennwerte}\mbox{}\\
+
+    \begin{table}[h]
+      \centering
+      \caption{Design-Allowables Kleber}% Add 'table' caption
+      \begin{tabular}{llcccc}
+        \thickhline
+        Bezeichnung & & Einheit & & Sicherh. Fakt. & Zul. Festigkeit\\
+        \thickhline
+        \multirow{3}{*}{Delo-Duopox\textsuperscript{\textregistered} AD840} & E-Modul               & $MPa$             & 1700    & &\\
+                                           & Zugscherfestigkeit    & $MPa$             & 5       & 3 & $\sigma_{zul} = 1.6$\\
+                                           & Druckscherfestigkeit  & $MPa$             & 26      & 3 & $\sigma_{zul} = 8.6$\\
+                                           \hline
+
+       \multirow{1}{*}{Sikaflex\textsuperscript{\textregistered}-552 AT} & Zugscherfestigkeit    & $MPa$             & 2       & 3 & $\sigma_{zul} = 0.6$\\
+
+      \thickhline
+      \end{tabular}
+    \end{table}
     \subsubsection{Schrauben}
 
     \subsubsection{Spannpratzen}
