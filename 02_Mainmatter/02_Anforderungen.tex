@@ -1,5 +1,5 @@
 \section{Anforderungen und Auslegungskriterien}
-In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. In einem ersten Schritt werden auf die allgemeinen Anforderungen des Solar Butterflys und anschliessen auf die daraus folgenden Auslegungskriterien der einzelnen Komponenten eingegangen. Es wird beschrieben, was die Anforderungen konkret für die einzelnen Komponenten bedeuten und wie gewährleistet wird, dass diese erfüllt werden.\\
+In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. In einem ersten Schritt werden auf die allgemeinen Anforderungen des Solar Butterflys und anschliessen auf die daraus resultierenden Auslegungskriterien der einzelnen Komponenten eingegangen. Es wird beschrieben, was die Anforderungen konkret für die einzelnen Komponenten bedeuten und wie gewährleistet wird, dass diese erfüllt werden.\\
 Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen eingegangen, welche für die strukturelle Auslegung und Festigketisberechnungen relevant sind. Die komplette Liste der Anforderungen an den Solar Butterfly ist in der Arbeit von [HUBER] zu finden.
 
 \subsection{Anforderungen an den Solar Butterfly}
@@ -13,11 +13,11 @@ Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen eingegangen,
 \subsection{Auslegungskriterien}
 Nachdem die allgemeinen Kriterien für den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel behandelt, was die Anforderungen konkret für die einzelnen Komponenten und Strukturelementen bedeutet. Es wird beschrieben mit welchen Methoden die Auslegung angegangen wird und welche Vereinfachungen getroffen werden.\\
 
-\paragraph{Dauerfestigkeit}
-Die Dauerfestigkeit des Solar Butteflys wird erreicht, indem durch entsprechendes Design, Spannungskonzentrationen vermieden werden. Weiter wird der Solar Butterfly so ausgelegt, dass dieser bei 50\% der Lasten aus dem Lastenheft, mit einem R von 0, dauerfest ist. Bei den Sandwichstrukturen wird dabei lediglich die Deckschicht auf die Dauerfestigkeit ausgelegt.
+\paragraph{Design-Allowables}
+Design-Allowables: Materialkennwerte mit welchen die Auslegung gemacht wird.\\
+In diesem Materialkennwerte sind die Sicherheitsfaktoren drinnen und die Absicherung gegen ermüdung.\\
 
-\paragraph{Sicherheitsfaktor}
-SF = 1.5
+Die Dauerfestigkeit wird vorallem durch gutes Design erreicht. Lokal müssen beim Nachweis evenutell anpassungen gemacht werden und exaktere Werte zur Hilfe genommen werden.
 
   \subsubsection{Aluminiumstrukturen}
   Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung. Die Aluminiumstrukturen werden so ausgelegt, dass diese eine Sicherheit gegen Fliessen von 1.5 und gegen Knicken eine von 2 aufweisen.
@@ -211,15 +211,9 @@ SF = 1.5
                                            & Druckscherfestigkeit  & $MPa$             & 26      & 3 & $\sigma_{zul} = 8.6$\\
                                            \hline
 
-       \multirow{1}{*}{Sikaflex\textsuperscript{\textregistered}-552 AT} & Zugscherfestigkeit    & $MPa$             & 2       & 3 & $\sigma_{zul} = 0.6$\\
+       \multirow{1}{*}{Sikaflex\textsuperscript{\textregistered}-552 AT} & Zugscherfestigkeit    & $MPa$ & 2 & 3 & $\sigma_{zul} = 0.6$\\
 
       \thickhline
       \end{tabular}
     \end{table}
-    \subsubsection{Schrauben}
-
-    \subsubsection{Spannpratzen}
-
-
-  \subsection{Verformung}
 \newpage
