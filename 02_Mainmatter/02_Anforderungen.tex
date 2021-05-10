@@ -4,26 +4,26 @@ Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen eingegangen,
 
 \subsection{Anforderungen an den Solar Butterfly}
 \begin{itemize}
-  \item Der Solar Butterfly muss den Angreifenden Kräften und herrschenden Lastfällen standhalten. (Vgl. Lastenheft [KAPITEL]) Konkret bedeutet dies, dass die Struktur sich bei den verschiedenen Lastfällen, und Kombinationen davon, nicht plastisch verformen darf und somit eine genügend grosse Sicherheit gegen Fliessen aufweisen muss.\\
-  \item Weiter darf der Solar Butterfly sich nicht so stark verformen, dass seine Funktionstauglichkeit eingeschränkt wird. Die exakten Anforderungen an die Steifigkeit werden bei der Abhandlnung der einzelnen Komponenten genauer betrachtet und beschrieben.\\
-  \item Die Struktur des Solar Butterflys soll so ausgelegt werden, dass dieser ca. 300'000 km Fahrt auf zum teil recht holperiger Strasse auf sich nehmen kann. Dies beinhaltet die Auslegung der Komponenten auf Dauerfestigkeit.
+  \item Der Solar Butterfly muss den Angreifenden Kräften und herrschenden Lastfällen standhalten. (Vgl. Lastenheft [KAPITEL]) Konkret bedeutet dies, dass die Struktur sich in den verschiedenen Lastfällen, und Kombinationen davon, nicht plastisch verformen darf und somit eine genügend grosse Sicherheit gegen Fliessen und Instabilitäten wie Knickung aufweisen muss.\\
+  \item Weiter darf der Solar Butterfly sich nicht so stark verformen, dass seine Funktionstauglichkeit eingeschränkt wird. Die konkreten Anforderungen an die Verformbarkeit der einzelnen Komponenten des Solar Butterflys werden bei deren Abhandlnung genauer betrachtet und beschrieben.\\
+  \item Palmer will mit dem Solar Butterfly ein nachhaltiges und langlebiges Produkt entwicklen, was umgesetzt wird in dem eine \emph{Safe-Life-Quality} in der Auslegung angestrebt wird, welche ``die absolute Schadensfreiheit für das ganze Leben'' verlangt \cite{klein}. Diese Anforderung an die Langlebigkeit wird erreicht, indem der Solar Butterfly für die Dauerfestigkeit ausgelegt wird. Für die Grobauslegung bedeutet dies konkret, dass die Ermüdung mit einer entsprechenden Wahl der Design-Allowables pauschal abgedeckt wird und dass Spannungserhöhungen mit gutem Design vermieden werden.
 \end{itemize}
 
-
 \subsection{Auslegungskriterien}
-Nachdem die allgemeinen Kriterien für den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel behandelt, was die Anforderungen konkret für die einzelnen Komponenten und Strukturelementen bedeutet. Es wird beschrieben mit welchen Methoden die Auslegung angegangen wird und welche Vereinfachungen getroffen werden.\\
+Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel beschrieben, was diese Anforderungen für die einzelnen Komponenten und Strukturelementen bedeutet. Es wird erläutert mit welchen Methoden die Auslegung angegangen wird und welche Vereinfachungen getroffen werden.\\
 
 \paragraph{Design-Allowables}
 Design-Allowables: Materialkennwerte mit welchen die Auslegung gemacht wird.\\
 In diesem Materialkennwerte sind die Sicherheitsfaktoren drinnen und die Absicherung gegen ermüdung.\\
 
-Die Dauerfestigkeit wird vorallem durch gutes Design erreicht. Lokal müssen beim Nachweis evenutell anpassungen gemacht werden und exaktere Werte zur Hilfe genommen werden.
+GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$
+5052: $R_{p0.2} = 240 MPa$, $\sigma_{zdW} = 80 MPa$, $E-Modul = 70'000 MPa$
 
   \subsubsection{Aluminiumstrukturen}
   Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung. Die Aluminiumstrukturen werden so ausgelegt, dass diese eine Sicherheit gegen Fliessen von 1.5 und gegen Knicken eine von 2 aufweisen.
 
   \paragraph{Sicherheit gegen Fliessen}
-  Um die Sicherheit eines Strukturelementes gegen Fliessen zu gewährleisten, wird überprüft, ob die \emph{Von Mises}-Vergleichsspannung kleiner als die zulässige Spannung ist, wobei sich die zulässige Spannung aus der Dehngrenze des gewählten Materials und dem Sicherheitsfaktor zusammensetzt. Die \emph{Von Mises}-Vergleichsspannung kann gemäss der Formel \ref{Von Mises} berechet werden \cite{Baertsch}.
+  Um die Sicherheit eines Strukturelementes gegen Fliessen zu gewährleisten, wird überprüft, ob die \emph{Von Mises}-Vergleichsspannung kleiner als die zulässige Spannung ist. Die \emph{Von Mises}-Vergleichsspannung kann gemäss der Formel \ref{Von Mises} berechet werden \cite{Baertsch}.
   \begin{equation}
     \label{Von Mises}
     \sigma_{zul} \geq \sigma_v = \sqrt{\sigma_x^{2}-\sigma_x \cdot \sigma_y + \sigma_y^2 + 3\tau^2}
@@ -72,7 +72,7 @@ Die Dauerfestigkeit wird vorallem durch gutes Design erreicht. Lokal müssen bei
       \tau_{k,zul} \geq \tau_k = \frac{q}{t_k}
     \end{equation}
 
-    Die Delamination der Deckschichten wird abgesichert, indem die Auswahl des Klebers, oder im Falle einer Laminierung die Matrix, so getroffen wird, dass dieser eine höhere Schubfestigkeit aufweist als das Material der jeweiligen Kernschicht.
+    Die Delamination der Deckschichten wird abgesichert, indem die Auswahl des Klebers, oder im Falle einer Laminierung die Wahl des Matrixwerkstoffes, so getroffen wird, dass dieser eine höhere Schubfestigkeit aufweist als das Material der jeweiligen Kernschicht.
 
     \paragraph{Stabilitätsprobleme}
     Die Stabilitätsprobleme der Sandwichstrukturen lassen sich in globale und lokale Instabilitäten einteilen. Zur globalen Instabilität gehört das Knicken, welches sich aus der Eueler-Knickung des schubsteifen Balkens und dem Schubknicken zusammensetzt. Die kritische Belastung, bei welcher es zur Euler-Knickung kommt, lässt sich gemäss Klein \cite{klein} mit der Formel \ref{Euler-Knicklast} berechnen.
