@@ -1,10 +1,11 @@
 \section{Anforderungen und Auslegungskriterien}
-In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. In einem ersten Schritt werden auf die allgemeinen Anforderungen des Solar Butterflys und anschliessen auf die daraus resultierenden Auslegungskriterien der einzelnen Komponenten eingegangen. Es wird beschrieben, was die Anforderungen konkret für die einzelnen Komponenten bedeuten und wie gewährleistet wird, dass diese erfüllt werden.\\
-Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen eingegangen, welche für die strukturelle Auslegung und Festigketisberechnungen relevant sind. Die komplette Liste der Anforderungen an den Solar Butterfly ist in der Arbeit von [HUBER] zu finden.
+In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. In einem ersten Schritt werden auf die allgemeinen Anforderungen des Solar Butterflys und anschliessen auf die daraus resultierenden Auslegungskriterien der einzelnen Komponenten eingegangen. Es wird beschrieben, was die Anforderungen konkret für die einzelnen Komponenten bedeuten und wie gewährleistet werden kann, dass diese erfüllt werden.\\
+
 
 \subsection{Anforderungen an den Solar Butterfly}
+Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen eingegangen, welche für die strukturelle Auslegung und Festigketisberechnungen relevant sind. Die komplette Liste der Anforderungen an den Solar Butterfly ist in der Arbeit von \emph{Huber} [AHNAHNG] oder im elektronischen Anhang [ANHANG] zu finden.
 \begin{itemize}
-  \item Der Solar Butterfly muss den Angreifenden Kräften und herrschenden Lastfällen standhalten. (Vgl. Lastenheft [KAPITEL]) Konkret bedeutet dies, dass die Struktur sich in den verschiedenen Lastfällen, und Kombinationen davon, nicht plastisch verformen darf und somit eine genügend grosse Sicherheit gegen Fliessen und Instabilitäten wie Knickung aufweisen muss.\\
+  \item Der Solar Butterfly muss strukturelle Integrität aufweisen. Dies bedeutet, dass die Struktur des Solar Butterflys den vorgesehenen Belastungen (vgl. Lastenheft Kapitel \ref{Lastenheft}) standhalten muss, ohne dabei durch Bruch, Verformung oder Ermüdung zu versagen.
   \item Weiter darf der Solar Butterfly sich nicht so stark verformen, dass seine Funktionstauglichkeit eingeschränkt wird. Die konkreten Anforderungen an die Verformbarkeit der einzelnen Komponenten des Solar Butterflys werden bei deren Abhandlnung genauer betrachtet und beschrieben.\\
   \item Palmer will mit dem Solar Butterfly ein nachhaltiges und langlebiges Produkt entwicklen, was umgesetzt wird in dem eine \emph{Safe-Life-Quality} in der Auslegung angestrebt wird, welche ``die absolute Schadensfreiheit für das ganze Leben'' verlangt \cite{klein}. Diese Anforderung an die Langlebigkeit wird erreicht, indem der Solar Butterfly für die Dauerfestigkeit ausgelegt wird. Für die Grobauslegung bedeutet dies konkret, dass die Ermüdung mit einer entsprechenden Wahl der Design-Allowables pauschal abgedeckt wird und dass Spannungserhöhungen mit gutem Design vermieden werden.
 \end{itemize}
@@ -19,14 +20,53 @@ In diesem Materialkennwerte sind die Sicherheitsfaktoren drinnen und die Absiche
 GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$
 5052: $R_{p0.2} = 240 MPa$, $\sigma_{zdW} = 80 MPa$, $E-Modul = 70'000 MPa$
 
+\paragraph{Design-Allowables und Materialkennwerte}
+\begin{table}
+  \centering
+  \caption{Design-Allowables Sandwichplatten}% Add 'table' caption
+  \begin{tabular}{llcccc}
+    \thickhline
+    Bezeichnung & & Einheit & & Sicherh. Fakt. & Zul. Festigkeit\\
+    \hline
+    \multicolumn{2}{l}{\textbf{Deckschicht}}\\
+    \thickhline
+    \multirow{4}{*}{Aluminium}  & Dichte            & $\frac{kg}{m^3}$  & 2710      & &\\
+                                & E-Modul           & $MPa$             & 70'000    & &\\
+                                & Zugfestigkeit     & $MPa$             & 150       & 1.5 & $\sigma_{zul} = 100$\\
+                                & Dauerfestigkeit   & $MPa$             & 100       & 1.5 & $\sigma_{D,zul} = 75$\\
+
+    \hline
+    \multirow{4}{*}{GFK}        & Dichte            & $\frac{kg}{m^3}$  & 2000      & &\\
+                                & E-Modul           & $MPa$             & 16'000    & &\\
+                                & Zugfestigkeit     & $MPa$             & 250       & 1.5 & $\sigma_{zul} = 66$\\
+                                & Dauerfestigkeit   & $MPa$             & 50       & 1.5 & $\sigma_{D,zul} = 33$\\
+    \hline
+
+    \multicolumn{2}{l}{\textbf{Kern}}\\
+    \thickhline
+    \multirow{4}{*}{Airex T92.60} & Dichte            & $\frac{kg}{m^3}$  & 65      & &\\
+                                  & E-Modul (Druck)   & $MPa$             & 55      & &\\
+                                  & Schubmodul        & $MPa$             & 15      & &\\
+                                  & Schubfestigkeit   & $MPa$             & 0.55    & 1.5 & $\tau_{zul} = 0.5$\\
+
+    \hline
+    \multirow{4}{*}{Airex T92.80} & Dichte            & $\frac{kg}{m^3}$  & 85      & &\\
+                                  & E-Modul (Druck)   & $MPa$             & 75      & &\\
+                                  & Schubmodul        & $MPa$             & 22      & &\\
+                                  & Schubfestigkeit   & $MPa$             & 0.72    & 1.5 & $\tau_{zul} = 0.6$\\
+
+  \thickhline
+  \end{tabular}
+\end{table}
+
   \subsubsection{Aluminiumstrukturen}
-  Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung. Die Aluminiumstrukturen werden so ausgelegt, dass diese eine Sicherheit gegen Fliessen von 1.5 und gegen Knicken eine von 2 aufweisen.
+  Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung. Für die Grobauslegung werden die Aluminiumstrukturen ausgelegt, dass diese eine Sicherheit gegen Fliessen von 1.5 aufweisen. Dabei wird sich an \emph{Roloff Matek Maschinenelemente} orientiert \cite{Roloff}. Für das Stabilitätsproblem der Knickung wird sich an \emph{Bärtsch} orientiert und eine Sicherheit von 4 gewählt \cite{Baertsch}.
 
   \paragraph{Sicherheit gegen Fliessen}
   Um die Sicherheit eines Strukturelementes gegen Fliessen zu gewährleisten, wird überprüft, ob die \emph{Von Mises}-Vergleichsspannung kleiner als die zulässige Spannung ist. Die \emph{Von Mises}-Vergleichsspannung kann gemäss der Formel \ref{Von Mises} berechet werden \cite{Baertsch}.
   \begin{equation}
     \label{Von Mises}
-    \sigma_{zul} \geq \sigma_v = \sqrt{\sigma_x^{2}-\sigma_x \cdot \sigma_y + \sigma_y^2 + 3\tau^2}
+    \sigma_v = \sqrt{\sigma_x^{2}-\sigma_x \cdot \sigma_y + \sigma_y^2 + 3\tau^2}
   \end{equation}
   Wobei die Annahmen getroffen werden, dass es sich um einen ebenen Spannungszustand handelt und die angeifenden Lasten dem selben Lastfall angehören.
 
@@ -49,7 +89,7 @@ GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$
     \item Kurzwelliges Beulen der Deckschicht (Wrinkling).
   \end{itemize}
 
-  Die auszulegenden Sandwichstrukturen werden gegenüber diesen Festigkeits und Stabilitätsproblemen abesichert. Um den Rechenaufwand und die Komplexität zu verringern werden Annahmen und Vereinfachungen getroffen. Für die Auslegung von Sandwichstrukturen können folgende Annahmen getroffen werden \cite{ETH}\cite{klein};
+  Die auszulegenden Sandwichstrukturen werden gegenüber diesen Festigkeits und Stabilitätsproblemen abesichert. Um den Rechenaufwand und die Komplexität der Berechnungen zu verringern werden Annahmen und Vereinfachungen getroffen. Für die Auslegung von Sandwichstrukturen können folgende Annahmen getroffen werden \cite{klein}\cite{ETH};
   \begin{itemize}
     \item linear elastische und isentrope Materialverhalten,
     \item Eigenbiegesteifigkeiten der Deckschichten sind vernachlässigbar,
@@ -63,13 +103,13 @@ GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$
 
     \begin{equation}
       \label{Spannung in Deckschicht}
-      \sigma_{zul} \geq \sigma_d = \frac{1}{t_d}\cdot \left ( \frac{n}{2} \pm \frac{m}{h}\right )
+      \sigma_d = \frac{1}{t_d}\cdot \left ( \frac{n}{2} \pm \frac{m}{h}\right )
     \end{equation}
 
-    Mit der Formel \ref{Schubspannungen im Kern} lassen sich die Schubspannungen in der Kernschicht berechnen und somit Aussagen über ihre Resistenz gegenüber dem Schubbruch machen. Die Dicke der Kernschicht wird so ausgelegt, dass die in der Kernschicht herrscheden Spannungen tiefer liegen als die zulässigen.
+    Mit der Formel \ref{Schubspannungen im Kern} lassen sich die Schubspannungen in der Kernschicht berechnen und somit Aussagen über ihre Resistenz gegenüber dem Schubbruch machen.
     \begin{equation}
       \label{Schubspannungen im Kern}
-      \tau_{k,zul} \geq \tau_k = \frac{q}{t_k}
+      \tau_k = \frac{q}{t_k}
     \end{equation}
 
     Die Delamination der Deckschichten wird abgesichert, indem die Auswahl des Klebers, oder im Falle einer Laminierung die Wahl des Matrixwerkstoffes, so getroffen wird, dass dieser eine höhere Schubfestigkeit aufweist als das Material der jeweiligen Kernschicht.
@@ -79,13 +119,13 @@ GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$
 
     \begin{equation}
       \label{Euler-Knicklast}
-      F_{kB}=\frac{\pi^2 \cdot E_d \cdot I_y}{l_k^{2}}
+      F_{kB}=\frac{\pi^2 \cdot E_d \cdot I}{l_k^{2}}
     \end{equation}
 
-    Wobei sich die Biegesteifigkeit $I_y$ vereinfacht gemäss der Formel \ref{ID} berechnen lässt. Hier wurde die Annahme getroffen, dass die Eigenbiegesteifigkeiten der Deckschichten vernachlässigbar sind. Diese Annahme kann gemäss Klein \cite{klein} ab einem Verhältnis von $t_d$ zu $t_k$ von 0.25, getroffen werden.
+    Wobei sich das Widerstandsmoment $I$ vereinfacht gemäss der Formel \ref{ID} berechnen lässt. Hier wurde die Annahme getroffen, dass die Eigenbiegesteifigkeiten der Deckschichten vernachlässigbar sind. Diese Annahme kann gemäss Klein \cite{klein} ab einem Verhältnis von $t_d$ zu $t_k$ von 0.25, getroffen werden.
     \begin{equation}
       \label{ID}
-      I_y = 2 \cdot b \cdot t_d \cdot \left( \frac{t_k}{2} + t_d \right )^{2}
+      I= 2 \cdot b \cdot t_d \cdot \left( \frac{t_k}{2} + t_d \right )^{2}
       % B_y = 2\cdot b \cdot t_d\cdot \left ( \frac{t_k}{2}+t_d \right )^2
     \end{equation}
 
@@ -114,49 +154,9 @@ GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$
     \end{equation}
     Wobei für Auslegungen \(k_s = 0.5\) gilt.
 
-    \paragraph{Design-Allowables und Materialkennwerte}
-    \begin{table}
-      \centering
-      \caption{Design-Allowables Sandwichplatten}% Add 'table' caption
-      \begin{tabular}{llcccc}
-        \thickhline
-        Bezeichnung & & Einheit & & Sicherh. Fakt. & Zul. Festigkeit\\
-        \hline
-        \multicolumn{2}{l}{\textbf{Deckschicht}}\\
-        \thickhline
-        \multirow{4}{*}{Aluminium}  & Dichte            & $\frac{kg}{m^3}$  & 2710      & &\\
-                                    & E-Modul           & $MPa$             & 70'000    & &\\
-                                    & Zugfestigkeit     & $MPa$             & 150       & 1.5 & $\sigma_{zul} = 100$\\
-                                    & Dauerfestigkeit   & $MPa$             & 100       & 1.5 & $\sigma_{D,zul} = 75$\\
-
-        \hline
-        \multirow{4}{*}{GFK}        & Dichte            & $\frac{kg}{m^3}$  & 2000      & &\\
-                                    & E-Modul           & $MPa$             & 16'000    & &\\
-                                    & Zugfestigkeit     & $MPa$             & 250       & 1.5 & $\sigma_{zul} = 66$\\
-                                    & Dauerfestigkeit   & $MPa$             & 50       & 1.5 & $\sigma_{D,zul} = 33$\\
-        \hline
-
-        \multicolumn{2}{l}{\textbf{Kern}}\\
-        \thickhline
-        \multirow{4}{*}{Airex T92.60} & Dichte            & $\frac{kg}{m^3}$  & 65      & &\\
-                                      & E-Modul (Druck)   & $MPa$             & 55      & &\\
-                                      & Schubmodul        & $MPa$             & 15      & &\\
-                                      & Schubfestigkeit   & $MPa$             & 0.55    & 1.5 & $\tau_{zul} = 0.5$\\
-
-        \hline
-        \multirow{4}{*}{Airex T92.80} & Dichte            & $\frac{kg}{m^3}$  & 85      & &\\
-                                      & E-Modul (Druck)   & $MPa$             & 75      & &\\
-                                      & Schubmodul        & $MPa$             & 22      & &\\
-                                      & Schubfestigkeit   & $MPa$             & 0.72    & 1.5 & $\tau_{zul} = 0.6$\\
-
-      \thickhline
-      \end{tabular}
-    \end{table}
-
 
   \subsubsection{Nieten}
-    % \paragraph{Tragfähigkeitsnachweis}
-    Laut Klein \cite{klein} gehört zum Tragfähigkeitsnachweis für gewöhnlich ein Abscher- und Lochleibungsnachweis. Insofern sei für Nietverbindungen ein Nachweis auf Scherbruch (Formel \ref{Scherbruch}) und Lochleibung (Formel \ref{Lochleibung}) zu erbringen:
+    Für die Grobauslegung von Nietverbindungen wird angenommen, dass die herrschenden Schubkräfte gleichmässig auf die Anzahl Nieten in eier Verbindung verteilt werden. Anzahl und Typ der Nieten wird dabei so gewählt, dass die zulässige Scherkraft der Niete nicht überschritten wird. Laut Klein \cite{klein} gehört zum Tragfähigkeitsnachweis von Nietverbindungen für gewöhnlich ein Abscher- und Lochleibungsnachweis. Insofern sei für Nietverbindungen ein Nachweis auf Scherbruch (Formel \ref{Scherbruch}) und Lochleibung (Formel \ref{Lochleibung}) zu erbringen:
     \begin{multicols}{2}
       \begin{equation}
         \label{Scherbruch}
@@ -167,53 +167,58 @@ GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$
         F \leq F_{LF} = d_N \cdot t \cdot \sigma_{FL}
       \end{equation}
     \end{multicols}
-    Wobei $d_N$ der Nietlochdurchmesser, $\tau_B$ die Scherfestigkeit, $t$ die Blechdicke und $\sigma_{FL}$ die Lochleibungs-Dehngrenze ist. Für dynamische Wechselfestigkeitswerte sei die Scherfestigkeit $\tau_B$ noch um den Faktor 2 bis 2.2 zu verringern.
+    Wobei $d_N$ der Nietlochdurchmesser, $\tau_B$ die Scherfestigkeit, $t$ die Blechdicke und $\sigma_{FL}$ die Lochleibungs-Dehngrenze ist. Für dynamische Wechselfestigkeitswerte sei die Scherfestigkeit $\tau_B$ um den Faktor 2 bis 2.2 zu verringern.
 
-    \paragraph{Überlagerte Scher- und Zugbeanspruchung}
-    In der Praxis werden Nietverbindungen aus einer Kombination von Scher- und Zugbeanspruchung beansprucht. Der Nachweis der Tragfähigkeit der überlagerten Belastung wird durch die Ausweisung des Reservefaktors $R_f$ bewerkstelligt. Dazu werden gemäss den Formeln \ref{Rs} und \ref{Rz} der Schubreservefaktor $R_s$ und der Zugreservefaktor $R_z$ berechnet
+    % \paragraph{Überlagerte Scher- und Zugbeanspruchung}
+    % In der Praxis werden Nietverbindungen aus einer Kombination von Scher- und Zugbeanspruchung beansprucht. Der Nachweis der Tragfähigkeit der überlagerten Belastung wird durch die Ausweisung des Reservefaktors $R_f$ bewerkstelligt. Dazu werden gemäss den Formeln \ref{Rs} und \ref{Rz} der Schubreservefaktor $R_s$ und der Zugreservefaktor $R_z$ berechnet
+    %
+    % \begin{multicols}{2}
+    %   \begin{equation}
+    %     \label{Rs}
+    %     R_s = \frac{F_s}{F_{SB}}
+    %   \end{equation}\break
+    %   \begin{equation}
+    %     \label{Rz}
+    %     R_z = \frac{F_z}{k \cdot F_{ZB}}
+    %   \end{equation}
+    % \end{multicols}
+    %
+    % Beim Verwenden von Vollnieten wird für $k$ der Wert 0.5, bei Blindnieten der Wert 0.2 verwendet.
+    % Der Reservefaktor $R_f$ ergibt sich
 
-    \begin{multicols}{2}
-      \begin{equation}
-        \label{Rs}
-        F \leq F_{SB} = \frac{d_N^2 \cdot \pi}{4}\cdot \tau_B
-      \end{equation}\break
-      \begin{equation}
-        \label{Rz}
-        R_z = \frac{F_z}{k \cdot F_{ZB}}
-      \end{equation}
-    \end{multicols}
+  \subsubsection{Klebeverbindungen}
+  Die Fähigkeit einer Klebeverbindungen Schubfluss zu übertragen wird gemäss der Formel \ref{Kleben} beurteilt.
+  \begin{equation}
+    \label{Kleben}
+    \tau_K = \frac{q}{b} \leq \frac{\tau_{KB}}{S}
+  \end{equation}
 
-    \subsubsection{Klebeverbindungen}
-    \begin{equation}
-      \label{Kleben}
-      \tau_K = \frac{F}{b \cdot l_{\ddot{u}}} \leq \frac{\tau_{KB}}{S}
-    \end{equation}
+  Für dynamische Verbindungen werden folgende Abminderungsfaktoren verwendet. \cite{klein}
+  \begin{equation}
+    \label{Zulässige Schubspannungen}
+    \begin{split}
+    wechselnd: & \: \tau_{KW} \approx \left (0.2 ... 0.4 \right ) \cdot \tau_{KB}\\
+    schwellend: & \: \tau_{KSch} \approx 0.8 \cdot \tau_{KB}
+    \end{split}
+  \end{equation}
 
-    \begin{equation}
-      \label{Zulässige Schubspannungen}
-      \begin{split}
-      wechselnd: & \: \tau_{KW} \approx \left (0.2 ... 0.4 \right ) \cdot \tau_{KB}\\
-      schwellend: & \: \tau_{KSch} \approx 0.8 \cdot \tau_{KB}
-      \end{split}
-    \end{equation}
-
-    \paragraph{Design-Allowables und Materialkennwerte}\mbox{}\\
-
-    \begin{table}[h]
-      \centering
-      \caption{Design-Allowables Kleber}% Add 'table' caption
-      \begin{tabular}{llcccc}
-        \thickhline
-        Bezeichnung & & Einheit & & Sicherh. Fakt. & Zul. Festigkeit\\
-        \thickhline
-        \multirow{3}{*}{Delo-Duopox\textsuperscript{\textregistered} AD840} & E-Modul               & $MPa$             & 1700    & &\\
-                                           & Zugscherfestigkeit    & $MPa$             & 5       & 3 & $\sigma_{zul} = 1.6$\\
-                                           & Druckscherfestigkeit  & $MPa$             & 26      & 3 & $\sigma_{zul} = 8.6$\\
-                                           \hline
-
-       \multirow{1}{*}{Sikaflex\textsuperscript{\textregistered}-552 AT} & Zugscherfestigkeit    & $MPa$ & 2 & 3 & $\sigma_{zul} = 0.6$\\
-
-      \thickhline
-      \end{tabular}
-    \end{table}
+  % \paragraph{Design-Allowables und Materialkennwerte}\mbox{}\\
+  %
+  % \begin{table}[h]
+  %   \centering
+  %   \caption{Design-Allowables Kleber}% Add 'table' caption
+  %   \begin{tabular}{llcccc}
+  %     \thickhline
+  %     Bezeichnung & & Einheit & & Sicherh. Fakt. & Zul. Festigkeit\\
+  %     \thickhline
+  %     \multirow{3}{*}{Delo-Duopox\textsuperscript{\textregistered} AD840} & E-Modul               & $MPa$             & 1700    & &\\
+  %                                        & Zugscherfestigkeit    & $MPa$             & 5       & 3 & $\sigma_{zul} = 1.6$\\
+  %                                        & Druckscherfestigkeit  & $MPa$             & 26      & 3 & $\sigma_{zul} = 8.6$\\
+  %                                        \hline
+  %
+  %    \multirow{1}{*}{Sikaflex\textsuperscript{\textregistered}-552 AT} & Zugscherfestigkeit    & $MPa$ & 2 & 3 & $\sigma_{zul} = 0.6$\\
+  %
+  %   \thickhline
+  %   \end{tabular}
+  % \end{table}
 \newpage

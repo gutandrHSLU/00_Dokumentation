@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.17)  18 APR 2021 09:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.4.17)  13 MAY 2021 09:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -808,7 +808,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/aanng/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]) (01_Frontmatte
 r/01_Eigenst√§ndigkeitserkl√§rung.tex
-<04_Figures/Unterschrift2.png, id=159, 435.87843pt x 108.405pt>
+<04_Figures/Unterschrift2.png, id=163, 435.87843pt x 108.405pt>
 File: 04_Figures/Unterschrift2.png Graphic file (type png)
 <use 04_Figures/Unterschrift2.png>
 Package pdftex.def Info: 04_Figures/Unterschrift2.png  used on input line 13.
@@ -829,163 +829,180 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 
-      [1] [2]) (02_Mainmatter/02_Anforderungen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
+l.19 
+      [1] [2]
+Overfull \hbox (0.75748pt too wide) in paragraph at lines 66--68
+\T1/cmr/m/n/10.95 me-cha-ni-schen Grun-d-ele-men-ten (Bal-ken, Schei-be, Plat-t
+e, Scha-le, Vo-lu-mi-na), einen Zusammenbau-
  []
 
-[3] [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+[3]) (02_Mainmatter/02_Anforderungen.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
 
-Overfull \hbox (18.31067pt too wide) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Overfull \hbox (2.4328pt too wide) in paragraph at lines 16--18
+ []\T1/cmr/bx/n/10.95 Design-Allowables[] \T1/cmr/m/n/10.95 Design-Allowables: 
+Ma-te-ri-al-kenn-wer-te mit wel-chen die Aus-le-gung ge-macht
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+[4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Overfull \hbox (18.31067pt too wide) in paragraph at lines 170--171
 []\T1/cmr/m/n/10.95 Wobei $\OML/cmm/m/it/10.95 d[]$ \T1/cmr/m/n/10.95 der Niet-
 loch-durch-mes-ser, $\OML/cmm/m/it/10.95 []$ \T1/cmr/m/n/10.95 die Scher-fes-t
 ig-keit, $\OML/cmm/m/it/10.95 t$ \T1/cmr/m/n/10.95 die Blech-di-cke und $\OML/c
 mm/m/it/10.95 []$ \T1/cmr/m/n/10.95 die Lochleibungs-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-[6]) (02_Mainmatter/03_Lastenheft.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
 [7]
-<04_Figures/A.png, id=315, 1480.53125pt x 784.9325pt>
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+
+Overfull \hbox (11.44357pt too wide) in paragraph at lines 205--218
+ [][] 
+ []
+
+[8]) (02_Mainmatter/03_Lastenheft.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+[9]
+<04_Figures/A.png, id=336, 1480.53125pt x 784.9325pt>
 File: 04_Figures/A.png Graphic file (type png)
 <use 04_Figures/A.png>
-Package pdftex.def Info: 04_Figures/A.png  used on input line 19.
+Package pdftex.def Info: 04_Figures/A.png  used on input line 25.
 (pdftex.def)             Requested size: 227.62206pt x 120.66917pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 20.
+(caption)                particular \caption on input line 26.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+[10 <./04_Figures/A.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
-[8 <./04_Figures/A.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-
- []
-
-[9] [10] [11]
-<04_figures/B1.png, id=374, 1480.53125pt x 784.9325pt>
+[11] [12] [13] [14]
+<04_figures/B1.png, id=401, 1480.53125pt x 784.9325pt>
 File: 04_figures/B1.png Graphic file (type png)
 <use 04_figures/B1.png>
-Package pdftex.def Info: 04_figures/B1.png  used on input line 164.
+Package pdftex.def Info: 04_figures/B1.png  used on input line 170.
 (pdftex.def)             Requested size: 148.56038pt x 78.76134pt.
-<04_figures/B2.png, id=375, 1480.53125pt x 784.9325pt>
+<04_figures/B2.png, id=402, 1480.53125pt x 784.9325pt>
 File: 04_figures/B2.png Graphic file (type png)
 <use 04_figures/B2.png>
-Package pdftex.def Info: 04_figures/B2.png  used on input line 170.
+Package pdftex.def Info: 04_figures/B2.png  used on input line 176.
 (pdftex.def)             Requested size: 148.56038pt x 78.76134pt.
-<04_figures/B3.png, id=376, 1480.53125pt x 784.9325pt>
+<04_figures/B3.png, id=403, 2765.33125pt x 1507.6325pt>
 File: 04_figures/B3.png Graphic file (type png)
 <use 04_figures/B3.png>
-Package pdftex.def Info: 04_figures/B3.png  used on input line 176.
-(pdftex.def)             Requested size: 148.56038pt x 78.76134pt.
-[12 <./04_figures/B1.png (PNG copy)> <./04_figures/B2.png (PNG copy)> <./04_fig
+Package pdftex.def Info: 04_figures/B3.png  used on input line 182.
+(pdftex.def)             Requested size: 148.56038pt x 80.97615pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+[15 <./04_figures/B1.png (PNG copy)> <./04_figures/B2.png (PNG copy)> <./04_fig
 ures/B3.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--217
-
- []
-
-<04_Figures/C.png, id=385, 1480.53125pt x 784.9325pt>
+<04_Figures/C.png, id=411, 1480.53125pt x 784.9325pt>
 File: 04_Figures/C.png Graphic file (type png)
 <use 04_Figures/C.png>
-Package pdftex.def Info: 04_Figures/C.png  used on input line 219.
+Package pdftex.def Info: 04_Figures/C.png  used on input line 228.
 (pdftex.def)             Requested size: 227.62206pt x 120.66917pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 220.
-See the caption package documentation for explanation.
-
-[13 <./04_Figures/C.png (PNG copy)>]
-<04_Figures/BodenMitLasten.png, id=392, 1474.75969pt x 785.18344pt>
-File: 04_Figures/BodenMitLasten.png Graphic file (type png)
-<use 04_Figures/BodenMitLasten.png>
-Package pdftex.def Info: 04_Figures/BodenMitLasten.png  used on input line 228.
-
-(pdftex.def)             Requested size: 364.19667pt x 193.89919pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 229.
 See the caption package documentation for explanation.
 
-[14 <./04_Figures/BodenMitLasten.png>]
-Overfull \hbox (0.6669pt too wide) in paragraph at lines 261--263
+<04_Figures/BodenMitLasten.png, id=412, 1474.75969pt x 785.18344pt>
+File: 04_Figures/BodenMitLasten.png Graphic file (type png)
+<use 04_Figures/BodenMitLasten.png>
+Package pdftex.def Info: 04_Figures/BodenMitLasten.png  used on input line 237.
+
+(pdftex.def)             Requested size: 364.19667pt x 193.89919pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 238.
+See the caption package documentation for explanation.
+
+[16 <./04_Figures/C.png (PNG copy)> <./04_Figures/BodenMitLasten.png>]
+Overfull \hbox (0.6669pt too wide) in paragraph at lines 270--272
 \T1/cmr/m/n/10.95 +5\TS1/cmr/m/n/10.95 ∞ \T1/cmr/m/n/10.95 Nei-gung des Un-ter-
 grun-des noraml zur Fahrtrich-tung. An-steig be-fin-det sich in Fahrtrich-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-
- []
-
-
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
@@ -994,169 +1011,141 @@ Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
-[16]
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+[18]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 307.
+(caption)                particular \caption on input line 318.
 See the caption package documentation for explanation.
 
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-[]|\T1/cmr/m/n/10.95 Beschleunigung ho-ri-zon-tal und Nor-mal zur
- []
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 336.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 336.
-
-Missing character: There is no ∞ in font cmr10!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 336.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 336.
-
-Missing character: There is no ∞ in font cmr10!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 336.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 336.
-
-Missing character: There is no ∞ in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-[]|\T1/cmr/m/n/10.95 10\TS1/cmr/m/n/10.95 ∞ \T1/cmr/m/n/10.95 Nei-gung des Un-t
-er-grun-des noraml zur
- []
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 336.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 336.
-
-Missing character: There is no ∞ in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
-[]|\T1/cmr/m/n/10.95 -10\TS1/cmr/m/n/10.95 ∞ \T1/cmr/m/n/10.95 Nei-gung des Un-
-ter-grun-des noraml zur
- []
-
-[17
-
-]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 341.
-See the caption package documentation for explanation.
-
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-Missing character: There is no ∞ in font cmr10!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 364.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 364.
-
-Missing character: There is no ∞ in font cmr10!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 364.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 364.
-
-Missing character: There is no ∞ in font cmr10!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 364.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 364.
-
-Missing character: There is no ∞ in font cmr10!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 364.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 364.
-
-Missing character: There is no ∞ in font cmr10!
-[18
-
-
-]
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 388.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 388.
-
-Missing character: There is no ∞ in font cmr10!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 389.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 389.
-
-Missing character: There is no ∞ in font cmr10!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 390.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 390.
-
-Missing character: There is no ∞ in font cmr10!
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 391.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 391.
-
-Missing character: There is no ∞ in font cmr10!
 [19
 
+]
 
-] [20]) (02_Mainmatter/04_Aufbau.tex
-Underfull \hbox (badness 10000) in paragraph at lines 13--16
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 357.
+See the caption package documentation for explanation.
+
+[20
+
+
+] [21
+
+
+] [22]) (02_Mainmatter/04_Analyse der Struktur.tex
+<04_Figures/Massenverteilung.png, id=457, 467.346pt x 287.27325pt>
+File: 04_Figures/Massenverteilung.png Graphic file (type png)
+<use 04_Figures/Massenverteilung.png>
+Package pdftex.def Info: 04_Figures/Massenverteilung.png  used on input line 9.
+
+(pdftex.def)             Requested size: 364.19667pt x 223.86621pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 10.
+See the caption package documentation for explanation.
+
+[23
+
+
+ <./04_Figures/Massenverteilung.png>]
+<04_figures/1.1 Querschnitt.png, id=469, 283.0575pt x 245.718pt>
+File: 04_figures/1.1 Querschnitt.png Graphic file (type png)
+<use 04_figures/1.1 Querschnitt.png>
+Package pdftex.def Info: 04_figures/1.1 Querschnitt.png  used on input line 23.
+
+(pdftex.def)             Requested size: 182.09486pt x 158.07632pt.
+<04_figures/1.1 Lagerung.png, id=470, 558.28575pt x 164.41425pt>
+File: 04_figures/1.1 Lagerung.png Graphic file (type png)
+<use 04_figures/1.1 Lagerung.png>
+Package pdftex.def Info: 04_figures/1.1 Lagerung.png  used on input line 29.
+(pdftex.def)             Requested size: 273.14923pt x 80.44075pt.
+<04_figures/1.1 Q.png, id=472, 245.28pt x 157.242pt>
+File: 04_figures/1.1 Q.png Graphic file (type png)
+<use 04_figures/1.1 Q.png>
+Package pdftex.def Info: 04_figures/1.1 Q.png  used on input line 44.
+(pdftex.def)             Requested size: 223.06863pt x 143.00885pt.
+<04_figures/1.1 M.png, id=473, 245.28pt x 157.242pt>
+File: 04_figures/1.1 M.png Graphic file (type png)
+<use 04_figures/1.1 M.png>
+Package pdftex.def Info: 04_figures/1.1 M.png  used on input line 50.
+(pdftex.def)             Requested size: 223.06863pt x 143.00885pt.
+[24 <./04_figures/1.1 Querschnitt.png> <./04_figures/1.1 Lagerung.png> <./04_fi
+gures/1.1 Q.png> <./04_figures/1.1 M.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
+<04_Figures/1.2 Idealisierung.png, id=490, 504.08325pt x 148.75575pt>
+File: 04_Figures/1.2 Idealisierung.png Graphic file (type png)
+<use 04_Figures/1.2 Idealisierung.png>
+Package pdftex.def Info: 04_Figures/1.2 Idealisierung.png  used on input line 8
+6.
+(pdftex.def)             Requested size: 364.19667pt x 107.47856pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 87.
+See the caption package documentation for explanation.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-) [21
-
-
-] (03_Backmatter/Literatur.tex (main.bbl [22])) (03_Backmatter/ListOfFigures.te
-x (main.lof)
+[25 <./04_Figures/1.2 Idealisierung.png>]
+<04_Figures/1.2 Feld A.png, id=499, 319.79475pt x 142.131pt>
+File: 04_Figures/1.2 Feld A.png Graphic file (type png)
+<use 04_Figures/1.2 Feld A.png>
+Package pdftex.def Info: 04_Figures/1.2 Feld A.png  used on input line 97.
+(pdftex.def)             Requested size: 227.62206pt x 101.16743pt.
+<04_Figures/1.2 Feld B.png, id=500, 293.898pt x 157.7895pt>
+File: 04_Figures/1.2 Feld B.png Graphic file (type png)
+<use 04_Figures/1.2 Feld B.png>
+Package pdftex.def Info: 04_Figures/1.2 Feld B.png  used on input line 102.
+(pdftex.def)             Requested size: 227.62206pt x 122.20854pt.
+<04_figures/1.4 Querschnitt.png, id=504, 281.853pt x 247.52475pt>
+File: 04_figures/1.4 Querschnitt.png Graphic file (type png)
+<use 04_figures/1.4 Querschnitt.png>
+Package pdftex.def Info: 04_figures/1.4 Querschnitt.png  used on input line 119
+.
+(pdftex.def)             Requested size: 182.09486pt x 159.9185pt.
+<04_figures/1.4 Lagerung.png, id=505, 564.30824pt x 169.8345pt>
+File: 04_figures/1.4 Lagerung.png Graphic file (type png)
+<use 04_figures/1.4 Lagerung.png>
+Package pdftex.def Info: 04_figures/1.4 Lagerung.png  used on input line 125.
+(pdftex.def)             Requested size: 273.14923pt x 82.20895pt.
+<04_figures/1.4 Q.png, id=506, 245.28pt x 157.242pt>
+File: 04_figures/1.4 Q.png Graphic file (type png)
+<use 04_figures/1.4 Q.png>
+Package pdftex.def Info: 04_figures/1.4 Q.png  used on input line 140.
+(pdftex.def)             Requested size: 223.06863pt x 143.00885pt.
+<04_figures/1.4 M.png, id=507, 245.28pt x 157.242pt>
+File: 04_figures/1.4 M.png Graphic file (type png)
+<use 04_figures/1.4 M.png>
+Package pdftex.def Info: 04_figures/1.4 M.png  used on input line 146.
+(pdftex.def)             Requested size: 223.06863pt x 143.00885pt.
+) [26 <./04_Figures/1.2 Feld A.png> <./04_Figures/1.2 Feld B.png>] (03_Backmatt
+er/Literatur.tex (main.bbl [27 <./04_figures/1.4 Querschnitt.png> <./04_figures
+/1.4 Lagerung.png> <./04_figures/1.4 Q.png> <./04_figures/1.4 M.png>])) (03_Bac
+kmatter/ListOfFigures.tex (main.lof [28])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
@@ -1170,18 +1159,18 @@ duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \section{Elektronischer Anhang}
-                                   ) [23] (main.aux)
+                                   ) [29] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5ECDE6D8C09ABED67776627516419378;5795.
+(rerunfilecheck)             Checksum: E2CEE1B98A80739CDE140BEEC01DDDC1;6213.
  ) 
 Here is how much of TeX's memory you used:
- 17954 strings out of 479321
- 307535 string characters out of 2856583
- 676130 words of memory out of 3000000
- 34902 multiletter control sequences out of 15000+600000
- 419707 words of font info for 65 fonts, out of 8000000 for 9000
+ 18099 strings out of 479321
+ 310510 string characters out of 2856583
+ 679027 words of memory out of 3000000
+ 35002 multiletter control sequences out of 15000+600000
+ 420808 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,15n,119p,960b,969s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 118i,15n,119p,1057b,969s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
 er-t1.enc}{C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-supe
 r/cm-super-ts1.enc}<C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
@@ -1201,15 +1190,16 @@ s/type1/public/cm-super/sfbx1440.pfb><C:/Users/aanng/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/aanng/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><C:/Users/aanng/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Users/aanng/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/
-aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C
-:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm172
-8.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super
-/sfti1000.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-cm-super/sfti1095.pfb>
-Output written on main.pdf (28 pages, 699807 bytes).
+pData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/
+aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C
+:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm144
+0.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super
+/sfrm1728.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+cm-super/sfti1000.pfb><C:/Users/aanng/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/cm-super/sfti1095.pfb>
+Output written on main.pdf (34 pages, 986390 bytes).
 PDF statistics:
- 556 PDF objects out of 1000 (max. 8388607)
- 140 named destinations out of 1000 (max. 500000)
- 332 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 661 PDF objects out of 1000 (max. 8388607)
+ 168 named destinations out of 1000 (max. 500000)
+ 400 words of extra memory for PDF output out of 10000 (max. 10000000)
 
