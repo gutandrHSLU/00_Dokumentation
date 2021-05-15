@@ -98,10 +98,10 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in d
 
     Die folgende Gleichung beschreibt den Neigungswinkel $\varphi$ des Solar Butterflys in abhängigkeit der Zeit $t$:
     \begin{equation}
-      \varphi(t) = \Delta \varphi \cdot \sin \left(\omega t \right)
+      \varphi(t) =  \varphi \cdot \sin \left(\omega t \right)
     \end{equation}
 
-    wobei $\Delta\varphi$ für die maximale Neigung steht und $\omega$ sich wie folgt berechnen lässt:
+    wobei $\varphi$ für die maximale Neigung steht und $\omega$ sich wie folgt berechnen lässt:
     \begin{equation}
       \omega = \frac{2\cdot \pi}{T}
     \end{equation}
@@ -111,8 +111,8 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in d
       \alpha(t) = \ddot \varphi(t) = -\Delta\varphi\:\omega^2 \cdot \sin \left(\omega t \right)
     \end{equation}
 
-    Eine maximalen Neigung $\Delta \varphi$ von 10° und einer Schwingdauer von einer Sekunde ergibt eine maximale Winkelbeschleunigung von $6.9 \; \frac{rad}{s^2}$, was auf dem Dach des Solar Butterflys (2.3 m entfernung zur Drehachse) eine Beschleunigung von ca. 1.6 g entspricht.\\
-    Da die realen Bedingungen einer solchen Situation nur schwer abgeschätzt werden können wird die \emph{Ungenauigkeit} mit 0.3 hoch angesetzt. Ebenfalls können die Auswirkungen einer solchen Beschleunigung nur schwer beurteilt werden, weshalb die \emph{Auswirkung} auf 60 gesetzt wird.
+    Mit einer Schwingdauer von einer Sekunde und einer maximalen Neigung $\varphi$ von 6.5°, welche sich aus einem Höhenunterschied des Rades von 200 mm und dem Radstand des Solar Butterflys von 1770 mm ergibt, resultiert eine maximale Winkelbeschleunigung von $4.4 \; \frac{rad}{s^2}$.\\
+    Da die realen Bedingungen einer solchen Situation nur schwer abgeschätzt werden können, wird die \emph{Ungenauigkeit} mit 0.3 hoch angesetzt. Ebenfalls können die Auswirkungen einer solchen Beschleunigung nur schwer beurteilt werden, weshalb die \emph{Auswirkung} auf 60 gesetzt wird.
   \end{description}
 
   \paragraph{Windlasten}\mbox{}\\
@@ -127,13 +127,13 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in d
     P_W = c_p \: \frac{\rho}{2}\: v^2
   \end{equation}
 
-  Wobei für die Dichte von Luft $\rho$ ein Wert von $1.2 \frac{kg}{m^3}$ und für den Strömungswiderstandskoeffizient eines Rechteckes $c_{p,Rechteck}$ ein Wert von $1.1$ gewählt wird. Bei einer Windgeschwindigkeit von 102.2 $\frac{km}{h}$ ergibt sich gemässt der Gleichung \ref{Winddruck} ein Winddruck von $532 \frac{N}{m^2}$.
+  Wobei für die Dichte von Luft $\rho$ ein Wert von $1.2 \frac{kg}{m^3}$ und für den Strömungswiderstandskoeffizient eines Rechteckes $c_{p,Rechteck}$ ein Wert von $1.1$ gewählt wird. Bei einer Windgeschwindigkeit von 102.2 $\frac{km}{h}$ ergibt sich gemässt der Gleichung \ref{Winddruck} ein Winddruck von $532 \; Pa$.
 
   Da es sich hierbei um eine grobe Idealsierung handelt und zum Beispiel lokale Geschwindigkeitserhöhungen oder Turbulenzen vernachlässigt werden, wird die \emph{Ungenauigkeit} auf 0.4 gesetzt. Die \emph{Auswirkung} wird jedoch eher tief, mit dem Wert 10 bewertet.
 
   \begin{description}
-    \item \textbf{2.1 Wind von links}\\ Der Winddruck von $532 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
-    \item \textbf{2.2 Wind von rechts}\\ Der Winddruck von $532 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
+    \item \textbf{2.1 Wind von links}\\ Der Winddruck von $532  \; Pa$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
+    \item \textbf{2.2 Wind von rechts}\\ Der Winddruck von $532 \; Pa$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
   \end{description}
 
   \paragraph{Neigung}\mbox{}\\
@@ -196,8 +196,8 @@ Windlast von Panelen übernommen
   Winddruck bei 120 km/h (Orkan, Beaufort 12)?\\
   Eher unsicher, kann viel höher liegen. daher nur erste annahme\\
   Ungenauigkeit 0.4, Auswirkungen 40
-  \item \textbf{1.3 Wind von links}\\ Der Winddruck von $486 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
-  \item \textbf{1.4 Wind von rechts}\\ Der Winddruck von $486 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
+  \item \textbf{1.3 Wind von links}\\ Der Winddruck von $486 \; Pa$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
+  \item \textbf{1.4 Wind von rechts}\\ Der Winddruck von $486 \; Pa$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
   Winddruck bei 120 km/h (Orkan, Beaufort 10)?\\
   Eher unsicher, kann viel höher liegen. daher nur erste annahme\\
   Ungenauigkeit 0.4, Auswirkungen 20
@@ -289,8 +289,8 @@ Die Belastungen durch das Mobiliar werden jeweils als Flächenlast im FEM-Modell
 Panelen werden auf Beaufort 8 ausgelegt:\\
 Ungenauigkeit: 0.2, Auswirkungen: 20: Risiko: 20
 \begin{description}
-  \item \textbf{4.1 Wind von links}\\ Der Winddruck von $282 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
-  \item \textbf{4.2 Wind von rechts}\\ Der Winddruck von $282 \frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
+  \item \textbf{4.1 Wind von links}\\ Der Winddruck von $282 \; Pa$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
+  \item \textbf{4.2 Wind von rechts}\\ Der Winddruck von $282 \; Pa$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
 \end{description}
 
 
@@ -332,9 +332,9 @@ Ungenauigkeit: 0.2, Auswirkungen: 20: Risiko: 20
 
     \multicolumn{7}{l}{\textbf{Windlasten}}\\
     \thickhline
-    2.1 & Wind von links & 532 $\frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $frac{km}{h}$ Windgeschwindigkeit)
+    2.1 & Wind von links & 532 $Pa$ & Der Winddruck von 532 $Pa$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $frac{km}{h}$ Windgeschwindigkeit)
     & 0.4 & 10 & 4\\
-    2.2 & Wind von rechts & 532 $\frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $frac{km}{h}$ Windgeschwindigkeit)
+    2.2 & Wind von rechts & 532 $Pa$ & Der Winddruck von 532 $Pa$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $frac{km}{h}$ Windgeschwindigkeit)
     & 0.4 & 10 & 4\\
 
     \multicolumn{7}{l}{\textbf{Belastung durch geneigte Strassen}}\\
@@ -363,13 +363,13 @@ Ungenauigkeit: 0.2, Auswirkungen: 20: Risiko: 20
     \hline
     \multicolumn{7}{l}{\textbf{Windlasten}}\\
     \thickhline
-    1.1 & Wind extrem links   & $898 \frac{N}{m^2}$ & Der Winddruck von 898 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 12 auf der Beaufort-Skala (Orkan: 132.8 $\frac{km}{h}$ Windgeschwindigkeit)
+    1.1 & Wind extrem links   & $898 \; Pa$ & Der Winddruck von 898 $\; Pa$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 12 auf der Beaufort-Skala (Orkan: 132.8 $\frac{km}{h}$ Windgeschwindigkeit)
     & 0.4 & 20 & 8\\
-    1.2 & Wind extrem rechts  & $898 \frac{N}{m^2}$ & Der Winddruck von 898 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 12 auf der Beaufort-Skala (Orkan: 132.8 $\frac{km}{h}$ Windgeschwindigkeit)
+    1.2 & Wind extrem rechts  & $898 \; Pa$ & Der Winddruck von 898 $\; Pa$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 12 auf der Beaufort-Skala (Orkan: 132.8 $\frac{km}{h}$ Windgeschwindigkeit)
     & 0.4 & 20 & 8\\
-    1.3 & Wind von links      & $532 \frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $\frac{km}{h}$ Windgeschwindigkeit)
+    1.3 & Wind von links      & $532 \; Pa$ & Der Winddruck von 532 $\; Pa$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $\frac{km}{h}$ Windgeschwindigkeit)
     & 0.4 & 10 & 4\\
-    1.4 & Wind von rechts     & $532 \frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $\frac{km}{h}$ Windgeschwindigkeit)
+    1.4 & Wind von rechts     & $532 \; Pa$ & Der Winddruck von 532 $\; Pa$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly. %Diese Windlast entsteht aufgrund von Winden der Stufe 10 auf der Beaufort-Skala (Schwerer Sturm: 102.2 $\frac{km}{h}$ Windgeschwindigkeit)
     & 0.4 & 10 & 4\\
     \\[\lineHeightTable]
 
@@ -423,8 +423,8 @@ Ungenauigkeit: 0.2, Auswirkungen: 20: Risiko: 20
 
         \multicolumn{7}{l}{\textbf{Windlasten}}\\
         \thickhline
-        4.1 & Wind von links  & $532 \frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly & 0.4 & 10 & 4\\
-        4.2 & Wind von rechts & $532 \frac{N}{m^2}$ & Der Winddruck von 532 $\frac{N}{m^2}$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly & 0.4 & 10 & 4\\
+        4.1 & Wind von links  & $532 \; Pa$ & Der Winddruck von 532 $Pa$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly & 0.4 & 10 & 4\\
+        4.2 & Wind von rechts & $532 \; Pa$ & Der Winddruck von 532 $Pa$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly & 0.4 & 10 & 4\\
         \\
         \\
         \\

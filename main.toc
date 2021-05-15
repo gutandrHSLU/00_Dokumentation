@@ -9,62 +9,61 @@
 \contentsline {subsection}{\numberline {2.1}Anforderungen an den Solar Butterfly}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Auslegungskriterien}{4}{subsection.2.2}%
 \contentsline {paragraph}{Design-Allowables}{4}{section*.4}%
+\contentsline {paragraph}{Design-Allowables und Materialkennwerte}{5}{table.1}%
 \contentsline {subsubsection}{\numberline {2.2.1}Aluminiumstrukturen}{5}{subsubsection.2.2.1}%
-\contentsline {paragraph}{Sicherheit gegen Fliessen}{5}{section*.5}%
-\contentsline {paragraph}{Knicken}{5}{section*.6}%
+\contentsline {paragraph}{Sicherheit gegen Fliessen}{5}{section*.6}%
+\contentsline {paragraph}{Knicken}{5}{section*.7}%
 \contentsline {subsubsection}{\numberline {2.2.2}Sandwichstrukturen}{5}{subsubsection.2.2.2}%
-\contentsline {paragraph}{Festigkeitsprobleme}{6}{section*.7}%
-\contentsline {paragraph}{Stabilitätsprobleme}{6}{section*.8}%
-\contentsline {paragraph}{Design-Allowables und Materialkennwerte}{7}{table.1}%
+\contentsline {paragraph}{Festigkeitsprobleme}{6}{section*.8}%
+\contentsline {paragraph}{Stabilitätsprobleme}{6}{section*.9}%
 \contentsline {subsubsection}{\numberline {2.2.3}Nieten}{7}{subsubsection.2.2.3}%
-\contentsline {paragraph}{Überlagerte Scher- und Zugbeanspruchung}{7}{section*.10}%
 \contentsline {subsubsection}{\numberline {2.2.4}Klebeverbindungen}{8}{subsubsection.2.2.4}%
-\contentsline {paragraph}{Design-Allowables und Materialkennwerte}{8}{section*.11}%
 \contentsline {section}{\numberline {3}Lastenheft}{9}{section.3}%
-\contentsline {paragraph}{Missbrauchslastfälle und Dynamik}{10}{section*.12}%
+\contentsline {paragraph}{Missbrauchslastfälle und Dynamik}{10}{section*.10}%
 \contentsline {subsection}{\numberline {3.1}Modus A: Fahren}{10}{subsection.3.1}%
-\contentsline {paragraph}{Beschleunigungen durch Fahren}{10}{section*.13}%
-\contentsline {paragraph}{Windlasten}{13}{section*.14}%
-\contentsline {paragraph}{Neigung}{14}{section*.15}%
+\contentsline {paragraph}{Beschleunigungen durch Fahren}{10}{section*.11}%
+\contentsline {paragraph}{Windlasten}{13}{section*.12}%
+\contentsline {paragraph}{Neigung}{14}{section*.13}%
 \contentsline {subsection}{\numberline {3.2}Modus B: Ausfahren}{14}{subsection.3.2}%
-\contentsline {paragraph}{Windlasten}{15}{section*.17}%
-\contentsline {paragraph}{Neigung}{15}{section*.18}%
+\contentsline {paragraph}{Windlasten}{15}{section*.15}%
+\contentsline {paragraph}{Neigung}{15}{section*.16}%
 \contentsline {subsection}{\numberline {3.3}Modus C: Ausgefahren}{16}{subsection.3.3}%
-\contentsline {paragraph}{Personenlast}{16}{section*.19}%
-\contentsline {paragraph}{Neigung}{17}{section*.20}%
-\contentsline {paragraph}{Mobiliar}{17}{section*.21}%
-\contentsline {paragraph}{Windlasten}{18}{section*.22}%
-\contentsline {paragraph}{Panelen Klein}{18}{section*.23}%
-\contentsline {paragraph}{Panelen Gross}{18}{section*.24}%
+\contentsline {paragraph}{Personenlast}{16}{section*.17}%
+\contentsline {paragraph}{Neigung}{17}{section*.18}%
+\contentsline {paragraph}{Mobiliar}{17}{section*.19}%
+\contentsline {paragraph}{Windlasten}{18}{section*.20}%
+\contentsline {paragraph}{Panelen Klein}{18}{section*.21}%
+\contentsline {paragraph}{Panelen Gross}{18}{section*.22}%
 \contentsline {subsection}{\numberline {3.4}Failuremodes}{18}{subsection.3.4}%
-\contentsline {paragraph}{Temperatur}{18}{section*.25}%
-\contentsline {paragraph}{Punktlast auf Boden}{18}{section*.26}%
+\contentsline {paragraph}{Temperatur}{18}{section*.23}%
+\contentsline {paragraph}{Punktlast auf Boden}{18}{section*.24}%
 \contentsline {section}{\numberline {4}Analyse der Struktur}{23}{section.4}%
-\contentsline {paragraph}{Massenverteilung}{23}{section*.27}%
+\contentsline {paragraph}{Massenverteilung}{23}{section*.25}%
 \contentsline {subsection}{\numberline {4.1}Vertikale Beschleunigung}{23}{subsection.4.1}%
-\contentsline {paragraph}{Idealisierung}{23}{section*.28}%
-\contentsline {paragraph}{Querkraft- und Biegemomentenverlauf}{24}{section*.30}%
-\contentsline {paragraph}{Spannungen und Kräfte}{24}{section*.32}%
+\contentsline {paragraph}{Idealisierung}{23}{section*.26}%
+\contentsline {paragraph}{Querkraft- und Biegemomentenverlauf}{24}{section*.28}%
+\contentsline {paragraph}{Spannungen und Kräfte}{24}{section*.30}%
 \contentsline {subsection}{\numberline {4.2}Longitudinale Beschleunigung}{25}{subsection.4.2}%
-\contentsline {paragraph}{Idealisierung}{25}{section*.33}%
-\contentsline {paragraph}{Kräfte und Spannungen}{26}{section*.34}%
+\contentsline {paragraph}{Idealisierung}{25}{section*.31}%
+\contentsline {paragraph}{Kräfte und Spannungen}{26}{section*.32}%
 \contentsline {subsection}{\numberline {4.3}Laterale Beschleunigung}{26}{subsection.4.3}%
-\contentsline {paragraph}{Idealisierung}{26}{section*.36}%
-\contentsline {paragraph}{Querkraft- und Biegemomentenverlauf}{26}{section*.38}%
-\contentsline {paragraph}{Träger}{26}{section*.40}%
-\contentsline {subsection}{\numberline {4.4}1.5 Rotatorische Beschleunigung}{27}{subsection.4.4}%
-\contentsline {section}{\numberline {5}FEM}{27}{section.5}%
-\contentsline {section}{\numberline {6}Auslegung und Design}{27}{section.6}%
-\contentsline {part}{II\hspace {1em}Anhang}{27}{part.2}%
+\contentsline {paragraph}{Idealisierung}{26}{section*.34}%
+\contentsline {paragraph}{Querkraft- und Biegemomentenverlauf}{27}{section*.37}%
+\contentsline {paragraph}{Kräfte und Spannungen}{27}{section*.39}%
+\contentsline {paragraph}{Spannungen in den Trägern}{27}{section*.40}%
+\contentsline {subsection}{\numberline {4.4}1.5 Rotatorische Beschleunigung}{28}{subsection.4.4}%
+\contentsline {section}{\numberline {5}FEM}{28}{section.5}%
+\contentsline {section}{\numberline {6}Auslegung und Design}{28}{section.6}%
+\contentsline {part}{II\hspace {1em}Anhang}{28}{part.2}%
 \contentsline {section}{\numberline {A}Quellenverzeichnis}{28}{appendix.A}%
 \contentsline {section}{\numberline {B}Abbildungsverzeichnis}{29}{appendix.B}%
-\contentsline {section}{\numberline {C}Tabellenverzeichnis}{29}{appendix.C}%
-\contentsline {section}{\numberline {D}Rissfortschritt}{29}{appendix.D}%
-\contentsline {subsection}{\numberline {D.1}Zeichnungen}{29}{subsection.D.1}%
-\contentsline {subsubsection}{\numberline {D.1.1}Zeichnung des Probenrohlings - Erste Serie}{29}{subsubsection.D.1.1}%
-\contentsline {subsubsection}{\numberline {D.1.2}Zeichnung des Probenrohlings - Zweite Serie}{29}{subsubsection.D.1.2}%
-\contentsline {part}{III\hspace {1em}Elektronischer Anhang}{29}{part.3}%
-\contentsline {section}{\numberline {A}Elektronischer Anhang}{29}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Zeichnungen}{29}{subsection.A.1}%
-\contentsline {subsubsection}{\numberline {A.1.1}Zeichnung des Probenrohlings - Erste Serie}{29}{subsubsection.A.1.1}%
-\contentsline {subsubsection}{\numberline {A.1.2}Zeichnung des Probenrohlings - Zweite Serie}{29}{subsubsection.A.1.2}%
+\contentsline {section}{\numberline {C}Tabellenverzeichnis}{30}{appendix.C}%
+\contentsline {section}{\numberline {D}Rissfortschritt}{30}{appendix.D}%
+\contentsline {subsection}{\numberline {D.1}Zeichnungen}{30}{subsection.D.1}%
+\contentsline {subsubsection}{\numberline {D.1.1}Zeichnung des Probenrohlings - Erste Serie}{30}{subsubsection.D.1.1}%
+\contentsline {subsubsection}{\numberline {D.1.2}Zeichnung des Probenrohlings - Zweite Serie}{30}{subsubsection.D.1.2}%
+\contentsline {part}{III\hspace {1em}Elektronischer Anhang}{30}{part.3}%
+\contentsline {section}{\numberline {A}Elektronischer Anhang}{30}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Zeichnungen}{30}{subsection.A.1}%
+\contentsline {subsubsection}{\numberline {A.1.1}Zeichnung des Probenrohlings - Erste Serie}{30}{subsubsection.A.1.1}%
+\contentsline {subsubsection}{\numberline {A.1.2}Zeichnung des Probenrohlings - Zweite Serie}{30}{subsubsection.A.1.2}%
