@@ -76,7 +76,7 @@ Die grössten Belastungen, welchen der Solar Butterfly ausgesetzt wird, entstehe
   % Die Normalspannungen sowie die Schubflüsse werden als unkritisch beurteilt.
 
 \subsection{Longitudinale Beschleunigung}
-Für die Berechnung der Belastung durch longitudinale Beschleunigungen wird lediglich der Lastfall \emph{1.2 Longitudinale Beschleunigung negativ} (Notbremsung) betrachtet, da die longitudinale Beschleunigung im Lastfall \emph{1.3 Longitudinale Beschleunigung positiv} (Erhöhung der Geschwindigkeit) tiefer liegt als jene im Lastfall 1.2. Die Änderung des Vorzeichens der Beschleunigung im Lastfall 1.3 hat keine Auswirkung auf den Betrag der Belastung, da die Lasteinleitungen die Selbe bleibt.
+Für die Berechnung der Belastungen durch longitudinale Beschleunigungen wird lediglich der Lastfall \emph{1.2 Longitudinale Beschleunigung negativ} (Notbremsung) betrachtet, da die longitudinale Beschleunigung im Lastfall \emph{1.3 Longitudinale Beschleunigung positiv} (Erhöhung der Geschwindigkeit) tiefer liegt als jene im Lastfall 1.2. Die Änderung des Vorzeichens der Beschleunigung hat keine Auswirkung auf den Betrag der Belastung, da die Lasteinleitungen die Selbe bleibt.
 
   \paragraph{Idealisierung}\mbox{}\\
   Bei einer Verözerung des Solar Butterflys wird angenommen, dass die Trägheitskräfte des Aufbaus über die Seitenwände (Feld A und Feld B vgl. Abbildung \ref{1.2 Idealisierung}) auf das Chassis abgetragen werden. Der Solar Butterfly wird als ``offen'' betrachtet, sodass die Seitenwände der ausfahrbaren Modulen keine Schubkärfte aufnehmen. Das Chassis wiederum wird über Bremskräfte in der Deichsel und den Räder verzögert. Die Druckspannungen im Chassis liegen im schlimmsten Fall (Verzögerung nur duch Bremmskraft in der Deichsel) tiefer als 10 MPa und werden nicht weiter untersucht.\\
@@ -90,7 +90,7 @@ Für die Berechnung der Belastung durch longitudinale Beschleunigungen wird ledi
   \end{center}
 
   \paragraph{Kräfte und Spannungen}\mbox{}\\
-  Die idealisierten Felder A und B und deren Lagerreaktionen und Schubkräfte sind in der Abbildung \ref{1.2 Felder} dargestellt. Die Kraft $F_a$ und $F_b$ ergeben sich aus der Masse des Aufbaus und der herrschenden Beschleunigung. Um die Berechnung zu vereinfachen werden die Lasteinleitungen jeweils in eine obere Ecke des Feldes gesetzt.
+  Die idealisierten Felder A und B und deren Lagerreaktionen und Schubkräfte sind in der Abbildung \ref{1.2 Felder} dargestellt. Die Kraft $F_a$ und $F_b$ ergeben sich aus der Masse des Aufbaus und der herrschenden Beschleunigung. Um die Berechnung zu vereinfachen werden die Lasteinleitungen jeweils in eine obere Ecke des Feldes gesetzt und entsprechend dem Hebelgesetz skaliert.
 
   \begin{figure}[!ht]
     \centering
@@ -108,11 +108,11 @@ Für die Berechnung der Belastung durch longitudinale Beschleunigungen wird ledi
     \label{1.2 Felder}
   \end{figure}
 
-  Bei einer Beschleunigung von 0.7 g ergeben sich Schubspannungen von 1.6 $\frac{N}{mm}$ im Feld A, sowie 2.8 $\frac{N}{mm}$ im Feld B. Die Normalkräfte in den umrahmenden Profilen belaufen sich auf maximal 3.9 kN in den horizontalen Träger im Feld A und auf 5.6 kN in den vertikalen Träger im Feld B.
+  Bei einer Beschleunigung von 0.7 g ergeben sich Schubspannungen von 1.6 $\frac{N}{mm}$ im Feld A, sowie 2.8 $\frac{N}{mm}$ im Feld B. Die Normalkräfte in den umrahmenden Profilen im Feld A belaufen sich auf maximal 3.9 kN in den horizontalen, und auf 3.1 kN in den vertikalen Profilen. Im Feld B belaufen sich die Normalkräfte auf maximal 5.6 kN in den vertikalen, sowie 4.2 kN in den horizontalen Profilen.
 
 \subsection{Laterale Beschleunigung}
   \paragraph{Idealisierung}\mbox{}\\
-  Für den Lastfall \emph{1.4 lateralen Beschleunigung} wird der Solar Butterfly wie im Kapitel \ref{1.1 Vertikale Beschleunigung} als Biegebalken idealisiert. Da davon ausgegangen wird, dass sich der Schwerpunkt des Solar Butterflys auf einer ähnlichen Höhe wie der Flächenschwerpunk des idealisierten Querschnittes befindet, wird vereinfacht angenommen, dass die lateralen Trägheitskräfte im Flächenschwerpunk angreifen. (Vgl. Abbildung \ref{1.4 Idealisierter Querschnitt}) So kommt es zu keiner Verdrehung des Biegebalkens.\\
+  Für den Lastfall \emph{1.4 lateralen Beschleunigung} wird der Solar Butterfly wie im Kapitel \ref{1.1 Vertikale Beschleunigung} als Biegebalken idealisiert. Da davon ausgegangen wird, dass sich der Schwerpunkt des Solar Butterflys auf einer ähnlichen Höhe wie der Flächenschwerpunk des idealisierten Querschnittes befindet, wird vereinfacht angenommen, dass die lateralen Trägheitskräfte im Flächenschwerpunk angreifen. (Vgl. Abbildung \ref{1.4 Idealisierter Querschnitt}) Auf diese weise kommt es zu keiner Verdrehung des Biegebalkens.\\
   Die Lagerung des idealisierten Solar Butterflys ist in der Abbildung \ref{1.4 Lagerung} dargestellt. Sie stellt die Ansicht von Oben auf den Solar Butterfly dar wobei der ``Spitz'' auf de linken Seite die Deichsel räpresentiert.
 
   \begin{figure}[!ht]
@@ -125,15 +125,15 @@ Für die Berechnung der Belastung durch longitudinale Beschleunigungen wird ledi
       \end{subfigure}%
       \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics[width=0.35\linewidth]{04_figures/1.4 Träger.png}
-        \caption{Schematische darstellung der idealisierung eines Profiles der Träger.}
+        \includegraphics[width=0.75\linewidth]{04_figures/1.4 Träger.png}
+        \caption{Schematische darstellung der idealisierung eines Trägers}
         \label{1.4 Träger}
       \end{subfigure}%
     \caption{Idealisierungen des Solar Butterflys für den Lastfall der lateralen Beschleunigung}
   \label{1.4 Idealisierung}
   \end{figure}
 
-  Weiter wird angenommen, dass die Trägheitskräfte des Aufbaus über die Träger A und B auf das Chassis abgetragen werden. Wird angenommen, dass die Masse über die Höhe des Aufbaus gleichmässig verteilt ist, können die Trägheitskräfte als Streckenlasten, welche auf die Träger A und B wirken, idealisiert werden. Die insegammt Profile der Träger A und B müssen demnach je ein Viertel der Kräfte auf das Chassis übertragen. Die Idealisierung eines Profiles der Träger wird schematisch in der Abbildung \ref{1.4 Träger} dargestellt.
+  Weiter wird angenommen, dass die Trägheitskräfte des Aufbaus über die Träger A und B auf das Chassis abgetragen werden. Wird angenommen, dass die Masse über die Höhe des Aufbaus gleichmässig verteilt ist, können die Trägheitskräfte als Streckenlasten, welche auf die Träger A und B wirken, idealisiert werden. Die vier Profile der Träger A und B müssen demnach je ein Viertel der Kräfte auf das Chassis übertragen. Die Idealisierung eines Trägers ist schematisch in der Abbildung \ref{1.4 Träger} dargestellt.
 
   \begin{center}
     \includegraphics[width=0.6\textwidth]{04_Figures/1.4 Lagerung.png}
@@ -141,7 +141,7 @@ Für die Berechnung der Belastung durch longitudinale Beschleunigungen wird ledi
     \label{1.4 Lagerung}
   \end{center}
 
-  \paragraph{Querkraft- und Biegemomentenverlauf}\mbox{}\\
+  \paragraph{Querkraft- und Biegemomentenverlauf - Biegebalken}\mbox{}\\
   Aus der Massenverteilung und der Beschleunigung können die Lagerreaktionen sowie die Trägheitskräfte berechnet werden. Der daraus resultierende Querkraft- und Biegemomentenverlauf ist in der Abbildung \ref{1.4 QM} dargestellt.
 
   \begin{figure}[!ht]
@@ -176,16 +176,43 @@ Für die Berechnung der Belastung durch longitudinale Beschleunigungen wird ledi
 
 
 
-\subsection{1.5 Rotatorische Beschleunigung}
+\subsection{Rotatorische Beschleunigung}
+\paragraph{Idealisierung}\mbox{}\\
+Um die Schubflüsse in den Wänden des Solar Butterflys, entstehend aus der rotatorischen Beschleunigung, berechnen zu können, wird der Solar Butterfly idealisiert als Torsionsbalken betrachtet. Das Kräftegleichgewicht der Idealisierung ist der Abbildung \ref{1.5 Idealisierung} zu entnehmen. Um auf das Torsionsmoment, welches nötig ist um die rotatorische Beschleunigung aus dem Lastfall \emph{1.5 Rotatorische Beschleunigung} zu erreichen, schliessen zu können, wird das Massenträgheitsmoment berechnet. Dabei wird der Solar Butterfly in die beiden Bereiche \emph{Chassis} und \emph{Aufbau} aufgeteilt (Vgl. Abbildung \ref{1.5 Idealisierung}).  Es wird vereinfacht angenommen, dass die Masse des jeweiligen Bereiches homogen verteilt ist. Dank dieser Annahme lässt sich das Massenträgheitsmoment, unter berücksichtigung des Satzes von \emph{Steiner}, wie folgt berechnen.
 
-\paragraph{Idealisierung}
+\begin{equation}
+  I_{rot} = \frac{1}{12} \cdot m \cdot \left(H\ddot{o}he^2 + Breite^2\right) + m \cdot r^2
+\end{equation}
 
+Das Torsionsmoment ergibt sich aus folgendem Zusammenhang:
+\begin{equation}
+  M_t = I_{rot} * a
+\end{equation}
 
 \begin{center}
-  \includegraphics[width=0.8\textwidth]{04_Figures/1.5 Idealisierung.png}
-  \captionof{figure}{Schematische Darstellung des Solar Butterflys für den Lastfall der rotatorischen Beschleunigung.}
+  \includegraphics[width=0.7\textwidth]{04_Figures/1.5 Idealisierung.png}
+  \captionof{figure}{Schematische Darstellung des Solar Butterflys für den Lastfall der rotatorischen Beschleunigung}
   \label{1.5 Idealisierung}
 \end{center}
+
+\paragraph{Berechnung}\mbox{}\\
+Bei einem Massenträgheitsmoment von rund 8700 $kg\;m^2$ resultiert ein Torsionsmoment von 38'400 $kNmm$. Wird dies nun in die Kraft $F$ (vgl. Abbildung \ref{1.5 Idealisierung}) umgerechnet, ergibt sich eine Kraft von ca. 43 kN. Als Vergleich dazu steht die Kraft von von 37 kN, welche aus der vertikalen Beschleunigung von 2.5 g (Lastfall \emph{1.1 Vertikale Beschleunigung} + Erdbeschleunigung) entsteht.\\
+
+Um die aus dem Torsionsmoment resultierende Schubflüsse zu berechnen, wird der Solar Butterfly gemäss Abbildung \ref{1.5 Momente} in vier Abschnitte eingeteilt. Ebenfalls in dieser Abbildung dargestellt ist das schematisch dargestellte angreifende Torsionsmoment (schwarzer Pfeil) und die aus der Trägheit resultierenden Reaktionsmomente (rote Pfeile). Für jeden dieser vier Abschnitte wird das Massenträgheitsmoment berechnet, um auf den Momentenverlauf schliessen zu können, welche in der Abbildung \ref{1.5 Momentenverlauf} dargestellt ist.
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{04_Figures/1.5 Momente.png}
+  \captionof{figure}{Schematische Darstellung des Solar Butterflys für den Lastfall der rotatorischen Beschleunigung}
+  \label{1.5 Momente}
+\end{center}
+
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{04_Figures/1.5 Momentenverlauf.png}
+  \captionof{figure}{Torsionsmomentenverlauf für den Lastfall der rotatorischen Beschleunigung}
+  \label{1.5 Momentenverlauf}
+\end{center}
+
+
 
 
 
