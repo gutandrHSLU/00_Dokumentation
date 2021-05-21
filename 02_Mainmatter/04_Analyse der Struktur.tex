@@ -176,6 +176,7 @@ Für die Berechnung der Belastungen durch longitudinale Beschleunigungen wird le
 
 
 
+
 \subsection{Rotatorische Beschleunigung}
 \paragraph{Idealisierung}\mbox{}\\
 Um die Schubflüsse in den Wänden des Solar Butterflys, entstehend aus der rotatorischen Beschleunigung, berechnen zu können, wird der Solar Butterfly idealisiert als Torsionsbalken betrachtet. Das Kräftegleichgewicht der Idealisierung ist der Abbildung \ref{1.5 Idealisierung} zu entnehmen. Um auf das Torsionsmoment, welches nötig ist um die rotatorische Beschleunigung aus dem Lastfall \emph{1.5 Rotatorische Beschleunigung} zu erreichen, schliessen zu können, wird das Massenträgheitsmoment berechnet. Dabei wird der Solar Butterfly in die beiden Bereiche \emph{Chassis} und \emph{Aufbau} aufgeteilt (Vgl. Abbildung \ref{1.5 Idealisierung}).  Es wird vereinfacht angenommen, dass die Masse des jeweiligen Bereiches homogen verteilt ist. Dank dieser Annahme lässt sich das Massenträgheitsmoment, unter berücksichtigung des Satzes von \emph{Steiner}, wie folgt berechnen.
@@ -186,7 +187,7 @@ Um die Schubflüsse in den Wänden des Solar Butterflys, entstehend aus der rota
 
 Das Torsionsmoment ergibt sich aus folgendem Zusammenhang:
 \begin{equation}
-  M_t = I_{rot} * a
+  M_t = I_{rot} \cdot \alpha
 \end{equation}
 
 \begin{center}
@@ -196,7 +197,7 @@ Das Torsionsmoment ergibt sich aus folgendem Zusammenhang:
 \end{center}
 
 \paragraph{Berechnung}\mbox{}\\
-Bei einem Massenträgheitsmoment von rund 8700 $kg\;m^2$ resultiert ein Torsionsmoment von 38'400 $kNmm$. Wird dies nun in die Kraft $F$ (vgl. Abbildung \ref{1.5 Idealisierung}) umgerechnet, ergibt sich eine Kraft von ca. 43 kN. Als Vergleich dazu steht die Kraft von von 37 kN, welche aus der vertikalen Beschleunigung von 2.5 g (Lastfall \emph{1.1 Vertikale Beschleunigung} + Erdbeschleunigung) entsteht.\\
+Bei einem Massenträgheitsmoment von rund 8700 $kg\;m^2$ resultiert ein Torsionsmoment von 38'400 $kNmm$. Wird dies nun in die Kraft $F$ (vgl. Abbildung \ref{1.5 Idealisierung}) umgerechnet, ergibt sich eine Kraft von ca. 43 kN. Als Vergleich dazu steht die Kraft von von 37 kN, welche aus der vertikalen Beschleunigung von 2.5 g (Lastfall \emph{1.1 Vertikale Beschleunigung} + Erdbeschleunigung) entsteht.
 
 Um die aus dem Torsionsmoment resultierende Schubflüsse zu berechnen, wird der Solar Butterfly gemäss Abbildung \ref{1.5 Momente} in vier Abschnitte eingeteilt. Ebenfalls in dieser Abbildung dargestellt ist das schematisch dargestellte angreifende Torsionsmoment (schwarzer Pfeil) und die aus der Trägheit resultierenden Reaktionsmomente (rote Pfeile). Für jeden dieser vier Abschnitte wird das Massenträgheitsmoment berechnet, um auf den Momentenverlauf schliessen zu können, welche in der Abbildung \ref{1.5 Momentenverlauf} dargestellt ist.
 
@@ -211,6 +212,36 @@ Um die aus dem Torsionsmoment resultierende Schubflüsse zu berechnen, wird der 
   \captionof{figure}{Torsionsmomentenverlauf für den Lastfall der rotatorischen Beschleunigung}
   \label{1.5 Momentenverlauf}
 \end{center}
+
+Ahnand der Torsionsmomente pro Abschnitt kann wiederum die Schubflüsse geschlossen werden, welche mit der Formel \ref{Schubfluss} berechnet werden können.
+
+\begin{equation}
+  q = \frac{M_t}{2 \cdot A_m}
+  \label{Schubfluss}
+\end{equation}
+
+Wobei $A_m$ für die Bred'sche Fläche steht.
+Die Schubflüsse und Momente je Abschnitt können aus der Tabelle \ref{Schubfluss resultat} entnommen werden.
+
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{ccc}
+    \thickhline
+    Feld &Torsionsmoment [kNmm] &Schubfluss [N/mm] \\ \hline
+    A                        & 8047                                      & 0.81                                  \\
+    B                        & 9880                                      & 1.00                                  \\
+    C                        & 10706                                     & 1.08                                  \\
+    D                        & 9811                                      & 0.99                                  \\
+    \thickhline
+  \end{tabular}
+\caption{Torsionsmomente und Schubflüsse entstehend aus der rotatorischen Beschleunigung}% Add 'table' caption
+\label{Schubfluss resultat}
+\end{table}
+
+
+
+
 
 
 

@@ -17,8 +17,11 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
 Design-Allowables: Materialkennwerte mit welchen die Auslegung gemacht wird.\\
 In diesem Materialkennwerte sind die Sicherheitsfaktoren drinnen und die Absicherung gegen ermüdung.\\
 
-GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$
-5052: $R_{p0.2} = 240 MPa$, $\sigma_{zdW} = 80 MPa$, $E-Modul = 70'000 MPa$
+GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$, Dichte 1.65\\
+5052: $R_{p0.2} = 240 MPa$, $\sigma_{zdW} = 80 MPa$, $E-Modul = 70'000 MPa$\\
+% Ermüdungslimit von 125 MPa. Zustand: H34
+
+% https://en.wikipedia.org/wiki/Fatigue_limit#cite_note-MFandE-2
 
 \paragraph{Design-Allowables und Materialkennwerte}
 \begin{table}
@@ -32,11 +35,11 @@ GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$
     \thickhline
     \multirow{4}{*}{Aluminium}  & Dichte            & $\frac{kg}{m^3}$  & 2710      & &\\
                                 & E-Modul           & $MPa$             & 70'000    & &\\
-                                & Zugfestigkeit     & $MPa$             & 150       & 1.5 & $\sigma_{zul} = 100$\\
-                                & Dauerfestigkeit   & $MPa$             & 100       & 1.5 & $\sigma_{D,zul} = 75$\\
+                                & Zugfestigkeit     & $MPa$             & 240       & 1.5 & $\sigma_{zul} = 100$\\
+                                & Dauerfestigkeit   & $MPa$             & 80        & 1.5 & $\sigma_{D,zul} = 75$\\
 
     \hline
-    \multirow{4}{*}{GFK}        & Dichte            & $\frac{kg}{m^3}$  & 2000      & &\\
+    \multirow{4}{*}{GFK}        & Dichte            & $\frac{kg}{m^3}$  & 1650      & &\\
                                 & E-Modul           & $MPa$             & 16'000    & &\\
                                 & Zugfestigkeit     & $MPa$             & 250       & 1.5 & $\sigma_{zul} = 66$\\
                                 & Dauerfestigkeit   & $MPa$             & 50       & 1.5 & $\sigma_{D,zul} = 33$\\
