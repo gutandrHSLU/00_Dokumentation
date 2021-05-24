@@ -3,7 +3,7 @@ In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly un
 
 
 \subsection{Anforderungen an den Solar Butterfly}
-Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen eingegangen, welche für die strukturelle Auslegung und Festigketisberechnungen relevant sind. Die komplette Liste der Anforderungen an den Solar Butterfly ist in der Arbeit von \emph{Huber} [AHNAHNG] oder im elektronischen Anhang [ANHANG] zu finden.
+Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen des Solar Butterflys eingegangen, welche für die Auslegung der Grundstruktur sowie der Festigketisberechnungen relevant sind. Die komplette Liste der Anforderungen an den Solar Butterfly ist in der Arbeit von \emph{Huber} [AHNAHNG] oder im elektronischen Anhang [ANHANG] zu finden.
 \begin{itemize}
   \item Der Solar Butterfly muss strukturelle Integrität aufweisen. Dies bedeutet, dass die Struktur des Solar Butterflys den vorgesehenen Belastungen (vgl. Lastenheft Kapitel \ref{Lastenheft}) standhalten muss, ohne dabei durch Bruch, Verformung oder Ermüdung zu versagen.
   \item Weiter darf der Solar Butterfly sich nicht so stark verformen, dass seine Funktionstauglichkeit eingeschränkt wird. Die konkreten Anforderungen an die Verformbarkeit der einzelnen Komponenten des Solar Butterflys werden bei deren Abhandlnung genauer betrachtet und beschrieben.
@@ -64,7 +64,7 @@ GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$, Dichte 1.6
 
 
   \subsubsection{Aluminiumstrukturen}
-  Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung. Für die Grobauslegung werden die Aluminiumstrukturen ausgelegt, dass diese eine Sicherheit gegen Fliessen von 1.5 aufweisen. Dabei wird sich an \emph{Roloff Matek Maschinenelemente} orientiert \cite{Roloff}. Für das Stabilitätsproblem der Knickung wird sich an \emph{Bärtsch} orientiert und eine Sicherheit von 4 gewählt \cite{Baertsch}.
+  Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung. Für die Grobauslegung werden die Aluminiumstrukturen ausgelegt, dass diese ein Sicherheitsfaktor gegen Fliessen von 1.5 aufweisen. Dabei wird sich an \emph{Roloff Matek Maschinenelemente} orientiert \cite{Roloff}. Für das Stabilitätsproblem der Knickung wird sich an \emph{Bärtsch} orientiert und ein Sicherheitsfaktor von 4 gewählt \cite{Baertsch}.
 
   \paragraph{Sicherheit gegen Fliessen}
   Um die Sicherheit eines Strukturelementes gegen Fliessen zu gewährleisten, wird überprüft, ob die \emph{Von Mises}-Vergleichsspannung kleiner als die zulässige Spannung ist. Die \emph{Von Mises}-Vergleichsspannung kann gemäss der Formel \ref{Von Mises} berechet werden \cite{Baertsch}.
@@ -73,9 +73,6 @@ GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$, Dichte 1.6
     \sigma_v = \sqrt{\sigma_x^{2}-\sigma_x \cdot \sigma_y + \sigma_y^2 + 3\tau^2}
   \end{equation}
   Wobei die Annahmen getroffen werden, dass es sich um einen ebenen Spannungszustand handelt und die angeifenden Lasten dem selben Lastfall angehören.
-
-  \paragraph{Knicken}
-  Der Versagensfall der Knickung
 
   \subsubsection{Sandwichstrukturen}
   Versagenskriterien der Sandwichstrukturen können in die beiden Kategorien \emph{Festigkeitsprobleme} und \emph{Stabilitätsprobleme} eingeteilt werden \cite{ETH}. Zu den Festigkeitsproblemen gehören;
