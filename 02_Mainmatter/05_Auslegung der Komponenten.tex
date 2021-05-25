@@ -1,23 +1,23 @@
 \section{Dimensionierung}
-Dieses Kapitel stellt eine Zusammenstellung der ausgelegten Komponenten dar. Es wird beschrieben, wie die Komponenten ausleget, und welche Überlegungen bei der Auslegung gemacht wurden. Die Berechnungen wurden mit einer Excel-Tabelle getätigt, welche im elektronischen Anhang ANHANG einsehbar ist.
+Dieses Kapitel stellt eine Zusammenstellung der ausgelegten Komponenten dar. Es wird beschrieben, wie die Komponenten ausleget, und welche Überlegungen bei der Auslegung gemacht wurden. Die Berechnungen wurden mit einer Excel-Tabelle durchgeführt, welche im elektronischen Anhang ANHANG einsehbar ist.
 
 \subsection{Boden}
 Der Fussboden des Solar Butteflys soll als Sandwichstruktur realisiert werden, wobei als Deckschicht Aluminiumblech und als Kern geschäumtes Ocean-PET verwendet werden soll. Der Fussboden muss die Personenlasten aufnehmen und auf das Chassis übertragen. Weiter sieht das zum Zeitpunkt der Durchführung dieser Arbeit verfolgte Konzept vor, dass die Seitenmodule während der Fahrt über den Boden mit dem Rest der Struktur verbunden und befestigt werden. Im Rande des Bodens sollen abschnittweise Aluminiumprofile eingebettet werden, an welchen die Seitenmodule befestigt werden können.\\
-Zu Begin der Ausarbeitung des Konzeptes wurden umrahmende Aluminiumprofile aus dem Fahrzeugbau in betracht gezogen, welche auf Platten mit einer Dicke von 25mm passen. Eine erste Annahme der Dicke des Bodens wurde so getroffen, dass diese in die besagten Profilen passen. Über eine Absprache mit einem Experten aus dem Wohnmobilbau wurde in erfahrung gebracht, dass in Wohnmobilen häuffig Fussböden mit einer Dicke von 30 mm, mit einer Dicke der Deckschichten von 1 mm, verbaut werden. [QUELLE] Weiter wurde mitgeteilt, dass die erste Abschätzung der Dicke von 25 mm eine plausible sei.\\
+Zu Begin der Ausarbeitung des Konzeptes wurden umrahmende Aluminiumprofile aus dem Fahrzeugbau zur Konstruktion in betracht gezogen, welche auf Platten mit einer Dicke von 25 mm passen. Eine erste Annahme der Dicke des Bodens wurde so getroffen, dass diese in die besagten Profilen passen. Über eine Absprache mit einem Experten aus dem Wohnmobilbau wurde in erfahrung gebracht, dass in Wohnmobilen häuffig Fussböden mit einer Dicke von 30 mm, mit einer Dicke der Deckschichten von 1 mm, verbaut werden. [QUELLE] Weiter wurde mitgeteilt, dass die erste Abschätzung der Dicke von 25 mm eine plausible sei und weiter verfolgt werden soll.
 
-Um die getroffene Abschätzung zu überprüfen und die Dicke der Deckschichten zu bestimmen, wurden für zwei Belastungsfälle berechnungen angestellt. Die Fallunterscheidung sowie die Idealisierungen der Lagerung und Krafteinleitung der beiden Fälle ist in der Abbildung \ref{Boden Idealisierung} dargestellt.
+Um die getroffene Annahme zu überprüfen und die Dicke der Deckschichten zu bestimmen, wurden für zwei Belastungsfälle berechnungen angestellt. Die unterschiedlichen Belastungsfälle sowie deren Idealisierungen der Lagerung und Krafteinleitung sind in der Abbildung \ref{Boden Idealisierung} dargestellt.
 
 \begin{figure}[!ht]
   \centering
     \begin{subfigure}{.5\textwidth}
       \centering
-      \includegraphics[width=.98\linewidth]{04_figures/Boden Fall1.png}
+      \includegraphics[width=.8\linewidth]{04_figures/Boden Fall1.png}
       \caption{Belastungsfall 1}
       \label{Belastungsfall 1}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
       \centering
-      \includegraphics[width=.98\linewidth]{04_figures/Boden Fall2.png}
+      \includegraphics[width=.8\linewidth]{04_figures/Boden Fall2.png}
       \caption{Belastungsfall 2}
       \label{Belastungsfall 2}
     \end{subfigure}%
@@ -25,7 +25,7 @@ Um die getroffene Abschätzung zu überprüfen und die Dicke der Deckschichten z
 \label{Boden Idealisierung}
 \end{figure}
 
-Als Belastung wird eine Masse von 200 kg gewählt, welche auf einen 1000 mm langen Bodenabschnitt eingeleitet wird. Der Boden hat eine Breite von 2050 mm und der Abstand zwischen den Lagern beträgt 1410 mm. In der Abbildung \ref{Boden QM} sind die Querkraft- und Biegemomentenverläufe der beiden Fälle dargestellt.
+Als Belastung wird eine Masse von 200 kg gewählt, welche auf einen 1000 mm langen Bodenabschnitt eingeleitet wird. Der Boden hat eine Breite von 2050 mm und der Abstand zwischen den Lagern beträgt 1410 mm. Als Kernmaterial wird das leichteste dem Projekt zur verfügung stehende Schaummaterial \emph{Airex T92.60} verwendet. Das technische Datenblatt ist im elektronsichen Anhang ANHANG zu finden. In der Abbildung \ref{Boden QM} sind die Querkraft- und Biegemomentenverläufe der beiden Belastungsfälle dargestellt.
 
 \begin{figure}[!ht]
   \centering
@@ -33,21 +33,23 @@ Als Belastung wird eine Masse von 200 kg gewählt, welche auf einen 1000 mm lang
       \centering
       \includegraphics[width=.98\linewidth]{04_figures/Boden QM1.png}
       \caption{Belastungsfall 1}
-      \label{Belastungsfall 1}
+      \label{Boden QM1}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
       \centering
       \includegraphics[width=.98\linewidth]{04_figures/Boden QM2.png}
       \caption{Belastungsfall 2}
-      \label{Belastungsfall 2}
+      \label{Boden QM2}
     \end{subfigure}%
   \caption{Querkraft- und Biegemomentenverläufe der Bodenplatten}
-\label{Boden QB}
+\label{Boden QM}
 \end{figure}
 
-Deckschicht von 0.36 mm spannung von 80 MPa. 
+Mit einer Deckschicht von 0.36 mm Dicke wird im Belastungsfall 2, gemäss der Formel \ref{Spannung in Deckschicht}, eine Spannung von 80 MPa erreicht. Die Druckspannungen, welche an den Auflageflächen der Bodenplatte auf den Chassis herrschen, liegen tiefer als 0.1 MPa und stellen keine kritische Spannungen dar. Weiter stellen das Schubbeulen der Kernschicht sowie Knittern der Deckschicht keine Gefahren dar. Sie treten bei Spannungen von 248, respektive 167 MPa auf (Formel \ref{Schubbeulen} und \ref{Knittern}).\\
 
-Schubbeulen und Knittern!
+Bei der Auslegung der Dicke der Deckschichten wird der Missbrauchslastfall
+\emph{3A-Composites}
+
 
 
 Missbrauchslastfälle: Spitzer Schuh, Druckbelastung, Dellen,
@@ -57,6 +59,7 @@ Empfehlung: 1mm Gwicht: Viel Potential, Risiko in kauf nehmen, Falls schaden: ei
 
 
 \subsection{Dach - Hauptmodul}
+
 Beschreibung:
   Aluminiumprofile: Tragen der Panelen
   Unterbringung der Verschlüsse
@@ -76,3 +79,5 @@ Beschreibung:
   Neue Aufhängungen:
     Verformungen und Bilder.
     Schluss in der Arbeit von BACHER.
+
+\newpage
