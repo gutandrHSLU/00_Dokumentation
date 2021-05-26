@@ -10,43 +10,43 @@ Warning--empty journal in ETH
 Warning--empty year in ETH
 You've used 18 entries,
             1876 wiz_defined-function locations,
-            593 strings with 5720 characters,
-and the built_in function-call counts, 3801 in all, are:
-= -- 372
+            590 strings with 5693 characters,
+and the built_in function-call counts, 3236 in all, are:
+= -- 292
 > -- 114
 < -- 0
 + -- 48
 - -- 30
-* -- 228
-:= -- 519
+* -- 207
+:= -- 475
 add.period$ -- 17
 call.type$ -- 18
 change.case$ -- 17
 chr.to.int$ -- 0
 cite$ -- 23
-duplicate$ -- 200
-empty$ -- 403
+duplicate$ -- 162
+empty$ -- 367
 format.name$ -- 30
-if$ -- 953
+if$ -- 795
 int.to.chr$ -- 0
 int.to.str$ -- 18
 missing$ -- 14
 newline$ -- 61
 num.names$ -- 18
-pop$ -- 84
+pop$ -- 85
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 155
+skip$ -- 97
 stack$ -- 0
-substring$ -- 184
-swap$ -- 78
+substring$ -- 100
+swap$ -- 40
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 34
+while$ -- 28
 width$ -- 20
-write$ -- 157
+write$ -- 154
 (There were 5 warnings)
