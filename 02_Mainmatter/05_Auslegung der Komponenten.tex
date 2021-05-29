@@ -2,10 +2,10 @@
 Dieses Kapitel stellt eine Zusammenstellung der ausgelegten Komponenten dar. Es wird beschrieben, wie die Komponenten ausleget, und welche Überlegungen bei der Auslegung gemacht wurden. Die Berechnungen wurden mit einer Excel-Tabelle durchgeführt, welche im elektronischen Anhang ANHANG einsehbar ist.
 
 \subsection{Boden}
-Der Fussboden des Solar Butteflys soll als Sandwichstruktur realisiert werden, wobei als Deckschicht Aluminiumblech und als Kern geschäumtes Ocean-PET verwendet werden soll. Der Fussboden muss die Personenlasten aufnehmen und auf das Chassis übertragen. Weiter sieht das zum Zeitpunkt der Durchführung dieser Arbeit verfolgte Konzept vor, dass die Seitenmodule während der Fahrt über den Boden mit dem Rest der Struktur verbunden und befestigt werden. Im Rande des Bodens sollen abschnittweise Aluminiumprofile eingebettet werden, an welchen die Seitenmodule befestigt werden können.\\
+Der Fussboden des Solar Butteflys soll als Sandwichstruktur realisiert werden, wobei als Deckschicht Aluminiumblech und als Kern geschäumtes Ocean-PET verwendet werden soll. Der Fussboden muss die Personenlasten aufnehmen und auf das Chassis übertragen. Weiter sieht das zum Zeitpunkt der Durchführung dieser Arbeit verfolgte Konzept vor, dass die Seitenmodule während der Fahrt über den Boden mit dem Rest der Struktur verbunden und befestigt werden. Im Rande des Bodens sollen abschnittweise Aluminiumprofile oder Purenit-Schaum eingebettet werden, an welchen die Seitenmodule befestigt werden können.\\
 Zu Beginn der Ausarbeitung des Konzeptes wurden umrahmende Aluminiumprofile aus dem Fahrzeugbau zur Konstruktion in Betracht gezogen, welche auf Platten mit einer Dicke von 25 mm passen. Eine erste Annahme der Dicke des Bodens wurde so getroffen, dass diese in die besagten Profile passen. Über eine Absprache mit einem Experten aus dem Wohnmobilbau wurde in Erfahrung gebracht, dass in Wohnmobilen häufig Fussböden mit einer Dicke von 30 mm, mit einer Dicke der Deckschichten von 1 mm, verbaut werden. [QUELLE] Weiter wurde mitgeteilt, dass die erste Abschätzung der Dicke von 25 mm eine plausible sei und weiterverfolgt werden soll.
 
-Um die getroffene Annahme zu überprüfen und die Dicke der Deckschichten zu bestimmen, wurden für zwei Belastungsfälle Berechnungen angestellt. Die unterschiedlichen Belastungsfälle sowie deren Idealisierungen der Lagerung und Krafteinleitung sind in der Abbildung \ref{Boden Idealisierung} dargestellt.
+Um die getroffene Annahme zu überprüfen und die Dicke der Deckschichten zu bestimmen, wurden für zwei Belastungsfälle Berechnungen angestellt. Die unterschiedlichen Belastungsfälle sowie deren Idealisierungen der Lagerung und Krafteinleitung sind in der Abbildung \ref{Boden Idealisierung} dargestellt. Die Beiden Lager A und B stellen dabei die beiden Längsträger des Chassis dar.
 
 \begin{figure}[!ht]
   \centering
@@ -45,18 +45,19 @@ Als Belastung wird eine Masse von 200 kg gewählt, welche auf einen 1000 mm lang
 \label{Boden QM}
 \end{figure}
 
-Mit einer Deckschicht von 0.36 mm Dicke wird im Belastungsfall 2, gemäss der Formel \ref{Spannung in Deckschicht}, eine Spannung von 80 MPa erreicht, was dem Design-Allowable von Aluminium entspricht. Die Druckspannungen, welche an den Auflageflächen der Bodenplatte auf den Chassis herrschen, liegen tiefer als 0.1 MPa und stellen keine kritischen Spannungen für das Kernmaterial dar. Weiter stellen das Schubbeulen der Kernschicht sowie das Knittern der Deckschicht keine Gefahren dar. Sie treten bei Spannungen von 248, respektive 168 MPa auf (Formel \ref{Schubbeulen} und \ref{Knittern}).\\
+Mit einer Deckschicht von 0.36 mm Dicke wird im Belastungsfall 2, gemäss der Formel \ref{Spannung in Deckschicht}, eine Spannung von 80 MPa erreicht, was dem Design-Allowable von Aluminium entspricht. Die Druckspannungen, welche an den Auflageflächen der Bodenplatte auf den Chassis herrschen, liegen tiefer als 0.1 MPa und stellen keine kritischen Spannungen für das Kernmaterial dar. Weiter stellen das Schubbeulen der Kernschicht sowie das Knittern der Deckschicht keine Gefahren dar. Sie treten bei Spannungen von 248, respektive 168 MPa auf (aus den Formeln \ref{Schubbeulen} und \ref{Knittern}).\\
 
 Als Missbrauchslastfall wird das Betreten des Bodens einer Person welche ``spitze Schuhe'' trägt betrachtet. Steht eine 75 kg schwere Person auf einer Querschnittsfläche von 1000 $mm^2$ (Kreisfläche mit einem Durchmesser von rund 35 mm), wird die minimal erreichbare Druckfestigkeit des Kernmaterials von 0.75 MPa überschritten. Durch die mittragenden Deckschichten ist die effektiv belastete Querschnittsfläche des Kernmaterials jedoch grösser und die Belastung entsprechend kleiner. Dennoch ist es wahrscheinlich, dass im Verlaufe der Lebensdauer des Solar Butterflys ungünstigere Umstände eintreffen und dadurch höhere Belastungen erreicht werden, wodurch der Boden Schaden nehmen könnte. Die Verwendung des nächst festeren Kernmaterials (Minimale Druckfestigkeit von 1.1 MPa) würde das Risiko eines Schadens reduzieren, hätte jedoch eine Erhöhung des Gewichtes von rund 20 kg zur Folge. (Berechnet mit 40 $m^2$ Bodenfläche.)\\
-Von der Firma \emph{3A-Composites} wird empfohlen, Deckschichten mit einer Dicke von 1 mm zu verwenden, da gute Erfahrungen mit dieser Dicke gemacht wurden. Weiter wurden Bedenken bezüglich der Verwendung dünneren Deckschichten geäussert. Da das Überschreiten der Gewichtslimit des Solar Butterflys ein Projektrisiko darstellt, wird, um das Gewicht zu reduzieren, von der Empfehlung abgewichen und dünnere Deckschichten verwendet. Auf der Unterseite des Bodens wird eine Dicke von 0.6 mm und auf der begehbaren Oberseite eine Dicke von 0.8 mm verwendet. Mit dieser Wahl der Dicken der Deckschichten kann das Gewicht des Bodens, im Vergleich zu beidseitig 1 mm dicken Deckschichten, um rund 65 kg reduziert werden.
+Von der Firma \emph{3A-Composites} wird empfohlen, Deckschichten mit einer Dicke von 1 mm zu verwenden, da gute Erfahrungen mit dieser Dicke gemacht wurden. Weiter wurden Bedenken bezüglich der Verwendung dünneren Deckschichten geäussert. Da das Überschreiten des Gewichtslimits des Solar Butterflys ein Projektrisiko darstellt, wird, um das Gewicht zu reduzieren, von der Empfehlung abgewichen und dünnere Deckschichten verwendet. Auf der Unterseite des Bodens wird eine Dicke von 0.6 mm und auf der begehbaren Oberseite eine Dicke von 0.8 mm gewählt. Mit dieser Wahl der Dicken der Deckschichten kann das Gewicht des Bodens, im Vergleich zu beidseitig 1 mm dicken Deckschichten, um rund 65 kg reduziert werden.\\
 
-Bei der Wahl des leichten Kernmaterials und den dünnen Deckschichten wird bewusst ein Risiko eingegangen. Es ist wahrscheinlich, dass der Boden im Verlauf der Lebensdauer des Solar Butteflys Schaden, in Form von eingedrückten Stellen, nehmen wird. Die Auswirkungen eines solchen Schadens sind jedoch gering. So stellen die Schäden auf Grund der dicken Deckschichten (dick bezüglich 0.36 mm) keine Gefahr für die Integrität der Gesamtstruktur dar. Weiter können die eingedrückten Stellen mit geringem Aufwand mit einer Spachtelmasse oder Füller ausgebessert werden, sodass der Solar Butterfly weiterhin optisch ansprechend bleibt. Die soeben beschriebene Situation und gefasste Entscheidung wurde mit \emph{Palmer} besprochen und gut geheissen.
+Ein weiterer Aspekt des Bodens, welcher berücksichtigt wird, ist dessen Nachgiebigkeit unter Belastung. Der Boden soll sich beim Begehen nicht zu stark verformen.\footnote{Für die Verformbarkeit des Bodens wurde keine klare Anforderung definiert. Die zulässige Verformbarkeit wird nach eigenem Ermessen abgeschätzt.}  Mit den gewählten Dicken der Deckschichten und der zuvor erwähnten Belastung von 200 kg, würde eine Kernschicht mit einer Dicke von rund 11.5 mm genügen, um die Design-Allowables der Deckschichten nicht zu überschreiten. Der Boden würde sich bei dieser Wahl jedoch um 22 mm Durchbiegen. Bei einer Dicke des Bodens von 25 mm (Dicke des Kernes von 23.6 mm) verformt sich der Boden maximal lediglich um rund 6 mm (Belastungsfall 2), was als zulässig beurteilt wird.
+
+Bei der Wahl des leichten Kernmaterials und den dünnen Deckschichten wird, da viel Gewicht gespart werden kann, bewusst ein Risiko eingegangen. Es ist wahrscheinlich, dass der Boden im Verlauf der Lebensdauer des Solar Butteflys Schaden, in Form von eingedrückten Stellen, nehmen wird. Dabei wird sich auf die geäusserten Bedenken von \emph{3A-Composites} gestützt. Die Auswirkungen eines solchen Schadens sind jedoch gering. So stellen alfällige Schäden, auf Grund der überdimensionierten Deckschichten (überdimensionierten im vergleich zu 0.36 mm), keine Gefahr für die Integrität der Gesamtstruktur dar. Weiter können die eingedrückten Stellen mit geringem Aufwand mit einer Spachtelmasse oder Füller ausgebessert werden, sodass der Solar Butterfly weiterhin optisch ansprechend bleibt. Die soeben beschriebene Situation und gefasste Entscheidung wurde mit \emph{Palmer} besprochen und gut geheissen.
 
 
 \subsection{Dach - mittleres Raumelement}
 \label{Dach}
-Das Dach des mittleren Raumelementes besteht aus zwei Aluminium-Rechteckprofilen und vier Solarpanelen, welche auf die Längsträger geklebt werden. Die Solarpanelen ihrerseits sind Sandwichkonstuktionen bestehend aus einem PET-Schaum und glasfaserverstärken Kunststoff-Deckschichten mit einer Gesamtdicke von 14.5 mm. Das Dach hat eine Breite von 2.1 Meter und eine Länge von rund 5.3 Meter.\\
-Die Längsträger des Daches werden so ausgelegt, dass die Verformung des Daches durch dessen Eigengewicht die Funktion der Ausfahrmodule nicht einschränkt. Es wird von einer zulässigen Verformung von 50 mm ausgegangen.
+Das Dach des mittleren Raumelementes besteht aus zwei Aluminium-Rechteckprofilen und vier Solarpanelen, welche auf die Längsträger geklebt werden. Die Solarpanelen ihrerseits sind 14.5 mm dicke Sandwichkonstuktionen bestehend aus PET-Schaum und Deckschichten aus glasfaserverstärkem Kunststoff (GFK). Das Dach hat eine Breite von 2.1 Meter und eine Länge von rund 5.3 Meter. In der Abbildung \ref{img:Dach} ist das mittlere Raumelement des Solar Butterflys dargestellt.\\
 
 \begin{figure}[h]
   \includegraphics[width=\linewidth]{04_Figures/Dach.png}
@@ -64,9 +65,9 @@ Die Längsträger des Daches werden so ausgelegt, dass die Verformung des Daches
   \label{img:Dach}
 \end{figure}
 
-Die Berechnungen wurden mit einer Exceltabelle durchgeführt, welche im elektronischen Anhan ANHANG einsehbar ist.
-Um die Verformung des Daches zu berechnen wird die Biegesteifigkeit des Daches gemäss der Formel \ref{eq:1}, unter berücksichtigung der unterschiedlichen Steifigkeiten der Materialien, berechnet. Dabei wurde 50\% der Panelen als mittragende Breite berücksichtigt. Als Belastung wird das Eigengewicht als Flächenlast verwendet. Bei der Wahl des Profiles gilt es dessen Höhe minimal zu halten, da die Höhe der Längsträger direkt die Höhe der ausziehbaren Raumelementen reduziert.\\
-Bei der Wahl eines Profiles mit 35 mm Höhe, 25 mm Breite und einer Wandstärke von 3 mm, hängt das Dach bei einer gelenkigen Lagerung (vgl. Abbildung \ref{Dach Idealisierung}) um 43 mm durch. Um die Spannungen in den Längsträgern und der oberen Deckschicht der Panelen zu berechnen, wurden die Lagerkräfte sowie der Querkraft und Biegemomentenverlauf berechnet, welcher in der Abbildung \ref{Dach QM} abgebildet ist. Gemäss der Formel \ref{eq:2} ergeben sich in den Längsträgern maximale Zugspannungen von 20 MPa und in den Deckschichten der Panelen Druckspannungen von 3 MPa. Bei einer Zusätzlichen Belastung von rund 200 kg, gleichmässig verteilt auf die Fläche des Daches, wird in den Längsträgern die zulässige Spannung von 80 MPa erreicht. Diese Belastung kann z.B. aufgrund von Schneefall auftreten.
+Die Längsträger des Daches werden so ausgelegt, dass die Verformung des Daches durch dessen Eigengewicht die Funktion der Ausfahrmodule nicht einschränkt. Es wird von einer maximal zulässigen Verformung von 50 mm ausgegangen. Um die Verformung des Daches zu berechnen wird die Biegesteifigkeit des Daches gemäss der Formel \ref{eq:1}, unter berücksichtigung der unterschiedlichen Steifigkeiten der Materialien, berechnet. Dabei wurde 50\% der Panelen als mittragende Breite berücksichtigt. Als Belastung wird das Eigengewicht als Flächenlast verwendet. Bei der Wahl des Profiles gilt es, dessen Höhe minimal zu halten, da die Höhe der Längsträger direkt die Höhe der ausziehbaren Raumelementen reduziert.\\
+Bei der Wahl eines Profiles mit 35 mm Höhe, 25 mm Breite und einer Wandstärke von 3 mm, hängt das Dach bei einer gelenkigen Lagerung (vgl. Abbildung \ref{Dach Idealisierung}) um 43 mm durch. Um die Spannungen in den Längsträgern und der oberen Deckschicht der Panelen zu berechnen, wurden die Lagerkräfte sowie der Querkraft und Biegemomentenverlauf berechnet, welcher in der Abbildung \ref{Dach QM} abgebildet ist. Gemäss der Formel \ref{eq:2} ergeben sich in den Längsträgern maximale Zugspannungen von 20 MPa und in den Deckschichten der Panelen Druckspannungen von 3 MPa.\\
+Bei einer zusätzlichen Belastung von rund 200 kg, gleichmässig verteilt auf die Fläche des Daches, wird in den Längsträgern die zulässige Spannung von 80 MPa erreicht. Die Spannungen in der oberen Deckschicht der Solarpanele ergibt sich zu 13 MPa. Die zusätzliche Belastung könnte z.B. aufgrund von Schneefall auftreten.
 
 \begin{figure}[h]
 \centering
@@ -85,21 +86,13 @@ Bei der Wahl eines Profiles mit 35 mm Höhe, 25 mm Breite und einer Wandstärke 
 \end{figure}
 
 
+\subsection{Solarpanelen - Reihe D}
+Die Äusserste Reihe der Solarpanelen werden über Teleskopscharniere befestigt und mittels einem Pneumatikzylinder ausgeschoben. Um \emph{Bacher} bei der Auswahl der Teleskopscharniere zu unterstzützen wurden Handrechnungen und einige einfachere FEM-Analysen mit jeweils unterschiedlicher Lagerungen druchgeführt. Ausgelesen wurden die totalen Verformungen sowie die unterschiedlichen Lagerreaktionen. Die entsprechenden FEM-Dateien sind im elektronischen Anhang ANHANG angefügt.
 
-  \paragraph{Berechnung}\mbox{}//
-    Limitierender Faktor: Deformation
-    Berücksichtigung des Eigengewichtes,
-    Mittragende Breite des Daches
-
-
-\subsection{Panelen}
-  Erste Berechnung wie Dach, dann jedoch schwierig wegen komplexer aufhängung und 2D-Problem.
-  Darum FEM:
-    Eigengewicht, Beschleunigung, Extra Last mit Druck.
-
-  Einfache Lagerung: Resultate stimmen überein mit Excel.
-  Neue Aufhängungen:
-    Verformungen und Bilder.
-    Schluss in der Arbeit von BACHER.
-
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.6\linewidth]{04_figures/Panelen Verformung.png}
+  \caption{Beispiel-Bild einer FEM-Analyse der Solarpanele Reihe D}
+  \label{Panelen Verformung}
+\end{figure}
 \newpage
