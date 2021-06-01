@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  1 JUN 2021 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  1 JUN 2021 20:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -722,7 +722,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./01_Frontmatter/00_TitelSeite.tex [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./01_Frontmatter/01_Eigenständigkeitserklärung.tex
-<04_Figures/Unterschrift2.png, id=237, 435.87843pt x 108.405pt>
+<04_Figures/Unterschrift2.png, id=245, 435.87843pt x 108.405pt>
 File: 04_Figures/Unterschrift2.png Graphic file (type png)
 <use 04_Figures/Unterschrift2.png>
 Package pdftex.def Info: 04_Figures/Unterschrift2.png  used on input line 13.
@@ -802,7 +802,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 [10]
-<04_Figures/A.png, id=435, 1480.53125pt x 784.9325pt>
+<04_Figures/A.png, id=445, 1480.53125pt x 784.9325pt>
 File: 04_Figures/A.png Graphic file (type png)
 <use 04_Figures/A.png>
 Package pdftex.def Info: 04_Figures/A.png  used on input line 26.
@@ -834,7 +834,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--69
  []
 
 [12] [13]
-<04_Figures/1.5 Skizze.png, id=476, 572.1375pt x 272.51813pt>
+<04_Figures/1.5 Skizze.png, id=486, 572.1375pt x 272.51813pt>
 File: 04_Figures/1.5 Skizze.png Graphic file (type png)
 <use 04_Figures/1.5 Skizze.png>
 Package pdftex.def Info: 04_Figures/1.5 Skizze.png  used on input line 118.
@@ -846,17 +846,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [14 <./04_Figures/1.5 Skizze.png>] [15]
-<04_figures/B1.png, id=504, 1480.53125pt x 784.9325pt>
+<04_figures/B1.png, id=514, 1480.53125pt x 784.9325pt>
 File: 04_figures/B1.png Graphic file (type png)
 <use 04_figures/B1.png>
 Package pdftex.def Info: 04_figures/B1.png  used on input line 178.
 (pdftex.def)             Requested size: 148.56038pt x 78.76134pt.
-<04_figures/B2.png, id=505, 1480.53125pt x 784.9325pt>
+<04_figures/B2.png, id=515, 1480.53125pt x 784.9325pt>
 File: 04_figures/B2.png Graphic file (type png)
 <use 04_figures/B2.png>
 Package pdftex.def Info: 04_figures/B2.png  used on input line 184.
 (pdftex.def)             Requested size: 148.56038pt x 78.76134pt.
-<04_figures/B3.png, id=506, 2765.33125pt x 1507.6325pt>
+<04_figures/B3.png, id=516, 2765.33125pt x 1507.6325pt>
 File: 04_figures/B3.png Graphic file (type png)
 <use 04_figures/B3.png>
 Package pdftex.def Info: 04_figures/B3.png  used on input line 190.
@@ -871,7 +871,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
-<04_Figures/C.png, id=514, 1480.53125pt x 784.9325pt>
+<04_Figures/C.png, id=524, 1480.53125pt x 784.9325pt>
 File: 04_Figures/C.png Graphic file (type png)
 <use 04_Figures/C.png>
 Package pdftex.def Info: 04_Figures/C.png  used on input line 236.
@@ -881,7 +881,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 237.
 See the caption package documentation for explanation.
 
-<04_Figures/BodenMitLasten.png, id=515, 1474.75969pt x 785.18344pt>
+<04_Figures/BodenMitLasten.png, id=525, 1474.75969pt x 785.18344pt>
 File: 04_Figures/BodenMitLasten.png Graphic file (type png)
 <use 04_Figures/BodenMitLasten.png>
 Package pdftex.def Info: 04_Figures/BodenMitLasten.png  used on input line 245.
@@ -957,47 +957,42 @@ See the caption package documentation for explanation.
 
 
 ] [24]) (./02_Mainmatter/04_Analyse der Struktur.tex
-<04_Figures/Massenverteilung.png, id=565, 467.346pt x 287.27325pt>
+<04_Figures/Massenverteilung.png, id=575, 467.346pt x 287.27325pt>
 File: 04_Figures/Massenverteilung.png Graphic file (type png)
 <use 04_Figures/Massenverteilung.png>
-Package pdftex.def Info: 04_Figures/Massenverteilung.png  used on input line 9.
+Package pdftex.def Info: 04_Figures/Massenverteilung.png  used on input line 11.
 (pdftex.def)             Requested size: 364.19667pt x 223.86621pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 10.
+(caption)                particular \caption on input line 12.
 See the caption package documentation for explanation.
 
 [25
 
 
  <./04_Figures/Massenverteilung.png>]
-<04_figures/1.1 Querschnitt.png, id=578, 283.0575pt x 245.718pt>
+<04_figures/1.1 Querschnitt.png, id=587, 283.0575pt x 245.718pt>
 File: 04_figures/1.1 Querschnitt.png Graphic file (type png)
 <use 04_figures/1.1 Querschnitt.png>
-Package pdftex.def Info: 04_figures/1.1 Querschnitt.png  used on input line 23.
+Package pdftex.def Info: 04_figures/1.1 Querschnitt.png  used on input line 25.
 (pdftex.def)             Requested size: 182.09486pt x 158.07632pt.
-<04_figures/1.1 Lagerung.png, id=579, 558.28575pt x 164.41425pt>
+<04_figures/1.1 Lagerung.png, id=588, 558.28575pt x 164.41425pt>
 File: 04_figures/1.1 Lagerung.png Graphic file (type png)
 <use 04_figures/1.1 Lagerung.png>
-Package pdftex.def Info: 04_figures/1.1 Lagerung.png  used on input line 29.
+Package pdftex.def Info: 04_figures/1.1 Lagerung.png  used on input line 31.
 (pdftex.def)             Requested size: 273.14923pt x 80.44075pt.
-<04_figures/1.1 Q.png, id=581, 245.28pt x 157.242pt>
+<04_figures/1.1 Q.png, id=590, 245.28pt x 157.242pt>
 File: 04_figures/1.1 Q.png Graphic file (type png)
 <use 04_figures/1.1 Q.png>
-Package pdftex.def Info: 04_figures/1.1 Q.png  used on input line 44.
+Package pdftex.def Info: 04_figures/1.1 Q.png  used on input line 46.
 (pdftex.def)             Requested size: 223.06863pt x 143.00885pt.
-<04_figures/1.1 M.png, id=582, 245.28pt x 157.242pt>
+<04_figures/1.1 M.png, id=591, 245.28pt x 157.242pt>
 File: 04_figures/1.1 M.png Graphic file (type png)
 <use 04_figures/1.1 M.png>
-Package pdftex.def Info: 04_figures/1.1 M.png  used on input line 50.
+Package pdftex.def Info: 04_figures/1.1 M.png  used on input line 52.
 (pdftex.def)             Requested size: 223.06863pt x 143.00885pt.
  [26 <./04_Figures/1.1 Querschnitt.png> <./04_Figures/1.1 Lagerung.png> <./04_Figures/1.1 Q.png> <./04_Figures/1.1 M.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
@@ -1007,122 +1002,127 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-<04_Figures/1.2 Idealisierung.png, id=600, 504.08325pt x 148.75575pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+<04_Figures/1.2 Idealisierung.png, id=609, 504.08325pt x 148.75575pt>
 File: 04_Figures/1.2 Idealisierung.png Graphic file (type png)
 <use 04_Figures/1.2 Idealisierung.png>
-Package pdftex.def Info: 04_Figures/1.2 Idealisierung.png  used on input line 89.
+Package pdftex.def Info: 04_Figures/1.2 Idealisierung.png  used on input line 91.
 (pdftex.def)             Requested size: 364.19667pt x 107.47856pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 90.
+(caption)                particular \caption on input line 92.
 See the caption package documentation for explanation.
 
 [27]
-<04_Figures/1.2 Feld A.png, id=609, 466.74374pt x 213.04594pt>
+<04_Figures/1.2 Feld A.png, id=618, 466.74374pt x 213.04594pt>
 File: 04_Figures/1.2 Feld A.png Graphic file (type png)
 <use 04_Figures/1.2 Feld A.png>
-Package pdftex.def Info: 04_Figures/1.2 Feld A.png  used on input line 100.
+Package pdftex.def Info: 04_Figures/1.2 Feld A.png  used on input line 102.
 (pdftex.def)             Requested size: 227.62206pt x 103.89929pt.
-<04_Figures/1.2 Feld B.png, id=610, 469.755pt x 238.64156pt>
+<04_Figures/1.2 Feld B.png, id=619, 469.755pt x 238.64156pt>
 File: 04_Figures/1.2 Feld B.png Graphic file (type png)
 <use 04_Figures/1.2 Feld B.png>
-Package pdftex.def Info: 04_Figures/1.2 Feld B.png  used on input line 105.
+Package pdftex.def Info: 04_Figures/1.2 Feld B.png  used on input line 107.
 (pdftex.def)             Requested size: 227.62206pt x 115.6354pt.
  [28 <./04_Figures/1.2 Idealisierung.png> <./04_Figures/1.2 Feld A.png> <./04_Figures/1.2 Feld B.png>]
-<04_figures/1.4 Querschnitt.png, id=624, 281.853pt x 247.52475pt>
+<04_figures/1.4 Querschnitt.png, id=633, 281.853pt x 247.52475pt>
 File: 04_figures/1.4 Querschnitt.png Graphic file (type png)
 <use 04_figures/1.4 Querschnitt.png>
-Package pdftex.def Info: 04_figures/1.4 Querschnitt.png  used on input line 126.
+Package pdftex.def Info: 04_figures/1.4 Querschnitt.png  used on input line 128.
 (pdftex.def)             Requested size: 182.09833pt x 159.92229pt.
-<04_figures/1.4 Träger.png, id=625, 309.40594pt x 286.82156pt>
+<04_figures/1.4 Träger.png, id=634, 309.40594pt x 286.82156pt>
 File: 04_figures/1.4 Träger.png Graphic file (type png)
 <use 04_figures/1.4 Träger.png>
-Package pdftex.def Info: 04_figures/1.4 Träger.png  used on input line 132.
+Package pdftex.def Info: 04_figures/1.4 Träger.png  used on input line 134.
 (pdftex.def)             Requested size: 170.71654pt x 158.26001pt.
-<04_Figures/1.4 Lagerung.png, id=627, 564.30824pt x 169.8345pt>
+<04_Figures/1.4 Lagerung.png, id=636, 564.30824pt x 169.8345pt>
 File: 04_Figures/1.4 Lagerung.png Graphic file (type png)
 <use 04_Figures/1.4 Lagerung.png>
-Package pdftex.def Info: 04_Figures/1.4 Lagerung.png  used on input line 144.
+Package pdftex.def Info: 04_Figures/1.4 Lagerung.png  used on input line 146.
 (pdftex.def)             Requested size: 273.14923pt x 82.20895pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 145.
+(caption)                particular \caption on input line 147.
 See the caption package documentation for explanation.
 
-<04_figures/1.4 Q.png, id=629, 245.28pt x 157.242pt>
+<04_figures/1.4 Q.png, id=638, 245.28pt x 157.242pt>
 File: 04_figures/1.4 Q.png Graphic file (type png)
 <use 04_figures/1.4 Q.png>
-Package pdftex.def Info: 04_figures/1.4 Q.png  used on input line 156.
+Package pdftex.def Info: 04_figures/1.4 Q.png  used on input line 158.
 (pdftex.def)             Requested size: 223.06863pt x 143.00885pt.
-<04_figures/1.4 M.png, id=630, 245.28pt x 157.242pt>
+<04_figures/1.4 M.png, id=639, 245.28pt x 157.242pt>
 File: 04_figures/1.4 M.png Graphic file (type png)
 <use 04_figures/1.4 M.png>
-Package pdftex.def Info: 04_figures/1.4 M.png  used on input line 162.
+Package pdftex.def Info: 04_figures/1.4 M.png  used on input line 164.
 (pdftex.def)             Requested size: 223.06863pt x 143.00885pt.
 [29 <./04_Figures/1.4 Querschnitt.png> <./04_figures/1.4 Träger.png> <./04_Figures/1.4 Lagerung.png>]
-<04_Figures/1.4 QM.png, id=643, 362.883pt x 202.137pt>
+<04_Figures/1.4 QM.png, id=652, 362.883pt x 202.137pt>
 File: 04_Figures/1.4 QM.png Graphic file (type png)
 <use 04_Figures/1.4 QM.png>
-Package pdftex.def Info: 04_Figures/1.4 QM.png  used on input line 177.
+Package pdftex.def Info: 04_Figures/1.4 QM.png  used on input line 179.
 (pdftex.def)             Requested size: 318.66948pt x 177.51097pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 178.
+(caption)                particular \caption on input line 180.
 See the caption package documentation for explanation.
 
 [30 <./04_Figures/1.4 Q.png> <./04_Figures/1.4 M.png> <./04_Figures/1.4 QM.png>]
-<04_Figures/1.5 Idealisierung.png, id=657, 599.99156pt x 291.33844pt>
+<04_Figures/1.5 Idealisierung.png, id=666, 599.99156pt x 291.33844pt>
 File: 04_Figures/1.5 Idealisierung.png Graphic file (type png)
 <use 04_Figures/1.5 Idealisierung.png>
-Package pdftex.def Info: 04_Figures/1.5 Idealisierung.png  used on input line 200.
+Package pdftex.def Info: 04_Figures/1.5 Idealisierung.png  used on input line 202.
 (pdftex.def)             Requested size: 318.66948pt x 154.74203pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 201.
+(caption)                particular \caption on input line 203.
 See the caption package documentation for explanation.
 
-<04_Figures/1.5 Momente.png, id=661, 958.3303pt x 277.035pt>
+<04_Figures/1.5 Momente.png, id=670, 958.3303pt x 277.035pt>
 File: 04_Figures/1.5 Momente.png Graphic file (type png)
 <use 04_Figures/1.5 Momente.png>
-Package pdftex.def Info: 04_Figures/1.5 Momente.png  used on input line 211.
+Package pdftex.def Info: 04_Figures/1.5 Momente.png  used on input line 213.
 (pdftex.def)             Requested size: 364.19667pt x 105.28284pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 212.
+(caption)                particular \caption on input line 214.
 See the caption package documentation for explanation.
 
 [31 <./04_Figures/1.5 Idealisierung.png>]
-<04_Figures/1.5 Momentenverlauf.png, id=675, 376.242pt x 157.023pt>
+<04_Figures/1.5 Momentenverlauf.png, id=684, 376.242pt x 157.023pt>
 File: 04_Figures/1.5 Momentenverlauf.png Graphic file (type png)
 <use 04_Figures/1.5 Momentenverlauf.png>
-Package pdftex.def Info: 04_Figures/1.5 Momentenverlauf.png  used on input line 217.
+Package pdftex.def Info: 04_Figures/1.5 Momentenverlauf.png  used on input line 219.
 (pdftex.def)             Requested size: 364.19667pt x 152.00302pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 218.
+(caption)                particular \caption on input line 220.
 See the caption package documentation for explanation.
 
 [32 <./04_Figures/1.5 Momente.png> <./04_Figures/1.5 Momentenverlauf.png>]) (./02_Mainmatter/05_Auslegung der Komponenten.tex
-<04_figures/Boden Fall1.png, id=687, 521.5485pt x 160.1985pt>
+<04_figures/Boden Fall1.png, id=696, 521.5485pt x 160.1985pt>
 File: 04_figures/Boden Fall1.png Graphic file (type png)
 <use 04_figures/Boden Fall1.png>
 Package pdftex.def Info: 04_figures/Boden Fall1.png  used on input line 14.
 (pdftex.def)             Requested size: 182.09833pt x 55.93097pt.
-<04_figures/Boden Fall2.png, id=688, 516.7305pt x 160.1985pt>
+<04_figures/Boden Fall2.png, id=697, 516.7305pt x 160.1985pt>
 File: 04_figures/Boden Fall2.png Graphic file (type png)
 <use 04_figures/Boden Fall2.png>
 Package pdftex.def Info: 04_figures/Boden Fall2.png  used on input line 20.
 (pdftex.def)             Requested size: 182.09833pt x 56.45409pt.
-<04_figures/Boden QM1.png, id=690, 313.608pt x 213.963pt>
+<04_figures/Boden QM1.png, id=699, 313.608pt x 213.963pt>
 File: 04_figures/Boden QM1.png Graphic file (type png)
 <use 04_figures/Boden QM1.png>
 Package pdftex.def Info: 04_figures/Boden QM1.png  used on input line 34.
 (pdftex.def)             Requested size: 223.06863pt x 152.19556pt.
-<04_figures/Boden QM2.png, id=691, 313.608pt x 214.182pt>
+<04_figures/Boden QM2.png, id=700, 313.608pt x 214.182pt>
 File: 04_figures/Boden QM2.png Graphic file (type png)
 <use 04_figures/Boden QM2.png>
 Package pdftex.def Info: 04_figures/Boden QM2.png  used on input line 40.
@@ -1142,67 +1142,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-<04_Figures/Dach.png, id=715, 858.20625pt x 332.442pt>
+<04_Figures/Dach.png, id=724, 858.20625pt x 332.442pt>
 File: 04_Figures/Dach.png Graphic file (type png)
 <use 04_Figures/Dach.png>
 Package pdftex.def Info: 04_Figures/Dach.png  used on input line 63.
 (pdftex.def)             Requested size: 455.24411pt x 176.3456pt.
 [35 <./04_Figures/Dach.png>]
-<04_figures/Dach Idealisierung.png, id=727, 620.91975pt x 277.035pt>
+<04_figures/Dach Idealisierung.png, id=736, 620.91975pt x 277.035pt>
 File: 04_figures/Dach Idealisierung.png Graphic file (type png)
 <use 04_figures/Dach Idealisierung.png>
 Package pdftex.def Info: 04_figures/Dach Idealisierung.png  used on input line 76.
 (pdftex.def)             Requested size: 178.45218pt x 79.61946pt.
-<04_figures/Dach QM.png, id=728, 363.321pt x 217.248pt>
+<04_figures/Dach QM.png, id=737, 363.321pt x 217.248pt>
 File: 04_figures/Dach QM.png Graphic file (type png)
 <use 04_figures/Dach QM.png>
 Package pdftex.def Info: 04_figures/Dach QM.png  used on input line 82.
 (pdftex.def)             Requested size: 267.68507pt x 160.06487pt.
-<04_figures/Panelen Verformung.png, id=729, 868.4445pt x 375.804pt>
+<04_figures/Panelen Verformung.png, id=738, 868.4445pt x 375.804pt>
 File: 04_figures/Panelen Verformung.png Graphic file (type png)
 <use 04_figures/Panelen Verformung.png>
 Package pdftex.def Info: 04_figures/Panelen Verformung.png  used on input line 94.
 (pdftex.def)             Requested size: 273.14923pt x 118.20111pt.
  [36 <./04_Figures/Dach Idealisierung.png> <./04_Figures/Dach QM.png> <./04_Figures/Panelen Verformung.png>]) (./02_Mainmatter/06_Globales FEM.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
 
  []
 
-<04_figures/FEM Mesh1.png, id=740, 1108.74225pt x 448.074pt>
+<04_figures/FEM Mesh1.png, id=750, 1108.74225pt x 448.074pt>
 File: 04_figures/FEM Mesh1.png Graphic file (type png)
 <use 04_figures/FEM Mesh1.png>
-Package pdftex.def Info: 04_figures/FEM Mesh1.png  used on input line 21.
+Package pdftex.def Info: 04_figures/FEM Mesh1.png  used on input line 20.
 (pdftex.def)             Requested size: 318.66948pt x 128.78265pt.
-<04_figures/FEM Mesh3.png, id=741, 1108.74225pt x 451.6875pt>
+<04_figures/FEM Mesh3.png, id=751, 1108.74225pt x 451.6875pt>
 File: 04_figures/FEM Mesh3.png Graphic file (type png)
 <use 04_figures/FEM Mesh3.png>
-Package pdftex.def Info: 04_figures/FEM Mesh3.png  used on input line 27.
+Package pdftex.def Info: 04_figures/FEM Mesh3.png  used on input line 26.
 (pdftex.def)             Requested size: 318.66948pt x 129.82123pt.
 [37 <./04_Figures/FEM Mesh1.png>]
-<04_Figures/FEM Punktmasse.png, id=752, 1108.74225pt x 415.5525pt>
+<04_Figures/FEM Punktmasse.png, id=762, 1108.74225pt x 415.5525pt>
 File: 04_Figures/FEM Punktmasse.png Graphic file (type png)
 <use 04_Figures/FEM Punktmasse.png>
-Package pdftex.def Info: 04_Figures/FEM Punktmasse.png  used on input line 35.
+Package pdftex.def Info: 04_Figures/FEM Punktmasse.png  used on input line 34.
 (pdftex.def)             Requested size: 318.66948pt x 119.43553pt.
- [38 <./04_Figures/FEM Mesh3.png> <./04_Figures/FEM Punktmasse.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
+ [38 <./04_Figures/FEM Mesh3.png> <./04_Figures/FEM Punktmasse.png>] [39] [40]
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-[39] [40]
-
-LaTeX Warning: Reference `' on page 41 undefined on input line 155.
+LaTeX Warning: Reference `' on page 41 undefined on input line 154.
 
 
-LaTeX Warning: Reference `' on page 41 undefined on input line 155.
+LaTeX Warning: Reference `' on page 41 undefined on input line 154.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
@@ -1215,24 +1205,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
 \openout7 = `main.lot'.
 
  [45]) (./03_Backmatter/Anhang.tex [46] [47] [48] [49]
-<04_figures/FEM 1.1.png, id=893, 737.154pt x 540.8205pt>
+<04_figures/FEM 1.1.png, id=900, 737.154pt x 540.8205pt>
 File: 04_figures/FEM 1.1.png Graphic file (type png)
 <use 04_figures/FEM 1.1.png>
 Package pdftex.def Info: 04_figures/FEM 1.1.png  used on input line 153.
 (pdftex.def)             Requested size: 455.24411pt x 334.00139pt.
-<04_figures/FEM 1.2.png, id=894, 737.154pt x 467.346pt>
+<04_figures/FEM 1.2.png, id=901, 737.154pt x 467.346pt>
 File: 04_figures/FEM 1.2.png Graphic file (type png)
 <use 04_figures/FEM 1.2.png>
 Package pdftex.def Info: 04_figures/FEM 1.2.png  used on input line 161.
 (pdftex.def)             Requested size: 455.24411pt x 288.6248pt.
  [50 <./04_Figures/FEM 1.1.png>]
-<04_figures/FEM 1.4.png, id=899, 737.154pt x 487.8225pt>
+<04_figures/FEM 1.4.png, id=906, 737.154pt x 487.8225pt>
 File: 04_figures/FEM 1.4.png Graphic file (type png)
 <use 04_figures/FEM 1.4.png>
 Package pdftex.def Info: 04_figures/FEM 1.4.png  used on input line 169.
 (pdftex.def)             Requested size: 455.24411pt x 301.27074pt.
  [51 <./04_Figures/FEM 1.2.png>]
-<04_figures/FEM 1.5.png, id=904, 737.154pt x 487.8225pt>
+<04_figures/FEM 1.5.png, id=911, 737.154pt x 487.8225pt>
 File: 04_figures/FEM 1.5.png Graphic file (type png)
 <use 04_figures/FEM 1.5.png>
 Package pdftex.def Info: 04_figures/FEM 1.5.png  used on input line 177.
@@ -1249,7 +1239,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 26AB5CC6523A8EAA5BA7132A2F9CFCB0;4236.
+(rerunfilecheck)             Checksum: 4BFA1205613529BCAA4340560F107A35;4377.
 
 
 LaTeX Warning: There were undefined references.
@@ -1260,13 +1250,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 16013 strings out of 480876
- 280778 string characters out of 5911487
- 623481 words of memory out of 5000000
- 30982 multiletter control sequences out of 15000+600000
+ 16016 strings out of 480876
+ 280837 string characters out of 5911487
+ 623520 words of memory out of 5000000
+ 30985 multiletter control sequences out of 15000+600000
  556791 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,15n,66p,1065b,975s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,15n,66p,1178b,975s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
@@ -1275,10 +1265,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/font
 s/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (60 pages, 1768476 bytes).
+Output written on main.pdf (60 pages, 1770201 bytes).
 PDF statistics:
- 1053 PDF objects out of 1200 (max. 8388607)
- 887 compressed objects within 9 object streams
+ 1060 PDF objects out of 1200 (max. 8388607)
+ 894 compressed objects within 9 object streams
  248 named destinations out of 1000 (max. 500000)
- 649 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 665 words of extra memory for PDF output out of 10000 (max. 10000000)
 

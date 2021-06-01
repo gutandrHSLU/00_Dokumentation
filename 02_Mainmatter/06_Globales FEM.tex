@@ -1,7 +1,6 @@
 \section{Globales FEM}
-Wie in der Aufgabenstellung beschrieben, soll zur Überprüfung der Handrechnungen ein gloables FEM-Modell zur Anwendung kommen. In diesem Kapitel wird nun beschrieben, wie dieses FEM-Modell aufgesetzt und welche Annahmen getroffen werden. Weiter werden die Ergebnisse der Simulationen aufgeführt, mit den Handrechnungen verglichen und beurteilt.\\
-
-Es werden vier Berechnungen gemacht wie in den Handrechnungen. Wieso genau diese vier?
+Wie in der Aufgabenstellung beschrieben, soll zur Überprüfung der Handrechnungen und zum Bestimmen des Lastpfades ein gloables FEM-Modell zur Anwendung kommen. In diesem Kapitel wird nun beschrieben, wie dieses FEM-Modell aufgesetzt und welche vereinfachende Annahmen getroffen werden. Weiter werden die Ergebnisse der Simulationen aufgeführt, mit den Handrechnungen verglichen und beurteilt.\\
+Analog zu den Handrechnungen werden vier verschiedene FEM-Berechnungen durchgeführt. Sie alle beschreiben den Modus A und unterscheiden sich im Lastfall.\\
 
 Mit dem globalen FEM-Modell sollen folgende Punkte bestimmt werden:
 \begin{itemize}
@@ -13,7 +12,7 @@ Mit dem globalen FEM-Modell sollen folgende Punkte bestimmt werden:
 \end{itemize}
 
 \subsection{Idealisierung und Modell}
-Das FEM-Modell des Solar Butterflys wird aus Balken und Schalenkörper aufgebaut. Das Chassis, die Träger A und B sowie die Dachträger werden als Balken mit den entsprechenden Querschnitten modeliert. Die Wände, Dächer und der Boden werden das Schalenkörper modelliert, wobei den Schalenkörper jeweils ein Lagenaufbau zugewiesen wird, welcher die Sandwichbauweise nachstellt. In den Abbildungen \ref{FEM Mesh1} ist das komplette Modell des Solar Butterflys zu sehen. In der Abbildung \ref{FEM Mesh3} wurden die Schalenkörper ausgeblendet, sodass nur die Balken sichtbar sind.
+Das FEM-Modell des Solar Butterflys wird wie in den Handrechnungen als ``Kasten'' vereinfacht und aus Balken und Schalenkörper aufgebaut. Das Chassis, die Träger A und B sowie die Dachträger werden als Balken mit den entsprechenden Querschnitten modeliert. Die Wände, Dächer und der Boden werden als Schalenkörper modelliert, wobei den Schalenkörper jeweils ein Lagenaufbau zugewiesen wird, welcher ihre Sandwichbauweise nachstellt. In den Abbildungen \ref{FEM Mesh1} ist das komplette Modell des Solar Butterflys zu sehen. In der Abbildung \ref{FEM Mesh3} wurden die Schalenkörper ausgeblendet, sodass nur die Balken sichtbar sind.
 
 \begin{figure}[H]
   \centering
@@ -29,7 +28,7 @@ Das FEM-Modell des Solar Butterflys wird aus Balken und Schalenkörper aufgebaut
   \label{FEM Mesh3}
 \end{figure}
 
-Um die Masse des Solar Butterflys modellieren zu können, werden, zusätzlich zu den Massen der modellierten Bauteilen, Punktmassen (Point-mass) eingeführt. Es werden für die drei Raumelemente Küche, Mittelkörper und Bad je eine Punktmasse definiert, deren Masse und Trägheitsmomente mit der Hilfe der Massenverteilung aus dem Kapitel KAPITEL bestimmt werden. In der Abbildung \ref{img:FEM Punktmasse} sind die Verbindung der Punktmassen mit dem Rest des Modelles dargestellt.\\
+Um die Masse des Solar Butterflys modellieren zu können, werden, zusätzlich zu den Massen der modellierten Bauteilen, Punktmassen (Point-mass) eingeführt. Es werden für die drei Raumelemente Küche, Mittelkörper und Bad je eine Punktmasse definiert, deren Masse und Trägheitsmomente mit der Hilfe der Massenverteilung aus dem Kapitel \ref{Massenverteilung} bestimmt werden. In der Abbildung \ref{img:FEM Punktmasse} sind die Verbindungen der Punktmassen mit dem Rest des Modelles dargestellt. Sie werden über das Chassis, die Träger A und B, sowie über die Verbindungsstellen wischen den Wänden und dem Boden getragen.\\
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.7\linewidth]{04_Figures/FEM Punktmasse.png}
@@ -37,20 +36,18 @@ Um die Masse des Solar Butterflys modellieren zu können, werden, zusätzlich zu
   \label{img:FEM Punktmasse}
 \end{figure}
 
-Die Deichsel, Längsträger und Querträger des Chassis werden durch das Zusammenführen der deckungsgleichen Koten miteinander verbunden. Auf die selbe Art und Weise werden die Träger A und B, die Träger des Daches sowie der Boden, die Wände und das Dach des Aufbaus miteinander verbunden. Der nun verbundene Aufbau wiederum wird auf zwei Arten mit dem Chassis verbunden. Einerseits werden die Träger A und B über Fixe MPC-Kontakte (alle Freiheitsgrade eingeschränkt) an ihrem untersten Knoten mit dem Chassis verbunden. Weiter wird der Boden über Translatorische MPC Kontakte mit den Längsträgern des Chassis verbunden. Sie räpresentieren die Klebestellen zwischen Boden und Chassis. Mit dem Auslesen der Kontaktreaktionen dieser beiden Verbindungen können Aussagen bezüglich der Verbindung zwischen den Trägern A und B und dem Chassis, sowie auch der Klebestelle zwischen dem Chassis und Boden gemacht werden.\\
-In allen folgenden FEM-Simulationen ist der Solar Butterfly analog zu den Berechnungen im Kapitel \ref{sub:Longitudinale Beschleunigung} (Lastfall \emph{1.1 Vertikale Beschleunigung}) gelagert. Am Spitz der Deichsel sind die rotatorischen Freiheitsgrade freigegeben, die translatorischen jedoch eingeschränkt. An der Achse wird lediglich die Verschiebung in x-Richtung (Fahrtrichtung) zugelassen.
-
+Die Deichsel, Längsträger und Querträger des Chassis werden durch das Zusammenführen der deckungsgleichen Koten miteinander verbunden. Auf die selbe Art und Weise werden die Träger A und B, die Träger des Daches sowie der Boden, die Wände und das Dach des Aufbaus miteinander verbunden. Der nun verbundene Aufbau wiederum wird auf zwei Arten mit dem Chassis verbunden. Einerseits werden die Träger A und B über einen \emph{Fix-Joint} (alle Freiheitsgrade eingeschränkt) an ihrem untersten Knoten mit dem Chassis verbunden. Weiter wird der Boden über \emph{General-Joint} (die rotatorischen Freiheitsgrade sind frei, die translatorischen eingeschränkt.) mit den Längsträgern des Chassis verbunden. Insgesammt ist der Boden an jedem Längsträger über 30 Knotenverbindungen it dem Chassis verbunden. Sie räpresentieren die Klebestellen zwischen Boden und Chassis. Mit dem Auslesen der Kontaktreaktionen dieser beiden Verbindungen können Aussagen bezüglich der Verbindung zwischen den Trägern A und B und dem Chassis, sowie auch der Klebestelle zwischen dem Chassis und Boden gemacht werden.\\
+In allen folgenden FEM-Simulationen ist der Solar Butterfly analog zu den Handrechnungen im Kapitel \ref{sub:Longitudinale Beschleunigung} (Lastfall \emph{1.1 Vertikale Beschleunigung}) gelagert. Am Spitz der Deichsel sind die rotatorischen Freiheitsgrade frei, die translatorischen jedoch eingeschränkt. An der Achse wird lediglich die Verschiebung in x-Richtung (Fahrtrichtung) zugelassen.
 
 \subsection{Ergebnisse}
-Im Anhang \ref{FEM Ergebnisse} sind die Ergebnisse der FEM-Berechnungen Tabelarisch festgehalten. Sofern für eine ausgelesene Grösse Handrechnungen durchgeführt wurden, sind diese ebenfalls in den besagten Tabellen zu finden, sodass diese direkt mit den Resultaten der FEM-Berechnungen verglichen werden können.\\
-Im Anhang \ref{FEM Deformation} sind Bilder, welche die Deformation des Solar Butterflys dokumentieren, zu finden. Die FEM-Datei ist im elektronischen Anhang ANHANG angefügt.
+Im Anhang \ref{FEM Ergebnisse} sind die Ergebnisse der FEM-Berechnungen Tabelarisch festgehalten. Sofern für die ausgelesenen Grössen Handrechnungen durchgeführt wurden, sind diese ebenfalls in den besagten Tabellen zu finden, sodass diese direkt mit den Ergebnissen der FEM-Berechnungen verglichen werden können. Die Schnittkräfte und Kontaktreaktionen der Tabellen beziehen sich jeweils auf einen einzelnen Balken oder Verbindungsstelle. Die Kontaktreaktion zwischen Chassis und Boden bezieht sich auf eine einzelne Knotenverbindung. Die in den Tabellen aufgeführten Werte stellen jeweils den Maximalwert dar.\\
+Im Anhang \ref{FEM Deformation} sind Bilder, welche die Deformation des Solar Butterflys dokumentieren, zu finden. Die FEM-Datei ist im elektronischen Anhang ANHANG angefügt. Die Auswertung der Ergebnisse wurde mit einer Exceltabelle durchgeführt, welche im elektronsichen Anhang AHNAHNG zu finden ist.
 
 
 \subsubsection{Vergleich mit Handrechnungen}
-Im Lastfall \emph{1.1 Vertikale Beschleunigung} sind die berechneten Axialkräfte im Dach rund doppelt so hoch, wie jene des FEM-Modelles. Dies ist darauf zurück zu führen, dass das mittragende Dach, welches ebenfalls Axialkräfte aufnimmt, in den Handrechnungen nicht mit berücksichtigt wurde.\\
-Im Lastfall \emph{1.4 Laterale Beschleunigung} sind die mit der FEM-Berechnung erhaltenen Axialkräfte im Chassis und den Längsträger des Daches gut drei mal höher als jene der Handrechnungen. Dies, da sich der Solar Butterfly unter lateraler Beschleunigung, nicht wie angenommen verbeigt, sondern verdreht. Die Art der Deformation ist ähnlich wie jene im Lastfall \emph{1.5 Rotatorische Beschleunigung} (vgl. Abbildung im Anhang \ref{FEM 1.4} und \ref{FEM 1.5}). Da diese grundlegende Annahme der Auswirkungen der Belastung (und der Deformation) falsch getroffen wurde, sind die Ergebnisse auch dem entsprechend unterschiedlich. Die erhaltenen Kräfte sind in ihrer Art vergleich bar mit jenen des Lastfalles \emph{1.5 Rotatorische Beschleunigung}, im Betrag liegen sie jedoch tiefer.\\
-
-
+Im Lastfall \emph{1.1 Vertikale Beschleunigung} sind die berechneten Axialkräfte (xx kN) im Dach rund doppelt so hoch, wie jene des FEM-Modelles (xx kN). Dies ist darauf zurück zu führen, dass das mittragende Dach, welches ebenfalls Axialkräfte aufnimmt, in den Handrechnungen nicht mit berücksichtigt wurde.\\
+Im Lastfall \emph{1.4 Laterale Beschleunigung} sind die mit der FEM-Berechnung erhaltenen Axialkräfte im Chassis und den Längsträger des Daches gut drei mal höher als jene der Handrechnungen. Dies, da sich der Solar Butterfly unter lateraler Beschleunigung, nicht wie angenommen verbiegt, sondern verdreht. Die Art der Deformation ist ähnlich wie jene im Lastfall \emph{1.5 Rotatorische Beschleunigung} (vgl. Abbildung im Anhang \ref{FEM 1.4} und \ref{FEM 1.5}). Da diese grundlegende Annahme der Auswirkungen der Belastung (und der Deformation) falsch getroffen wurde, sind die Ergebnisse auch dem entsprechend unterschiedlich. Die erhaltenen Kräfte sind in ihrer Art vergleich bar mit jenen des Lastfalles \emph{1.5 Rotatorische Beschleunigung}, im Betrag liegen sie jedoch tiefer.\\
+Pauschal kann gesagt werden, dass die Grössenordnungen der Resultaten der Handrechnungen mit jenen der FEM-Ergebnissen übereinstimmen.
 
 \subsubsection{Beurteilung Dach}
 In der folgenden Tabelle sind die Schnittgrössen der Träger des Daches enthalten.
@@ -69,6 +66,8 @@ Biegemoment	&	kNmm	&	42	&	17	&	13	&	19	&	42	&	13	\\	\thickhline
 \end{table}
 
 Wie im Kapitel \ref{Dach} beschrieben, ist das dimensionierende Kriterium des Daches dessen Verformung aufgrund des Eigengewichtes. Dem entsprechend stellen die in der Tabelle \ref{tab:FEMres Dach} aufgeführten Schnittgrössen keine kritischen Lasten dar.\\
+Das Potential der Gewichtsoptimierung wird als gering eingestuft. Auch wenn die Träger des Daches global gesehen überdimensioniert sind, werden über sie, im eingefahrenen Zustand, die ausfahrbaren Seitenmodule befestigt und gesichert. Würde ein anderes Konzept zur Versperrung der ausfahrbaren Seitenmodulen ausgearbeitet, könnte das Dach eventuell auf eine andere Weise versteift werden (z.B. mit aufgeklebten CFK-Hutprofilen) und die Dachträger ganz weggelassen werden. Dadurch würde jedoch das Bindeglied und die Abschlusskante der Solarpanelen wegfallen.\\
+Wird vom jetzigen Konzept noch ein Schritt zurück gemacht und das Konzept des unterbrochenen Daches (4 Panelen à ca. 2 x 1.3 m im Mittelkörper) verworfen, gäbe es allenfalls die Möglichkeit, ein durchgehendes Dach in Sandwichbauweise zu verwenden. Dieses könnte, ähnlich wie der Boden, in einem Stück gefertigt und mit Einsätzen und Verstärkungen individuell angepasst und optimiert werden. Der Nachteil diese Konzeptes ist jedoch, dass nicht die standard-Solarmodule verwendet werden können. Es stellt sich entsprechend die Frage, zum einen \emph{wer} und \emph{wie} die Solarzellen auf das Dach laminiert werden. Dass die Solarzellen unter Umständen ``von Hand'' auf das Dach laminiert werden müssen, könnte sich aufgrund der Flexibilität bezüglich Dimensionen, auch als Vorteil erweisen. Als weiterer Vorteil ist zu ergänzen, dass die Verbindungsstellen zwischen den Solarpanelen und Träger, sowie zwischen den einzelnen Solarpanelen, wegfallen würden. Auch wenn die Gewichtsersparnisse gering sind (oder auch nicht vorhanden sind), würde die Komplexität des Daches potenziell reduziert werden können.
 
 
 
@@ -107,7 +106,7 @@ Schubspannungen	&	MPa	&	0.67	&	0.12	&	0.74	&	0.72	&	0.74	\\	\thickhline
 \label{tab:FEMres Boden}
 \end{table}
 
-
+Bei einer Fläche von 17880 $mm^2$ pro Abschnitt ergibt sich eine maximale Normalspannung von 0.04 MPa und eine maximale Schubspannung von 0.54 MPa. Beide Werte liegen deutlich unterhalb des Design-Allowable. Hierbei muss jedoch angemerkt werden, dass lokal die Spannungen deutlich höher liegen könnten und, dass das verwendete Modell nicht geeignet ist um diese Spannungskonzentrationen zu erkennen.
 
 \subsubsection{Verbindung Träger A und B zu Chassis}
 \begin{table}[H]
@@ -156,28 +155,7 @@ Die FEM-Berechnungen zeigen, dass das Chassis, im Bezug auf das Übernehmen von 
 
 
 Es ist jedoch nicht klar, ob dieses Ergebniss zum Teil auch auf die Art der Einbindung der Punktmassen zurück zu führen ist. Oder anders ausgedrückt: es ist nicht klar, ob das selbe Ergebnis erzielt werden könnte, wenn die Massen realitätsgetreuer modliert worden wären. So befindet sich ein grösserer Teil der Masse, in Form der ausfahrbaren Solarmodulen, an den Wänden des Solar Butterflys. Diese Masse muss über die Wände und Träger A und B, zu einem gewissen Ausmass auch über das Dach, getragen und auf das Chassis übertragen werden. Die Punktmassen sind jedoch fast ausschliesslich über das Chassis und die Träger A und B im Raum befestigt worden. Es ist wahrscheinlich, dass sich der Aufbau in der Realität mehr verformen würde, als dies durch die FEM-Berechnungen gezeigt wird und dass die tragende Funktion des Aufbaus dennoch nicht zu unterschätzen ist. \\
-Auch wenn mit einer exakteren Modellierung gezeigt werden könnte, dass der Aufbau eine wichtigere Rolle übernimmt als dies durch die vorliegenden FEM-Ergebnissen gezeigt wird, steht fest, dass die Eigenschaften des Chassis das Ergebnis dominieren.
-
-
-
-Die Tabelle \ref{tab:FEM 1.1} stellt eine Zusammenstellung der Resultate zur FEM-Simulation des Lastfalles \emph{1.1 Vertikale Beschleunigung} dar. Die Schnittkräfte und Kontaktreaktionen beziehen sich jeweils auf einen einzelnen Balken oder Verbindungsstelle. Die Kontaktreaktion zwischen Chassis und Boden bezieht sich auf eine einzelne Knotenverbindung. Insgesammt ist der Boden an jedem Längsträger an 30 Stellen verbunden. Über die Gurtenfläche pro Abschnitt des Chassis kann auf die Spannungen in der Verbindung geschlossen werden.\\
-Bei einer Fläche von 17880 $mm^2$ pro Abschnitt ergibt sich eine maximale Normalspannung von 0.04 MPa und eine maximale Schubspannung von 0.54 MPa. Beide Werte liegen deutlich unterhalb des Design-Allowable. Hierbei muss jedoch angemerkt werden, dass lokal die Spannungen deutlich höher liegen könnten und, dass das verwendete Modell nicht geeignet ist um diese Spannungskonzentrationen zu erkennen.
-
-\begin{table}[H]
-\centering
-\begin{tabular}{lccccccc}
-\thickhline
-Chassis	&	Einheit	&	1.1	&	1.2	&	1.4	&	1.5	&	Max	&	Min	\\	\hline
-Axialkraft	&	N	&	-50730	&	6080	&	-31674	&	-44164	&	6080	&	-50730	\\
-Querkraft	&	N	&	17003	&	1319	&	7163	&	10927	&	17003	&	1319	\\
-Biegemoment	&	kNmm	&	16980	&	2601	&	6658	&	10218	&	16980	&	2601	\\	\thickhline
-\end{tabular}
-\caption{Schnittgrössen des Chassis}
-\label{tab:FEMres Chassis}
-\end{table}
-
-
-
-
+Auch wenn mit einer exakteren Modellierung gezeigt werden könnte, dass der Aufbau eine wichtigere Rolle übernimmt als dies durch die vorliegenden FEM-Ergebnisse gezeigt wird, steht fest, dass die Eigenschaften des Chassis das Verhalten des Solar Butterflys dominieren.\\
+Umso wichtiger wird die Verbindung zwischen Boden und Chassis und dessen feste Einbindung in die tragende Funktion der Struktur.
 
 \newpage
