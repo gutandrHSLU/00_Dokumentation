@@ -398,18 +398,6 @@ INPUT ./04_Figures/FEM Mesh3.png
 INPUT 04_Figures/FEM Punktmasse.png
 INPUT ./04_Figures/FEM Punktmasse.png
 INPUT ./04_Figures/FEM Punktmasse.png
-INPUT 04_Figures/FEM 1.1.png
-INPUT ./04_Figures/FEM 1.1.png
-INPUT ./04_Figures/FEM 1.1.png
-INPUT 04_Figures/FEM 1.2.png
-INPUT ./04_Figures/FEM 1.2.png
-INPUT ./04_Figures/FEM 1.2.png
-INPUT 04_Figures/FEM 1.4.png
-INPUT ./04_Figures/FEM 1.4.png
-INPUT ./04_Figures/FEM 1.4.png
-INPUT 04_Figures/FEM 1.5.png
-INPUT ./04_Figures/FEM 1.5.png
-INPUT ./04_Figures/FEM 1.5.png
 INPUT 03_Backmatter/Literatur.tex
 INPUT 03_Backmatter/Literatur.tex
 INPUT main.bbl
@@ -426,6 +414,18 @@ INPUT main.lot
 OUTPUT main.lot
 INPUT 03_Backmatter/Anhang.tex
 INPUT 03_Backmatter/Anhang.tex
+INPUT 04_Figures/FEM 1.1.png
+INPUT ./04_Figures/FEM 1.1.png
+INPUT ./04_Figures/FEM 1.1.png
+INPUT 04_Figures/FEM 1.2.png
+INPUT ./04_Figures/FEM 1.2.png
+INPUT ./04_Figures/FEM 1.2.png
+INPUT 04_Figures/FEM 1.4.png
+INPUT ./04_Figures/FEM 1.4.png
+INPUT ./04_Figures/FEM 1.4.png
+INPUT 04_Figures/FEM 1.5.png
+INPUT ./04_Figures/FEM 1.5.png
+INPUT ./04_Figures/FEM 1.5.png
 INPUT 03_Backmatter/E-Anhang.tex
 INPUT 03_Backmatter/E-Anhang.tex
 INPUT main.aux
