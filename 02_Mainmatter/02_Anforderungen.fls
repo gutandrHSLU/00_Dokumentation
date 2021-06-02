@@ -1,0 +1,8 @@
+PWD C:\Users\aanng\OneDrive - Hochschule Luzern\6.Semester\BAT\00_Dokumentation\02_Mainmatter
+INPUT C:\Users\aanng\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT 02_Anforderungen.tex
+OUTPUT 02_Anforderungen.log
+INPUT C:\Users\aanng\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\aanng\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+OUTPUT 02_Anforderungen.pdf
+INPUT C:\Users\aanng\AppData\Local\MiKTeX\pdftex\config\pdftex.map

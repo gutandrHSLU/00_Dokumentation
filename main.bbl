@@ -10,10 +10,19 @@ L.~Palmer, ``Story ``solartaxi''.''
 B.~Klein, ``Leichtbau-konstruktion dimensionierung, strukturen, werkstoffe und
   gestaltung,''
 
+\bibitem{alu1}
+V.~L{\"a}pple, {\em Einf{\"u}hrung in die Festigkeitslehre : Lehr- und
+  {\"U}bungsbuch}.
+\newblock Wiesbaden: Springer Vieweg, 2016.
+
 \bibitem{Roloff}
 H.~Wittel, D.~Jannasch, J.~Vo{\ss}iek, and C.~Spura, {\em Roloff/Matek
   Maschinenelemente: Normung, Berechnung, Gestaltung}.
 \newblock Springer Fachmedien Wiesbaden GmbH, 23~ed., 2017.
+
+\bibitem{kleben1}
+M.~Niedermeier, ``Vorlesung der eth zürich: Krafteinleitung und
+  verbindungstechnik,'' Nov 2015.
 
 \bibitem{Baertsch}
 R.~Bärtsch, {\em Mechanik \& Festigkeit - Festigkeitslehre}.

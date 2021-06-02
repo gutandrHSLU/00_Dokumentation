@@ -13,54 +13,43 @@ Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen des Solar Bu
 \subsection{Auslegungskriterien}
 Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel beschrieben, was diese Anforderungen für die einzelnen Komponenten und Strukturelementen bedeutet. Es wird erläutert mit welchen Methoden die Auslegung angegangen wird und welche Vereinfachungen getroffen werden.\\
 
-\paragraph{Design-Allowables}
-Design-Allowables: Materialkennwerte mit welchen die Auslegung gemacht wird.\\
-In diesem Materialkennwerte sind die Sicherheitsfaktoren drinnen und die Absicherung gegen ermüdung.\\
+  \subsubsection{Design-Allowables und Materialkennwerte}
+  Um den Prozess der Grobauslegung zu vereinfachen, werden soganannte Design-Allowables definiert. Sie sind Materialkennwerte welche für die überschlägig Auslegung von Bauteilen verwendet werden können.
+  In der Tabelle \ref{tab:Design-Allowables} sind die Materialkennwerte und Design-Allowables der für die Deckschichten oder Profile verwendeten Materialien zusammengetragen. Da der Solar Butterfly für 1/2 der Belstungen dauerfest ausgelegt wird und für die Dauerfestigkeit ein Sicherheitsfaktor von 2 verwendet wird, entsprechen die zulässigen Dauerfestigkeitswerte direkt auch den Materialkennwerten.\\
 
-GFK: $R_m = 250 MPa$, $\sigma_{bW} = 50 MPa$, $E-Modul = 16'000 MPa$, Dichte 1.65\\
-5052: $R_{p0.2} = 240 MPa$, $\sigma_{zdW} = 80 MPa$, $E-Modul = 70'000 MPa$\\
-% Ermüdungslimit von 125 MPa. Zustand: H34
+  %GFK: Roloff Matek S.1013
+  \begin{table}[H]
+    \centering
+    \caption{Design-Allowables für Materialien der Profile und Deckschichten}
+    \begin{tabular}{llccccc}	\hline
+      Werkstoff	&	Grösse	&		&	Einheit	&	Wert	&	$S_f$	&	Zulässig\\	\hline
+      \multirow{5}{*}{Aluminium\cite{alu1}}	&	Dichte	&	$\rho$        	&	$\frac{kg}{m^3}$	&	2710	&		&		\\
+      	&	E-Modul	&	              	&	MPa	&	70'000	&		&		\\
+      	&	Zugfestigkeit	&	$\sigma$      	&	MPa	&	240	&	1.5	&	160	\\
+      	&	Wechselfestigkeit	&	$\sigma_{zdW}$	&	MPa	&	80	&	2	&	80	\\
+      	&	Biegewechselfestigkeit	&	$\sigma_{bW}$ 	&	MPa	&	100	&	2	&	100	\\	\hline
+      \multirow{4}{*}{GFK\cite{Roloff}}	&	Dichte	&	$\rho$        	&	$\frac{kg}{m^3}$	&	1650	&		&		\\
+      	&	E-Modul	&	              	&	MPa	&	16'000	&		&		\\
+      	&	Zugfestigkeit	&	$\sigma$      	&	MPa	&	250	&	1.5	&	167	\\
+      	&	Biegewechselfestigkeit	&	$\sigma_{bW}$ 	&	MPa	&	50	&	2	&	50	\\	\hline
+    \end{tabular}
+    \label{tab:Design-Allowables}
+  \end{table}
 
-% https://en.wikipedia.org/wiki/Fatigue_limit#cite_note-MFandE-2
+  Für die Verklebung der Strukturelemente wurde noch kein definitiver Klebstoff ausgewählt. Als anhaltspunkt wird der Klebstoff \emph{Sikaflex-552 AT} verwendet, welcher im Automobilbau Anwendungen findet und vom Sponsor des Chassis \emph{GESER Fahrzeugbau AG} häuffig verwendet wird. Nach \emph{Roloff Matek Maschinenelemente} wird für Klebeverbindung mit unbekannten Abminderungsfaktoren der Sicherheitsfaktor von 2.5 gewählt. Als Abminderungsfaktor wird, gewmäss der Faustregel für dynamisch Beanspruchte Bindefestigkeiten von \emph{Habenicht}\cite{kleben1}, ein Wert von 0.1 gewählt.
+  \begin{table}[H]
+    \centering
+    \caption{Design-Allowables für Kleber}
+    \begin{tabular}{llcccccc}	\hline
+      Werkstoff	&	Grösse	&		&	Einheit	&	Wert	&	$S_f$	&	Abminderungsf.&	Zulässig	\\	\hline
+      \multirow{3}{*}{Sikaflex-552 AT}	&	Dichte	&	$\rho$        	&	$\frac{kg}{m^3}$	&	1500	&		&		&		\\
+      	&	Schubfestigkeit	&	$\tau$	&	MPa	&	2	&	2.5	&	0.1	&	0.16	\\
+      	&	Zugfestigkeit	&	$\sigma$      	&	MPa	&	3	&	2.5	&	0.1	&	0.24	\\	\hline
+    \end{tabular}
+    \label{tab:Design-Allowables Kleben}
+  \end{table}
 
-\paragraph{Design-Allowables und Materialkennwerte}
-\begin{table}
-  \centering
-  \caption{Design-Allowables Sandwichplatten}% Add 'table' caption
-  \begin{tabular}{llcccc}
-    \thickhline
-    Bezeichnung & & Einheit & & Sicherh. Fakt. & Zul. Festigkeit\\
-    \hline
-    \multicolumn{2}{l}{\textbf{Deckschicht}}\\
-    \thickhline
-    \multirow{4}{*}{Aluminium}  & Dichte            & $\frac{kg}{m^3}$  & 2710      & &\\
-                                & E-Modul           & $MPa$             & 70'000    & &\\
-                                & Zugfestigkeit     & $MPa$             & 240       & 1.5 & $\sigma_{zul} = 100$\\
-                                & Dauerfestigkeit   & $MPa$             & 80        & 1.5 & $\sigma_{D,zul} = 75$\\
 
-    \hline
-    \multirow{4}{*}{GFK}        & Dichte            & $\frac{kg}{m^3}$  & 1650      & &\\
-                                & E-Modul           & $MPa$             & 16'000    & &\\
-                                & Zugfestigkeit     & $MPa$             & 250       & 1.5 & $\sigma_{zul} = 66$\\
-                                & Dauerfestigkeit   & $MPa$             & 50       & 1.5 & $\sigma_{D,zul} = 33$\\
-    \hline
-
-    \multicolumn{2}{l}{\textbf{Kern}}\\
-    \thickhline
-    \multirow{4}{*}{Airex T92.60} & Dichte            & $\frac{kg}{m^3}$  & 65      & &\\
-                                  & E-Modul (Druck)   & $MPa$             & 55      & &\\
-                                  & Schubmodul        & $MPa$             & 15      & &\\
-                                  & Schubfestigkeit   & $MPa$             & 0.55    & 1.5 & $\tau_{zul} = 0.5$\\
-
-    \hline
-    \multirow{4}{*}{Airex T92.80} & Dichte            & $\frac{kg}{m^3}$  & 85      & &\\
-                                  & E-Modul (Druck)   & $MPa$             & 75      & &\\
-                                  & Schubmodul        & $MPa$             & 22      & &\\
-                                  & Schubfestigkeit   & $MPa$             & 0.72    & 1.5 & $\tau_{zul} = 0.6$\\
-
-  \thickhline
-  \end{tabular}
-\end{table}
 
 
   \subsubsection{Aluminiumstrukturen}

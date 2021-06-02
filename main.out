@@ -8,52 +8,53 @@
 \BOOKMARK [1][-]{section.2}{Anforderungen und Auslegungskriterien}{part.1}% 8
 \BOOKMARK [2][-]{subsection.2.1}{Anforderungen an den Solar Butterfly}{section.2}% 9
 \BOOKMARK [2][-]{subsection.2.2}{Auslegungskriterien}{section.2}% 10
-\BOOKMARK [3][-]{subsubsection.2.2.1}{Aluminiumstrukturen}{subsection.2.2}% 11
-\BOOKMARK [3][-]{subsubsection.2.2.2}{Sandwichstrukturen}{subsection.2.2}% 12
-\BOOKMARK [3][-]{subsubsection.2.2.3}{Nieten}{subsection.2.2}% 13
-\BOOKMARK [3][-]{subsubsection.2.2.4}{Klebeverbindungen}{subsection.2.2}% 14
-\BOOKMARK [1][-]{section.3}{Lastenheft}{part.1}% 15
-\BOOKMARK [2][-]{subsection.3.1}{Modus A: Fahren}{section.3}% 16
-\BOOKMARK [2][-]{subsection.3.2}{Modus B: Ausfahren}{section.3}% 17
-\BOOKMARK [2][-]{subsection.3.3}{Modus C: Ausgefahren}{section.3}% 18
-\BOOKMARK [2][-]{subsection.3.4}{Failuremodes}{section.3}% 19
-\BOOKMARK [1][-]{section.4}{Analyse der Struktur}{part.1}% 20
-\BOOKMARK [2][-]{subsection.4.1}{Massenverteilung}{section.4}% 21
-\BOOKMARK [2][-]{subsection.4.2}{Vertikale Beschleunigung}{section.4}% 22
-\BOOKMARK [2][-]{subsection.4.3}{Longitudinale Beschleunigung}{section.4}% 23
-\BOOKMARK [2][-]{subsection.4.4}{Laterale Beschleunigung}{section.4}% 24
-\BOOKMARK [2][-]{subsection.4.5}{Rotatorische Beschleunigung}{section.4}% 25
-\BOOKMARK [1][-]{section.5}{Dimensionierung}{part.1}% 26
-\BOOKMARK [2][-]{subsection.5.1}{Boden}{section.5}% 27
-\BOOKMARK [2][-]{subsection.5.2}{Dach - mittleres Raumelement}{section.5}% 28
-\BOOKMARK [2][-]{subsection.5.3}{Solarpanelen - Reihe D}{section.5}% 29
-\BOOKMARK [1][-]{section.6}{Globales FEM}{part.1}% 30
-\BOOKMARK [2][-]{subsection.6.1}{Idealisierung und Modell}{section.6}% 31
-\BOOKMARK [2][-]{subsection.6.2}{Ergebnisse}{section.6}% 32
-\BOOKMARK [3][-]{subsubsection.6.2.1}{Vergleich mit Handrechnungen}{subsection.6.2}% 33
-\BOOKMARK [3][-]{subsubsection.6.2.2}{Beurteilung Dach}{subsection.6.2}% 34
-\BOOKMARK [3][-]{subsubsection.6.2.3}{Beurteilung Tr\344ger A und B}{subsection.6.2}% 35
-\BOOKMARK [3][-]{subsubsection.6.2.4}{Verbindung Boden zu Chassis}{subsection.6.2}% 36
-\BOOKMARK [3][-]{subsubsection.6.2.5}{Verbindung Tr\344ger A und B zu Chassis}{subsection.6.2}% 37
-\BOOKMARK [3][-]{subsubsection.6.2.6}{Deformationen}{subsection.6.2}% 38
-\BOOKMARK [1][-]{section.7}{Fazit}{part.1}% 39
-\BOOKMARK [0][-]{part.2}{II Anhang}{}% 40
-\BOOKMARK [1][-]{appendix.A}{Quellenverzeichnis}{part.2}% 41
-\BOOKMARK [1][-]{appendix.B}{Abbildungsverzeichnis}{part.2}% 42
-\BOOKMARK [1][-]{appendix.C}{Tabellenverzeichnis}{part.2}% 43
-\BOOKMARK [1][-]{appendix.D}{FEM}{part.2}% 44
-\BOOKMARK [2][-]{subsection.D.1}{FEM Ergebnisse}{appendix.D}% 45
-\BOOKMARK [3][-]{subsubsection.D.1.1}{FEM-Ergebnis - Lastfall 1.1 Vertikale Beschleunigung}{subsection.D.1}% 46
-\BOOKMARK [3][-]{subsubsection.D.1.2}{FEM-Ergebnis - Lastfall 1.3 Longitudinale Beschleunigung negativ}{subsection.D.1}% 47
-\BOOKMARK [3][-]{subsubsection.D.1.3}{FEM-Ergebnis - Lastfall 1.4 laterale Beschleunigung}{subsection.D.1}% 48
-\BOOKMARK [3][-]{subsubsection.D.1.4}{FEM-Ergebnis - Lastfall 1.5 Rotatorische Beschleunigung}{subsection.D.1}% 49
-\BOOKMARK [2][-]{subsection.D.2}{Deformationen}{appendix.D}% 50
-\BOOKMARK [3][-]{subsubsection.D.2.1}{Deformation - Lastfall 1.1 Vertikale Beschleunigung}{subsection.D.2}% 51
-\BOOKMARK [3][-]{subsubsection.D.2.2}{Deformation - Lastfall 1.3 Longitudinale Beschleunigung}{subsection.D.2}% 52
-\BOOKMARK [3][-]{subsubsection.D.2.3}{Deformation - Lastfall 1.4 Laterale Beschleunigung}{subsection.D.2}% 53
-\BOOKMARK [3][-]{subsubsection.D.2.4}{Deformation - Lastfall 1.5 Rotatorische Beschleunigung}{subsection.D.2}% 54
-\BOOKMARK [0][-]{part.3}{III Elektronischer Anhang}{}% 55
-\BOOKMARK [1][-]{appendix.A}{Elektronischer Anhang}{part.3}% 56
-\BOOKMARK [2][-]{subsection.A.1}{Zeichnungen}{appendix.A}% 57
-\BOOKMARK [3][-]{subsubsection.A.1.1}{Zeichnung des Probenrohlings - Erste Serie}{subsection.A.1}% 58
-\BOOKMARK [3][-]{subsubsection.A.1.2}{Zeichnung des Probenrohlings - Zweite Serie}{subsection.A.1}% 59
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Design-Allowables und Materialkennwerte}{subsection.2.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Aluminiumstrukturen}{subsection.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Sandwichstrukturen}{subsection.2.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Nieten}{subsection.2.2}% 14
+\BOOKMARK [3][-]{subsubsection.2.2.5}{Klebeverbindungen}{subsection.2.2}% 15
+\BOOKMARK [1][-]{section.3}{Lastenheft}{part.1}% 16
+\BOOKMARK [2][-]{subsection.3.1}{Modus A: Fahren}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.2}{Modus B: Ausfahren}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.3}{Modus C: Ausgefahren}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.4}{Failuremodes}{section.3}% 20
+\BOOKMARK [1][-]{section.4}{Analyse der Struktur}{part.1}% 21
+\BOOKMARK [2][-]{subsection.4.1}{Massenverteilung}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.2}{Vertikale Beschleunigung}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.3}{Longitudinale Beschleunigung}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.4}{Laterale Beschleunigung}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.5}{Rotatorische Beschleunigung}{section.4}% 26
+\BOOKMARK [1][-]{section.5}{Dimensionierung}{part.1}% 27
+\BOOKMARK [2][-]{subsection.5.1}{Boden}{section.5}% 28
+\BOOKMARK [2][-]{subsection.5.2}{Dach - mittleres Raumelement}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.3}{Solarpanelen - Reihe D}{section.5}% 30
+\BOOKMARK [1][-]{section.6}{Globales FEM}{part.1}% 31
+\BOOKMARK [2][-]{subsection.6.1}{Idealisierung und Modell}{section.6}% 32
+\BOOKMARK [2][-]{subsection.6.2}{Ergebnisse}{section.6}% 33
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Vergleich mit Handrechnungen}{subsection.6.2}% 34
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Beurteilung Dach}{subsection.6.2}% 35
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Beurteilung Tr\344ger A und B}{subsection.6.2}% 36
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Verbindung Boden zu Chassis}{subsection.6.2}% 37
+\BOOKMARK [3][-]{subsubsection.6.2.5}{Verbindung Tr\344ger A und B zu Chassis}{subsection.6.2}% 38
+\BOOKMARK [3][-]{subsubsection.6.2.6}{Deformationen}{subsection.6.2}% 39
+\BOOKMARK [1][-]{section.7}{Fazit}{part.1}% 40
+\BOOKMARK [0][-]{part.2}{II Anhang}{}% 41
+\BOOKMARK [1][-]{appendix.A}{Quellenverzeichnis}{part.2}% 42
+\BOOKMARK [1][-]{appendix.B}{Abbildungsverzeichnis}{part.2}% 43
+\BOOKMARK [1][-]{appendix.C}{Tabellenverzeichnis}{part.2}% 44
+\BOOKMARK [1][-]{appendix.D}{FEM}{part.2}% 45
+\BOOKMARK [2][-]{subsection.D.1}{FEM Ergebnisse}{appendix.D}% 46
+\BOOKMARK [3][-]{subsubsection.D.1.1}{FEM-Ergebnis - Lastfall 1.1 Vertikale Beschleunigung}{subsection.D.1}% 47
+\BOOKMARK [3][-]{subsubsection.D.1.2}{FEM-Ergebnis - Lastfall 1.3 Longitudinale Beschleunigung negativ}{subsection.D.1}% 48
+\BOOKMARK [3][-]{subsubsection.D.1.3}{FEM-Ergebnis - Lastfall 1.4 laterale Beschleunigung}{subsection.D.1}% 49
+\BOOKMARK [3][-]{subsubsection.D.1.4}{FEM-Ergebnis - Lastfall 1.5 Rotatorische Beschleunigung}{subsection.D.1}% 50
+\BOOKMARK [2][-]{subsection.D.2}{Deformationen}{appendix.D}% 51
+\BOOKMARK [3][-]{subsubsection.D.2.1}{Deformation - Lastfall 1.1 Vertikale Beschleunigung}{subsection.D.2}% 52
+\BOOKMARK [3][-]{subsubsection.D.2.2}{Deformation - Lastfall 1.3 Longitudinale Beschleunigung}{subsection.D.2}% 53
+\BOOKMARK [3][-]{subsubsection.D.2.3}{Deformation - Lastfall 1.4 Laterale Beschleunigung}{subsection.D.2}% 54
+\BOOKMARK [3][-]{subsubsection.D.2.4}{Deformation - Lastfall 1.5 Rotatorische Beschleunigung}{subsection.D.2}% 55
+\BOOKMARK [0][-]{part.3}{III Elektronischer Anhang}{}% 56
+\BOOKMARK [1][-]{appendix.A}{Elektronischer Anhang}{part.3}% 57
+\BOOKMARK [2][-]{subsection.A.1}{Zeichnungen}{appendix.A}% 58
+\BOOKMARK [3][-]{subsubsection.A.1.1}{Zeichnung des Probenrohlings - Erste Serie}{subsection.A.1}% 59
+\BOOKMARK [3][-]{subsubsection.A.1.2}{Zeichnung des Probenrohlings - Zweite Serie}{subsection.A.1}% 60
