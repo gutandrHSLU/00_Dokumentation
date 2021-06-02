@@ -3,57 +3,65 @@ In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly un
 
 
 \subsection{Anforderungen an den Solar Butterfly}
-Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen des Solar Butterflys eingegangen, welche für die Auslegung der Grundstruktur sowie der Festigketisberechnungen relevant sind. Die komplette Liste der Anforderungen an den Solar Butterfly ist in der Arbeit von \emph{Huber} [AHNAHNG] oder im elektronischen Anhang [ANHANG] zu finden.
+Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen des Solar Butterflys eingegangen, welche für die Auslegung der Grundstruktur sowie der Festigketisberechnungen relevant sind. Die komplette Liste der Anforderungen an den Solar Butterfly ist in der Arbeit von \emph{Huber} [AHNAHNG] oder im elektronischen Anhang [ANHANG] zu finden.\\
+Was nun sind diejeigen Anforderungen, welche in dieser Arbeit von Relvanz sind.
+
 \begin{itemize}
-  \item Der Solar Butterfly muss strukturelle Integrität aufweisen. Dies bedeutet, dass die Struktur des Solar Butterflys den vorgesehenen Belastungen (vgl. Lastenheft Kapitel \ref{Lastenheft}) standhalten muss, ohne dabei durch Bruch, Verformung oder Ermüdung zu versagen.
-  \item Weiter darf der Solar Butterfly sich nicht so stark verformen, dass seine Funktionstauglichkeit eingeschränkt wird. Die konkreten Anforderungen an die Verformbarkeit der einzelnen Komponenten des Solar Butterflys werden bei deren Abhandlnung genauer betrachtet und beschrieben.
-  \item Palmer will mit dem Solar Butterfly ein nachhaltiges und langlebiges Produkt entwicklen, was umgesetzt wird in dem eine \emph{Safe-Life-Quality} in der Auslegung angestrebt wird, welche ``die absolute Schadensfreiheit für das ganze Leben'' verlangt \cite{klein}. Diese Anforderung an die Langlebigkeit wird erreicht, indem der Solar Butterfly für die Dauerfestigkeit ausgelegt wird. Für die Grobauslegung bedeutet dies konkret, dass die Ermüdung mit einer entsprechenden Wahl der Design-Allowables pauschal abgedeckt wird und dass Spannungserhöhungen mit gutem Design vermieden werden.
+  \item Der Solar Butterfly muss strukturelle Integrität aufweisen. Dies bedeutet, dass die Struktur des Solar Butterflys den vorgesehenen Belastungen (vgl. Lastenheft Kapitel \ref{Lastenheft}) standhalten muss, ohne dabei durch Bruch, Fliessen, Verformung oder Ermüdung zu versagen.
+  \item Weiter darf der Solar Butterfly sich nicht so stark deformieren, dass seine Funktionstauglichkeit eingeschränkt wird. Die konkreten Anforderungen an die Deformierbarkei der einzelnen Komponenten des Solar Butterflys werden bei deren Abhandlnung genauer betrachtet und beschrieben.
+  \item Palmer will mit dem Solar Butterfly ein nachhaltiges und langlebiges Produkt entwicklen, was umgesetzt wird in dem eine \emph{Safe-Life-Quality} in der Auslegung angestrebt wird, welche ``die absolute Schadensfreiheit für das ganze Leben'' verlangt \cite{klein}.
 \end{itemize}
+
+\subsection{Design-Allowables und Materialkennwerte}
+Um den Prozess der Grobauslegung zu vereinfachen, werden soganannte Design-Allowables definiert. Sie sind Materialkennwerte welche für die überschlägig Auslegung von Bauteilen verwendet werden können.
+In der Tabelle \ref{tab:Design-Allowables} sind die Materialkennwerte und Design-Allowables der für die Deckschichten oder Profile verwendeten Materialien zusammengetragen. Da der Solar Butterfly für 1/2 der Belstungen dauerfest ausgelegt wird und für die Dauerfestigkeit ein Sicherheitsfaktor von 2 verwendet wird, entsprechen die zulässigen Dauerfestigkeitswerte direkt auch den Materialkennwerten.\\
+
+%GFK: Roloff Matek S.1013
+\begin{table}[H]
+  \centering
+  \caption{Design-Allowables für Materialien der Profile und Deckschichten}
+  \begin{tabular}{llccccc}	\hline
+    Werkstoff	&	Grösse	&		&	Einheit	&	Wert	&	$S_f$	&	Zulässig\\	\hline
+    \multirow{5}{*}{Aluminium\cite{alu1}}	&	Dichte	&	$\rho$        	&	$\frac{kg}{m^3}$	&	2710	&		&		\\
+      &	E-Modul	&	              	&	MPa	&	70'000	&		&		\\
+      &	Zugfestigkeit	&	$\sigma$      	&	MPa	&	240	&	1.5	&	160	\\
+      &	Wechselfestigkeit	&	$\sigma_{zdW}$	&	MPa	&	80	&	2	&	80	\\
+      &	Biegewechselfestigkeit	&	$\sigma_{bW}$ 	&	MPa	&	100	&	2	&	100	\\	\hline
+    \multirow{4}{*}{GFK\cite{Roloff}}	&	Dichte	&	$\rho$        	&	$\frac{kg}{m^3}$	&	1650	&		&		\\
+      &	E-Modul	&	              	&	MPa	&	16'000	&		&		\\
+      &	Zugfestigkeit	&	$\sigma$      	&	MPa	&	250	&	1.5	&	167	\\
+      &	Biegewechselfestigkeit	&	$\sigma_{bW}$ 	&	MPa	&	50	&	2	&	50	\\	\hline
+  \end{tabular}
+  \label{tab:Design-Allowables}
+\end{table}
+
+Für die Verklebung der Strukturelemente wurde noch kein definitiver Klebstoff ausgewählt. Als anhaltspunkt wird der Klebstoff \emph{Sikaflex-552 AT} verwendet, welcher im Automobilbau Anwendungen findet und vom Sponsor des Chassis \emph{GESER Fahrzeugbau AG} häuffig verwendet wird. Nach \emph{Roloff Matek Maschinenelemente} wird für Klebeverbindung mit unbekannten Abminderungsfaktoren der Sicherheitsfaktor von 2.5 gewählt. Als Abminderungsfaktor wird, gewmäss der Faustregel für dynamisch Beanspruchte Bindefestigkeiten von \emph{Habenicht}\cite{kleben1}, ein Wert von 0.1 gewählt.
+\begin{table}[H]
+  \centering
+  \caption{Design-Allowables für Kleber}
+  \begin{tabular}{llcccccc}	\hline
+    Werkstoff	&	Grösse	&		&	Einheit	&	Wert	&	$S_f$	&	Abminderungsf.&	Zulässig	\\	\hline
+    \multirow{3}{*}{Sikaflex-552 AT}	&	Dichte	&	$\rho$        	&	$\frac{kg}{m^3}$	&	1500	&		&		&		\\
+      &	Schubfestigkeit	&	$\tau$	&	MPa	&	2	&	2.5	&	0.1	&	0.16	\\
+      &	Zugfestigkeit	&	$\sigma$      	&	MPa	&	3	&	2.5	&	0.1	&	0.24	\\	\hline
+  \end{tabular}
+  \label{tab:Design-Allowables Kleben}
+\end{table}
+
+\subsection{Dauerfestigkeit}
+Die Anforderung an die Langlebigkeit des Solar Butterflys wird erfüllt, indem er dauerfest ausgelegt wird. Für die Grobauslegung bedeutet dies konkret, dass die Ermüdung mit einer entsprechenden Wahl der Design-Allowables pauschal abgedeckt wird und dass Spannungserhöhungen mit gutem Design vermieden werden. Als Dauerbelastung wird vereinfacht angenommen, dass die maximal Lasten zu 50\% (die Hälfte der Amplitude) dauerhaft auftreten.\\
 
 \subsection{Auslegungskriterien}
 Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel beschrieben, was diese Anforderungen für die einzelnen Komponenten und Strukturelementen bedeutet. Es wird erläutert mit welchen Methoden die Auslegung angegangen wird und welche Vereinfachungen getroffen werden.\\
 
-  \subsubsection{Design-Allowables und Materialkennwerte}
-  Um den Prozess der Grobauslegung zu vereinfachen, werden soganannte Design-Allowables definiert. Sie sind Materialkennwerte welche für die überschlägig Auslegung von Bauteilen verwendet werden können.
-  In der Tabelle \ref{tab:Design-Allowables} sind die Materialkennwerte und Design-Allowables der für die Deckschichten oder Profile verwendeten Materialien zusammengetragen. Da der Solar Butterfly für 1/2 der Belstungen dauerfest ausgelegt wird und für die Dauerfestigkeit ein Sicherheitsfaktor von 2 verwendet wird, entsprechen die zulässigen Dauerfestigkeitswerte direkt auch den Materialkennwerten.\\
 
-  %GFK: Roloff Matek S.1013
-  \begin{table}[H]
-    \centering
-    \caption{Design-Allowables für Materialien der Profile und Deckschichten}
-    \begin{tabular}{llccccc}	\hline
-      Werkstoff	&	Grösse	&		&	Einheit	&	Wert	&	$S_f$	&	Zulässig\\	\hline
-      \multirow{5}{*}{Aluminium\cite{alu1}}	&	Dichte	&	$\rho$        	&	$\frac{kg}{m^3}$	&	2710	&		&		\\
-      	&	E-Modul	&	              	&	MPa	&	70'000	&		&		\\
-      	&	Zugfestigkeit	&	$\sigma$      	&	MPa	&	240	&	1.5	&	160	\\
-      	&	Wechselfestigkeit	&	$\sigma_{zdW}$	&	MPa	&	80	&	2	&	80	\\
-      	&	Biegewechselfestigkeit	&	$\sigma_{bW}$ 	&	MPa	&	100	&	2	&	100	\\	\hline
-      \multirow{4}{*}{GFK\cite{Roloff}}	&	Dichte	&	$\rho$        	&	$\frac{kg}{m^3}$	&	1650	&		&		\\
-      	&	E-Modul	&	              	&	MPa	&	16'000	&		&		\\
-      	&	Zugfestigkeit	&	$\sigma$      	&	MPa	&	250	&	1.5	&	167	\\
-      	&	Biegewechselfestigkeit	&	$\sigma_{bW}$ 	&	MPa	&	50	&	2	&	50	\\	\hline
-    \end{tabular}
-    \label{tab:Design-Allowables}
-  \end{table}
 
-  Für die Verklebung der Strukturelemente wurde noch kein definitiver Klebstoff ausgewählt. Als anhaltspunkt wird der Klebstoff \emph{Sikaflex-552 AT} verwendet, welcher im Automobilbau Anwendungen findet und vom Sponsor des Chassis \emph{GESER Fahrzeugbau AG} häuffig verwendet wird. Nach \emph{Roloff Matek Maschinenelemente} wird für Klebeverbindung mit unbekannten Abminderungsfaktoren der Sicherheitsfaktor von 2.5 gewählt. Als Abminderungsfaktor wird, gewmäss der Faustregel für dynamisch Beanspruchte Bindefestigkeiten von \emph{Habenicht}\cite{kleben1}, ein Wert von 0.1 gewählt.
-  \begin{table}[H]
-    \centering
-    \caption{Design-Allowables für Kleber}
-    \begin{tabular}{llcccccc}	\hline
-      Werkstoff	&	Grösse	&		&	Einheit	&	Wert	&	$S_f$	&	Abminderungsf.&	Zulässig	\\	\hline
-      \multirow{3}{*}{Sikaflex-552 AT}	&	Dichte	&	$\rho$        	&	$\frac{kg}{m^3}$	&	1500	&		&		&		\\
-      	&	Schubfestigkeit	&	$\tau$	&	MPa	&	2	&	2.5	&	0.1	&	0.16	\\
-      	&	Zugfestigkeit	&	$\sigma$      	&	MPa	&	3	&	2.5	&	0.1	&	0.24	\\	\hline
-    \end{tabular}
-    \label{tab:Design-Allowables Kleben}
-  \end{table}
 
 
 
 
   \subsubsection{Aluminiumstrukturen}
-  Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung. Für die Grobauslegung werden die Aluminiumstrukturen ausgelegt, dass diese ein Sicherheitsfaktor gegen Fliessen von 1.5 aufweisen. Dabei wird sich an \emph{Roloff Matek Maschinenelemente} orientiert \cite{Roloff}. Für das Stabilitätsproblem der Knickung wird sich an \emph{Bärtsch} orientiert und ein Sicherheitsfaktor von 4 gewählt \cite{Baertsch}.
+  Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung. Für die Grobauslegung werden die Aluminiumstrukturen ausgelegt, dass diese ein Sicherheitsfaktor gegen Fliessen von 1.5 aufweisen. Bei der Wahl dieses Sicherheitsfaktores wird sich an \emph{Roloff Matek Maschinenelemente} orientiert \cite{Roloff}. Für das Stabilitätsproblem der Knickung wird sich an \emph{Bärtsch} orientiert und ein Sicherheitsfaktor von 4 gewählt \cite{Baertsch}.
 
   \paragraph{Sicherheit gegen Fliessen}
   Um die Sicherheit eines Strukturelementes gegen Fliessen zu gewährleisten, wird überprüft, ob die \emph{Von Mises}-Vergleichsspannung kleiner als die zulässige Spannung ist. Die \emph{Von Mises}-Vergleichsspannung kann gemäss der Formel \ref{Von Mises} berechet werden \cite{Baertsch}.
@@ -89,7 +97,7 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
   Aus den getroffenen Annahmen reulstiert ein vereinfachter Spannungszustand welcher besagt, dass die Deckschichten jeweils die Normalkräfte und die Kernschichten die Schubkräfte aufnehmen. (Sandwichmembrantheorie)
 
     \paragraph{Festigkeitsprobleme}
-    Aus den getroffenen Annahmen und Vereinfachungen lassen sich die Formeln \ref{Spannung in Deckschicht} und \ref{Schubspannungen im Kern} herleiten. Mit der Formel \ref{Spannung in Deckschicht} lassen sich die Spannungen in den Deckschichten berechnen. Die Dicke der Deckschicht wird so gewählt, dass die zulässige Spannung höher liegt als jene, welche in der Deckschicht herrscht.
+    Aus den getroffenen Annahmen und Vereinfachungen lassen sich die Formeln \ref{Spannung in Deckschicht} und \ref{Schubspannungen im Kern} herleiten. Mit der Formel \ref{Spannung in Deckschicht} lassen sich die Spannungen in den Deckschichten berechnen.
 
     \begin{equation}
       \label{Spannung in Deckschicht}
@@ -112,7 +120,7 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
       F_{kB}=\frac{\pi^2 \cdot E_d \cdot I}{l_k^{2}}
     \end{equation}
 
-    Wobei sich das Widerstandsmoment $I$ vereinfacht gemäss der Formel \ref{ID} berechnen lässt. Hier wurde die Annahme getroffen, dass die Eigenbiegesteifigkeiten der Deckschichten vernachlässigbar sind. Diese Annahme kann gemäss Klein \cite{klein} ab einem Verhältnis von $t_d$ zu $t_k$ von 0.25, getroffen werden.
+    Wobei sich das Widerstandsmoment $I$ vereinfacht gemäss der Formel \ref{ID} berechnen lässt. Hier wurde die Annahme getroffen, dass die Eigenbiegesteifigkeiten der Deckschichten vernachlässigbar sind. Diese Annahme kann gemäss Klein \cite{klein} ab einem Verhältnis von $t_d$ zu $t_k$ von 0.25, getroffen werden, was in diesem Projekt der Fall ist.
     \begin{equation}
       \label{ID}
       I= 2 \cdot b \cdot t_d \cdot \left( \frac{t_k}{2} + t_d \right )^{2}
@@ -125,7 +133,7 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
       F_{kS} = b \cdot t_k \cdot G_k
     \end{equation}
 
-    Die totale kritische Knicklast \(F_k\) ergibt sich dann aus der Formel \ref{Knicklast}:
+    Die totale kritische Knicklast \(F_k\) ergibt sich aus der Formel \ref{Knicklast}:
     \begin{equation}
       \label{Knicklast}
       F_{k, vorh.} \leq F_k=\frac{1}{\frac{1}{F_{kB}}+\frac{1}{F_{kS}}}
@@ -192,23 +200,4 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
     \end{split}
   \end{equation}
 
-  % \paragraph{Design-Allowables und Materialkennwerte}\mbox{}\\
-  %
-  % \begin{table}[h]
-  %   \centering
-  %   \caption{Design-Allowables Kleber}% Add 'table' caption
-  %   \begin{tabular}{llcccc}
-  %     \thickhline
-  %     Bezeichnung & & Einheit & & Sicherh. Fakt. & Zul. Festigkeit\\
-  %     \thickhline
-  %     \multirow{3}{*}{Delo-Duopox\textsuperscript{\textregistered} AD840} & E-Modul               & $MPa$             & 1700    & &\\
-  %                                        & Zugscherfestigkeit    & $MPa$             & 5       & 3 & $\sigma_{zul} = 1.6$\\
-  %                                        & Druckscherfestigkeit  & $MPa$             & 26      & 3 & $\sigma_{zul} = 8.6$\\
-  %                                        \hline
-  %
-  %    \multirow{1}{*}{Sikaflex\textsuperscript{\textregistered}-552 AT} & Zugscherfestigkeit    & $MPa$ & 2 & 3 & $\sigma_{zul} = 0.6$\\
-  %
-  %   \thickhline
-  %   \end{tabular}
-  % \end{table}
 \newpage
