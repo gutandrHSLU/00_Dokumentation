@@ -268,6 +268,9 @@ INPUT c:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
 INPUT 02_Mainmatter/02_Anforderungen.tex
 INPUT 02_Mainmatter/02_Anforderungen.tex
+INPUT 04_Figures/Sandwich.png
+INPUT ./04_Figures/Sandwich.png
+INPUT ./04_Figures/Sandwich.png
 INPUT 02_Mainmatter/03_Lastenheft.tex
 INPUT 02_Mainmatter/03_Lastenheft.tex
 INPUT 04_Figures/A.png

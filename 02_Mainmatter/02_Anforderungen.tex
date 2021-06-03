@@ -1,10 +1,11 @@
 \section{Anforderungen und Auslegungskriterien}
-In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. In einem ersten Schritt werden auf die allgemeinen Anforderungen des Solar Butterflys und anschliessen auf die daraus resultierenden Auslegungskriterien der einzelnen Komponenten eingegangen. Es wird beschrieben, was die Anforderungen konkret für die einzelnen Komponenten bedeuten und wie gewährleistet werden kann, dass diese erfüllt werden.\\
+In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. In einem ersten Schritt wird auf die allgemeinen Anforderungen des Solar Butterflys und anschliessen auf die daraus resultierenden Auslegungskriterien der einzelnen Komponenten eingegangen. Es wird beschrieben, was die Anforderungen konkret für die einzelnen Komponenten bedeuten und wie gewährleistet werden kann, dass diese erfüllt werden.\\
+Weiter werden die Design-Allowables beschrieben und erläutert, wie gedenkt wird, die Problematik der Ermüdung	an zu gehen.
 
 
 \subsection{Anforderungen an den Solar Butterfly}
-Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen des Solar Butterflys eingegangen, welche für die Auslegung der Grundstruktur sowie der Festigketisberechnungen relevant sind. Die komplette Liste der Anforderungen an den Solar Butterfly ist in der Arbeit von \emph{Huber} [AHNAHNG] oder im elektronischen Anhang [ANHANG] zu finden.\\
-Was nun sind diejeigen Anforderungen, welche in dieser Arbeit von Relvanz sind.
+Im rahmen dieser Arbeit wird lediglich auf diejenigen Anforderungen des Solar Butterflys eingegangen, welche für die Auslegung der Grundstruktur und den Festigketisberechnungen relevant sind. Die komplette Liste der Anforderungen an den Solar Butterfly ist in der Arbeit von \emph{Huber} [AHNAHNG] oder im elektronischen Anhang [ANHANG] zu finden.\\
+Was nun folgt, sind diejeigen Anforderungen, welche in dieser Arbeit von Relvanz sind und genauer betrachtet werden.
 
 \begin{itemize}
   \item Der Solar Butterfly muss strukturelle Integrität aufweisen. Dies bedeutet, dass die Struktur des Solar Butterflys den vorgesehenen Belastungen (vgl. Lastenheft Kapitel \ref{Lastenheft}) standhalten muss, ohne dabei durch Bruch, Fliessen, Verformung oder Ermüdung zu versagen.
@@ -12,9 +13,15 @@ Was nun sind diejeigen Anforderungen, welche in dieser Arbeit von Relvanz sind.
   \item Palmer will mit dem Solar Butterfly ein nachhaltiges und langlebiges Produkt entwicklen, was umgesetzt wird in dem eine \emph{Safe-Life-Quality} in der Auslegung angestrebt wird, welche ``die absolute Schadensfreiheit für das ganze Leben'' verlangt \cite{klein}.
 \end{itemize}
 
+\subsection{Dauerfestigkeit}
+Die Anforderung an die Langlebigkeit des Solar Butterflys wird erfüllt, indem der Solar Butterfly Dauerfest ausgelegt wird. Für die Grobauslegung bedeutet dies konkret, dass die Ermüdung mit einer entsprechenden Wahl der Design-Allowables pauschal abgedeckt wird und dass Spannungserhöhungen mit gutem Design vermieden werden.\\
+Als Dauerbelastung wird vereinfacht angenommen, dass die maximalen Lasten zu 50\% (die Hälfte der Amplitude) dauerhaft auftreten. Dies bedeutet, anderst formuliert, dass angenommen wird, dass die im Lastenheft definierten maximalen Lasten selten zu 50\% erreicht werden und dass diese somit keine Gefahr für das Versagen der Bauteile durch Ermüdung darstellen.\\
+Ob dies eine angemessene Annahme ist, muss zu einem späteren Zeitpunkt und bei einem weiter fortgeschrittenen Projekstand, durch Erbringung eines Nachweises der Dauerfestigkeit, überprüft werden.\\
+
 \subsection{Design-Allowables und Materialkennwerte}
-Um den Prozess der Grobauslegung zu vereinfachen, werden soganannte Design-Allowables definiert. Sie sind Materialkennwerte welche für die überschlägig Auslegung von Bauteilen verwendet werden können.
-In der Tabelle \ref{tab:Design-Allowables} sind die Materialkennwerte und Design-Allowables der für die Deckschichten oder Profile verwendeten Materialien zusammengetragen. Da der Solar Butterfly für 1/2 der Belstungen dauerfest ausgelegt wird und für die Dauerfestigkeit ein Sicherheitsfaktor von 2 verwendet wird, entsprechen die zulässigen Dauerfestigkeitswerte direkt auch den Materialkennwerten.\\
+Um den Prozess der Grobauslegung zu vereinfachen, werden soganannte Design-Allowables definiert. Dies sind Materialkennwerte welche für die überschlägige Auslegung von Bauteilen verwendet werden können.\\
+In der Tabelle \ref{tab:Design-Allowables} sind die Materialkennwerte und Design-Allowables der für die Deckschichten oder Profile verwendeten Materialien zusammengetragen. Da der Solar Butterfly für 50\% der Belstungen dauerfest ausgelegt wird und für die Auslegung der Dauerfestigkeit ein Sicherheitsfaktor von 2 verwendet wird, entsprechen die zulässigen Dauerfestigkeitswerte direkt auch der Dauerfestigkeiten der Materialien.\\
+Die Sicherheitsfaktoren wurden nach \emph{Roloff Matek Maschinenelemente} gewählt \cite{Roloff}.
 
 %GFK: Roloff Matek S.1013
 \begin{table}[H]
@@ -35,7 +42,7 @@ In der Tabelle \ref{tab:Design-Allowables} sind die Materialkennwerte und Design
   \label{tab:Design-Allowables}
 \end{table}
 
-Für die Verklebung der Strukturelemente wurde noch kein definitiver Klebstoff ausgewählt. Als anhaltspunkt wird der Klebstoff \emph{Sikaflex-552 AT} verwendet, welcher im Automobilbau Anwendungen findet und vom Sponsor des Chassis \emph{GESER Fahrzeugbau AG} häuffig verwendet wird. Nach \emph{Roloff Matek Maschinenelemente} wird für Klebeverbindung mit unbekannten Abminderungsfaktoren der Sicherheitsfaktor von 2.5 gewählt. Als Abminderungsfaktor wird, gewmäss der Faustregel für dynamisch Beanspruchte Bindefestigkeiten von \emph{Habenicht}\cite{kleben1}, ein Wert von 0.1 gewählt.
+Für die Verklebung der Strukturelemente wurde noch kein definitiver Klebstoff ausgewählt. Als anhaltspunkt wird der Klebstoff \emph{Sikaflex-552 AT} verwendet, welcher im Automobilbau Anwendungen findet und vom Sponsor des Chassis \emph{GESER Fahrzeugbau AG} häuffig verwendet wird. Nach \emph{Roloff Matek Maschinenelemente} wird für Klebeverbindung mit unbekannten (oder nicht genau bekannten) Abminderungsfaktoren der Sicherheitsfaktor von 2.5 gewählt. Als Abminderungsfaktor wird, gewmäss der Faustregel für dynamisch Beanspruchte Bindefestigkeiten von \emph{Habenicht} \cite{kleben1}, ein Wert von 0.1 gewählt.
 \begin{table}[H]
   \centering
   \caption{Design-Allowables für Kleber}
@@ -48,31 +55,42 @@ Für die Verklebung der Strukturelemente wurde noch kein definitiver Klebstoff a
   \label{tab:Design-Allowables Kleben}
 \end{table}
 
-\subsection{Dauerfestigkeit}
-Die Anforderung an die Langlebigkeit des Solar Butterflys wird erfüllt, indem er dauerfest ausgelegt wird. Für die Grobauslegung bedeutet dies konkret, dass die Ermüdung mit einer entsprechenden Wahl der Design-Allowables pauschal abgedeckt wird und dass Spannungserhöhungen mit gutem Design vermieden werden. Als Dauerbelastung wird vereinfacht angenommen, dass die maximal Lasten zu 50\% (die Hälfte der Amplitude) dauerhaft auftreten.\\
+
 
 \subsection{Auslegungskriterien}
-Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel beschrieben, was diese Anforderungen für die einzelnen Komponenten und Strukturelementen bedeutet. Es wird erläutert mit welchen Methoden die Auslegung angegangen wird und welche Vereinfachungen getroffen werden.\\
-
-
-
-
-
-
+Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, wird in diesem Unterkapitel beschrieben, was diese Anforderungen für die einzelnen Komponenten und Strukturelementen bedeutet. Es wird erläutert mit welchen Methoden die Auslegung der Komponenten angegangen wird und welche Vereinfachungen getroffen werden.\\
 
   \subsubsection{Aluminiumstrukturen}
   Zu den Auslegungskriterien der Aluminiumstrukturen gehört das Festigkeitsproblem der plastschen Verformung (Fliessen) und das Stabilitätsproblem der Knickung. Für die Grobauslegung werden die Aluminiumstrukturen ausgelegt, dass diese ein Sicherheitsfaktor gegen Fliessen von 1.5 aufweisen. Bei der Wahl dieses Sicherheitsfaktores wird sich an \emph{Roloff Matek Maschinenelemente} orientiert \cite{Roloff}. Für das Stabilitätsproblem der Knickung wird sich an \emph{Bärtsch} orientiert und ein Sicherheitsfaktor von 4 gewählt \cite{Baertsch}.
 
-  \paragraph{Sicherheit gegen Fliessen}
+  \paragraph{Fliessen}\mbox{}\\
   Um die Sicherheit eines Strukturelementes gegen Fliessen zu gewährleisten, wird überprüft, ob die \emph{Von Mises}-Vergleichsspannung kleiner als die zulässige Spannung ist. Die \emph{Von Mises}-Vergleichsspannung kann gemäss der Formel \ref{Von Mises} berechet werden \cite{Baertsch}.
   \begin{equation}
     \label{Von Mises}
     \sigma_v = \sqrt{\sigma_x^{2}-\sigma_x \cdot \sigma_y + \sigma_y^2 + 3\tau^2}
   \end{equation}
-  Wobei die Annahmen getroffen werden, dass es sich um einen ebenen Spannungszustand handelt und die angeifenden Lasten dem selben Lastfall angehören.
+  Wobei die Annahmen getroffen werden, dass es sich um einen ebenen Spannungszustand handelt.
+
+  \paragraph{Knicken}\mbox{}\\
+
 
   \subsubsection{Sandwichstrukturen}
-  Versagenskriterien der Sandwichstrukturen können in die beiden Kategorien \emph{Festigkeitsprobleme} und \emph{Stabilitätsprobleme} eingeteilt werden \cite{ETH}. Zu den Festigkeitsproblemen gehören;
+  Versagenskriterien der Sandwichstrukturen können in die beiden Kategorien \emph{Festigkeitsprobleme} und \emph{Stabilitätsprobleme} eingeteilt werden \cite{ETH}. In der Abbildung \ref{Sandwich} sind die verschiedenen Versagensfälle dargestellt\cite{Sandwich}.
+
+  \begin{center}[H]
+    \includegraphics[width=0.6\textwidth]{04_Figures/Sandwich.png}
+    \captionof{figure}{Versagensarten in Sandwichbalken.
+                      (a) Fliessen/Bruch der Oberfläche,
+                      (b) Schubbruch,
+                      (c und d) Faltenbildung der Oberfläche,
+                      (e) allgemeines Knicken,
+                      (f) Scherfaltenbildung,
+                      (g) Beulen an der Oberfläche und
+                      (h) lokales Eindrücken.}
+    \label{Sandwich}
+  \end{center}
+
+  Zu den Festigkeitsproblemen gehören;
   \begin{itemize}
     \item Fliessen der Deckschicht,
     \item Schubbruch der Kernschicht,
@@ -87,7 +105,8 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
     \item Kurzwelliges Beulen der Deckschicht (Wrinkling).
   \end{itemize}
 
-  Die auszulegenden Sandwichstrukturen werden gegenüber diesen Festigkeits und Stabilitätsproblemen abesichert. Um den Rechenaufwand und die Komplexität der Berechnungen zu verringern werden Annahmen und Vereinfachungen getroffen. Für die Auslegung von Sandwichstrukturen können folgende Annahmen getroffen werden \cite{klein}\cite{ETH};
+  Die auszulegenden Sandwichstrukturen werden gegenüber diesen Festigkeits und Stabilitätsproblemen abesichert. Um den Rechenaufwand und die Komplexität der Berechnungen zu verringern werden Annahmen und Vereinfachungen getroffen.\\
+  Für die Auslegung von Sandwichstrukturen können folgende Annahmen getroffen werden \cite{klein}\cite{ETH};
   \begin{itemize}
     \item linear elastische und isentrope Materialverhalten,
     \item Eigenbiegesteifigkeiten der Deckschichten sind vernachlässigbar,
@@ -96,7 +115,7 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
   \end{itemize}
   Aus den getroffenen Annahmen reulstiert ein vereinfachter Spannungszustand welcher besagt, dass die Deckschichten jeweils die Normalkräfte und die Kernschichten die Schubkräfte aufnehmen. (Sandwichmembrantheorie)
 
-    \paragraph{Festigkeitsprobleme}
+    \paragraph{Festigkeitsprobleme}\mbox{}\\
     Aus den getroffenen Annahmen und Vereinfachungen lassen sich die Formeln \ref{Spannung in Deckschicht} und \ref{Schubspannungen im Kern} herleiten. Mit der Formel \ref{Spannung in Deckschicht} lassen sich die Spannungen in den Deckschichten berechnen.
 
     \begin{equation}
@@ -112,7 +131,7 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
 
     Die Delamination der Deckschichten wird abgesichert, indem die Auswahl des Klebers, oder im Falle einer Laminierung die Wahl des Matrixwerkstoffes, so getroffen wird, dass dieser eine höhere Schubfestigkeit aufweist als das Material der jeweiligen Kernschicht.
 
-    \paragraph{Stabilitätsprobleme}
+    \paragraph{Stabilitätsprobleme}\mbox{}\\
     Die Stabilitätsprobleme der Sandwichstrukturen lassen sich in globale und lokale Instabilitäten einteilen. Zur globalen Instabilität gehört das Knicken, welches sich aus der Eueler-Knickung des schubsteifen Balkens und dem Schubknicken zusammensetzt. Die kritische Belastung, bei welcher es zur Euler-Knickung kommt, lässt sich gemäss Klein \cite{klein} mit der Formel \ref{Euler-Knicklast} berechnen.
 
     \begin{equation}
@@ -120,14 +139,14 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
       F_{kB}=\frac{\pi^2 \cdot E_d \cdot I}{l_k^{2}}
     \end{equation}
 
-    Wobei sich das Widerstandsmoment $I$ vereinfacht gemäss der Formel \ref{ID} berechnen lässt. Hier wurde die Annahme getroffen, dass die Eigenbiegesteifigkeiten der Deckschichten vernachlässigbar sind. Diese Annahme kann gemäss Klein \cite{klein} ab einem Verhältnis von $t_d$ zu $t_k$ von 0.25, getroffen werden, was in diesem Projekt der Fall ist.
+    Wobei sich das Widerstandsmoment $I$ vereinfacht gemäss der Formel \ref{ID} berechnen lässt. Hier wurde die Annahme getroffen, dass die Eigenbiegesteifigkeiten der Deckschichten vernachlässigbar sind. Diese Annahme kann gemäss Klein ab einem Verhältnis von $t_d$ zu $t_k$ von 0.25, getroffen werden.
     \begin{equation}
       \label{ID}
       I= 2 \cdot b \cdot t_d \cdot \left( \frac{t_k}{2} + t_d \right )^{2}
       % B_y = 2\cdot b \cdot t_d\cdot \left ( \frac{t_k}{2}+t_d \right )^2
     \end{equation}
 
-    Die kritische Schubknicklast lässt sich gemäss Klein \cite{klein} mit der Formel \ref{Schubknicklast} berechnen.
+    Die kritische Schubknicklast lässt sich gemäss Klein mit der Formel \ref{Schubknicklast} berechnen.
     \begin{equation}
       \label{Schubknicklast}
       F_{kS} = b \cdot t_k \cdot G_k
@@ -154,7 +173,7 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
 
 
   \subsubsection{Nieten}
-    Für die Grobauslegung von Nietverbindungen wird angenommen, dass die herrschenden Schubkräfte gleichmässig auf die Anzahl Nieten in eier Verbindung verteilt werden. Anzahl und Typ der Nieten wird dabei so gewählt, dass die zulässige Scherkraft der Niete nicht überschritten wird. Laut Klein \cite{klein} gehört zum Tragfähigkeitsnachweis von Nietverbindungen für gewöhnlich ein Abscher- und Lochleibungsnachweis. Insofern sei für Nietverbindungen ein Nachweis auf Scherbruch (Formel \ref{Scherbruch}) und Lochleibung (Formel \ref{Lochleibung}) zu erbringen:
+    Für die Grobauslegung von Nietverbindungen wird angenommen, dass die angreiffenden Schubkräfte gleichmässig auf die Anzahl Nieten in einer Verbindung verteilt werden. Anzahl und Typ der Nieten wird dabei so gewählt, dass die zulässige Scherkraft der Niete nicht überschritten wird. Laut Klein \cite{klein} gehört zum Tragfähigkeitsnachweis von Nietverbindungen für gewöhnlich ein Abscher- und Lochleibungsnachweis. Insofern sei für Nietverbindungen ein Nachweis auf Scherbruch (Formel \ref{Scherbruch}) und Lochleibung (Formel \ref{Lochleibung}) zu erbringen:
     \begin{multicols}{2}
       \begin{equation}
         \label{Scherbruch}
@@ -191,13 +210,13 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
     \tau_K = \frac{q}{b} \leq \frac{\tau_{KB}}{S}
   \end{equation}
 
-  Für dynamische Verbindungen werden folgende Abminderungsfaktoren verwendet. \cite{klein}
-  \begin{equation}
-    \label{Zulässige Schubspannungen}
-    \begin{split}
-    wechselnd: & \: \tau_{KW} \approx \left (0.2 ... 0.4 \right ) \cdot \tau_{KB}\\
-    schwellend: & \: \tau_{KSch} \approx 0.8 \cdot \tau_{KB}
-    \end{split}
-  \end{equation}
+  % Für dynamische Verbindungen werden folgende Abminderungsfaktoren verwendet. \cite{klein}
+  % \begin{equation}
+  %   \label{Zulässige Schubspannungen}
+  %   \begin{split}
+  %   wechselnd: & \: \tau_{KW} \approx \left (0.2 ... 0.4 \right ) \cdot \tau_{KB}\\
+  %   schwellend: & \: \tau_{KSch} \approx 0.8 \cdot \tau_{KB}
+  %   \end{split}
+  % \end{equation}
 
 \newpage

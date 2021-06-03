@@ -1,23 +1,23 @@
 \section{Lastenheft}
 \label{Lastenheft}
-In diesem Kapitel wird auf das Lastenheft eingegangen. Es wird beschrieben wie die Lastfälle bestimmt und definiert wurden.
+In diesem Kapitel wird erklärt, wie das Lastenheft aufgebaut ist, wie die Lastfälle bestimmt wurden und welche Annahmen dabei getroffen werden. Da das Lastenheft ist auf der Seite \pageref{Lastenheft A} zu finden.\\
 
-Damit die Erklärung des Lastenheftes und der gesammte folgende Auslegungsprozess an sich verständlicher wird, werden zuerst die verwendeten Begriffe definiert.\\
-Als \emph{Modus} wird ein ``Zustand'' oder eine ``Position'' des Solar Butterflys verstanden. Modus \emph{A} beschreibt zum Beispiel den Solar Butterfly im ``Fahr-Modus''. In diesem Fall würde dies bedeuten, dass alle Panelen, Stützen und Seitenmodule eingefahren sind. Es wird für jeden der vier definierten Modi ein FEM-Modell erstellt.\\
-Als \emph{Lastfall} wird eine Situation (z.B. Fahrt auf einer um 10° geneigten Strasse) oder eine Last (z.B. Personenlast) verstanden, welche in einem spezifischen Modus auftreten kann. Der Lastfall \emph{1.1} im Modus \emph{A} beschreibt zum Beispiel die vertikale Beschleunigung von 1.5 g welche durch das Überfahren einer Bresmmschwelle auftreten kann. Der Lastfall \emph{1.1} im Modus \emph{C} beschreibt eine Personenlast. Ein Lastfall ist vollständig definiert, wenn klar ist, wie dieser im jeweiligen FEM-Modell des betreffenden Modus, einzugliedern ist.\\
-Der Lastfall \emph{1.1} im Modus \emph{A} ist nicht notwendigerweise der Selbe, wie der Lastfall \emph{1.1} im Modus \emph{B} oder \emph{C}! Die klare Zuweisung der Lastfälle zu einem spezifischen Modus wurde vorgenommen, um die Anzahl der Lastfälle in den verschiedenen Modi gering zu halten und die daraus resultierenden Lastkombinationen pro Modus übersichtlicher zu gestalten. Dies führt mit sich, dass gewisse Lastfälle in mehreren Modi vorkommen und dass dadurch einige Lastfälle doppelt aufgeführt werden. So wird zum Beispiel der Lastfall \emph{Neigung Stehend} im Modus \emph{B} und \emph{C} aufgeführt, da die Situation des geneigten Bodens im parkierten Zustand in beiden Modi auftreten kann. Alle Lastfälle welche in diesen Modi nicht auftreten, können jedoch weggelassen werden, wodurch - wie bereits erwähnt - das Lastenheft übersichtlicher gestaltet werden kann.\\
+Damit die Erklärung des Lastenheftes und der gesammte folgende Auslegungsprozess an sich verständlicher wird, werden zuerst die verwendeten Begriffe definiert.
+
+Als \emph{Modus} wird ein ``Zustand'' oder eine ``Position'' des Solar Butterflys verstanden. Modus \emph{A} beschreibt zum Beispiel den Solar Butterfly im ``Fahr-Modus''. In diesem Fall würde dies bedeuten, dass alle Panelen, Stützen und Seitenmodule eingefahren sind.
+
+Als \emph{Lastfall} wird eine Situation (z.B. Fahrt auf einer um 10° geneigten Strasse) oder eine Last (z.B. eine Personenlast) verstanden, welche in einem spezifischen Modus auftreten kann. Der Lastfall \emph{1.1} im Modus \emph{A} beschreibt zum Beispiel die vertikale Beschleunigung von 1.5 g welche durch das Überfahren einer Bresmmschwelle auftreten kann. Der Lastfall \emph{1.1} im Modus \emph{C} beschreibt eine Personenlast. Ein Lastfall ist vollständig definiert, wenn klar ist, wie dieser im jeweiligen FEM-Modell des betreffenden Modus, einzugliedern ist.\\
+Der Lastfall \emph{1.1} im Modus \emph{A} ist nicht notwendigerweise der Selbe, wie der Lastfall \emph{1.1} im Modus \emph{B} oder \emph{C}! Die klare Zuweisung der Lastfälle zu einem spezifischen Modus wurde vorgenommen, um die Anzahl der Lastfälle in den verschiedenen Modi gering zu halten und die daraus resultierenden Lastkombinationen pro Modus übersichtlicher zu gestalten. Dies führt mit sich, dass gewisse Lastfälle in mehreren Modi vorkommen und dass dadurch einige Lastfälle doppelt aufgeführt werden. So wird zum Beispiel der Lastfall \emph{Neigung Stehend} im Modus \emph{B} und \emph{C} aufgeführt, da die Situation des geneigten Bodens im parkierten Zustand in beiden Modi auftreten kann. Alle Lastfälle welche in diesen Modi nicht auftreten, können jedoch weggelassen werden, wodurch - wie bereits erwähnt - das Lastenheft übersichtlicher gestaltet werden kann.
+
 Zur Beschreibung eines Lastfalles gehört eine Bewertung des dazugehörenden \emph{Risikos}. Ein \emph{Risiko} setzt sich zusammen aus der Ungenauigkeit der Voraussage der Belastung und einer Abschätzung der ``ernsthaftigkeit'' der potentiellen Auswirkungen. Eine \emph{Ungenauigkeit} von 0.5 bedeutet, dass von einer potentiellen Abweichung der Belastung von $\pm\: 50\%$ ausgegangen wird. Für die Werte der \emph{Auswirkungen} wird kein klarer Massstab definiert. Sie nehmen einen Wert zwischen 0 und 100 an und beurteilen die Auswirkungen beim Eintreten der Ungenauigkeit. Das Produkt aus der Ungenauigkeit und der Auswirkung ergibt den Wert des Risikos.\\
-Ein hoher Risiko-Wert bedeutet nicht, dass die betrefende Last ein grosses Risiko für den Solar Butterfly darstellt, sondern, dass die Abschätzung der Last unsicher ist. Das soeben erkläuterte Risiko ist also ein Mass für die Gefahr, sowie auch für das Potentail, welches in der Abschätzung der Last steckt. Ein Risiko-Wert von 0 bedeutet ausgeschrieben, dass die Last mit grosser Sicherheit so auftreten wird, wie diese im Lastenheft beschrieben ist. Ein hoher Risiko-Wert bedeutet wiederum, dass man sich nicht sicher ist, ob die Last wie beschrieben auftreten wird. Die Last kann zu tief (daher die Gefahr), oder aber auch zu hoch (daher das Potential) gewählt worden sein. Lasten mit hohen Risiko-Werten sollen bei einer Überarbeitung des Lastenheftes erhöhte Beachtung geschenkt werden. Weiter sollen die Risiko-Werte bei der Dimenisonierung berücksichtigt werden.\\
-Als \emph{Lastkombination} wird eine Kombination von verschiedenen Lastfällen verstanden. Eine Lastkombination bezieht sich jeweils auf einen Modus. Die Lastkombination \emph{A.3.1.2} setzt sich zusammen aus dem Modus \emph{A} und den Lastfällen \emph{1.3 Longitudinale Beschleunigung - Negativ}, \emph{2.1 Wind von links} und \emph{3.2 Neigung längs negativ} aus dem Modus \emph{A}.
+Ein hoher Risikowert bedeutet nicht, dass die betrefende Last ein grosses Risiko für den Solar Butterfly darstellt, sondern, dass die Abschätzung der Last unsicher ist. Das soeben erkläuterte Risiko ist also ein Mass für die Gefahr, sowie auch für das Potentail, welches in der Abschätzung der Last steckt. Ein Risikowert von 0 bedeutet ausgeschrieben, dass die Last mit grosser Sicherheit so auftreten wird, wie diese im Lastenheft beschrieben ist oder, dass falls eine Abweichung der Last auftreten sollte, die Auswirkungen äusserst gering sind. Ein hoher Risikowert bedeutet wiederum, dass man sich nicht sicher ist, ob die Last wie beschrieben auftreten wird oder dass falls diese nicht wie Beschrieben auftreten würde, grosse Auswirkungen haben wird. Die Last kann zu tief (daher die Gefahr), oder aber auch zu hoch (daher das Potential) gewählt worden sein. Lasten mit hohen Risikowerten sollen bei einer Überarbeitung des Lastenheftes erhöhte Beachtung geschenkt werden.
 
-Ein Blick in das Lastenheft im Anhang [ANHANG] wird das soeben beschriebene verständlicher machen.\\
+Als \emph{Lastkombination} wird eine Kombination von verschiedenen Lastfällen verstanden. Eine Lastkombination bezieht sich jeweils auf einen Modus. Die Lastkombination \emph{A.3.1.2} setzt sich zum Beispiel zusammen aus dem Modus \emph{A} und den Lastfällen \emph{1.3 Longitudinale Beschleunigung - Negativ}, \emph{2.1 Wind von links} und \emph{3.2 Neigung längs negativ} aus dem Modus \emph{A}. Die zweite Zahl im Namen der Lastfälle tritt jeweils im Namen der Lastkombination auf.
 
-\paragraph{Missbrauchslastfälle und Dynamik}
-Als Missbrauchslastfälle werden im Lastenheft nicht aufgeführte Situationen oder Vorfälle verstanden, an welchen der Solar Butterfly Schaden nehmen könnte. Der Solar Butterfly wird gegenüber den Lasten im Lastenheft ausgelegt, die Missbrauchslastfälle werden dabei jedoch berücksichtigt. Ein Beispiel eines Missbrauchslastfalles ist zum Beispiel
+\subsection{Missbrauchslastfälle und Dynamik}
+Als Missbrauchslastfälle werden die im Lastenheft nicht aufgeführte Situationen oder Ereignisse verstanden, an welchen der Solar Butterfly Schaden nehmen könnte. Beispiele von Missbrauchslastfällen sind kleinere Unfälle, stolpernde Personen und Der Solar Butterfly wird gegenüber den Lasten im Lastenheft ausgelegt, die Missbrauchslastfälle werden bei der Auslegung und Konstruktion der einzelnen Komponenten jedoch berücksichtigt.
 
 Die Dynamik der Lastfälle wird in der Grobauslegung nicht ausführlich betrachtet. Der Solar Butterlfy wird jeweils für den Maximalwert (Amplitude) eines Lastfalles statisch ausgelegt. Die Dynmaik der Lastfälle und die daraus resultierende potentielle Ermüdung der Materialien, werden mit entsprechend gewählten Design-Allowables abgedeckt.
-
-Folgend werden die drei Modi mit den dazugehörigen Lastfällen vorgestellt. Es wird jeweils beschrieben, wie die Lasten zustande kommen und wie diese in den FEM-Modellen eingebunden werden.
 
 \subsection{Modus A: Fahren}
 Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in der Abbildung \ref{Modus A} dargestellt. Konkret bedeutet dieser Modus, dass alle Panelen und Seitenmodule eingefahren und über die Verschlüsse fest mit dem Rest des Aufbaus verbunden sind. Ebenfalls sind die alle Stützen eingefahren. Im Fahr-Modus befinden sich keine Personen im Solar Butterfly und das Mobiliar ist an den dafür vorgesehenen Stellen verstaut. Weiter herrscht in allen Lastkombinationen die Erdbeschleunigung von 1 g. Der Lastfall von 1 g wird nicht spezifisch aufgeführt.
@@ -31,41 +31,11 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in d
   \paragraph{Beschleunigungen durch Fahren}
   \begin{description}
     \item \textbf{1.1 Vertikale Beschleunigung}\\
-    Zusätzlich zur vertikalen Beschleunigung durch die Erdanziehung, entstehen durch das Überfahren von Schlaglöcher und Bremsschwellen vertikale Beschleunigungen.\\
-    In einem ersten Ansatz die Beschleunigung beim Überfahren einer Bresmmschwelle zu bestimmen, wurde der Solar Butterfly als ein \emph{Ein-Massen-Schwinger}-System modelliert und die Beschleunigung beim Überfahren einer Sinusförmigen Bremsschwelle numerisch ermittelt.\\
+    Zusätzlich zur vertikalen Beschleunigung durch die Erdanziehung, können durch das Überfahren von Schlaglöcher und Bremsschwellen vertikale Beschleunigungen entstehen.\\
+    In einem ersten Ansatz, die erfahrene Beschleunigung beim Überfahren einer Bresmmschwelle zu bestimmen, wird der Solar Butterfly als ein Einmassenschwinger-System modelliert und die Beschleunigung beim Überfahren einer Sinusförmigen Bremsschwelle numerisch ermittelt. Der Rechnungsweg wird im Anhang \ref{Berechnung 1.1} ausführlich erläutert. Die Exceltabelle, mit welcher die Berechnung durchgeführt wurde, ist im elektronischen Anhang ANHANG zu finden.
 
-    Die Position des Rades während dem Überfahren der Bremsschwelle ist gegeben durch folgenden Zusammenhang:
-    \begin{equation}
-      x_r^n = h \cdot sin\left(\pi \cdot \frac{n\Delta t \cdot v}{l}\right)
-    \end{equation}
-    $l$ steht dabei für die Länge, und h für die Höhe der Bremsschwelle.\\
-
-    Um die Beschleunigung des Solar Butterflys zu berechnen, wird in einem ersten Schritt dessen Position zum Zeitpunk $n$ $x_{SB}^n$ aus der vorangehenden Situation berechnet.
-    \begin{equation}
-      x_{SB}^n = x_{SB}^{(n-1)} + v^{(n-1)} \cdot \Delta t
-    \end{equation}
-
-    Als nächstes wird der Federweg $s^n$, sowie die Änderungsrate des Federwegs $v_s^n$ zum Zeitpunkt $n$ aus den Positionen des Rades $r_x^n$ und des Solar Butterflys $x_{SB}^n$ berechnet.
-    \begin{equation}
-      s^n = x_r^n - x_{SB}^n
-    \end{equation}
-    \begin{equation}
-      v_s^n = \frac{s^n - s^{(n-1)}}{\Delta t}
-    \end{equation}
-
-    Die Beschleunigung des Solar Butterfly ergibt sich dann zu:\\
-    \begin{equation}
-      a_{SB}^n = \frac{k \cdot s^n + d \cdot v_s^n}{m}
-    \end{equation}
-
-    Wobei $k$ für die Federkonstante und $d$ für die Dämpfungskonstante stehen.
-    Die aus der Beschleunigung des Solar Butterfly resultierende neue Geschwindigkeit, kann wie folgt berechnet werden.
-    \begin{equation}
-      v^n = v^{(n-1)} + a_{SB}^n \cdot \Delta t
-    \end{equation}
-
-    Das \emph{Ein-Massen-Schwinger}-Modell wurde mit einer Masse von 2200 kg, einer mittleren Federkonstante, gegeben aus den Datenblättern des Herstellers [ANHANG], von 353'000 N/m und einer Dämpfungskonstante von 3500 Ns/m modelliert. Beim Überfahren einer Bremsschwelle von 0.9 m Länge und 0.1 m Höhe mit einer Geschwindigkeit von 40 km/h resultiert eine maximale Beschleunigung von rund 1.6 g. Die Berechnung ist im elektronischen Anhang [Elektronischen Anhang] einsehbar.\\
-    Zu der Berechnung muss gesagt werden, dass davon ausgegangen werden kann, dass die erhaltene Beschleunigung zu hoch liegt. So wurde zum Beispiel die Federung durch die Reifen nicht berücksichtigt. Weiter befindet sich der Massenschwerpunkt nicht in der Federachse, was eine weitere Abminderung der Beschleunigung zur folge hat.\\
+    Das \emph{Ein-Massen-Schwinger}-Modell wurde mit einer Masse von 3000 kg, einer mittleren Federkonstante, gegeben aus den Datenblättern des Herstellers [ANHANG], von 353'000 N/m und mit einer Dämpfungskonstante von 10000 Ns/m (5000 Ns/m pro Achse) modelliert. Als Anhaltswert für die Wahl der Dämpfungskonstante, wurde die Dämpfungskonstante von 5000 Ns/m pro Achse eines 2500 kg Schweren SUV's gewählt \cite{Beschl.2}. Beim Überfahren einer Bremsschwelle von 0.9 m Länge und 0.1 m Höhe, mit einer Geschwindigkeit von 40 km/h, resultiert eine maximale Beschleunigung von rund 1.7 g.
+    Zu diesem Ergebnis muss gesagt werden, dass davon ausgegangen werden kann, dass die erhaltene Beschleunigung zu hoch liegt. So wurde zum Beispiel die Effekte der Reifen und die rotatorische Trägheit des Solar Butterflys nicht berücksichtigt, was Abminderungen der berechneten Beschleunigung zur folge hätten.\\
 
     Um die zu wählende Beschleunigung breiter abstützen zu können, wurden andere Arbeiten zum Thema herbeigezogen. \emph{Janczur} \cite{Beschl.1} zeigt, dass beim Überfahrein einer Bremsschwelle von 0.36 m Länge und einer Höhe von 0.05 m, mit einer Geschwindigkeit von 40 km/h, in der Fahrzeugmitte eines Personenwagens, Beschleunigungen von 0.71 g herrschen. Direkt über der Fahrzeugachse treten Beschleunigungen von bis zu 1.5 g auf.\\
     \emph{García-Pozuelo} et al. \cite{Beschl.2} massen in der Fahrzeugmitte eines Personenwagens Beschleunigungen von 0.73 g beim Überfahrein einer Bremsschwelle von 0.9 m Länge und 0.1 m Höhe. Dies bei einer Geschwindigkeit von 50 km/h.\\
@@ -78,7 +48,7 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in d
     \item \textbf{1.2 Longitudinale Beschleunigung - Positiv (Erhöhen der Geschwindigkeit)}\\
     Longitudinale positive Beschleunigungen in Fahrtrichtung entstehen durch eine Erhöhung der Fahrgeschwindigkeit durch das Zugfahrzeug. Das \emph{Institut für Unfallanalysen Hamburg} \cite{Verz.3} benützt die Beschleunigung von Personenwagen von maximal 0.3 g und von Lastkraftwagen von 0.1 g, als Anhaltswerte.
 
-    Für das Lastenheft wird die Beschleunigung von 0.2 g gewählt. Sie wird höher als der Anhaltswert des Institut für Unfallanalysen Hamburg für Lastkraftwagen von 0.1 g gewählt, da das geplante Zugfahrzeug ein elektrisches ist, und dadurch höhere mögliche Beschleunigungen erwartet werden können. Die \emph{Ungenauigkeit} wird mit 0.2 als gering eingestuft. Ebenfalls wird die \emph{Auswirkung} von 20 als niedrig bewertet.
+    Für das Lastenheft wird die Beschleunigung von 0.2 g gewählt. Sie wird höher als der Anhaltswert des Institut für Unfallanalysen Hamburg für Lastkraftwagen von 0.1 g gewählt, da das geplante Zugfahrzeug ein elektrisches ist, und dadurch höhere mögliche Beschleunigungen erwartet werden können. Die \emph{Ungenauigkeit} wird mit 0.2 als gering eingestuft. Ebenfalls wird die \emph{Auswirkung} mit 20 als niedrig bewertet.
 
     \item \textbf{1.3 Longitudinale Beschleunigung - Negativ (Bremsen)}\\
     Longitudinale Verögerungen entstehen durch abminderung der Fahrgeschwindigkeit. Die extremste graduelle Verzögerung entsteht dabei durch eine Notbremsung.\\
@@ -134,17 +104,21 @@ Der Modus \emph{A} beschreibt den Solar Butterfly im ``Fahr-Modus'' und ist in d
     P_W = c_p \: \frac{\rho}{2}\: v^2
   \end{equation}
 
-  Wobei für die Dichte von Luft $\rho$ ein Wert von $1.2 \frac{kg}{m^3}$ und für den Strömungswiderstandskoeffizient eines Rechteckes $c_{p,Rechteck}$ ein Wert von $1.1$ gewählt wird. Bei einer Windgeschwindigkeit von 102.2 $\frac{km}{h}$ ergibt sich gemässt der Gleichung \ref{Winddruck} ein Winddruck von $532 \; Pa$.
+  Wobei für die Dichte von Luft $\rho$ ein Wert von $1.2 \frac{kg}{m^3}$ und für den Strömungswiderstandskoeffizient eines Rechteckes $c_{p,Rechteck}$ ein Wert von $1.1$ gewählt wird. Bei einer Windgeschwindigkeit von 102.2 $\frac{km}{h}$ ergibt sich gemäss der Gleichung \ref{Winddruck} ein Winddruck von $532 \; Pa$.
 
   Da es sich hierbei um eine grobe Idealsierung handelt und zum Beispiel lokale Geschwindigkeitserhöhungen oder Turbulenzen vernachlässigt werden, wird die \emph{Ungenauigkeit} auf 0.4 gesetzt. Die \emph{Auswirkung} wird jedoch eher tief, mit dem Wert 10 bewertet.
 
-  \begin{description}
-    \item \textbf{2.1 Wind von links}\\ Der Winddruck von $532  \; Pa$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
-    \item \textbf{2.2 Wind von rechts}\\ Der Winddruck von $532 \; Pa$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
-  \end{description}
+  Im Lastenheft werden zwei Windlasten mit dem oben berechneten Winddruck aufgeführt. Die beiden Windlasten unterscheiden sich dabei in ihrer anströmung.
+
+  % \begin{description}
+  %   \item \textbf{2.1 Wind von links}\\ Der Winddruck von $532  \; Pa$ wirkt auf die, in Fahrtrichtung gesehen, linke Seite des Solar Butterfly.
+  %   \item \textbf{2.2 Wind von rechts}\\ Der Winddruck von $532 \; Pa$ wirkt auf die, in Fahrtrichtung gesehen, rechte Seite des Solar Butterfly.
+  % \end{description}
 
   \paragraph{Neigung}\mbox{}\\
   Mittels einer Absprache mit \emph{Palmer} wurde eine zulässige Strassenneigung für den Solar Butterfly von 10° (17.5\%) definiert. Die Strasse auf den Furkapass hat zum Vergleich eine maximale Neigung von 6.3° (11\%). Die verschiedenen Lastfälle der Neigung treten nicht gleichzeigtig ein. Implementiert werden die Fälle im FEM indem die Richtung, in welcher die Erdbeschleunigung wirkt, verändert wird. Die \emph{Ungenauigkeit} und die \emph{Auswirkung} werden tief mit den Werten 0.1  und 10 bewertet.
+
+  Im Lastenheft werden vier unterschiedliche Neigungslasten definiert. Sie unterscheiden sich in ihrer Richtung der Neigung.
 
   \begin{description}
     \item \textbf{3.1 Neigung längs positiv} +10° Neigung des Untergrundes in Fahrtrichtung.
@@ -355,6 +329,7 @@ Ungenauigkeit: 0.2, Auswirkungen: 20: Risiko: 20
     % \thickhline
     % 4.1 & Mobiliar Verstaut & 50 kg & Masse wird im FEM modelliert & 0.4 & 20 & 8\\
   \end{tabularx}
+  \label{Lastenheft A}
 \end{landscape}
 
 %=============================================================================
