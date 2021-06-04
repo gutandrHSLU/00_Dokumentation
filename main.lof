@@ -2,31 +2,31 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Versagensarten in Sandwichbalken. (a) Fliessen/Bruch der Oberfläche, (b) Schubbruch, (c und d) Faltenbildung der Oberfläche, (e) allgemeines Knicken, (f) Scherfaltenbildung, (g) Beulen an der Oberfläche und (h) lokales Eindrücken.\relax }}{6}{figure.1}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Modus A\relax }}{10}{figure.2}%
 \contentsline {figure}{\numberline {3}{\ignorespaces Skizze zur Beschreibung des Neigungswinkel $\varphi $\relax }}{13}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Modi beim Ausfahren\relax }}{15}{figure.caption.12}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Modus C\relax }}{16}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Visualisierung der Personenlasten\relax }}{17}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Massenverteilung über die Bereiche\relax }}{24}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Idealisierung des Solar Butterfly für den Lastfall der vertikalen Beschleunigung\relax }}{25}{figure.caption.24}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Querkraft- und Biegemomentenverlauf\relax }}{25}{figure.caption.26}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Schematische darstellung der Kräfte während der longitudinalen Beschleunigung\relax }}{27}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Idealisierte Seitenwände, angreifende Käfte und Lagerreaktionen\relax }}{27}{figure.caption.31}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Idealisierungen des Solar Butterflys für den Lastfall der lateralen Beschleunigung\relax }}{28}{figure.caption.33}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Lagerung des idealisierten Solar Butterfly\relax }}{28}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Querkraft- und Biegemomentenverlauf des als Biegebalken idealisierten Solar Butterfly im Lastfall der lateralen Beschleunigung\relax }}{29}{figure.caption.35}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Querkraft und Biegemomentenverlauf in den Profilen der Träger im Lastfall der lateralen Beschleunigung\relax }}{29}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Schematische Darstellung des Solar Butterflys für den Lastfall der rotatorischen Beschleunigung\relax }}{30}{figure.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Schematische Darstellung des Solar Butterflys für den Lastfall der rotatorischen Beschleunigung\relax }}{31}{figure.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Torsionsmomentenverlauf für den Lastfall der rotatorischen Beschleunigung\relax }}{31}{figure.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Darstellung der beiden Belastungsfällen und deren Idealisierungen\relax }}{32}{figure.caption.40}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Querkraft- und Biegemomentenverläufe der Bodenplatten\relax }}{33}{figure.caption.41}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Darstellung des mittleren Raumelementes\relax }}{34}{figure.caption.42}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Idealisierung des Daches\relax }}{35}{figure.caption.43}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Querkraft- und Biegemomentenverlauf\relax }}{35}{figure.caption.43}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Beispiel-Bild einer FEM-Analyse der Solarpanele Reihe D\relax }}{35}{figure.caption.44}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Darstellung der Balken und Schalenkörper im FEM-Modell\relax }}{36}{figure.caption.45}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Darstellung der als Balken idealisierten Körper\relax }}{37}{figure.caption.46}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Verbindungen der Punktmassen zum Rest des Modelles\relax }}{37}{figure.caption.47}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Deformation des Solar Butterflys im Lastfall der vertikalen Beschleunigung\relax }}{49}{figure.caption.51}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Deformation des Solar Butterflys im Lastfall der lateralen Beschleunigung\relax }}{50}{figure.caption.52}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Deformation des Solar Butterflys im Lastfall der longitudinalen Beschleunigung\relax }}{51}{figure.caption.53}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Deformation des Solar Butterflys im Lastfall der rotatorischen Beschleunigung\relax }}{52}{figure.caption.54}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Modi beim Ausfahren\relax }}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Modus C\relax }}{15}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Visualisierung der Personenlasten\relax }}{16}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Massenverteilung über die Bereiche\relax }}{21}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Idealisierung des Solar Butterfly für den Lastfall der vertikalen Beschleunigung\relax }}{22}{figure.caption.20}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Querkraft- und Biegemomentenverlauf\relax }}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Schematische darstellung der Kräfte während der longitudinalen Beschleunigung\relax }}{24}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Idealisierte Seitenwände, angreifende Käfte und Lagerreaktionen\relax }}{24}{figure.caption.27}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Idealisierungen des Solar Butterflys für den Lastfall der lateralen Beschleunigung\relax }}{25}{figure.caption.29}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Lagerung des idealisierten Solar Butterfly\relax }}{25}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Querkraft- und Biegemomentenverlauf des als Biegebalken idealisierten Solar Butterfly im Lastfall der lateralen Beschleunigung\relax }}{26}{figure.caption.31}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Querkraft und Biegemomentenverlauf in den Profilen der Träger im Lastfall der lateralen Beschleunigung\relax }}{26}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Schematische Darstellung des Solar Butterflys für den Lastfall der rotatorischen Beschleunigung\relax }}{27}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Schematische Darstellung des Solar Butterflys für den Lastfall der rotatorischen Beschleunigung\relax }}{28}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Torsionsmomentenverlauf für den Lastfall der rotatorischen Beschleunigung\relax }}{28}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Darstellung der beiden Belastungsfällen und deren Idealisierungen\relax }}{29}{figure.caption.36}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Querkraft- und Biegemomentenverläufe der Bodenplatten\relax }}{30}{figure.caption.37}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Darstellung des mittleren Raumelementes\relax }}{31}{figure.caption.38}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Idealisierung des Daches\relax }}{32}{figure.caption.39}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Querkraft- und Biegemomentenverlauf\relax }}{32}{figure.caption.39}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Beispiel-Bild einer FEM-Analyse der Solarpanele Reihe D\relax }}{32}{figure.caption.40}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Darstellung der Balken und Schalenkörper im FEM-Modell\relax }}{33}{figure.caption.41}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Darstellung der als Balken idealisierten Körper\relax }}{34}{figure.caption.42}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Verbindungen der Punktmassen zum Rest des Modelles\relax }}{34}{figure.caption.43}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Deformation des Solar Butterflys im Lastfall der vertikalen Beschleunigung\relax }}{47}{figure.caption.47}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Deformation des Solar Butterflys im Lastfall der lateralen Beschleunigung\relax }}{48}{figure.caption.48}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Deformation des Solar Butterflys im Lastfall der longitudinalen Beschleunigung\relax }}{49}{figure.caption.49}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Deformation des Solar Butterflys im Lastfall der rotatorischen Beschleunigung\relax }}{50}{figure.caption.50}%
