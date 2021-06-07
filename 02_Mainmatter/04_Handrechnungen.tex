@@ -6,7 +6,7 @@ Die Berechnungen wurden mit einer Excel-Tabelle durchgeführt, welche im elektro
 \subsection{Massenverteilung}
 \label{Massenverteilung}
 Die grössten Belastungen, welchen der Solar Butterfly ausgesetzt wird, entstehen aufgrund der Trägheitskräfte welche durch Beschleunigungen entstehen. Aus diesem Grund wird die Massenverteilung des Solar Butterflys genauer betrachtet.\\
-Für die festlegung der Massenverteilung wird angenommen, dass die in der Anforderungsliste definierte Maximalmasse von 3000 kg erreicht wird. Die besagte Masse wird auf insgesamt sechs Bereiche aufgeteilt; Deichsel (Bereich 0-1), Küche (1-2), Hauptkörper (2-3), Bad (3-4) und die beiden Träger A (2) und B (3). Die Massenverteilung wurde mit der Hilfe des GEWICHTSEXCEL aus der Arbeit von \emph{Huber} (Anhang [ANHANG]) abgeschätzt und ist in der Abbildung \ref{img:Massenverteilung} grafisch dargestellt.
+Für die festlegung der Massenverteilung wird angenommen, dass die in der Anforderungsliste definierte Maximalmasse von 3000 kg erreicht wird. Die besagte Masse wird auf insgesamt sechs Bereiche aufgeteilt; Deichsel (Bereich 0-1), Küche (1-2), Hauptkörper (2-3), Bad (3-4) und die beiden Träger A (2) und B (3). Die Massenverteilung wurde mit der Hilfe des GEWICHTSEXCEL aus der Arbeit von \emph{Huber} (Anhang [ANHANG]) abgeschätzt und ist in der Abbildung \ref{img:Massenverteilung} grafisch dargestellt\cite{Huber}.
 
 \begin{center}
   \includegraphics[width=0.8\textwidth]{04_Figures/Massenverteilung.png}
@@ -17,7 +17,7 @@ Für die festlegung der Massenverteilung wird angenommen, dass die in der Anford
 \subsection{Vertikale Beschleunigung}
 \label{1.1 Vertikale Beschleunigung}
   \paragraph{Idealisierung}\mbox{}\\
-  Um die Kräfte und Spannungen in der Struktur, welche aufgrund der vertikalen Beschleunigung (Lastfall \emph{1.1 Vertikale Beschleunigung}) entstehen, berechnen zu können, wird der Solar Butterfly als Biegebalken mit dem in der Abbildung \ref{1.1 Idealisierter Querschnitt} dargestellten vollidealisiertem Querschnitt idelaisiert. \emph{A\_Dach} und \emph{A\_Chassis} stehen dabei für die Querschnittsflächen der Profile. \emph{z\_Dach} und \emph{z\_Chassis} stehen für den Abstand der Profile zum Flächenschwerpunkt. Das Profil des Chassis ist vom Hersteller vorgegeben und muss in der Grobauslegung nicht dimensioniert werden. Für die Längsträger des Daches wird für eine erste Iteration der Berechnungen ein 40x25-Rechteckprofil mit einer Wandstärke von 2 mm verwendet. Dieser Profilquerschnitt wurde aufgrund den Erkenntnissen, welche im Kapitel \ref{chap:Dach} erlangt wurden, gewählt. Die Lagerung des Biegebalkens ist in der Abbildung \ref{1.1 Lagerung} dargestellt.
+  Um die Kräfte und Spannungen in der Struktur, welche aufgrund der vertikalen Beschleunigung (Lastfall \emph{1.1 Vertikale Beschleunigung}) entstehen, berechnen zu können, wird der Solar Butterfly als Biegebalken mit dem in der Abbildung \ref{1.1 Idealisierter Querschnitt} dargestellten vollidealisiertem Querschnitt idelaisiert. \emph{A\_Dach} und \emph{A\_Chassis} stehen dabei für die Querschnittsflächen des Chassis und den Längsträgern des Daches. \emph{z\_Dach} und \emph{z\_Chassis} stehen für den Abstand der Profile zum Flächenschwerpunkt des Querschnittes. Das Profil des Chassis ist vom Hersteller vorgegeben und muss in der Grobauslegung nicht dimensioniert werden. Für die Längsträger des Daches wird für eine erste Iteration der Berechnungen ein 40x25-Rechteckprofil mit einer Wandstärke von 2 mm verwendet. Dieser Profilquerschnitt wurde aufgrund den Erkenntnissen, welche im Kapitel \ref{sec:Dach} erlangt wurden, gewählt. Die Lagerung des idealisierten Solar Butterflys ist in der Abbildung \ref{1.1 Lagerung} dargestellt.
 
   \begin{figure}[!ht]
     \centering
@@ -54,7 +54,7 @@ Für die festlegung der Massenverteilung wird angenommen, dass die in der Anford
         \caption{Biegemomentenverlauf}
         \label{1.1 M}
       \end{subfigure}%
-    \caption{Querkraft- und Biegemomentenverlauf}
+    \caption{Querkraft- und Biegemomentenverlauf für den Lastfall der vertikalen Beschleunigung}
   \label{1.1 QM}
   \end{figure}
 
@@ -72,18 +72,19 @@ Für die festlegung der Massenverteilung wird angenommen, dass die in der Anford
   \end{equation}
 
   Bei einem maximalen Biegemoment von rund 90'000 kNmm ergeben sich Spannungen von 36 MPa im Chassis, sowie 64 MPa im Dachträger was Kräften von 47 kN, respektive 16 kN entspricht.\\
+  Für die Berechnung des Schubflusses infolge der Querkraft wird die Unterscheidung der unterschiedlichen Materialien nicht gemacht, da dies den Rechenaufwand stark erhöhen würde. In diesem Falle wird der Schubfluss vereinfacht mit den statischen Moment und der Querkraft berechnet. Bei einer maximalen Querkraft von rund 38 kN resultiert ein Schubfluss von 8.9 $\frac{N}{mm}$ in jeder Seitenwand.
 
-  Für die Berechnung des Schubflusses infolge der Querkraft wird die Unterscheidung der unterschiedlichen Materialien nicht gemacht, da dies den Rechenaufwand stark erhöhen würde. In diesem Falle wird der Schubfluss vereinfacht mit den statischen Moment und der Querkraft berechnet. Bei einer maximalen Querkraft von rund 38 kN resultiert ein Schubfluss von 8.9 $\frac{N}{mm}$ in jeder Seitenwand.\\
+  Beurteilung?
 
 
 \subsection{Longitudinale Beschleunigung}
   \label{sub:Longitudinale Beschleunigung}
-  Für die Berechnung der Belastungen durch longitudinale Beschleunigungen wird lediglich der Lastfall \emph{1.2 Longitudinale Beschleunigung negativ} (Notbremsung) betrachtet, da die longitudinale Beschleunigung im Lastfall \emph{1.3 Longitudinale Beschleunigung positiv} (Erhöhung der Geschwindigkeit) tiefer liegt als jene im Lastfall 1.2. Die Änderung des Vorzeichens der Beschleunigung hat keine Auswirkung auf den Betrag der Belastung, da die Lasteinleitungen die Selbe bleibt.
+  Für die Berechnung der Belastungen durch eine longitudinale Beschleunigungen wird lediglich der Lastfall \emph{1.3 Longitudinale Beschleunigung - Positiv} (Notbremsung) betrachtet, da die longitudinale Beschleunigung im Lastfall \emph{1.2 Longitudinale Beschleunigung - Negativ} (Erhöhung der Geschwindigkeit) tiefer liegt als jene im Lastfall 1.3. Die Änderung des Vorzeichens der Beschleunigung hat keine Auswirkung auf den Betrag der Belastung, da die Lasteinleitungen unverändert bleibt.
 
   \paragraph{Idealisierung}\mbox{}\\
-  Bei einer Verözerung des Solar Butterflys wird angenommen, dass die Trägheitskräfte des Aufbaus über die Seitenwände (Feld A und Feld B vgl. Abbildung \ref{1.2 Idealisierung}) auf das Chassis abgetragen werden. Der Solar Butterfly wird als ``offen'' betrachtet, sodass die Seitenwände der ausfahrbaren Modulen keine Schubkärfte aufnehmen. (Wieso offen???) Das Chassis wiederum wird über Bremskräfte in der Deichsel und den Räder verzögert. Die Druckspannungen im Chassis liegen im schlimmsten Fall (Verzögerung nur duch Bremmskraft in der Deichsel) tiefer als 10 MPa und werden nicht weiter untersucht.\\
+  Bei einer Verözerung des Solar Butterflys wird angenommen, dass die Trägheitskräfte des Aufbaus über die Seitenwände (Feld A und Feld B vgl. Abbildung \ref{1.2 Idealisierung}) auf das Chassis abgetragen werden. Diese Annahme wird getroffen, Das Chassis wiederum wird über Bremskräfte in der Deichsel und den Räder verzögert. Die Druckspannungen im Chassis liegen im schlimmsten Fall (Verzögerung nur duch Bremmskraft in der Deichsel) tiefer als 10 MPa und werden nicht weiter untersucht.\\
   Eine weitere Annahme welche getroffen wird ist, dass die Masse über die Höhe des Solar Butterflys gleichmässig verteit ist. Weiter wird die Masse des Hauptteils und der Ausfahrmodule (Bereich 2-3) für die Berechnung gleichmässig auf die beiden Felder A und B verteilt. Die Trägheitskräfte des Hauptteils werden demnach über die Felder A und B abgetragen.\\
-  Die Felder A und B werden wiederrum als Schubfeldträger idealisiert. Diese Idealisierung besagt, dass das Schubfeld die Schubkräfte und die umrahmenden Profile die Normalkräfte aufnehmen.
+  Die Felder A und B werden als Schubfeldträger idealisiert. Diese Idealisierung besagt, dass das Schubfeld die Schubkräfte und die umrahmenden Profile die Normalkräfte aufnehmen.
 
   \begin{center}
     \includegraphics[width=0.8\textwidth]{04_Figures/1.2 Idealisierung.png}
@@ -92,7 +93,7 @@ Für die festlegung der Massenverteilung wird angenommen, dass die in der Anford
   \end{center}
 
   \paragraph{Kräfte und Spannungen}\mbox{}\\
-  Die idealisierten Felder A und B und deren Lagerreaktionen und Schubkräfte sind in der Abbildung \ref{1.2 Felder} dargestellt. Die Kraft $F_a$ und $F_b$ ergeben sich aus der Masse des Aufbaus und der herrschenden Beschleunigung. Um die Berechnung zu vereinfachen werden die Lasteinleitungen jeweils in eine obere Ecke des Feldes gesetzt und entsprechend dem Hebelgesetz skaliert.
+  Die idealisierten Felder A und B und deren Lagerreaktionen und Schubkräfte sind in der Abbildung \ref{1.2 Felder} dargestellt. Die Kraft $F_a$ und $F_b$ ergeben sich aus der Masse des Aufbaus und der herrschenden Beschleunigung. Um die Berechnung zu vereinfachen werden die Lasteinleitungen jeweils in eine obere Ecke des Feldes gesetzt und halbiert, sodass ihre Momentenreaktion um das darunter liegende Lager die Selbe bleibt.
 
   \begin{figure}[!ht]
     \centering
@@ -110,14 +111,15 @@ Für die festlegung der Massenverteilung wird angenommen, dass die in der Anford
     \label{1.2 Felder}
   \end{figure}
 
-  Bei einer Beschleunigung von 0.7 g ergeben sich Schubspannungen von 1.6 $\frac{N}{mm}$ im Feld A, sowie 2.8 $\frac{N}{mm}$ im Feld B. Die Normalkräfte in den umrahmenden Profilen im Feld A belaufen sich auf maximal 3.9 kN in den horizontalen, und auf 3.1 kN in den vertikalen Profilen. Im Feld B belaufen sich die Normalkräfte auf maximal 5.6 kN in den vertikalen, sowie 4.2 kN in den horizontalen Profilen.
+  Bei einer longitudinalen Beschleunigung von 0.7 g ergeben sich Schubspannungen von 1.6 $\frac{N}{mm}$ im Feld A, sowie 2.8 $\frac{N}{mm}$ im Feld B. Die Normalkräfte in den umrahmenden Profilen im Feld A belaufen sich auf maximal 3.9 kN in den horizontalen, und auf 3.1 kN in den vertikalen Profilen. Im Feld B belaufen sich die Normalkräfte auf maximal 5.6 kN in den vertikalen, sowie 4.2 kN in den horizontalen Profilen.
 
+  Beurteilung?
 
 \subsection{Laterale Beschleunigung}
 \label{1.4 Laterale Beschleunigung}
   \paragraph{Idealisierung}\mbox{}\\
   Für den Lastfall \emph{1.4 lateralen Beschleunigung} wird der Solar Butterfly wie im Kapitel \ref{1.1 Vertikale Beschleunigung} als Biegebalken idealisiert. Da davon ausgegangen wird, dass sich der Schwerpunkt des Solar Butterflys auf einer ähnlichen Höhe wie der Flächenschwerpunk des idealisierten Querschnittes befindet, wird vereinfacht angenommen, dass die lateralen Trägheitskräfte im Flächenschwerpunk angreifen. (Vgl. Abbildung \ref{1.4 Idealisierter Querschnitt}) Auf diese weise kommt es zu keiner Verdrehung des Biegebalkens.\\
-  Die Lagerung des idealisierten Solar Butterflys ist in der Abbildung \ref{1.4 Lagerung} dargestellt. Sie stellt die Ansicht von Oben auf den Solar Butterfly dar wobei der ``Spitz'' auf de linken Seite die Deichsel räpresentiert.
+  Die Lagerung des idealisierten Solar Butterflys ist in der Abbildung \ref{1.4 Lagerung} dargestellt. Sie stellt die Ansicht von Oben auf den Solar Butterfly dar wobei der ``Spitz'' auf der linken Seite die Deichsel räpresentiert.
 
   \begin{figure}[!ht]
     \centering
@@ -163,15 +165,15 @@ Für die festlegung der Massenverteilung wird angenommen, dass die in der Anford
         \caption{Biegemomentenverlauf}
         \label{1.4 M}
       \end{subfigure}%
-    \caption{Querkraft- und Biegemomentenverlauf des als Biegebalken idealisierten Solar Butterfly im Lastfall der lateralen Beschleunigung}
+    \caption{Querkraft- und Biegemomentenverlauf im Lastfall der lateralen Beschleunigung}
   \label{1.4 QM}
   \end{figure}
 
   \paragraph{Kräfte und Spannungen}\mbox{}\\
-  Die Kräfte und Spannungen werden analog zum Kapitel \ref{1.1 Vertikale Beschleunigung} \emph{Vertikale Beschleunigung} berechnet. Bei einem Maximalen Biegemoment von 29'000 kNmm ergeben sich Spannungen von 9 MPa im Chassis, sowie 3 MPa in den Dachträgern. Sie entsprechen Kräften von 11.7 kN, respektive 0.7 kN. Der maximale Schubfluss infolge der Querkraft ergibt sich zu 2.65 $\frac{N}{mm}$
+  Die Kräfte und Spannungen werden analog zum Kapitel \ref{1.1 Vertikale Beschleunigung} Vertikale Beschleunigung berechnet. Bei einem Maximalen Biegemoment von 29'000 kNmm ergeben sich Spannungen von 9 MPa im Chassis, sowie 3 MPa in den Dachträgern. Sie entsprechen Kräften von 11.7 kN, respektive 0.7 kN. Der maximale Schubfluss infolge der Querkraft ergibt sich zu 2.65 $\frac{N}{mm}$
 
   \paragraph{Spannungen in den Trägern}\mbox{}\\
-  Aus der Masse des Aufbaus, der wirkenden Beschleunigung und der Höhe des Profiles kann die Streckenlast pro Träger ermittelt werden, woraus wiederrum der Querkraft- und Biegemomentenverlauf bestimmt werden kann. Dieser ist in der Abbildung \ref{1.4 QM} dargestellt. Mit dem angenommenen Trägerprofil (vgl. Kapitel KAPITEL) ergeben sich maximale an Spannungen an der Einspannung von 15 MPa.
+  Aus der Masse des Aufbaus, der wirkenden Beschleunigung und der Höhen der Träger A und B kann die Streckenlast pro Träger ermittelt werden, woraus wiederrum der Querkraft- und Biegemomentenverlauf bestimmt werden kann. Dieser ist in der Abbildung \ref{1.4 QM} dargestellt. Mit dem angenommenen Trägerprofil (vgl. Kapitel KAPITEL) ergeben sich maximale an Spannungen an der Einspannung von 15 MPa.
 
   \begin{center}
     \includegraphics[width=0.7\textwidth]{04_Figures/1.4 QM.png}
@@ -185,7 +187,7 @@ Für die festlegung der Massenverteilung wird angenommen, dass die in der Anford
 \subsection{Rotatorische Beschleunigung}
 \label{1.5 Rotatorische Beschleunigung}
 \paragraph{Idealisierung}\mbox{}\\
-Um die Schubflüsse in den Wänden des Solar Butterflys, entstehend aus der rotatorischen Beschleunigung, berechnen zu können, wird der Solar Butterfly idealisiert als Torsionsbalken betrachtet. Das Kräftegleichgewicht der Idealisierung ist der Abbildung \ref{1.5 Idealisierung} zu entnehmen. Um auf das Torsionsmoment, welches nötig ist um die rotatorische Beschleunigung aus dem Lastfall \emph{1.5 Rotatorische Beschleunigung} zu erreichen, schliessen zu können, wird das Massenträgheitsmoment berechnet. Dabei wird der Solar Butterfly in die beiden Bereiche \emph{Chassis} und \emph{Aufbau} aufgeteilt (Vgl. Abbildung \ref{1.5 Idealisierung}). Es wird vereinfacht angenommen, dass die Masse des jeweiligen Bereiches auf dessen Querschnittsfläche homogen verteilt ist. Dank dieser Annahme lässt sich das Massenträgheitsmoment, unter berücksichtigung des Satzes von \emph{Steiner}, wie folgt berechnen.
+Um die Schubflüsse in den Wänden und dem Boden des Solar Butterflys, entstehend aus der rotatorischen Beschleunigung, berechnen zu können, wird der Solar Butterfly idealisiert als Torsionsbalken betrachtet. Das Kräftegleichgewicht der Idealisierung ist der Abbildung \ref{1.5 Idealisierung} zu entnehmen. Um auf das Torsionsmoment, welches nötig ist um die rotatorische Beschleunigung aus dem Lastfall \emph{1.5 Rotatorische Beschleunigung} zu erreichen, schliessen zu können, wird das Massenträgheitsmoment berechnet. Dazu wird der Solar Butterfly in die beiden Bereiche \emph{Chassis} und \emph{Aufbau} aufgeteilt (Vgl. Abbildung \ref{1.5 Idealisierung}). Es wird vereinfacht angenommen, dass die Masse des jeweiligen Bereiches auf dessen Querschnittsfläche homogen verteilt ist. Dank dieser Annahme lässt sich das Massenträgheitsmoment, unter berücksichtigung des Satzes von \emph{Steiner}, wie folgt berechnen.
 
 \begin{equation}
   I_{rot} = \frac{1}{12} \cdot m \cdot \left(H\ddot{o}he^2 + Breite^2\right) + m \cdot r^2
@@ -246,22 +248,6 @@ Die Schubflüsse und Momente je Abschnitt können aus der Tabelle \ref{Schubflus
 \end{table}
 
 \newpage
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,6 +1,6 @@
 \section{Anforderungen und Auslegungskriterien}
 In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. In einem ersten Schritt wird auf die allgemeinen Anforderungen des Solar Butterflys und anschliessen auf die daraus resultierenden Auslegungskriterien der einzelnen Komponenten eingegangen. Es wird beschrieben, was die Anforderungen konkret für die einzelnen Komponenten bedeuten und wie gewährleistet werden kann, dass diese erfüllt werden.\\
-Weiter werden die Design-Allowables beschrieben und erläutert, wie gedenkt wird, die Problematik der Ermüdung	an zu gehen.
+Weiter werden  Design-Allowables beschrieben und festgelegt und erläutert, wie gedenkt wird, die Problematik der Ermüdung	an zu gehen.
 
 
 \subsection{Anforderungen an den Solar Butterfly}
@@ -21,7 +21,7 @@ Ob dies eine angemessene Annahme ist, muss zu einem späteren Zeitpunkt und bei 
 \subsection{Design-Allowables und Materialkennwerte}
 Um den Prozess der Grobauslegung zu vereinfachen, werden soganannte Design-Allowables definiert. Dies sind Materialkennwerte welche für die überschlägige Auslegung von Bauteilen verwendet werden können.\\
 In der Tabelle \ref{tab:Design-Allowables} sind die Materialkennwerte und Design-Allowables der für die Deckschichten oder Profile verwendeten Materialien zusammengetragen. Da der Solar Butterfly für 50\% der Belstungen dauerfest ausgelegt wird und für die Auslegung der Dauerfestigkeit ein Sicherheitsfaktor von 2 verwendet wird, entsprechen die zulässigen Dauerfestigkeitswerte direkt auch der Dauerfestigkeiten der Materialien.\\
-Die Sicherheitsfaktoren wurden nach \emph{Roloff Matek Maschinenelemente} gewählt \cite{Roloff}.
+% Die Sicherheitsfaktoren wurden nach \emph{Roloff Matek Maschinenelemente} gewählt \cite{Roloff}.
 
 %GFK: Roloff Matek S.1013
 \begin{table}[H]
@@ -77,8 +77,8 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
   \subsubsection{Sandwichstrukturen}
   Versagenskriterien der Sandwichstrukturen können in die beiden Kategorien \emph{Festigkeitsprobleme} und \emph{Stabilitätsprobleme} eingeteilt werden \cite{ETH}. In der Abbildung \ref{Sandwich} sind die verschiedenen Versagensfälle dargestellt\cite{Sandwich}.
 
-  \begin{center}[H]
-    \includegraphics[width=0.6\textwidth]{04_Figures/Sandwich.png}
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{04_Figures/Sandwich.png}
     \captionof{figure}{Versagensarten in Sandwichbalken.
                       (a) Fliessen/Bruch der Oberfläche,
                       (b) Schubbruch,
@@ -105,8 +105,8 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
     \item Kurzwelliges Beulen der Deckschicht (Wrinkling).
   \end{itemize}
 
-  Die auszulegenden Sandwichstrukturen werden gegenüber diesen Festigkeits und Stabilitätsproblemen abesichert. Um den Rechenaufwand und die Komplexität der Berechnungen zu verringern werden Annahmen und Vereinfachungen getroffen.\\
-  Für die Auslegung von Sandwichstrukturen können folgende Annahmen getroffen werden \cite{klein}\cite{ETH};
+  Die auszulegenden Sandwichstrukturen werden gegenüber diesen Festigkeits und Stabilitätsproblemen abesichert.\\
+  Um den Rechenaufwand und die Komplexität der Berechnungen zu verringern werden Annahmen und Vereinfachungen getroffen. Für die Auslegung von Sandwichstrukturen können folgende Annahmen getroffen werden \cite{klein}\cite{ETH};
   \begin{itemize}
     \item linear elastische und isentrope Materialverhalten,
     \item Eigenbiegesteifigkeiten der Deckschichten sind vernachlässigbar,
@@ -132,21 +132,21 @@ Nachdem die allgemeinen Anforderung an den Solar Butterfly abgehandeln wurden, w
     Die Delamination der Deckschichten wird abgesichert, indem die Auswahl des Klebers, oder im Falle einer Laminierung die Wahl des Matrixwerkstoffes, so getroffen wird, dass dieser eine höhere Schubfestigkeit aufweist als das Material der jeweiligen Kernschicht.
 
     \paragraph{Stabilitätsprobleme}\mbox{}\\
-    Die Stabilitätsprobleme der Sandwichstrukturen lassen sich in globale und lokale Instabilitäten einteilen. Zur globalen Instabilität gehört das Knicken, welches sich aus der Eueler-Knickung des schubsteifen Balkens und dem Schubknicken zusammensetzt. Die kritische Belastung, bei welcher es zur Euler-Knickung kommt, lässt sich gemäss Klein \cite{klein} mit der Formel \ref{Euler-Knicklast} berechnen.
+    Die Stabilitätsprobleme der Sandwichstrukturen lassen sich in globale und lokale Instabilitäten einteilen. Zur globalen Instabilität gehört das Knicken, welches sich aus der Eueler-Knickung des schubsteifen Balkens und dem Schubknicken zusammensetzt. Die kritische Belastung, bei welcher es zur Euler-Knickung kommt, lässt sich gemäss \emph{Klein} \cite{klein} mit der Formel \ref{Euler-Knicklast} berechnen.
 
     \begin{equation}
       \label{Euler-Knicklast}
       F_{kB}=\frac{\pi^2 \cdot E_d \cdot I}{l_k^{2}}
     \end{equation}
 
-    Wobei sich das Widerstandsmoment $I$ vereinfacht gemäss der Formel \ref{ID} berechnen lässt. Hier wurde die Annahme getroffen, dass die Eigenbiegesteifigkeiten der Deckschichten vernachlässigbar sind. Diese Annahme kann gemäss Klein ab einem Verhältnis von $t_d$ zu $t_k$ von 0.25, getroffen werden.
+    Wobei sich das Widerstandsmoment $I$ vereinfacht gemäss der Formel \ref{ID} berechnen lässt. Hier wurde die Annahme getroffen, dass die Eigenbiegesteifigkeiten der Deckschichten vernachlässigbar sind. Diese Annahme kann gemäss \emph{Klein} ab einem Verhältnis von $t_d$ zu $t_k$ von 0.25, getroffen werden.
     \begin{equation}
       \label{ID}
       I= 2 \cdot b \cdot t_d \cdot \left( \frac{t_k}{2} + t_d \right )^{2}
       % B_y = 2\cdot b \cdot t_d\cdot \left ( \frac{t_k}{2}+t_d \right )^2
     \end{equation}
 
-    Die kritische Schubknicklast lässt sich gemäss Klein mit der Formel \ref{Schubknicklast} berechnen.
+    Die kritische Schubknicklast lässt sich gemäss \emph{Klein} mit der Formel \ref{Schubknicklast} berechnen.
     \begin{equation}
       \label{Schubknicklast}
       F_{kS} = b \cdot t_k \cdot G_k
