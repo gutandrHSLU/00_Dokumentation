@@ -8,45 +8,45 @@ Warning--empty year in klein
 Warning--empty publisher in Baertsch
 Warning--empty journal in ETH
 Warning--empty year in ETH
-You've used 21 entries,
+You've used 22 entries,
             1876 wiz_defined-function locations,
-            607 strings with 6028 characters,
-and the built_in function-call counts, 3652 in all, are:
-= -- 330
-> -- 126
+            613 strings with 6128 characters,
+and the built_in function-call counts, 3783 in all, are:
+= -- 341
+> -- 130
 < -- 0
-+ -- 54
-- -- 33
-* -- 224
-:= -- 534
-add.period$ -- 22
-call.type$ -- 21
-change.case$ -- 18
++ -- 56
+- -- 34
+* -- 231
+:= -- 556
+add.period$ -- 23
+call.type$ -- 22
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 184
-empty$ -- 425
-format.name$ -- 33
-if$ -- 902
+cite$ -- 27
+duplicate$ -- 193
+empty$ -- 442
+format.name$ -- 34
+if$ -- 933
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 18
-newline$ -- 72
-num.names$ -- 21
-pop$ -- 104
+int.to.str$ -- 22
+missing$ -- 19
+newline$ -- 75
+num.names$ -- 22
+pop$ -- 108
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 103
+skip$ -- 104
 stack$ -- 0
 substring$ -- 100
-swap$ -- 42
+swap$ -- 43
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 31
-width$ -- 23
-write$ -- 179
+while$ -- 32
+width$ -- 24
+write$ -- 187
 (There were 5 warnings)

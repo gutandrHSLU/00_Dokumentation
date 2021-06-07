@@ -17,7 +17,7 @@ Für die festlegung der Massenverteilung wird angenommen, dass die in der Anford
 \subsection{Vertikale Beschleunigung}
 \label{1.1 Vertikale Beschleunigung}
   \paragraph{Idealisierung}\mbox{}\\
-  Um die Kräfte und Spannungen in der Struktur, welche aufgrund der vertikalen Beschleunigung (Lastfall \emph{1.1 Vertikale Beschleunigung}) entstehen, berechnen zu können, wird der Solar Butterfly als Biegebalken mit dem in der Abbildung \ref{1.1 Idealisierter Querschnitt} dargestellten vollidealisiertem Querschnitt idelaisiert. \emph{A\_Dach} und \emph{A\_Chassis} stehen dabei für die Querschnittsflächen der Profile. \emph{z\_Dach} und \emph{z\_Chassis} stehen für den Abstand der Profile zum Flächenschwerpunkt. Das Profil des Chassis ist vom Hersteller vorgegeben und muss in der Grobauslegung nicht dimensioniert werden. Für die Längsträger des Daches wird für eine erste Iteration der Berechnungen ein 50x25-Rechteckprofil mit einer Wandstärke von 3 mm verwendet. Dieser Profilquerschnitt wurde aufgrund den Erkenntnissen, welche im Kapitel \ref{chap:Dach} erlangt wurden, gewählt. Die Lagerung des Biegebalkens ist in der Abbildung \ref{1.1 Lagerung} dargestellt.
+  Um die Kräfte und Spannungen in der Struktur, welche aufgrund der vertikalen Beschleunigung (Lastfall \emph{1.1 Vertikale Beschleunigung}) entstehen, berechnen zu können, wird der Solar Butterfly als Biegebalken mit dem in der Abbildung \ref{1.1 Idealisierter Querschnitt} dargestellten vollidealisiertem Querschnitt idelaisiert. \emph{A\_Dach} und \emph{A\_Chassis} stehen dabei für die Querschnittsflächen der Profile. \emph{z\_Dach} und \emph{z\_Chassis} stehen für den Abstand der Profile zum Flächenschwerpunkt. Das Profil des Chassis ist vom Hersteller vorgegeben und muss in der Grobauslegung nicht dimensioniert werden. Für die Längsträger des Daches wird für eine erste Iteration der Berechnungen ein 40x25-Rechteckprofil mit einer Wandstärke von 2 mm verwendet. Dieser Profilquerschnitt wurde aufgrund den Erkenntnissen, welche im Kapitel \ref{chap:Dach} erlangt wurden, gewählt. Die Lagerung des Biegebalkens ist in der Abbildung \ref{1.1 Lagerung} dargestellt.
 
   \begin{figure}[!ht]
     \centering
@@ -65,14 +65,13 @@ Für die festlegung der Massenverteilung wird angenommen, dass die in der Anford
     \label{eq:1}
       \overline{EI}_y = \sum A_i \cdot y_i^2 \cdot E_i \;\;\;\;\;\;\;\;\;\;\;\;  \overline{EI}_z = \sum A_i \cdot z_i^2 \cdot E_i
   \end{equation}
-  Spannungen:
 
   \begin{equation}
     \label{eq:2}
       \sigma_i = \frac{M_{b,y}}{\overline{EI}_y}\cdot E_i \cdot y_i \;\;\;\;\;\;\;\;\;\;\;\; \sigma_i = \frac{M_{b,z}}{\overline{EI}_z}\cdot E_i \cdot z_i
   \end{equation}
 
-  Bei einem maximalen Biegemoment von rund 90'000 kNmm ergeben sich Spannungen von 27 MPa im Chassis, sowie 36 MPa im Dachträger was Kräften von 45 kN, respektive 15 kN entspricht.\\
+  Bei einem maximalen Biegemoment von rund 90'000 kNmm ergeben sich Spannungen von 36 MPa im Chassis, sowie 64 MPa im Dachträger was Kräften von 47 kN, respektive 16 kN entspricht.\\
 
   Für die Berechnung des Schubflusses infolge der Querkraft wird die Unterscheidung der unterschiedlichen Materialien nicht gemacht, da dies den Rechenaufwand stark erhöhen würde. In diesem Falle wird der Schubfluss vereinfacht mit den statischen Moment und der Querkraft berechnet. Bei einer maximalen Querkraft von rund 38 kN resultiert ein Schubfluss von 8.9 $\frac{N}{mm}$ in jeder Seitenwand.\\
 
@@ -169,7 +168,7 @@ Für die festlegung der Massenverteilung wird angenommen, dass die in der Anford
   \end{figure}
 
   \paragraph{Kräfte und Spannungen}\mbox{}\\
-  Die Kräfte und Spannungen werden analog zum Kapitel \ref{1.1 Vertikale Beschleunigung} \emph{Vertikale Beschleunigung} berechnet. Bei einem Maximalen Biegemoment von 29'000 kNmm ergeben sich Spannungen von 7 MPa im Chassis, sowie 2.3 MPa in den Dachträgern. Sie entsprechen Kräften von 11.4 kN, respektive 0.9 kN. Der maximale Schubfluss infolge der Querkraft ergibt sich zu 2.65 $\frac{N}{mm}$
+  Die Kräfte und Spannungen werden analog zum Kapitel \ref{1.1 Vertikale Beschleunigung} \emph{Vertikale Beschleunigung} berechnet. Bei einem Maximalen Biegemoment von 29'000 kNmm ergeben sich Spannungen von 9 MPa im Chassis, sowie 3 MPa in den Dachträgern. Sie entsprechen Kräften von 11.7 kN, respektive 0.7 kN. Der maximale Schubfluss infolge der Querkraft ergibt sich zu 2.65 $\frac{N}{mm}$
 
   \paragraph{Spannungen in den Trägern}\mbox{}\\
   Aus der Masse des Aufbaus, der wirkenden Beschleunigung und der Höhe des Profiles kann die Streckenlast pro Träger ermittelt werden, woraus wiederrum der Querkraft- und Biegemomentenverlauf bestimmt werden kann. Dieser ist in der Abbildung \ref{1.4 QM} dargestellt. Mit dem angenommenen Trägerprofil (vgl. Kapitel KAPITEL) ergeben sich maximale an Spannungen an der Einspannung von 15 MPa.
