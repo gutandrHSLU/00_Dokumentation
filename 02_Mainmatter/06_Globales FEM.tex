@@ -119,7 +119,7 @@ Würde die FEM-Berechnung erneut durchgeführt werden, wird empfohlen, das Chass
 
 Um die Klebeverbindung und die darin erlangten Spannungen besser beurteilen zu können, müssten unterschiedliche Klebstoffe in betracht gezogen und deren Design-Allowables bestimmt werden. Es wurde sich nicht vertieft mit Klebstoffen auseinandergesetzt, sodass die Klebstoff-Design-Allowables keine abschliessende Werte darstellen. Dennoch werden sie als gute Näherung erachtet.\\
 Auch wenn bessere Klebstoffe gefunden werden könnten ist die Klebeverbindung, aufgrund der vielen unbekannten Grössen und mangelnder Erfahrung, als Risiko zu betrachten und muss in einem weiteren Schritt genauer untersucht werden. Für das weitere Vorgehen wird, je nach zur verfügung stehender Zeit, empfohlen auf eine alternative Verbindngsmethode wie Nieten oder Schrauben zu wechseln oder Personen und Firmen mit der benötigten Erfahrungen auf diesem Gebiet dem Projekt zur Unterstützung bei zu ziehen.\\
-Es müssen auf jeden Fall weitere Untersuchungen und Abklärungen vorgenommen werden bevor ein definitiver Entscheid getroffen oder mit der Herstellung begonnen wird.
+Es müssen auf jeden Fall weitere Untersuchungen und Abklärungen vorgenommen werden bevor ein definitiver Entscheid getroffen oder mit der Herstellung des Solar Butterflys begonnen wird.
 
 \subsubsection{Verbindung Träger A und B zu Chassis}
 In der Tabelle \ref{tab:FEMres Träger Kont} im Anhang \ref{sec:FEMres Träger} sind die maximalen Kontaktreaktionen der Fixed-Joint-Verbingungen zu finden.\\
@@ -128,7 +128,15 @@ Bei den Axialkräften der Verbindung wird angenommen, dass diese nicht stark ver
 
 
 \subsubsection{Deformationen}
-Die FEM-Berechnungen zeigen, dass das Chassis, im Bezug auf das Übernehmen von Lasten, eine wichtigere Funktion übernimmt, als zuvor angenommen. Die Funktion es Aufbaus wurde wiederrum überschätzt. Diese Feststellung lässt sich unteranderem an den Abbildungen \ref{} und \ref{} anhand den Deformationen erkennen. Das Chassis verformt sich realtiv stark, während der Aufbau seine rechteckige Form nahezu bei behält. Besonders in den Lastfällen der lateralen und rotatorischen Beschleunigung ist zu erkennen, dass sich lediglich das Chassis stark verdreht, und nicht wie angenommen der komplette Solar Butterfly. Dies zeigt, dass die Eigenschaft des Chassis bezüglich Steifigkeit, im Vergleich zum Aufbau, eine entscheidende Rolle spielt. \\
+\label{Deformation}
+Die FEM-Berechnungen zeigen, dass das Chassis, im Bezug auf das Übernehmen von Lasten, eine wichtigere Funktion übernimmt, als zuvor angenommen. Die Funktion es Aufbaus wurde wiederrum überschätzt. Diese Feststellung lässt sich unteranderem an der Abbildungen \ref{Def3} anhand den Deformationen erkennen. Das Chassis verformt sich realtiv stark, während der Aufbau seine rechteckige Form nahezu bei behält. Besonders in den Lastfällen der lateralen und rotatorischen Beschleunigung ist zu erkennen, dass sich lediglich das Chassis stark verdreht, und nicht wie angenommen der komplette Solar Butterfly. Dies zeigt, dass die Eigenschaft des Chassis bezüglich Steifigkeit, im Vergleich zum Aufbau, eine entscheidende Rolle spielt. \\
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.98\linewidth]{04_figures/Def3.png}
+  \caption{Deformation des Solar Butterflys in den  Belastungsfällen 1.1 Vertikale Beschleunigung (links) und 1.5 Rotatorische Beschleunigung (rechts)}
+  \label{Def3}
+\end{figure}
 
 Es ist jedoch nicht klar, ob dieses Ergebniss zum Teil auch auf die Art der Einbindung der Punktmassen zurück zu führen ist. Oder anderst ausgedrückt: es ist nicht klar, ob das selbe Ergebnis erzielt werden könnte, wenn die Massen realitätsgetreuer modelliert und ins Modell eingebunden worden wären. So befindet sich in der Realität ein grösserer Teil der Masse, in Form der ausfahrbaren Solarmodulen und den dazugehörigen Antriebselementen, an den Wänden des Solar Butterflys und nicht, wie modelliert, in den Zentern der Raumelemente.
 Die Masse der ausfahrbaren Solarmodulen muss über die Wände und Träger A und B, zu einem gewissen Ausmass auch über das Dach, getragen und dessen Trägheitskräfte auf das Chassis übertragen werden. Die Punktmassen sind jedoch fast ausschliesslich direkt über das Chassis und die Träger A und B befestigt worden. Durch eine exaktere Verteilung und Einbindung der Massen ins Modell, würde sich der Lastpfad entsprechend verändern, was andere FEM-Ergebnisse hervor bringen würde.
@@ -137,7 +145,6 @@ Auch wenn mit einer exakteren Modellierung gezeigt werden könnte, dass der Aufb
 
 Das Gewicht des Chassis beansprucht mit 650 kg rund ein Viertel der Gewichtslimite für Europa von 2200 kg. Weiter handelt es sich beim Chassis um ein ``Standard-Chassis'', welches nicht spezifisch für die Anwendung in diesem Projekt ausgelegt und optimiert wurde. Ferner wird der Boden zur Zeit nicht optimal ausgenützt. So entspringt die dimensionierende Grösse des Bodens aus einem Missbrauchslastfall (``Spitzer Schuh'') und nicht aus dessen Funktion als tragendes Strukturelement. In der Ausarbeitung des Konzeptes wurde der Boden als einzelnes Bauteil, und nicht, in Verbindung mit dem Chassis, als integraler Bestandteil der tragenden Struktur betrachtet. Folglich wird das grösste Potential zur Gewichtsreduktion im Bereich der Grundstruktur, in der Optimierung des Chassis in Kombination mit dem Boden gesehen.\\
 Es ist zu vermuten, dass durch die Optimierung die Klebeverbindung zwischen Chassis und Boden noch stärker beansprucht werden würde, als dies bereits der Fall ist. Ob eine Klebeverbindung noch immer eine angemessene Wahl ist, müsste in der Optimierung genauer beurteilt werden.
+
+Keine kritischen Verformungen festgestllt. Max. 15mm, unkritisch:)
 \newpage
-
-
-Überlagerung mit 1G-Lastfall
