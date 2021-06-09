@@ -51,7 +51,7 @@
 \contentsline {paragraph}{Idealisierung}{29}{section*.33}%
 \contentsline {paragraph}{Berechnung}{29}{section*.34}%
 \contentsline {section}{\numberline {5}Dimensionierung}{31}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Boden}{31}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.1}Boden - Mittleres Raumelement}{31}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Dach - mittleres Raumelement}{33}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Solarpanelen - Reihe D}{34}{subsection.5.3}%
 \contentsline {section}{\numberline {6}Globales FEM}{35}{section.6}%
@@ -61,12 +61,12 @@
 \contentsline {subsubsection}{\numberline {6.2.2}Beurteilung Dach}{37}{subsubsection.6.2.2}%
 \contentsline {subsubsection}{\numberline {6.2.3}Beurteilung Träger A und B}{38}{subsubsection.6.2.3}%
 \contentsline {subsubsection}{\numberline {6.2.4}Verbindung Boden zu Chassis}{39}{subsubsection.6.2.4}%
-\contentsline {subsubsection}{\numberline {6.2.5}Verbindung Träger A und B zu Chassis}{39}{subsubsection.6.2.5}%
+\contentsline {subsubsection}{\numberline {6.2.5}Verbindung Träger A und B zu Chassis}{40}{subsubsection.6.2.5}%
 \contentsline {subsubsection}{\numberline {6.2.6}Deformationen}{40}{subsubsection.6.2.6}%
-\contentsline {section}{\numberline {7}Diskussion}{42}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Lastenheft}{42}{subsection.7.1}%
+\contentsline {section}{\numberline {7}Diskussion}{41}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Lastenheft}{41}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Gebrauchsanleitung}{42}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Auslegung}{43}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.3}Auslegung}{42}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Gewichtsoptimierung}{43}{subsection.7.4}%
 \contentsline {section}{\numberline {8}Fazit}{44}{section.8}%
 \contentsline {section}{\numberline {9}Danksagung}{45}{section.9}%
@@ -91,8 +91,20 @@
 \contentsline {subsubsection}{\numberline {F.2.4}Deformation - Lastfall 1.5 Rotatorische Beschleunigung}{60}{subsubsection.F.2.4}%
 \contentsline {part}{III\hspace {1em}Elektronischer Anhang}{61}{part.3}%
 \contentsline {section}{\numberline {G}Bilder des Solar Butterflys}{61}{appendix.G}%
-\contentsline {section}{\numberline {H}Anforderungsliste}{61}{appendix.H}%
+\contentsline {section}{\numberline {H}Dokumente aus fremden Arbeiten}{61}{appendix.H}%
+\contentsline {subsection}{\numberline {H.1}Anforderungsliste}{61}{subsection.H.1}%
+\contentsline {subsection}{\numberline {H.2}Gewichtsberechnung}{61}{subsection.H.2}%
 \contentsline {section}{\numberline {I}Datenblätter}{61}{appendix.I}%
 \contentsline {subsection}{\numberline {I.1}Materialien}{61}{subsection.I.1}%
+\contentsline {subsubsection}{\numberline {I.1.1}TDS Airex-T92}{61}{subsubsection.I.1.1}%
+\contentsline {subsubsection}{\numberline {I.1.2}TDS Sikafles 552-AT}{61}{subsubsection.I.1.2}%
 \contentsline {subsection}{\numberline {I.2}Komponenten}{61}{subsection.I.2}%
-\contentsline {section}{\numberline {J}Lastenheft}{61}{appendix.J}%
+\contentsline {subsubsection}{\numberline {I.2.1}Federkonstante}{61}{subsubsection.I.2.1}%
+\contentsline {section}{\numberline {J}Berechnungen}{61}{appendix.J}%
+\contentsline {subsection}{\numberline {J.1}Lastenheft - Beschleunigungen}{61}{subsection.J.1}%
+\contentsline {subsection}{\numberline {J.2}Handrechnungen}{61}{subsection.J.2}%
+\contentsline {subsection}{\numberline {J.3}Dimensionierung}{61}{subsection.J.3}%
+\contentsline {section}{\numberline {K}FEM}{61}{appendix.K}%
+\contentsline {subsection}{\numberline {K.1}FEM-Modell - Solarpanelen Reihe D}{61}{subsection.K.1}%
+\contentsline {subsection}{\numberline {K.2}FEM-Modell - Solar Butterfly Global}{61}{subsection.K.2}%
+\contentsline {subsection}{\numberline {K.3}FEM Auswertung}{61}{subsection.K.3}%
