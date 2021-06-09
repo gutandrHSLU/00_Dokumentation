@@ -13,16 +13,16 @@
   \pagenumbering{roman}
   \setcounter{page}{2}
   \input{01_Frontmatter/01_Eigenständigkeitserklärung}
-  \input{01_Frontmatter/02_Abstract}
+  % \input{01_Frontmatter/02_Abstract}
 
 % ==================== Table of contents ====================
   \tableofcontents
   \newpage
 
-  \input{symbolverzeichnis}
-  % makeindex main.nlo -s nomencl.ist -o main.nls
-  \printnomenclature
-  \newpage
+  % \input{symbolverzeichnis}
+  % \printunsrtglossary[type=symbols,style=symbunitlong]
+  % \printnomenclature
+  % \newpage
 
 % ==================== Mainmatter ====================
   \pagenumbering{arabic}
@@ -44,7 +44,7 @@
   \input{03_Backmatter/ListOfTables}
   \input{03_Backmatter/Anhang}
 
+  % \setcounter{section}{0}
   \part{Elektronischer Anhang}
-  \appendix
   \input{03_Backmatter/E-Anhang}
 \end{document}

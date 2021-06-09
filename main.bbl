@@ -6,6 +6,10 @@ BAFU, ``Klima: Das wichtigste in kürze,'' 2020.
 \bibitem{Palmer}
 L.~Palmer, ``Story ``solartaxi''.''
 
+\bibitem{Huber}
+M.~Huber, ``Auslegung solar butterfly (globales cad),'' {\em Bachelorarbeit,
+  Hochschule Luzern}, 2021.
+
 \bibitem{klein}
 B.~Klein, ``Leichtbau-konstruktion dimensionierung, strukturen, werkstoffe und
   gestaltung,''
@@ -86,9 +90,5 @@ M.~Scarpignato, ``When is it too windy to drive an rv?,'' Nov 2020.
 
 \bibitem{Wind.3}
 K.~Beasley, ``Can high winds flip over your rv?,'' Apr 2017.
-
-\bibitem{Huber}
-M.~Huber, ``Auslegung solar butterfly (globales cad),'' {\em Bachelorarbeit,
-  Hochschule Luzern}, 2021.
 
 \end{thebibliography}

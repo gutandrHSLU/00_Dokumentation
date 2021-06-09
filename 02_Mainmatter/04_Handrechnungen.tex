@@ -1,12 +1,12 @@
 \section{Handrechnungen}
 \label{Handrechnungen}
-In diesem Kapitel wird beschrieben, wie Kräfte und Spannungen in der Grundstruktur des Solar Butterflys, entstehend aus vier verschiedenen Lastfällen, vereinfacht berechet werden. Der Fokus wurde dabei auf den Modus \emph{A} und dessen Lastfälle der Beschleunigungen während dem Fahren gesetzt, da angenommen wird, dass diese die grössten Belastungen darstellen. Ferner wird erläutert welche Annahmen und Idealisierungen getroffen werden und wie bei den Berechnungen vorgegangen wird. Weiter werden die Berechnungen bezüglich den erlangeten Resultaten und ihrer Aussagekraft Beurteilt.\\
-Die Berechnungen wurden mit einer Excel-Tabelle durchgeführt, welche im elektronischen Anhang [ANHANG] einsehbar ist. In ihr sind die exakten Resultate sowie der detailiertere Lösungsweg zu finden.
+Im folgenden Kapitel wird beschrieben, wie Kräfte und Spannungen in der Grundstruktur des Solar Butterflys, entstehend aus vier verschiedenen Lastfällen, vereinfacht berechet werden. Der Fokus wurde dabei auf den Modus \emph{A} und dessen Lastfälle der Beschleunigungen während dem Fahren gesetzt, da angenommen wird, dass diese die grössten Belastungen darstellen. Ferner wird erläutert welche Annahmen und Idealisierungen getroffen werden und wie bei den Berechnungen vorgegangen wird. Weiter werden die Berechnungen bezüglich den erlangeten Resultaten und ihrer Aussagekraft Beurteilt.\\
+Die Berechnungen wurden mit einer Exceltabelle durchgeführt, welche im elektronischen Anhang \ref{e:Handrechnungen} einsehbar ist. In ihr sind die exakten Resultate sowie der detailiertere Lösungsweg zu finden.
 
 \subsection{Massenverteilung}
 \label{Massenverteilung}
 Die grössten Belastungen, welchen der Solar Butterfly ausgesetzt wird, entstehen aufgrund der Trägheitskräfte welche durch Beschleunigungen entstehen. Aus diesem Grund wird die Massenverteilung des Solar Butterflys genauer betrachtet.\\
-Für die festlegung der Massenverteilung wird angenommen, dass die in der Anforderungsliste definierte Maximalmasse von 3000 kg erreicht wird. Die besagte Masse wird auf insgesamt sechs Bereiche aufgeteilt; Deichsel (Bereich 0-1), Küche (1-2), Hauptkörper (2-3), Bad (3-4) und die beiden Träger A (2) und B (3). Die Massenverteilung wurde mit der Hilfe des GEWICHTSEXCEL aus der Arbeit von \emph{Huber} (Anhang [ANHANG]) abgeschätzt und ist in der Abbildung \ref{img:Massenverteilung} grafisch dargestellt\cite{Huber}.
+Für die festlegung der Massenverteilung wird angenommen, dass die in der Anforderungsliste definierte Maximalmasse von 3000 kg erreicht wird. Die besagte Masse wird auf insgesamt sechs Bereiche aufgeteilt; Deichsel (Bereich 0-1), Küche (1-2), Hauptkörper (2-3), Bad (3-4) und die beiden Träger A (2) und B (3). Die Massenverteilung wurde mit der Hilfe der Exceltabelle ``Gewichtsberechnung'' aus der Arbeit von \emph{Huber} \cite{Huber} (elektronischer Anhang \ref{e:Gewichtsberechnung}) abgeschätzt und ist in der Abbildung \ref{img:Massenverteilung} grafisch dargestellt.
 
 \begin{center}
   \includegraphics[width=0.8\textwidth]{04_Figures/Massenverteilung.png}
@@ -59,7 +59,7 @@ Für die festlegung der Massenverteilung wird angenommen, dass die in der Anford
   \end{figure}
 
   \paragraph{Kräfte und Spannungen}\mbox{}\\
-  Da die Profile im Dach aus Aluminium sind, das Chassis jedoch aus Stahl, und daher unterschiedliche Steifigkeiten aufweisen, können die Spannungen nicht mit dem Widerstandsmoment, sondern müssen über die Biegesteifigkeit berechnet werden. Die Biegesteifigkeit ergibt sich durch die Gewichtung der Widerstandsmomente mit der Steifigkeit des Materials jeweiligen Profiles (Formel \ref{eq:1}). Die Spannungen in den Profilen können wiederum mit der Formel \ref{eq:2} berechnet werden.
+  Da die Profile im Dach aus Aluminium sind, das Chassis jedoch aus Stahl, und die Materialien daher unterschiedliche Steifigkeiten aufweisen, können die Spannungen nicht mit dem Widerstandsmoment, sondern müssen über die Biegesteifigkeit berechnet werden. Die Biegesteifigkeit ergibt sich durch die Gewichtung der Widerstandsmomente mit der Steifigkeit des Materials jeweiligen Profiles (Formel \ref{eq:1}). Die Spannungen in den Profilen können wiederum mit der Formel \ref{eq:2} berechnet werden.
 
   \begin{equation}
     \label{eq:1}
@@ -82,7 +82,7 @@ Für die festlegung der Massenverteilung wird angenommen, dass die in der Anford
   Für die Berechnung der Belastungen durch eine longitudinale Beschleunigungen wird lediglich der Lastfall \emph{1.3 Longitudinale Beschleunigung - Positiv} (Notbremsung) betrachtet, da die longitudinale Beschleunigung im Lastfall \emph{1.2 Longitudinale Beschleunigung - Negativ} (Erhöhung der Geschwindigkeit) tiefer liegt als jene im Lastfall 1.3. Die Änderung des Vorzeichens der Beschleunigung hat keine Auswirkung auf den Betrag der Belastung, da die Lasteinleitungen unverändert bleibt.
 
   \paragraph{Idealisierung}\mbox{}\\
-  Bei einer Verözerung des Solar Butterflys wird angenommen, dass die Trägheitskräfte des Aufbaus über die Seitenwände (Feld A und Feld B vgl. Abbildung \ref{1.2 Idealisierung}) auf das Chassis abgetragen werden. Diese Annahme wird getroffen, Das Chassis wiederum wird über Bremskräfte in der Deichsel und den Räder verzögert. Die Druckspannungen im Chassis liegen im schlimmsten Fall (Verzögerung nur duch Bremmskraft in der Deichsel) tiefer als 10 MPa und werden nicht weiter untersucht.\\
+  Bei einer Verözerung des Solar Butterflys wird angenommen, dass die Trägheitskräfte des Aufbaus über die Seitenwände (Feld A und Feld B vgl. Abbildung \ref{1.2 Idealisierung}) auf das Chassis abgetragen werden. Diese Annahme wird getroffen, da das Konzept grosse Aussparungen in den Wänden der seitlichen Raumelementen vorsieht, welche ihre Fähigkeit Schubkräfte zu übertragen einschränken. Das Chassis wiederum wird über Bremskräfte in der Deichsel und den Räder verzögert. Die Druckspannungen im Chassis liegen im schlimmsten Fall (Verzögerung nur duch Bremmskraft in der Deichsel) tiefer als 10 MPa und werden nicht weiter untersucht.\\
   Eine weitere Annahme welche getroffen wird ist, dass die Masse über die Höhe des Solar Butterflys gleichmässig verteit ist. Weiter wird die Masse des Hauptteils und der Ausfahrmodule (Bereich 2-3) für die Berechnung gleichmässig auf die beiden Felder A und B verteilt. Die Trägheitskräfte des Hauptteils werden demnach über die Felder A und B abgetragen.\\
   Die Felder A und B werden als Schubfeldträger idealisiert. Diese Idealisierung besagt, dass das Schubfeld die Schubkräfte und die umrahmenden Profile die Normalkräfte aufnehmen.
 

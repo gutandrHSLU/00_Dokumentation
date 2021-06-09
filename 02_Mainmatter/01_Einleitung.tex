@@ -17,34 +17,44 @@ In diesem Kapitel wird beschrieben, wie beim Lösen der Aufgabenstellung vorgega
 
 In einem ersten Schritt wird definiert, welchen Anforderungen der Solar Butterfly als Ganzes, von einem Standpunkt der strukturellen Integrität aus betrachtet, gerecht werden muss. Weiter werden die Auslegungskriterien bestimmt. Sie beschreiben im Detail, nach welchen Kriterien die einzelnen Komponenten des Solar Butterflys ausgelegt werden. So wird zum Beispiel beschrieben, welche Kriterien die Sandwichplatten erfüllen müssen, dass diese unter Belastung nicht bäulen.\\
 Anschliessend wird ein Lastenheft erstellt, welches eine Zusammenstellung von verschiedenen Lastfällen darstellt, welchen der Solar Butterfly ausgesetzt werden kann. Ferner werden sogenannte \emph{Modi} eingeführt, welche die Zustände und Positionen, in welchen sich der Solar Butterfly befinden kann, beschreiben. Für die Lastfälle des Lastenheftes - und Kombinationen davon - soll der Solar Butterfly in den verschiedenen Modi ausgelegt werden.\\
-Als nächstes wird der Solar Butterfly grob als ``Balken'' idealisiert. Es werden für die kritischen Lastfälle Handrechnungen durchgeführt, um so Kräft und Schubflüsse bestimmen zu können. Dies wird zum einen gemacht, um die Grössenordnung der Lasten besser abschätzen zu können. Andererseits kann dadurch eine erste grobe Dimensionierung der wichtigsten Komponenten erfolgen und die zu diesem Zeitpunkt bereits getroffenen Annahmen bezüglich den Lasten beurteilt werden.\\
-In einem letzten Schritt wird der Solar Butterfly in FEM-Berechnungen verschiedenen kritischen Lastfällen ausgesetzt, um so Lastpfade und Schnittkräfte zu bestimmen, anhand welchen eine Verifizierung der Handrechnungen und eine exaktere Dimensionierung und Beurteilung der Komponenten und Verbindungen erfolgen kann. Weiter können in den FEM-Berechnungen für die Funktionstauglichkeit kritische Verformungen festgestellt werden, welche in der weiteren Ausarbeitung des Konzeptes berücksichtigt werden sollen.\\
-Im Kapitel \ref{Diskussion} werden zum Schluss die erlangten Erkenntnisse zusammengetragen und Empfehlungen für das weitere Vorgehen abgegeben.
+Als nächstes wird der Solar Butterfly grob als ``Kasten'' idealisiert. Es werden für die kritischen Lastfälle Handrechnungen durchgeführt, um so Kräft und Schubflüsse bestimmen zu können. Dies wird zum einen gemacht, um die Grössenordnung der Lasten besser abschätzen zu können. Andererseits kann dadurch eine erste grobe Dimensionierung der wichtigsten Komponenten erfolgen und die zu diesem Zeitpunkt bereits getroffenen Annahmen bezüglich den Lasten beurteilt werden.\\
+In einem letzten Schritt wird der Solar Butterfly in FEM-Berechnungen verschiedenen kritischen Lastfällen ausgesetzt, um so Lastpfade und Schnittkräfte zu bestimmen, anhand welchen eine Verifizierung der Handrechnungen und eine exaktere Dimensionierung und Beurteilung der Komponenten und Verbindungen erfolgen kann. Weiter können mit FEM-Berechnungen für die Funktionstauglichkeit kritische Verformungen festgestellt werden, welche in der weiteren Ausarbeitung des Konzeptes berücksichtigt werden sollen.\\
+Im Kapitel \ref{Diskussion} werden zum Schluss die erlangten Erkenntnisse zusammengefasst und Empfehlungen für das weitere Vorgehen abgegeben.
 
 \subsection{Der Solar Butterfly}
 Ziel diese Kapitels ist es, einen Überblick des Solar Butterflys zu geben und die Funktionen der wichtigsten Komponenten zu erklären.
-Ziel: Überblick vermitteln. Funktionalität veranschaulichen, Begriffe Definieren.
+In den folgenden drei Abbildungen ist der Solar Butterfly schematisch dargestellt. Im Anhang \ref{Bilder SB} sind detailiertere Abbildungen des CAD-Modelles und im elektronischen Anhang \ref{Bilder des Solar Butterflys} Detailansichten und weitere Bilder zu finden.
 
-Chassis, Hauptkörper, Seitenteil, Küche, Bad, Stützen, Panelen Gross, Panelen Klein
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{04_Figures/SB1.png}
+  \caption{Der Solar Butterfly von Oben}
+  \label{img:SB1}
+\end{figure}
 
-Verbindung von Dach zu den Raumelementen ref Kap. Dach - mittleres Raumelement
-Europa Gewicht von 2200 kg
-Rest: Gewicht von  3000 kg
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{04_Figures/SB3.png}
+  \caption{Seitenansicht des Solar Butterflys}
+  \label{img:SB3}
+\end{figure}
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{04_Figures/SB2.png}
+  \caption{Schnittansicht des Solar Butterflys}
+  \label{img:SB2}
+\end{figure}
+
+Grundbaustein des Solar Butteflys ist das Chassis, an welchem die Träger A und B und der Boden befestigt sind. An den Trägern A und B sind wiederrum die Scharniere, an welchen die seitlichen Raumelemente ausgefahren werden können, sowie die Wände das Dach befestigt.\\
+In Bewegung gebracht werden die Bauteile des Solar Butterlfys durch Pneumatik. Die seitlichen Raumelemente werden durch je zwei Pneumatikzylinder im Chassis aus- und eingefahren. Die beweglichen Solarpanelen werden ebenfalls mittels Pneumatik, in Kombination mit Gasdruckfedern, bewegt. Die Solarpanelen der Reihe D können über Teleskopscharniere unterhalb der Reihe C hervorgeschoben werden.
+
+Der Solar Butterfly soll verschifft werden können, muss daher in einen Kontainer passen und darf die Masse von 2.64 x 10.2 x 2.3 (Höhe x Länge x Breite) nicht überschreiten. Die Gewichtslimite des Solar Butterflys beträgt für Europa 2200 und für den Rest der Welt 3000 kg und stellt eine der grössten Herausforderungen im Projekt dar. Die Thematik des Gewichtes prägt entsprechend diese Arbeit und hat die getroffenen Entscheidungen massgebend beeinflusst.
+
+Während der Fahrt sollen die beweglichen Teile des Solar Butteflys über formschlüssige Verbindungen mit dem Rest der Struktur verbunden werden. So kann eine sichere Fahrt auch bei hohen Geschwindigkeiten gewähtleistet werden.
+
+Mobiliar!!!
+Verbindung der seitliche Raumelementen
+Aussparungen an den Seitenwänden
+
 
 \subsection{Projektorganisation}
-Vier studenten, entsprechend viel Kommunikation.
-All zwei wochen ein Meeting vor Ort.
-Sonst über zooom.
-Besuch bei Geser-Fahrzeugbau.
-Sponsor des Chassis
-3A-Composites Ansprechpartner für Sandwichplatten
-Wöchentliche Meetings mit Advisor
-
-Risiko des Gewichtes, was immer wieder vorkommen wird. Nicht der Fokus, beeinfluss jedoch die Entscheidungen.
-
-
-\subsection{Zum vorliegenden Dokument}
-Elektronischer Anhang
-what?
-
+Wie in der Einleitung beschrieben, sind drei weitere Maschinenbaustudenten mit Ihrer Bachelorarbeit an dem Projekt Solar Butterfly beteilitg. Jedem der Studenten steht ein Dozent zur Betreuung und Unterstützung zur verfügung. Mit den insgesammt acht Parteien (mit dem Auftraggeber neun) ist entsprechend viel Austausch und Kommunikation nötig. Es wurden Wöchentliche Meetings, abwechslungsweise über Videokonverenz oder an der HSLU vor Ort, abgehalten. Zusätzlich zu diesen Meetings wurden Wöchentliche Meetings mit dem betreuenden Dozenten Dejan Roman\v{c}uk abgehalten.
 \newpage
