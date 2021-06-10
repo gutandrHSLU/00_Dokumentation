@@ -186,6 +186,12 @@ INPUT c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrbase.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty
 OUTPUT main.nlo
+INPUT c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2020/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT main.aux
 INPUT main.aux
 OUTPUT main.aux

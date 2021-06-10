@@ -65,46 +65,46 @@
 \contentsline {subsubsection}{\numberline {6.2.6}Deformationen}{40}{subsubsection.6.2.6}%
 \contentsline {section}{\numberline {7}Diskussion}{42}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Lastenheft}{42}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Benutzerhandbuch}{42}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.2}Einschränkung der Benutzung - Benutzerhandbuch}{42}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Auslegung}{43}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Gewichtsoptimierung}{43}{subsection.7.4}%
-\contentsline {section}{\numberline {8}Fazit}{44}{section.8}%
-\contentsline {section}{\numberline {9}Danksagung}{45}{section.9}%
-\contentsline {part}{II\hspace {1em}Anhang}{46}{part.2}%
-\contentsline {section}{\numberline {A}Quellenverzeichnis}{46}{appendix.A}%
-\contentsline {section}{\numberline {B}Abbildungsverzeichnis}{47}{appendix.B}%
-\contentsline {section}{\numberline {C}Tabellenverzeichnis}{48}{appendix.C}%
-\contentsline {section}{\numberline {D}Der Solar Butterfly - Bilder}{49}{appendix.D}%
-\contentsline {section}{\numberline {E}Lastenheft}{51}{appendix.E}%
-\contentsline {subsection}{\numberline {E.1}Berechnung der Vertikalen Beschleunigung}{51}{subsection.E.1}%
-\contentsline {section}{\numberline {F}FEM}{52}{appendix.F}%
-\contentsline {subsection}{\numberline {F.1}FEM Ergebnisse}{52}{subsection.F.1}%
-\contentsline {subsubsection}{\numberline {F.1.1}FEM-Ergebnis - Lastfall 1.1 Vertikale Beschleunigung}{52}{subsubsection.F.1.1}%
-\contentsline {subsubsection}{\numberline {F.1.2}FEM-Ergebnis - Lastfall 1.3 Longitudinale Beschleunigung negativ}{53}{subsubsection.F.1.2}%
-\contentsline {subsubsection}{\numberline {F.1.3}FEM-Ergebnis - Lastfall 1.4 laterale Beschleunigung}{54}{subsubsection.F.1.3}%
-\contentsline {subsubsection}{\numberline {F.1.4}FEM-Ergebnis - Lastfall 1.5 Rotatorische Beschleunigung}{55}{subsubsection.F.1.4}%
-\contentsline {subsubsection}{\numberline {F.1.5}FEM-Ergebnis - Kontaktreaktion Träger A und B zu Chassis}{56}{subsubsection.F.1.5}%
-\contentsline {subsection}{\numberline {F.2}Deformationen}{57}{subsection.F.2}%
-\contentsline {subsubsection}{\numberline {F.2.1}Deformation - Lastfall 1.1 Vertikale Beschleunigung}{57}{subsubsection.F.2.1}%
-\contentsline {subsubsection}{\numberline {F.2.2}Deformation - Lastfall 1.3 Longitudinale Beschleunigung}{58}{subsubsection.F.2.2}%
-\contentsline {subsubsection}{\numberline {F.2.3}Deformation - Lastfall 1.4 Laterale Beschleunigung}{59}{subsubsection.F.2.3}%
-\contentsline {subsubsection}{\numberline {F.2.4}Deformation - Lastfall 1.5 Rotatorische Beschleunigung}{60}{subsubsection.F.2.4}%
-\contentsline {part}{III\hspace {1em}Elektronischer Anhang}{61}{part.3}%
-\contentsline {section}{\numberline {G}Bilder des Solar Butterflys}{61}{appendix.G}%
-\contentsline {section}{\numberline {H}Dokumente aus fremden Arbeiten}{61}{appendix.H}%
-\contentsline {subsection}{\numberline {H.1}Anforderungsliste}{61}{subsection.H.1}%
-\contentsline {subsection}{\numberline {H.2}Gewichtsberechnung}{61}{subsection.H.2}%
-\contentsline {section}{\numberline {I}Datenblätter}{61}{appendix.I}%
-\contentsline {subsection}{\numberline {I.1}Materialien}{61}{subsection.I.1}%
-\contentsline {subsubsection}{\numberline {I.1.1}TDS Airex-T92}{61}{subsubsection.I.1.1}%
-\contentsline {subsubsection}{\numberline {I.1.2}TDS Sikafles 552-AT}{61}{subsubsection.I.1.2}%
-\contentsline {subsection}{\numberline {I.2}Komponenten}{61}{subsection.I.2}%
-\contentsline {subsubsection}{\numberline {I.2.1}Federkonstante}{61}{subsubsection.I.2.1}%
-\contentsline {section}{\numberline {J}Berechnungen}{61}{appendix.J}%
-\contentsline {subsection}{\numberline {J.1}Lastenheft - Beschleunigungen}{61}{subsection.J.1}%
-\contentsline {subsection}{\numberline {J.2}Handrechnungen}{61}{subsection.J.2}%
-\contentsline {subsection}{\numberline {J.3}Dimensionierung}{61}{subsection.J.3}%
-\contentsline {section}{\numberline {K}FEM}{61}{appendix.K}%
-\contentsline {subsection}{\numberline {K.1}FEM-Modell - Solarpanelen Reihe D}{61}{subsection.K.1}%
-\contentsline {subsection}{\numberline {K.2}FEM-Modell - Solar Butterfly Global}{61}{subsection.K.2}%
-\contentsline {subsection}{\numberline {K.3}FEM Auswertung}{61}{subsection.K.3}%
+\contentsline {subsection}{\numberline {7.4}Gewichtsoptimierung}{44}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Fazit}{45}{section.8}%
+\contentsline {section}{\numberline {9}Danksagung}{46}{section.9}%
+\contentsline {part}{II\hspace {1em}Anhang}{47}{part.2}%
+\contentsline {section}{\numberline {A}Quellenverzeichnis}{47}{appendix.A}%
+\contentsline {section}{\numberline {B}Abbildungsverzeichnis}{48}{appendix.B}%
+\contentsline {section}{\numberline {C}Tabellenverzeichnis}{49}{appendix.C}%
+\contentsline {section}{\numberline {D}Der Solar Butterfly - Bilder}{50}{appendix.D}%
+\contentsline {section}{\numberline {E}Lastenheft}{52}{appendix.E}%
+\contentsline {subsection}{\numberline {E.1}Berechnung der Vertikalen Beschleunigung}{52}{subsection.E.1}%
+\contentsline {section}{\numberline {F}FEM}{53}{appendix.F}%
+\contentsline {subsection}{\numberline {F.1}FEM Ergebnisse}{53}{subsection.F.1}%
+\contentsline {subsubsection}{\numberline {F.1.1}FEM-Ergebnis - Lastfall 1.1 Vertikale Beschleunigung}{53}{subsubsection.F.1.1}%
+\contentsline {subsubsection}{\numberline {F.1.2}FEM-Ergebnis - Lastfall 1.3 Longitudinale Beschleunigung negativ}{54}{subsubsection.F.1.2}%
+\contentsline {subsubsection}{\numberline {F.1.3}FEM-Ergebnis - Lastfall 1.4 laterale Beschleunigung}{55}{subsubsection.F.1.3}%
+\contentsline {subsubsection}{\numberline {F.1.4}FEM-Ergebnis - Lastfall 1.5 Rotatorische Beschleunigung}{56}{subsubsection.F.1.4}%
+\contentsline {subsubsection}{\numberline {F.1.5}FEM-Ergebnis - Kontaktreaktion Träger A und B zu Chassis}{57}{subsubsection.F.1.5}%
+\contentsline {subsection}{\numberline {F.2}Deformationen}{58}{subsection.F.2}%
+\contentsline {subsubsection}{\numberline {F.2.1}Deformation - Lastfall 1.1 Vertikale Beschleunigung}{58}{subsubsection.F.2.1}%
+\contentsline {subsubsection}{\numberline {F.2.2}Deformation - Lastfall 1.3 Longitudinale Beschleunigung}{59}{subsubsection.F.2.2}%
+\contentsline {subsubsection}{\numberline {F.2.3}Deformation - Lastfall 1.4 Laterale Beschleunigung}{60}{subsubsection.F.2.3}%
+\contentsline {subsubsection}{\numberline {F.2.4}Deformation - Lastfall 1.5 Rotatorische Beschleunigung}{61}{subsubsection.F.2.4}%
+\contentsline {part}{III\hspace {1em}Elektronischer Anhang}{62}{part.3}%
+\contentsline {section}{\numberline {G}Bilder des Solar Butterflys}{62}{appendix.G}%
+\contentsline {section}{\numberline {H}Dokumente aus fremden Arbeiten}{62}{appendix.H}%
+\contentsline {subsection}{\numberline {H.1}Anforderungsliste}{62}{subsection.H.1}%
+\contentsline {subsection}{\numberline {H.2}Gewichtsberechnung}{62}{subsection.H.2}%
+\contentsline {section}{\numberline {I}Datenblätter}{62}{appendix.I}%
+\contentsline {subsection}{\numberline {I.1}Materialien}{62}{subsection.I.1}%
+\contentsline {subsubsection}{\numberline {I.1.1}TDS Airex-T92}{62}{subsubsection.I.1.1}%
+\contentsline {subsubsection}{\numberline {I.1.2}TDS Sikafles 552-AT}{62}{subsubsection.I.1.2}%
+\contentsline {subsection}{\numberline {I.2}Komponenten}{62}{subsection.I.2}%
+\contentsline {subsubsection}{\numberline {I.2.1}Federkonstante}{62}{subsubsection.I.2.1}%
+\contentsline {section}{\numberline {J}Berechnungen}{62}{appendix.J}%
+\contentsline {subsection}{\numberline {J.1}Lastenheft - Beschleunigungen}{62}{subsection.J.1}%
+\contentsline {subsection}{\numberline {J.2}Handrechnungen}{62}{subsection.J.2}%
+\contentsline {subsection}{\numberline {J.3}Dimensionierung}{62}{subsection.J.3}%
+\contentsline {section}{\numberline {K}FEM}{62}{appendix.K}%
+\contentsline {subsection}{\numberline {K.1}FEM-Modell - Solarpanelen Reihe D}{62}{subsection.K.1}%
+\contentsline {subsection}{\numberline {K.2}FEM-Modell - Solar Butterfly Global}{62}{subsection.K.2}%
+\contentsline {subsection}{\numberline {K.3}FEM Auswertung}{62}{subsection.K.3}%
