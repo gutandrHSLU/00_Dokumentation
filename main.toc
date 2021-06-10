@@ -8,15 +8,15 @@
 \contentsline {section}{\numberline {2}Anforderungen und Auslegungskriterien}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Anforderungen an den Solar Butterfly}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Dauerfestigkeit}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Design-Allowables und Materialkennwerte}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Auslegungskriterien}{6}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Aluminiumstrukturen}{6}{subsubsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.3}Design-Allowables und Materialkennwerte}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Auslegungskriterien}{7}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Aluminiumstrukturen}{7}{subsubsection.2.4.1}%
 \contentsline {paragraph}{Fliessen}{7}{section*.5}%
 \contentsline {paragraph}{Knicken}{7}{section*.6}%
 \contentsline {subsubsection}{\numberline {2.4.2}Sandwichstrukturen}{7}{subsubsection.2.4.2}%
 \contentsline {paragraph}{Festigkeitsprobleme}{8}{section*.7}%
-\contentsline {paragraph}{Stabilitätsprobleme}{8}{section*.8}%
-\contentsline {subsubsection}{\numberline {2.4.3}Nieten}{9}{subsubsection.2.4.3}%
+\contentsline {paragraph}{Stabilitätsprobleme}{9}{section*.8}%
+\contentsline {subsubsection}{\numberline {2.4.3}Nieten}{10}{subsubsection.2.4.3}%
 \contentsline {subsubsection}{\numberline {2.4.4}Klebeverbindungen}{10}{subsubsection.2.4.4}%
 \contentsline {section}{\numberline {3}Lastenheft}{11}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Missbrauchslastfälle}{12}{subsection.3.1}%
@@ -38,7 +38,7 @@
 \contentsline {subsection}{\numberline {4.2}Vertikale Beschleunigung}{23}{subsection.4.2}%
 \contentsline {paragraph}{Idealisierung}{23}{section*.19}%
 \contentsline {paragraph}{Querkraft- und Biegemomentenverlauf}{24}{section*.21}%
-\contentsline {paragraph}{Kräfte und Spannungen}{24}{section*.23}%
+\contentsline {paragraph}{Kräfte und Spannungen}{25}{section*.23}%
 \contentsline {subsection}{\numberline {4.3}Longitudinale Beschleunigung}{25}{subsection.4.3}%
 \contentsline {paragraph}{Idealisierung}{25}{section*.24}%
 \contentsline {paragraph}{Kräfte und Spannungen}{26}{section*.25}%
@@ -63,10 +63,10 @@
 \contentsline {subsubsection}{\numberline {6.2.4}Verbindung Boden zu Chassis}{39}{subsubsection.6.2.4}%
 \contentsline {subsubsection}{\numberline {6.2.5}Verbindung Träger A und B zu Chassis}{40}{subsubsection.6.2.5}%
 \contentsline {subsubsection}{\numberline {6.2.6}Deformationen}{40}{subsubsection.6.2.6}%
-\contentsline {section}{\numberline {7}Diskussion}{41}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Lastenheft}{41}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Gebrauchsanleitung}{42}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Auslegung}{42}{subsection.7.3}%
+\contentsline {section}{\numberline {7}Diskussion}{42}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Lastenheft}{42}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Benutzerhandbuch}{42}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Auslegung}{43}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Gewichtsoptimierung}{43}{subsection.7.4}%
 \contentsline {section}{\numberline {8}Fazit}{44}{section.8}%
 \contentsline {section}{\numberline {9}Danksagung}{45}{section.9}%
