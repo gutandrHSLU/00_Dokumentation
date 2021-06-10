@@ -6,47 +6,47 @@ Database file #1: 03_Backmatter/mybib.bib
 Warning--empty journal in klein
 Warning--empty year in klein
 Warning--empty publisher in Baertsch
-Warning--empty journal in ETH
+Warning--empty author in ETH
 Warning--empty year in ETH
 You've used 22 entries,
             1876 wiz_defined-function locations,
-            613 strings with 6128 characters,
-and the built_in function-call counts, 3783 in all, are:
-= -- 341
-> -- 130
+            613 strings with 6178 characters,
+and the built_in function-call counts, 3772 in all, are:
+= -- 342
+> -- 127
 < -- 0
-+ -- 56
-- -- 34
-* -- 231
-:= -- 556
-add.period$ -- 23
++ -- 55
+- -- 33
+* -- 233
+:= -- 550
+add.period$ -- 24
 call.type$ -- 22
 change.case$ -- 19
 chr.to.int$ -- 0
 cite$ -- 27
 duplicate$ -- 193
 empty$ -- 442
-format.name$ -- 34
+format.name$ -- 33
 if$ -- 933
 int.to.chr$ -- 0
 int.to.str$ -- 22
 missing$ -- 19
 newline$ -- 75
-num.names$ -- 22
-pop$ -- 108
+num.names$ -- 21
+pop$ -- 107
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 104
+skip$ -- 103
 stack$ -- 0
 substring$ -- 100
-swap$ -- 43
+swap$ -- 44
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 32
+while$ -- 31
 width$ -- 24
 write$ -- 187
 (There were 5 warnings)
