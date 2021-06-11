@@ -56,46 +56,50 @@
   \end{equation}
 
 
-
+\newpage
 \section{FEM}
-
 \subsection{FEM Ergebnisse}
   \label{FEM Ergebnisse}
 
   \subsubsection{FEM-Ergebnis - Lastfall 1.1 Vertikale Beschleunigung}
   \begin{table}[H]
-  \centering
-  \begin{tabular}{lcccccc}
-  Grösse	&	Einheit	&	x	&	y	&	z	&	Total	&	Berechnet	\\	\hline
-  \multicolumn{5}{l}{\textbf{Lagerreaktionen}}									&		&		\\	\thickhline
-  Deichsel	&	N	&	0	&	3177	&	0	&	3177	&	-1028 (y)	\\
-  Chassis Links	&	N	&	0	&	35073	&	6705	&	35708	&	37300 (y)	\\
-  Chassis Rechts	&	N	&	0	&	35073	&	-6705	&	35708	&	37300 (y)	\\	\hline	\\
-  \multicolumn{5}{l}{\textbf{Chassis}}									&		&		\\	\thickhline
-  Axialkraft	&	N	&		&		&		&	-50809	&	-47425	\\
-  Querkraft	&	N	&		&		&		&	16968	&	18222\footnotemark \\
-  Biegemoment	&	kNmm	&		&		&		&	16961	&		\\	\hline	\\
-  \multicolumn{5}{l}{\textbf{Dach}}									&		&		\\	\thickhline
-  Axialkraft	&	N	&		&		&		&	1951	&	15808	\\
-  Querkraft	&	N	&		&		&		&	93	&		\\
-  Biegemoment	&	kNmm	&		&		&		&	38	&		\\	\hline	\\
-  \multicolumn{5}{l}{\textbf{Träger A und B}}													\\	\thickhline
-  Axialkraft	&	N	&		&		&		&	-10857	&		\\
-  Querkraft	&	N	&		&		&		&	1290	&		\\
-  Biegemoment	&	kNmm	&		&		&		&	326	&		\\	\hline	\\
-  \multicolumn{5}{l}{\textbf{Kontaktreaktion: Chassis - Träger A und B}}									&		&		\\	\thickhline
-  Axialkraft A	&	N	&	619	&	12961	&	276	&	12978	&		\\
-  Biegemoment A	&	kNmm	&	4606	&	179	&	340	&	4622	&		\\
-  Axialkraft B	&	N	&	2449	&	15846	&	707	&	16036	&		\\
-  Biegemoment B	&	kNmm	&	5626	&	845	&	345	&	5695	&		\\	\hline	\\
-  \multicolumn{5}{l}{\textbf{Kontaktreaktion: Chassis - Boden}}									&		&		\\	\thickhline
-  Normalkraft (Zug)	&	N	&		&		&		&	883	&		\\
-  Schubkraft (xz-Ebene)	&	N	&		&		&		&	9933	&		\\	\hline
-  \end{tabular}
-  \caption{Resultate der FEM-Simulation des Lastafalles der vertikalen Beschleunigung}
-  \label{tab:FEM 1.1}
+    \centering
+    \begin{threeparttable}
+      \begin{tabular}{lcccccc}
+        Grösse	&	Einheit	&	x	&	y	&	z	&	Total	&	Berechnet	\\	\hline
+        \multicolumn{5}{l}{\textbf{Lagerreaktionen}}									&		&		\\	\thickhline
+        Deichsel	&	N	&	0	&	3177	&	0	&	3177	&	-1028 (y)	\\
+        Chassis Links	&	N	&	0	&	35073	&	6705	&	35708	&	37300 (y)	\\
+        Chassis Rechts	&	N	&	0	&	35073	&	-6705	&	35708	&	37300 (y)	\\	\hline	\\
+        \multicolumn{5}{l}{\textbf{Chassis}}									&		&		\\	\thickhline
+        Axialkraft	&	N	&		&		&		&	-50809	&	-47425	\\
+        Querkraft	&	N	&		&		&		&	16968	&	18222\tnote{4} \\
+        Biegemoment	&	kNmm	&		&		&		&	16961	&		\\	\hline	\\
+        \multicolumn{5}{l}{\textbf{Dach}}									&		&		\\	\thickhline
+        Axialkraft	&	N	&		&		&		&	1951	&	15808	\\
+        Querkraft	&	N	&		&		&		&	93	&		\\
+        Biegemoment	&	kNmm	&		&		&		&	38	&		\\	\hline	\\
+        \multicolumn{5}{l}{\textbf{Träger A und B}}													\\	\thickhline
+        Axialkraft	&	N	&		&		&		&	-10857	&		\\
+        Querkraft	&	N	&		&		&		&	1290	&		\\
+        Biegemoment	&	kNmm	&		&		&		&	326	&		\\	\hline	\\
+        \multicolumn{5}{l}{\textbf{Kontaktreaktion: Chassis - Träger A und B}}									&		&		\\	\thickhline
+        Axialkraft A	&	N	&	619	&	12961	&	276	&	12978	&		\\
+        Biegemoment A	&	kNmm	&	4606	&	179	&	340	&	4622	&		\\
+        Axialkraft B	&	N	&	2449	&	15846	&	707	&	16036	&		\\
+        Biegemoment B	&	kNmm	&	5626	&	845	&	345	&	5695	&		\\	\hline	\\
+        \multicolumn{5}{l}{\textbf{Kontaktreaktion: Chassis - Boden}}									&		&		\\	\thickhline
+        Normalkraft (Zug)	&	N	&		&		&		&	883	&		\\
+        Schubkraft (xz-Ebene)	&	N	&		&		&		&	9933	&		\\	\hline
+      \end{tabular}
+      \begin{tablenotes}
+          \item[4] Unter der Annahme, dass nur das Chassis Querkräfte aufnimmt. Die Kraft von 19 kN ergibt sich aus der Halbierung der globalen Querkraft aus der Berechnung im Kapitel \ref{1.1 Vertikale Beschleunigung}.
+      \end{tablenotes}
+    \end{threeparttable}
+    \caption{Resultate der FEM-Simulation des Lastafalles der vertikalen Beschleunigung}
+    \label{tab:FEM 1.1}
   \end{table}
-  \footnotetext[2]{Unter der Annahme, dass nur das Chassis Querkräfte aufnimmt. Die Kraft von 19 kN ergibt sich aus der Halbierung der globalen Querkraft aus der Berechnung im Kapitel \ref{1.1 Vertikale Beschleunigung}.}
+
 
   \subsubsection{FEM-Ergebnis - Lastfall 1.3 Longitudinale Beschleunigung negativ}
   \begin{table}[H]
@@ -136,6 +140,7 @@
   \subsubsection{FEM-Ergebnis - Lastfall 1.4 laterale Beschleunigung}
   \begin{table}[H]
   \centering
+      \begin{threeparttable}
   \begin{tabular}{lcccccc}
   Grösse	&	Einheit	&	x	&	y	&	z	&	Total	&	Berechnet	\\	\hline
   \multicolumn{5}{l}{\textbf{Lagerreaktionen}}									&		&		\\	\thickhline
@@ -144,7 +149,7 @@
   Chassis Rechts	&	N	&	0	&	14911	&	11211	&	18655	&	11900 (z)	\\	\hline	\\
   \multicolumn{5}{l}{\textbf{Chassis}}									&		&		\\	\thickhline
   Axialkraft	&	N	&		&		&		&	-31744	&	11711	\\
-  Querkraft	&	N	&		&		&		&	7123	&	6100\footnotemark \\
+  Querkraft	&	N	&		&		&		&	7123	&	6100\tnote{5} \\
   Biegemoment	&	kNmm	&		&		&		&	6628	&		\\	\hline	\\
   \multicolumn{5}{l}{\textbf{Dach}}									&		&		\\	\thickhline
   Axialkraft	&	N	&		&		&		&	-1731	&	-732	\\
@@ -163,20 +168,25 @@
   Normalkraft (Zug)	&	N	&		&		&		&	1942	&		\\
   Schubkraft (xz-Ebene)	&	N	&		&		&		&	10972	&		\\	\hline
   \end{tabular}
+  \begin{tablenotes}
+      \item[5] Unter der Annahme, dass nur das Chassis Querkräfte aufnimmt. Die Kraft von 6.1 kN ergibt sich aus der Halbierung der globalen Querkraft aus der Berechnung im Kapitel \ref{1.4 Laterale Beschleunigung}.
+  \end{tablenotes}
+\end{threeparttable}
   \caption{Resultate der FEM-Simulation des Lastafalles der lateralen Beschleunigung}
   \label{tab:FEM 1.4}
   \end{table}
-  \footnotetext[3]{Unter der Annahme, dass nur das Chassis Querkräfte aufnimmt. Die Kraft von 6.1 kN ergibt sich aus der Halbierung der globalen Querkraft aus der Berechnung im Kapitel \ref{1.4 Laterale Beschleunigung}.}
+
 
 
   \subsubsection{FEM-Ergebnis - Lastfall 1.5 Rotatorische Beschleunigung}
   \begin{table}[H]
   \centering
+      \begin{threeparttable}
   \begin{tabular}{lcccccc}
   Grösse	&	Einheit	&	x	&	y	&	z	&	Total	&	Berechnet	\\	\hline
   \multicolumn{5}{l}{\textbf{Lagerreaktionen}}									&		&		\\	\thickhline
   Deichsel	&	N	&	0	&	0	&	795	&	795	&		\\
-  Chassis Links	&	N	&	0	&	-22915	&	10864	&	25359	&	-27000 (y)\footnotemark \\
+  Chassis Links	&	N	&	0	&	-22915	&	10864	&	25359	&	-27000 (y)\tnote{6} \\
   Chassis Rechts	&	N	&	0	&	22915	&	10795	&	25330	&	27000 (y)	\\	\hline	\\
   \multicolumn{5}{l}{\textbf{Chassis}}									&		&		\\	\thickhline
   Axialkraft	&	N	&		&		&		&	-44172	&		\\
@@ -199,10 +209,14 @@
   Normalkraft (Zug)	&	N	&		&		&		&	3118	&		\\
   Schubkraft (xz-Ebene)	&	N	&		&		&		&	10761	&		\\	\hline
   \end{tabular}
+  \begin{tablenotes}
+      \item[6]Die Kräfte von  $\pm$ 27 kN ergeben sich aus der Halbierung der Kraft F aus der Berechnung im Kapitel \ref{1.5 Rotatorische Beschleunigung}.
+  \end{tablenotes}
+\end{threeparttable}
   \caption{Resultate der FEM-Simulation des Lastafalles der rotatorischen Beschleunigung}
   \label{tab:FEM 1.5}
   \end{table}
-  \footnotetext[4]{Die Kräfte von  $\pm$ 27 kN ergeben sich aus der Halbierung der Kraft F aus der Berechnung im Kapitel \ref{1.5 Rotatorische Beschleunigung}.}
+
 
 
   \subsubsection{FEM-Ergebnis - Kontaktreaktion Träger A und B zu Chassis}

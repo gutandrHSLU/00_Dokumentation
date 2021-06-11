@@ -25,7 +25,7 @@
 \contentsline {paragraph}{Windlasten}{15}{section*.11}%
 \contentsline {paragraph}{Neigung}{16}{section*.12}%
 \contentsline {subsection}{\numberline {3.4}Modus B: Ausfahren}{16}{subsection.3.4}%
-\contentsline {paragraph}{Windlasten}{17}{section*.14}%
+\contentsline {paragraph}{Windlasten}{16}{section*.14}%
 \contentsline {paragraph}{Neigung}{17}{section*.15}%
 \contentsline {subsection}{\numberline {3.5}Modus C: Ausgefahren}{17}{subsection.3.5}%
 \contentsline {paragraph}{Personenlast}{17}{section*.16}%

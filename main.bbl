@@ -11,8 +11,9 @@ M.~Huber, ``Auslegung solar butterfly (globales cad),'' {\em Bachelorarbeit,
   Hochschule Luzern}, 2021.
 
 \bibitem{klein}
-B.~Klein, ``Leichtbau-konstruktion dimensionierung, strukturen, werkstoffe und
-  gestaltung,''
+B.~Klein, {\em Leichtbau-Konstruktion Dimensionierung, Strukturen, Werkstoffe
+  und Gestaltung}.
+\newblock Springer, 10~ed.
 
 \bibitem{alu1}
 V.~L{\"a}pple, {\em Einf{\"u}hrung in die Festigkeitslehre : Lehr- und
@@ -91,5 +92,8 @@ M.~Scarpignato, ``When is it too windy to drive an rv?,'' Nov 2020.
 
 \bibitem{Wind.3}
 K.~Beasley, ``Can high winds flip over your rv?,'' Apr 2017.
+
+\bibitem{Hartmut}
+H.~Lotz. Persönlicher Austausch.
 
 \end{thebibliography}
