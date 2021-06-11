@@ -1,6 +1,6 @@
 \section{Anforderungen und Auslegungskriterien}
 In diesem Kapitel wird beschrieben, welchen Anforderungen der Solar Butterfly und dessen Komponenten gerecht werden müssen. In einem ersten Schritt wird auf die allgemeinen Anforderungen des Solar Butterflys und anschliessen auf die daraus resultierenden Auslegungskriterien der einzelnen Komponenten eingegangen. Es wird beschrieben, was die Anforderungen konkret für die einzelnen Komponenten bedeuten und wie gewährleistet werden kann, dass diese erfüllt werden.\\
-Weiter werden  Design-Allowables beschrieben und festgelegt und erläutert, wie gedenkt wird, die Problematik der Ermüdung	anzugehen.
+Weiter werden  Design-Allowables festgelegt und erläutert, wie gedenkt wird, die Problematik der Ermüdung	anzugehen.
 
 
 \subsection{Anforderungen an den Solar Butterfly}
@@ -14,7 +14,7 @@ Was nun folgt, sind diejenigen Anforderungen, welche in dieser Arbeit von Releva
 \end{itemize}
 
 \subsection{Dauerfestigkeit}
-Die Anforderung an die Langlebigkeit des Solar Butterflys wird erfüllt, indem der Solar Butterfly Dauerfest ausgelegt wird. Für die Grobauslegung bedeutet dies konkret, dass die Ermüdung mit einer entsprechenden Wahl der Design-Allowables pauschal abgedeckt wird und dass Spannungserhöhungen mit gutem Design vermieden werden.\\
+Die Anforderung an die Langlebigkeit des Solar Butterflys wird erfüllt, indem dieser Dauerfest ausgelegt wird. Für die Grobauslegung bedeutet dies konkret, dass die Ermüdung mit einer entsprechenden Wahl der Design-Allowables pauschal abgedeckt wird und dass Spannungserhöhungen mit gutem Design vermieden werden.\\
 Als Dauerbelastung wird vereinfacht angenommen, dass die maximalen Lasten zu 50\% (die Hälfte der Amplitude) dauerhaft auftreten. Dies bedeutet, anders formuliert, dass angenommen wird, dass die im Lastenheft definierten maximalen Lasten selten zu 50\% erreicht werden und dass diese somit keine Gefahr für das Versagen der Bauteile durch Ermüdung darstellen.\\
 Ob dies eine angemessene Annahme ist, muss zu einem späteren Zeitpunkt und bei einem weiter fortgeschrittenen Projektstand, durch Erbringung eines Nachweises der Dauerfestigkeit, überprüft werden.
 \newpage
@@ -35,13 +35,15 @@ In der Tabelle \ref{tab:Design-Allowables} sind die Materialkennwerte und Design
       &	Zugfestigkeit	&	$\sigma$      	&	MPa	&	240	&	1.5	&	160	\\
       &	Wechselfestigkeit	&	$\sigma_{zdW}$	&	MPa	&	80	&	2	&	80	\\
       &	Biegewechselfestigkeit	&	$\sigma_{bW}$ 	&	MPa	&	100	&	2	&	100	\\	\hline
-    \multirow{4}{*}{GFK\cite{Roloff}}	&	Dichte	&	$\rho$        	&	$\frac{kg}{m^3}$	&	1650	&		&		\\
+    \multirow{4}{*}{GFK\footnotemark\cite{Roloff}}	&	Dichte	&	$\rho$        	&	$\frac{kg}{m^3}$	&	1650	&		&		\\
       &	E-Modul	&	              	&	MPa	&	16'000	&		&		\\
       &	Zugfestigkeit	&	$\sigma$      	&	MPa	&	250	&	1.5	&	167	\\
       &	Biegewechselfestigkeit	&	$\sigma_{bW}$ 	&	MPa	&	50	&	2	&	50	\\	\hline
   \end{tabular}
   \label{tab:Design-Allowables}
 \end{table}
+
+\footnotetext[1]{Glasfaserverstärkter Kunststoff}
 
 Für die Verklebung der Strukturelemente wurde noch kein definitiver Klebstoff ausgewählt. Als Anhaltspunkt wird der Klebstoff \emph{Sikaflex-552 AT} verwendet, welcher im Automobilbau Anwendungen findet und vom Sponsor des Chassis \emph{Geser Fahrzeugbau AG} häufig verwendet wird. Nach \emph{Roloff Matek Maschinenelemente} wird für Klebeverbindung mit unbekannten (oder nicht genau bekannten) Abminderungsfaktoren der Sicherheitsfaktor von 2.5 gewählt. Als Abminderungsfaktor wird, gemäss der Faustregel für dynamisch Beanspruchte Bindefestigkeiten von \emph{Habenicht} \cite{kleben1}, ein Wert von 0.1 gewählt.
 
@@ -57,7 +59,7 @@ Für die Verklebung der Strukturelemente wurde noch kein definitiver Klebstoff a
   \label{tab:Design-Allowables Kleben}
 \end{table}
 
-Die Materialdatenblätter des Kernmaterials sowie des Klebstoffes sind im elektronischen Anhang \ref{e:Materialien} angefügt.
+Das Materialdatenblatt des Klebstoffes ist im elektronischen Anhang \ref{e:Sikaflex} angefügt.
 \newpage
 
 \subsection{Auslegungskriterien}

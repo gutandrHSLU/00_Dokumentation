@@ -97,13 +97,13 @@
 \contentsline {subsubsection}{\numberline {I.1.1}TDS Airex-T92}{61}{subsubsection.I.1.1}%
 \contentsline {subsubsection}{\numberline {I.1.2}TDS Sikafles 552-AT}{61}{subsubsection.I.1.2}%
 \contentsline {subsection}{\numberline {I.2}Komponenten}{61}{subsection.I.2}%
-\contentsline {subsubsection}{\numberline {I.2.1}Federkonstante}{61}{subsubsection.I.2.1}%
+\contentsline {subsubsection}{\numberline {I.2.1}Federkennlinie-Hysterese}{61}{subsubsection.I.2.1}%
 \contentsline {section}{\numberline {J}Berechnungen}{61}{appendix.J}%
 \contentsline {subsection}{\numberline {J.1}Lastenheft - Beschleunigungen}{61}{subsection.J.1}%
 \contentsline {subsection}{\numberline {J.2}Handrechnungen}{61}{subsection.J.2}%
 \contentsline {subsection}{\numberline {J.3}Dimensionierung}{61}{subsection.J.3}%
 \contentsline {subsection}{\numberline {J.4}Dimensionierung Solarpanelen}{61}{subsection.J.4}%
 \contentsline {section}{\numberline {K}FEM}{61}{appendix.K}%
-\contentsline {subsection}{\numberline {K.1}FEM-Modell - Solarpanelen Reihe D}{61}{subsection.K.1}%
+\contentsline {subsection}{\numberline {K.1}FEM-Modell - Solarpanelen}{61}{subsection.K.1}%
 \contentsline {subsection}{\numberline {K.2}FEM-Modell - Solar Butterfly Global}{61}{subsection.K.2}%
 \contentsline {subsection}{\numberline {K.3}FEM Auswertung}{61}{subsection.K.3}%
